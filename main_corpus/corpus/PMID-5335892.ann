@@ -1,0 +1,38 @@
+T1	Metabolite 40 55	beta-glucosides
+T2	Metabolite 194 209	beta-glucosides
+T3	Protein 311 334	beta-glucoside permease
+T5	Metabolite 403 407	aryl
+T6	Metabolite 412 433	alkyl beta-glucosides
+T7	Metabolite 496 520	thioethyl beta-glucoside
+T8	Metabolite 522 525	TEG
+T9	Metabolite 656 678	alpha-methyl glucoside
+T10	Metabolite 702 722	aryl beta-glucosides
+T11	Protein 743 746	TEG
+T12	Metabolite 911 933	alpha-methyl glucoside
+T13	Metabolite 956 976	aryl beta-glucosides
+T14	Metabolite 1005 1008	TEG
+T15	Protein 1031 1054	beta-glucoside permease
+T16	Protein 1059 1075	glucose permease
+T17	Metabolite 1125 1128	TEG
+T18	Metabolite 1374 1394	aryl beta-glucosides
+T20	Metabolite 1516 1541	thioalkyl beta-glucosides
+T22	Metabolite 116 131	beta-glucosides
+T4	Protein 342 378	aryl beta-glucoside splitting enzyme
+T25	Protein 557 565	permease
+T26	Protein 595 611	glucose permease
+T27	Protein 613 615	GP
+T28	Protein 785 801	glucose permease
+T29	Protein 865 888	beta-glucoside permease
+T31	Metabolite 1149 1167	phosphorylated TEG
+T32	Protein 1269 1292	beta-glucoside permease
+T19	Metabolite 1491 1511	phosphorylated alkyl
+T21	Metabolic_consumption 25 36	utilization
+E1	Metabolic_consumption:T21 Theme:T1
+T23	Metabolic_consumption 101 112	utilization
+E2	Metabolic_consumption:T23 Theme:T22
+T24	Metabolic_consumption 188 193	split
+E3	Metabolic_consumption:T24 Theme:T2
+*	Equiv T26 T27
+T30	Metabolic_production 1012 1023	accumulated
+E4	Metabolic_production:T30 Cause:T15 Theme:T14
+E5	Metabolic_production:T30 Cause:T16 Theme:T14

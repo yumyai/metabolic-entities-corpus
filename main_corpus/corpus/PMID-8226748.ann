@@ -1,0 +1,32 @@
+T2	Metabolite 60 70	superoxide
+T3	Protein 134 160	dihydroxy-acid dehydratase
+T4	Protein 162 172	fumarase A
+T5	Protein 190 209	mammalian aconitase
+T6	Protein 343 354	hydro-lyase
+T7	Protein 709 735	dihydroxy-acid dehydratase
+T8	Protein 753 764	hydro-lyase
+T9	Protein 887 903	Porcine fumarase
+T10	Protein 921 932	hydro-lyase
+T11	Protein 1076 1102	dihydroxy-acid dehydratase
+T12	Protein 1104 1126	fumarase A, fumarase B
+T13	Protein 1132 1151	mammalian aconitase
+T14	Metabolite 1155 1157	O2
+T15	Protein 1237 1271	E. coli dihydroxy-acid dehydratase
+T16	Protein 1276 1295	mammalian aconitase
+T17	Metabolite 1299 1303	H2O2
+T18	Protein 1329 1363	E. coli dihydroxy-acid dehydratase
+T19	Protein 1548 1566	E. coli fumarase A
+T20	Protein 1568 1578	fumarase B
+T21	Protein 1584 1593	aconitase
+T1	Protein 44 56	hydro-lyases
+T22	Protein 174 184	fumarase B
+T23	Metabolite 229 232	O2-
+T24	Metabolite 448 451	O2-
+T25	Metabolite 522 525	O2-
+T26	Metabolite 882 885	O2-
+T27	Metabolite 1005 1008	O2-
+T28	Metabolite 1490 1493	O2-
+T29	Metabolite 1637 1639	O2
+T30	Metabolite 1715 1718	O2-
+T31	Metabolite 1723 1725	O2
+T32	Protein 1702 1711	aconitase

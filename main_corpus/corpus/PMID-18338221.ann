@@ -1,0 +1,26 @@
+T1	Protein 0 20	Superoxide dismutase
+T2	Protein 22 25	SOD
+T3	Metabolite 182 189	glucose
+T4	Metabolite 240 251	acetic acid
+T5	Protein 391 405	acetate kinase
+T6	Protein 470 473	pta
+T7	Protein 478 482	ackA
+T9	Metabolite 446 457	acetic acid
+T10	Protein 534 550	citrate synthase
+T11	Protein 601 605	gltA
+T12	Protein 607 611	acnA
+T13	Protein 613 616	icd
+T14	Protein 618 622	sucA
+T15	Protein 624 628	sucC
+T16	Protein 630 634	sdhA
+T17	Protein 636 640	fumA
+T18	Protein 645 648	mdh
+T19	Metabolite 886 909	reactive oxygen species
+T21	Metabolite 590 593	TCA
+*	Equiv T1 T2
+T8	Metabolic_production 458 468	production
+E1	Metabolic_production:T8 Theme:T9
+T20	Metabolic_consumption 190 201	consumption
+E2	Metabolic_consumption:T20 Theme:T3
+T22	Positive_regulation 415 426	expressions
+E3	Positive_regulation:T22 Theme:E1 Cause:T5

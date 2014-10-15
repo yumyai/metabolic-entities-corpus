@@ -1,0 +1,7 @@
+T2	Protein 120 150	carbamoyl-phosphate synthetase
+T3	Protein 152 162	EC 6.3.5.5
+T5	Protein 446 476	carbamoyl-phosphate synthetase
+T1	Protein 816 820	carB
+T4	Protein 59 63	carB
+T6	Protein 290 294	carB
+*	Equiv T2 T3

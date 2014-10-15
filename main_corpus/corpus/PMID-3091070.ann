@@ -1,0 +1,30 @@
+T1	Metabolite 35 55	S-adenosylmethionine
+T3	Protein 317 334	spermine synthase
+T4	Metabolite 305 313	spermine
+T6	Protein 395 429	S-adenosylmethionine decarboxylase
+T9	Protein 844 861	spermine synthase
+T10	Protein 767 784	spermine synthase
+T11	Protein 1101 1120	spermidine synthase
+T13	Metabolite 1295 1303	spermine
+T14	Metabolite 1383 1393	spermidine
+T16	Metabolite 1491 1499	spermine
+T17	Protein 1554 1573	spermidine synthase
+T18	Protein 1578 1601	ornithine decarboxylase
+T19	Protein 1665 1688	aminopropyltransferases
+T20	Metabolite 1761 1771	putrescine
+T22	Metabolite 1736 1756	S-adenosylmethionine
+T23	Metabolite 145 155	polyamines
+T7	Protein 523 542	spermidine synthase
+T8	Metabolite 431 490	5'-[(3-Aminopropyl)amino]-5'-deoxyadenosine dihydrochloride
+T24	Metabolite 708 751	5'-[(3-Aminopropyl)amino]-5'-deoxyadenosine
+T5	Metabolic_production 292 301	synthesis
+E1	Metabolic_production:T5 Cause:T3 Theme:T4
+T12	Metabolic_production 1282 1291	synthesis
+E3	Metabolic_production:T12 Theme:T13
+T15	Metabolic_production 1500 1509	synthesis
+E4	Metabolic_production:T15 Theme:T16
+T21	Metabolic_production 1707 1717	production
+E5	Metabolic_production:T21 Theme:T22
+E6	Metabolic_production:T21 Theme:T20
+T2	Metabolic_production 129 141	biosynthesis
+E7	Metabolic_production:T2 Theme:T23

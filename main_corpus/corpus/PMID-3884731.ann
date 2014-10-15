@@ -1,0 +1,14 @@
+T1	Protein 0 51	L-Glutamine:D-fructose-6-phosphate amidotransferase
+T2	Protein 54 74	glucosamine synthase
+T3	Protein 77 88	EC 5.3.1.19
+T5	Metabolite 192 215	glucosamine 6-phosphate
+T6	Protein 499 519	glucosamine synthase
+T7	Metabolite 612 632	fructose 6-phosphate
+T8	Metabolite 685 696	L-glutamine
+T9	Metabolite 844 853	glutamine
+T11	Protein 926 946	glucosamine synthase
+T4	Positive_regulation 154 163	catalysed
+E1	Positive_regulation:T4 Theme:E2
+T10	Metabolic_production 168 177	formation
+E2	Metabolic_production:T10 Theme:T5
+*	Equiv T1 T2 T3

@@ -1,0 +1,7 @@
+T1	Protein 59 85	acetohydroxy acid synthase
+T2	Protein 87 94	AHASIII
+T3	Protein 423 429	AHASII
+T4	Protein 510 516	AHASII
+T5	Protein 521 528	AHASIII
+T6	Metabolite 42 48	valine
+*	Equiv T1 T2

@@ -1,0 +1,20 @@
+T1	Protein 0 35	Acetohydroxyacid synthase isozyme I
+T2	Protein 106 112	AHAS I
+T3	Protein 130 155	acetohydroxyacid synthase
+T5	Protein 600 604	ilvB
+T6	Protein 609 613	ilvN
+T7	Protein 788 794	AHAS I
+T8	Metabolite 843 849	valine
+T9	Protein 944 950	AHAS I
+T10	Metabolite 928 940	acetolactate
+T11	Metabolite 977 989	acetolactate
+T14	Protein 387 392	AHASs
+T15	Protein 336 350	AHASs isozymes
+T4	Metabolite 545 565	acetohydroxybutyrate
+T17	Protein 781 786	AHASs
+T12	Metabolic_production 915 924	formation
+E1	Metabolic_production:T12 Theme:T10 Cause:T9
+T16	Metabolic_production 537 544	forming
+E3	Metabolic_production:T16 Theme:T4
+T13	Metabolic_consumption 1001 1010	substrate
+E2	Metabolic_consumption:T13 Theme:T11

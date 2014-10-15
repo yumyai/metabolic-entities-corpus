@@ -1,0 +1,31 @@
+T1	Metabolite 0 7	Thiamin
+T2	Protein 60 64	ThiS
+T4	Protein 150 154	ThiI
+T5	Protein 138 145	ThiFSGH
+T7	Metabolite 215 222	thiamin
+T8	Protein 458 463	thiI+
+T9	Metabolite 562 569	glycine
+T10	Protein 598 607	thiI gene
+T11	Protein 680 684	ThiS
+T12	Protein 701 705	thiI
+T13	Protein 750 754	ThiF
+T14	Protein 824 828	ThiS
+T16	Protein 890 894	ThiS
+T17	Metabolite 899 905	sulfur
+T18	Metabolite 920 928	cysteine
+T20	Metabolite 939 962	cysteine-derived sulfur
+T26	Metabolite 577 592	thiocarboxylate
+T27	Protein 431 435	ThiS
+T3	Protein 302 307	ThiFS
+T23	Metabolite 403 410	thiamin
+T28	Metabolite 656 671	thiocarboxylate
+T21	Metabolic_production 8 20	biosynthesis
+T22	Metabolic_production 176 188	biosynthesis
+E1	Metabolic_production:T21 Theme:T1
+E2	Metabolic_production:T22 Theme:T7
+T6	Metabolic_production 364 376	biosynthesis
+E3	Metabolic_production:T6 Theme:T23
+T29	Metabolic_production 639 648	formation
+E9	Metabolic_production:T29 Theme:T28
+T25	Positive_regulation 755 764	catalyzes
+E6	Positive_regulation:T25 Theme:T13

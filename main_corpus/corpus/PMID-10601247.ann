@@ -1,0 +1,44 @@
+T1	Protein 42 62	D-serine dehydratase
+T2	Metabolite 16 38	pyridoxal 5'-phosphate
+T3	Protein 163 183	D-Serine dehydratase
+T4	Protein 185 188	DSD
+T5	Metabolite 268 276	D-serine
+T6	Metabolite 280 288	pyruvate
+T7	Metabolite 293 300	ammonia
+T8	Metabolite 383 403	pyridoxal 5'-sulfate
+T9	Metabolite 405 408	PLS
+T10	Metabolite 411 449	pyridoxal 5-deoxymethylene phosphonate
+T11	Metabolite 451 455	PDMP
+T12	Metabolite 462 501	pyridoxal 5'-phosphate monomethyl ester
+T13	Metabolite 611 615	PDMP
+T14	Protein 912 919	Trp-197
+T17	Metabolite 503 508	PLPMe
+T18	Protein 616 619	DSD
+T19	Metabolite 679 682	PLS
+T20	Protein 683 686	DSD
+T21	Protein 697 700	DSD
+T22	Metabolite 691 696	PLPMe
+T23	Protein 761 764	DSD
+T24	Protein 996 999	DSD
+T25	Metabolite 1053 1056	PLS
+T26	Metabolite 1065 1070	PLPMe
+T27	Metabolite 1080 1084	PDMP
+T28	Protein 1057 1060	DSD
+T29	Protein 1071 1074	DSD
+T30	Protein 1085 1088	DSD
+T31	Protein 1224 1227	DSD
+T32	Protein 1403 1406	DSD
+T33	Protein 1449 1452	DSD
+T34	Metabolite 1454 1458	PDMP
+T35	Protein 1459 1462	DSD
+T36	Protein 1472 1475	DSD
+T37	Metabolite 1468 1471	PLS
+T38	Protein 1645 1648	DSD
+T15	Metabolic_reaction 254 264	conversion
+T16	Positive_regulation 240 249	catalyzes
+E1	Metabolic_reaction:T15 Theme:T5 Product:T7 Product2:T6
+E2	Positive_regulation:T16 Theme:E1 Cause:T3
+*	Equiv T3 T4
+*	Equiv T8 T9
+*	Equiv T10 T11
+*	Equiv T12 T17

@@ -1,0 +1,35 @@
+T1	Metabolite 0 36	Adenosine 3':5'-cyclic monophosphate
+T2	Metabolite 63 72	glutamine
+T3	Metabolite 206 215	glutamate
+T4	Metabolite 220 229	glutamine
+T5	Protein 323 346	glutamate dehydrogenase
+T6	Protein 364 384	glutamine synthetase
+T7	Protein 426 444	glutamate synthase
+T8	Protein 463 476	glutaminase A
+T9	Protein 530 543	glutaminase B
+T10	Protein 609 636	cyclic AMP receptor protein
+T11	Metabolite 596 600	cAMP
+T12	Metabolite 730 745	Chloramphenicol
+T13	Metabolite 776 780	cAMP
+T14	Metabolite 906 910	cAMP
+T15	Metabolite 999 1007	nitrogen
+T18	Protein 348 358	EC 1.4.1.4
+T19	Protein 386 396	EC 6.3.1.2
+T20	Protein 545 555	EC 3.5.1.2
+T21	Protein 446 456	EC 1.4.1.X
+T22	Protein 478 488	EC 3.5.1.2
+T23	Metabolite 690 694	cAMP
+T27	Metabolite 119 123	cAMP
+T16	Metabolic_reaction 73 83	metabolism
+E1	Metabolic_reaction:T16 Theme:T2
+T17	Metabolic_reaction 187 202	interconversion
+E2	Metabolic_reaction:T17 Theme:T3 Theme2:T4
+*	Equiv T5 T18
+*	Equiv T6 T19
+*	Equiv T21 T7
+*	Equiv T8 T22
+*	Equiv T9 T20
+T24	Metabolic_reaction 1008 1018	metabolism
+E3	Metabolic_reaction:T24 Theme:T15
+T26	Positive_regulation 168 177	concerned
+E4	Positive_regulation:T26 Theme:E2

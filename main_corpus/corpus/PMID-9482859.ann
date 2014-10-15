@@ -1,0 +1,43 @@
+T2	Protein 87 113	Selenophosphate synthetase
+T4	Metabolite 207 222	selenophosphate
+T5	Metabolite 228 231	ATP
+T6	Metabolite 236 244	selenide
+T7	Metabolite 264 272	selenide
+T8	Metabolite 274 277	ATP
+T9	Metabolite 309 312	AMP
+T10	Metabolite 317 336	two orthophosphates
+T11	Metabolite 450 453	ATP
+T12	Metabolite 570 579	phosphate
+T13	Metabolite 605 620	selenophosphate
+T15	Metabolite 702 744	O-phosphoryl- and N-phosphoryl-derivatives
+T16	Protein 790 816	selenophosphate synthetase
+T17	Metabolite 887 890	ATP
+T18	Metabolite 1020 1023	ADP
+T19	Metabolite 1029 1032	ATP
+T20	Metabolite 1060 1068	selenide
+T21	Metabolite 1234 1237	AMP
+T22	Metabolite 1288 1302	orthophosphate
+T23	Metabolite 1451 1465	orthophosphate
+T24	Metabolite 1483 1486	AMP
+T25	Metabolite 1576 1579	AMP
+T26	Metabolite 1585 1588	ATP
+T1	Protein 49 75	selenophosphate synthetase
+T3	Protein 136 153	selD gene product
+T32	Metabolite 674 682	alcohols
+T33	Metabolite 687 693	amines
+T34	Metabolite 1207 1210	ADP
+T35	Complex 1394 1410	enzyme-bound ADP
+T27	Metabolic_reaction 194 203	synthesis
+T28	Metabolic_reaction 1221 1230	converted
+T29	Positive_regulation 1544 1552	catalyze
+E1	Metabolic_reaction:T27 Theme:T4
+E2	Metabolic_reaction:T28 Product:T21 Theme:T34
+E3	Positive_regulation:T29 Theme:E7
+T30	Positive_regulation 180 189	catalyzes
+E4	Positive_regulation:T30 Theme:E1 Cause:T3
+T31	Metabolic_reaction 281 290	converted
+E5	Metabolic_reaction:T31 Theme:T8 Product:T9
+T14	Metabolic_reaction 660 673	phosphorylate
+E6	Metabolic_reaction:T14 Theme:T32 Theme2:T33 Product:T15
+T36	Metabolic_reaction 1556 1564	exchange
+E7	Metabolic_reaction:T36 Theme:T25 Product:T26

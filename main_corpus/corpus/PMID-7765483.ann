@@ -1,0 +1,28 @@
+T1	Protein 55 72	monoamine oxidase
+T2	Protein 114 131	monoamine oxidase
+T3	Protein 133 136	MAO
+T5	Metabolite 702 715	hydroxylamine
+T6	Metabolite 717 726	hydrazine
+T7	Metabolite 728 738	phenelzine
+T8	Metabolite 740 749	isoniazid
+T9	Metabolite 790 798	tyramine
+T10	Metabolite 800 814	phenethylamine
+T11	Metabolite 820 830	tryptamine
+T12	Metabolite 865 872	diamine
+T13	Metabolite 877 887	polyamines
+T14	Metabolite 896 906	putrescine
+T15	Metabolite 911 919	spermine
+T16	Protein 982 1013	MAO A from Klebsiella aerogenes
+T4	Metabolite 334 350	ammonium sulfate
+T17	Metabolite 463 477	sodium citrate
+T18	Metabolite 755 768	tranycpromine
+*	Equiv T2 T3
+T20	Metabolic_consumption 781 789	oxidized
+E1	Metabolic_consumption:T20 Theme:T9
+E2	Metabolic_consumption:T20 Theme:T10
+E3	Metabolic_consumption:T20 Theme:T11
+T21	Metabolic_consumption 856 864	oxidized
+E4	Metabolic_consumption:T21 Theme:T15
+E5	Metabolic_consumption:T21 Theme:T14
+A1	Negation E5
+A2	Negation E4

@@ -1,0 +1,20 @@
+T3	Protein 100 130	tRNA (m5U54)-methyltransferase
+T4	Metabolite 190 213	S-adenosyl-L-methionine
+T7	Metabolite 270 285	5-methyluridine
+T8	Metabolite 287 290	m5U
+T9	Metabolite 292 306	ribosylthymine
+T10	Protein 473 477	trmA
+T11	Protein 503 533	tRNA (m5U54)-methyltransferase
+T12	Protein 833 863	tRNA (m5U54)-methyltransferase
+T14	Metabolite 1384 1407	S-adenosyl-L-methionine
+T1	Protein 16 54	transfer RNA (m5U54)-methyltransferase
+T2	Protein 132 143	EC 2.1.1.35
+T5	Protein 1214 1244	tRNA (m5U54)-methyltransferase
+T6	Metabolite 1349 1353	Mg2+
+T16	Metabolic_reaction 159 167	transfer
+T17	Positive_regulation 145 154	catalyzes
+E3	Metabolic_reaction:T16 Theme:T4
+E4	Positive_regulation:T17 Theme:E3 Cause:T3
+T15	Metabolic_production 262 269	forming
+E1	Metabolic_production:T15 Theme:T7
+*	Equiv T7 T8 T9

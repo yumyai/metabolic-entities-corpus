@@ -1,0 +1,36 @@
+T1	Protein 82 103	GDP-fucose synthetase
+T2	Protein 186 209	GDP-mannose dehydratase
+T3	Protein 214 235	GDP-fucose synthetase
+T4	Protein 237 240	GFS
+T5	Metabolite 345 356	GDP mannose
+T6	Metabolite 360 370	GDP fucose
+T7	Protein 381 402	GDP-fucose synthetase
+T8	Protein 633 656	epimerase and reductase
+T9	Metabolite 556 562	fucose
+T12	Metabolite 842 847	NADPH
+T13	Protein 962 1004	short chain dehydrogenase reductase family
+T14	Metabolite 1131 1135	NADP
+T15	Metabolite 1139 1144	NADPH
+T18	Metabolite 1427 1432	NADPH
+T19	Metabolite 1462 1466	NADP
+T20	Metabolite 1480 1485	NADPH
+T21	Metabolite 1518 1522	NADH
+T22	Protein 1566 1608	short chain dehydrogenase reductase family
+T30	Protein 766 769	GFS
+T11	Metabolite 867 880	mannose sugar
+T10	Protein 1025 1028	GFS
+T31	Protein 1171 1174	GFS
+T16	Protein 1538 1541	GFS
+T24	Positive_regulation 65 74	catalyzed
+T25	Metabolic_reaction 337 344	convert
+T26	Positive_regulation 459 468	catalyzes
+T27	Metabolic_production 563 575	biosynthesis
+T28	Metabolic_reaction 807 815	transfer
+T29	Positive_regulation 770 779	catalyzes
+E1	Positive_regulation:T24 Cause:T1
+E2	Metabolic_reaction:T25 Theme:T5 Product:T6
+E3	Positive_regulation:T26 Cause:T7
+E4	Metabolic_production:T27 Theme:T9
+E5	Metabolic_reaction:T28 Product:T11 Theme:T12
+E6	Positive_regulation:T29 Theme:E5 Cause:T30
+*	Equiv T3 T4

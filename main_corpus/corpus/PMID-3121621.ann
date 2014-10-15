@@ -1,0 +1,19 @@
+T1	Protein 0 44	5-Enolpyruvyl shikimate 3-phosphate synthase
+T2	Metabolite 86 105	phosphoenolpyruvate
+T3	Metabolite 110 131	shikimate 3-phosphate
+T4	Metabolite 141 176	5-enolpyruvyl shikimate 3-phosphate
+T5	Metabolite 181 200	inorganic phosphate
+T7	Metabolite 466 488	pyridoxal 5'-phosphate
+T8	Metabolite 951 973	pyridoxal 5'-phosphate
+T9	Metabolite 1122 1144	pyridoxal 5'-phosphate
+T10	Metabolite 1212 1234	pyridoxal 5'-phosphate
+T11	Metabolite 1403 1425	pyridoxal 5'-phosphate
+T12	Metabolite 268 292	N-phosphonomethylglycine
+T13	Metabolite 256 266	glyphosate
+T14	Metabolite 419 429	glyphosate
+T15	Metabolite 1036 1046	glyphosate
+T6	Positive_regulation 45 54	catalyzes
+E1	Positive_regulation:T6 Cause:T1 Theme:E2
+*	Equiv T13 T12
+T16	Metabolic_reaction 70 82	condensation
+E2	Metabolic_reaction:T16 Theme:T2 Theme2:T3 Product:T4 Product2:T5

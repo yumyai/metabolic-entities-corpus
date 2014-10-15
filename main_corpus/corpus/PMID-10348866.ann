@@ -1,0 +1,29 @@
+T2	Metabolite 672 680	arginine
+T3	Protein 735 757	arginine decarboxylase
+T5	Metabolite 847 856	glutamate
+T6	Protein 909 932	glutamate decarboxylase
+T10	Protein 1057 1081	glutamate decarboxylases
+T14	Protein 1707 1720	decarboxylase
+T1	Protein 1159 1191	glutamate decarboxylase isozymes
+T4	Protein 1642 1666	amino acid decarboxylase
+T7	Metabolite 2251 2258	glucose
+T8	Metabolite 2267 2276	glutamate
+T9	Metabolite 511 518	glucose
+T12	Metabolite 399 406	glucose
+T13	Protein 489 493	RpoS
+T15	Protein 597 624	cyclic AMP receptor protein
+T18	Protein 759 763	adiA
+T19	Protein 784 788	cysB
+T20	Protein 934 938	gadA
+T21	Protein 942 946	gadB
+T22	Protein 1030 1034	gadC
+T16	Protein 984 1028	glutamate:gamma-aminobutyric acid antiporter
+T11	Protein 1240 1249	gad genes
+T17	Protein 1298 1302	gadA
+T23	Protein 1307 1311	gadB
+T24	Protein 1368 1372	rpoS
+T25	Protein 1350 1356	sigmaS
+T26	Protein 1505 1511	sigmaS
+T27	Protein 1533 1541	gad gene
+T28	Protein 1725 1735	antiporter
+*	Equiv T3 T18

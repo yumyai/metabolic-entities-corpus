@@ -1,0 +1,18 @@
+T1	Metabolite 13 22	guanosine
+T2	Protein 139 158	inosine kinase gene
+T3	Metabolite 220 227	inosine
+T4	Metabolite 240 246	purine
+T5	Metabolite 361 368	inosine
+T7	Protein 571 587	guanosine kinase
+T10	Metabolite 612 621	guanosine
+T11	Metabolite 626 633	inosine
+T12	Metabolite 702 711	guanosine
+T13	Metabolite 716 723	inosine
+T14	Metabolite 787 790	ATP
+T15	Metabolite 795 799	dATP
+T16	Protein 932 948	guanosine kinase
+T17	Metabolite 984 991	inosine
+T18	Protein 1068 1076	gsk gene
+T6	Protein 559 587	inosine and guanosine kinase
+T8	Metabolite 829 852	p-nitrophenyl phosphate
+T9	Protein 907 925	phosphotransferase

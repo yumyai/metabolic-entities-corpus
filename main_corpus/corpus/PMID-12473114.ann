@@ -1,0 +1,55 @@
+T1	Metabolite 27 35	pyruvate
+T2	Protein 72 97	methylcitrate dehydratase
+T3	Protein 102 111	aconitase
+T5	Metabolite 145 155	propionate
+T6	Metabolite 159 167	pyruvate
+T7	Protein 437 462	methylcitrate dehydratase
+T8	Protein 464 468	PrpD
+T9	Protein 498 507	aconitase
+T10	Protein 509 513	AcnB
+T11	Metabolite 360 381	(2S,3S)-methylcitrate
+T12	Metabolite 385 411	(2R,3S)-2-methylisocitrate
+T13	Protein 549 553	AcnB
+T14	Metabolite 626 636	propionate
+T15	Metabolite 720 746	(2R,3S)-2-methylisocitrate
+T16	Metabolite 774 795	(2S,3S)-methylcitrate
+T17	Protein 816 820	PrpD
+T18	Metabolite 837 858	(2S,3S)-methylcitrate
+T19	Metabolite 926 939	cis-aconitate
+T20	Metabolite 1073 1094	cis-2-methylaconitate
+T21	Protein 1163 1167	PrpD
+T22	Metabolite 1239 1260	cis-2-methylaconitate
+T23	Protein 1419 1444	methylcitrate dehydratase
+T24	Protein 1446 1450	PrpD
+T25	Protein 1585 1589	acnB
+T26	Protein 1653 1663	prp operon
+T27	Protein 1665 1669	PrpE
+T28	Protein 1673 1697	propionyl-CoA synthetase
+T29	Protein 1703 1707	PrpD
+T31	Protein 1838 1848	prp operon
+T32	Protein 1918 1922	PrpE
+T33	Protein 1954 1975	acetyl-CoA synthetase
+T34	Protein 2078 2087	prpE gene
+T38	Metabolite 13 23	propionate
+T39	Protein 230 252	methylcitrate synthase
+T4	Protein 257 281	2-methylisocitrate lyase
+T43	Protein 570 597	2-methylaconitate hydratase
+T44	Metabolite 1036 1057	(2S,3S)-methylcitrate
+T35	Metabolic_reaction 0 9	Oxidation
+T36	Metabolic_reaction 132 141	oxidation
+T37	Metabolic_reaction 343 356	isomerization
+E1	Metabolic_reaction:T35 Product:T1 Theme:T38
+E3	Metabolic_reaction:T36 Product:T6 Theme:T5
+E4	Metabolic_reaction:T37 Theme:T11 Product:T12
+T40	Positive_regulation 188 196	involves
+E2	Positive_regulation:T40 Theme:E3 Cause:T39
+T42	Positive_regulation 412 420	requires
+E5	Positive_regulation:T42 Theme:E4 Cause:T9
+*	Equiv T9 T10
+*	Equiv T7 T8
+E6	Positive_regulation:T42 Theme:E4 Cause:T7
+T45	Metabolic_reaction 995 1006	dehydration
+E7	Metabolic_reaction:T45 Theme:T44 Product:T20
+*	Equiv T23 T24
+*	Equiv T28 T27
+E8	Positive_regulation:T40 Theme:E3 Cause:T4

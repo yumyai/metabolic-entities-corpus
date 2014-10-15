@@ -1,0 +1,31 @@
+T1	Protein 0 17	Sulfotransferases
+T2	Protein 19 22	STs
+T3	Metabolite 102 139	3'-phosphoadenosine 5'-phosphosulfate
+T4	Metabolite 141 145	PAPS
+T7	Protein 1109 1125	sulfotransferses
+T8	Protein 1195 1212	sulfotransferases
+T10	Protein 982 1021	orthovanadate (VO(3-)(4))-bound enzymes
+T13	Protein 731 734	STs
+T14	Metabolite 439 476	cytosolic STs sulfate small molecules
+T9	Metabolite 485 493	steroids
+T11	Metabolite 495 504	bioamines
+T12	Metabolite 510 527	therapeutic drugs
+T15	Metabolite 950 954	PAPS
+T16	Metabolite 957 960	PAP
+T19	Metabolite 963 973	substrate-
+*	Equiv T1 T2
+*	Equiv T3 T4
+T5	Metabolic_reaction 37 54	transfer reaction
+E1	Metabolic_reaction:T5 Theme:T3
+T6	Positive_regulation 24 32	catalyze
+E2	Positive_regulation:T6 Theme:E1 Cause:T1
+T17	Metabolic_reaction 1078 1095	transfer reaction
+E3	Metabolic_reaction:T17 Theme:T15
+T18	Positive_regulation 1096 1105	catalyzed
+E4	Positive_regulation:T18 Theme:E3 Cause:T7
+E5	Metabolic_reaction:T17 Theme:T16
+E6	Metabolic_reaction:T17 Theme:T19
+E7	Metabolic_reaction:T17 Theme:T10
+E8	Positive_regulation:T18 Theme:E5 Cause:T7
+E9	Positive_regulation:T18 Theme:E6 Cause:T7
+E10	Positive_regulation:T18 Theme:E7 Cause:T7

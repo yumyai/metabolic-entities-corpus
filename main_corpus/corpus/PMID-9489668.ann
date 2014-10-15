@@ -1,0 +1,18 @@
+T2	Metabolite 163 176	methylglyoxal
+T3	Metabolite 178 180	MG
+T4	Metabolite 514 516	MG
+T1	Protein 120 132	glyoxalase I
+T5	Protein 768 780	glyoxalase I
+T7	Metabolite 888 890	MG
+T9	Protein 926 938	glyoxalase I
+T6	Protein 810 844	glutathione-dependent glyoxalase I
+T10	Metabolite 949 969	S-lactoylglutathione
+T8	Protein 4 16	glyoxalase I
+T11	Metabolite 625 627	MG
+*	Equiv T2 T3
+T12	Metabolic_consumption 607 621	detoxification
+E1	Metabolic_consumption:T12 Theme:T11
+T14	Metabolic_consumption 212 226	detoxification
+E2	Metabolic_consumption:T14 Theme:T3
+T13	Metabolic_consumption 861 875	detoxification
+E3	Metabolic_consumption:T13 Theme:T7

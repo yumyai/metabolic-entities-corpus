@@ -1,0 +1,15 @@
+T1	Protein 43 77	icosahedral pyruvate dehydrogenase
+T3	Protein 282 304	pyruvate dehydrogenase
+T4	Protein 375 377	E1
+T5	Protein 379 381	E2
+T6	Protein 386 388	E3
+T7	Metabolite 426 434	pyruvate
+T8	Metabolite 447 457	acetyl-CoA
+T9	Protein 565 587	pyruvate dehydrogenase
+T10	Protein 742 744	E1
+T11	Protein 749 762	E2 components
+T12	Protein 790 802	E1 molecules
+T2	Metabolic_consumption 397 422	oxidative decarboxylation
+E1	Metabolic_consumption:T2 Theme:T7 Cause:T3
+T13	Metabolic_production 438 446	generate
+E2	Metabolic_production:T13 Theme:T8

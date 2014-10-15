@@ -1,0 +1,2 @@
+Role of L-threonine dehydrogenase in the catabolism of threonine and synthesis of glycine by Escherichia coli.
+The enzyme L-threonine dehydrogenase was demonstrated in extracts of Escherichia coli K-12, and was shown to be the first enzyme of the pathway converting threonine to glycine. The enzyme was induced by L-leucine, but not by its substrate, L-threonine. The metabolic significance of leucine as a catabolic signal for amino acid degradation is considered.

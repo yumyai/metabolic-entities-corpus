@@ -1,0 +1,12 @@
+T1	Protein 0 11	tRNA ligase
+T2	Protein 103 118	RNA ligase RtcB
+T3	Protein 257 261	RtcB
+T4	Protein 417 421	RtcB
+T6	Protein 563 567	RtcB
+T7	Protein 594 611	RNA endonucleases
+T5	Metabolite 467 489	2',3'-cyclic phosphate
+T10	Metabolite 628 650	2',3'-cyclic phosphate
+T8	Positive_regulation 12 21	catalyzes
+T9	Positive_regulation 262 270	catalyze
+E1	Positive_regulation:T8 Cause:T1
+E2	Positive_regulation:T9 Cause:T3

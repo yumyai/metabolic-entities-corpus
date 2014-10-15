@@ -1,0 +1,30 @@
+T1	Protein 14 38	serine acetyltransferase
+T2	Protein 40 43	SAT
+T3	Protein 141 144	SAT
+T4	Protein 160 163	SAT
+T5	Protein 315 318	SAT
+T6	Protein 584 587	SAT
+T7	Protein 1361 1380	cysteine synthetase
+T8	Protein 1400 1404	OASS
+T13	Protein 101 109	protease
+T14	Protein 230 233	SAT
+T15	Protein 385 388	SAT
+T19	Protein 839 842	SAT
+T22	Protein 1040 1043	SAT
+T23	Protein 1165 1168	SAT
+T25	Protein 1216 1219	SAT
+T26	Protein 1243 1246	SAT
+T28	Protein 1299 1329	O-acetylserine sulfhydrylase-A
+T29	Protein 1331 1337	OASS-A
+T30	Protein 1443 1446	SAT
+T16	Protein 1048 1070	Met-256-Ile mutant SAT
+T12	Protein 1257 1270	SAT delta C20
+T9	Protein 333 346	SAT delta C20
+T17	Protein 1451 1473	Met-256-Ile mutant SAT
+T18	Protein 847 869	Met-256-Ile mutant SAT
+T20	Protein 765 778	SAT delta C20
+T21	Protein 551 560	cysE gene
+T11	Protein 967 980	SAT delta C20
+T10	Protein 589 602	SAT delta C20
+*	Equiv T2 T1
+*	Equiv T28 T29

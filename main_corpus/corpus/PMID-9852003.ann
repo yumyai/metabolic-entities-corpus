@@ -1,0 +1,53 @@
+T1	Protein 51 55	dcuA
+T2	Protein 60 70	dcuB genes
+T3	Protein 102 131	C4-dicarboxylate transporters
+T5	Protein 157 161	dcuA
+T6	Protein 166 176	dcuB genes
+T7	Protein 286 315	C4-dicarboxylate transporters
+T8	Protein 341 350	dcuA gene
+T9	Protein 410 424	aspartase gene
+T10	Protein 426 430	aspA
+T11	Protein 439 443	dcuB
+T12	Protein 510 523	fumarase gene
+T13	Protein 525 529	fumB
+T14	Protein 719 723	dcuA
+T16	Protein 729 738	dcuB-lacZ
+T17	Protein 786 790	dcuA
+T18	Protein 827 831	dcuB
+T19	Protein 868 877	dcuB gene
+T20	Protein 917 920	FNR
+T21	Protein 962 966	NarL
+T22	Protein 983 1010	cyclic AMP receptor protein
+T23	Protein 1012 1015	CRP
+T25	Metabolite 951 958	nitrate
+T26	Protein 1062 1066	dcuB
+T27	Protein 1125 1129	dcuB
+T29	Protein 1250 1254	dcuA
+T30	Protein 1260 1264	aspA
+T31	Protein 1332 1336	dcuB
+T32	Protein 1342 1346	fumB
+T33	Protein 1426 1430	aspA
+T34	Protein 1435 1439	dcuA
+T35	Protein 1497 1519	aspA-dcuA cotranscript
+T38	Protein 1562 1566	dcuB
+T39	Protein 1571 1575	fumB
+T40	Protein 1612 1616	fumB
+T41	Protein 1621 1625	dcuB
+T42	Protein 1629 1651	dcuB-fumB cotranscript
+T43	Protein 1700 1704	dcuB
+T44	Protein 1705 1709	fumB
+T45	Protein 1714 1723	fumB mRNA
+T46	Protein 1807 1811	aspA
+T47	Protein 1813 1817	dcuA
+T48	Protein 1823 1827	dcuB
+T49	Protein 1896 1900	fumB
+T52	Protein 1920 1924	dcuB
+T53	Protein 1972 1976	DcuB
+T54	Metabolite 2034 2042	fumarate
+T55	Protein 2093 2097	DcuA
+T4	Protein 580 589	dcu genes
+T15	Protein 1173 1215	C4-dicarboxylate-responsive gene regulator
+T24	Metabolite 1990 2006	C4-dicarboxylate
+*	Equiv T9 T10
+*	Equiv T12 T13
+*	Equiv T22 T23

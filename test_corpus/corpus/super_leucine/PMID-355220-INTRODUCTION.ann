@@ -1,0 +1,65 @@
+T1	Metabolite 43 52	threonine
+T2	Protein 84 107	Threonine dehydrogenase
+T4	Metabolite 132 141	threonine
+T5	Metabolite 145 168	a-amino-fi-ketobutyrate
+T6	Protein 248 266	Threonine aldolase
+T8	Metabolite 288 297	threonine
+T9	Metabolite 301 313	acetaldehyde
+T10	Metabolite 318 325	glycine
+T11	Metabolite 410 419	threonine
+T12	Metabolite 423 437	a-ketobutyrate
+T13	Metabolite 442 450	ammonium
+T14	Metabolite 549 558	threonine
+T16	Metabolite 657 666	threonine
+T17	Metabolite 695 705	isoleucine
+T18	Metabolite 742 752	isoleucine
+T19	Metabolite 769 778	threonine
+T20	Metabolite 935 945	isoleucine
+T21	Metabolite 969 976	glucose
+T22	Metabolite 981 985	urea
+T23	Metabolite 1078 1087	threonine
+T24	Metabolite 1172 1181	threonine
+T25	Metabolite 1185 1194	threonine
+T26	Metabolite 1225 1234	threonine
+T27	Metabolite 1322 1331	threonine
+T28	Metabolite 1345 1354	threonine
+T29	Metabolite 1531 1540	threonine
+T3	Protein 109 121	EC 1.1.1.103
+T7	Protein 268 278	EC 2.1.2.1
+T41	Protein 367 386	Threonine deaminase
+T42	Protein 388 399	EC 4.2.1.16
+T44	Protein 520 539	threonine deaminase
+T15	Protein 610 629	threonine deaminase
+T30	Metabolic_consumption 53 64	degradation
+T31	Metabolic_reaction 123 131	degrades
+T32	Metabolic_consumption 667 678	degradation
+T33	Metabolic_production 706 718	biosynthesis
+T34	Metabolic_reaction 753 763	production
+T35	Metabolic_production 1088 1097	synthesis
+T36	Metabolic_production 1235 1247	biosynthesis
+T37	Metabolic_production 1308 1318	production
+T38	Metabolic_consumption 1355 1366	degradation
+T39	Metabolic_consumption 1541 1552	degradation
+E1	Metabolic_consumption:T30 Theme:T1
+E2	Metabolic_reaction:T31 Theme:T4 Cause:T2 Product:T5
+E3	Metabolic_consumption:T32 Theme:T16
+E5	Metabolic_production:T33 Theme:T17
+E6	Metabolic_reaction:T34 Theme2:T19 Product:T18
+E7	Metabolic_production:T35 Theme:T23
+E8	Metabolic_production:T36 Theme:T24
+E9	Metabolic_production:T36 Theme:T26
+E10	Metabolic_production:T37 Theme:T27
+E11	Metabolic_consumption:T38 Theme:T28
+E12	Metabolic_consumption:T39 Theme:T29
+*	Equiv T2 T3
+*	Equiv T7 T6
+T40	Metabolic_reaction 280 287	cleaves
+E13	Metabolic_reaction:T40 Cause:T6 Theme:T8 Product:T9 Product2:T10
+*	Equiv T41 T42
+T43	Metabolic_reaction 401 409	converts
+E14	Metabolic_reaction:T43 Product:T12 Product2:T13 Cause:T41 Theme:T11
+T45	Metabolic_reaction 540 548	degrades
+E15	Metabolic_reaction:T45 Theme:T14 Cause:T44
+T46	Regulation 642 651	concerned
+E4	Regulation:T46 Cause:T15 Theme:E3
+E16	Regulation:T46 Cause:T15 Theme:E5

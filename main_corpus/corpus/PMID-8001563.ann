@@ -1,0 +1,26 @@
+T2	Protein 11 28	sulfite reductase
+T3	Protein 54 72	paraquat reductase
+T4	Metabolite 4 9	NADPH
+T5	Protein 78 101	NADPH:sulfite reductase
+T6	Protein 255 269	metalloprotein
+T7	Protein 397 426	recombinant sulfite reductase
+T9	Metabolite 511 516	NADPH
+T10	Metabolite 550 555	NADPH
+T11	Protein 623 649	flavoprotein alpha subunit
+T12	Protein 666 675	cysJ gene
+T13	Protein 827 836	cysJ gene
+T14	Protein 867 893	NADPH:ferredoxin reductase
+T15	Protein 915 933	paraquat reductase
+T17	Protein 1038 1055	sulfite reductase
+T18	Protein 1061 1085	major paraquat reductase
+T1	Protein 293 303	holoenzyme
+T8	Metabolite 454 496	1,1'-dimethyl-4,4'-bipyridinium dichloride
+T21	Metabolite 498 506	paraquat
+T22	Metabolite 537 545	paraquat
+T23	Metabolite 853 861	paraquat
+T16	Metabolite 969 977	paraquat
+T19	Metabolic_reaction 441 450	reduction
+T20	Positive_regulation 427 436	catalyzes
+E1	Metabolic_reaction:T19 Theme:T9 Theme2:T8
+E2	Positive_regulation:T20 Theme:E1 Cause:T7
+*	Equiv T8 T21

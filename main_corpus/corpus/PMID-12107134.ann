@@ -1,0 +1,32 @@
+T1	Protein 73 80	yegMNOB
+T2	Protein 82 89	mdtABCD
+T3	Metabolite 168 178	novobiocin
+T4	Metabolite 183 195	deoxycholate
+T6	Protein 407 411	baeR
+T7	Protein 527 531	baeR
+T8	Protein 813 817	BaeR
+T9	Protein 950 963	yegMNOB baeSR
+T10	Protein 983 987	BaeR
+T11	Protein 995 1008	yegM promoter
+T12	Protein 1070 1074	yegB
+T13	Protein 1094 1135	major facilitator superfamily transporter
+T14	Protein 1197 1201	yegO
+T15	Protein 1229 1233	yegN
+T16	Protein 1337 1341	BaeR
+T17	Protein 1397 1401	YegN
+T18	Protein 1406 1410	YegO
+T19	Protein 1442 1465	membrane fusion protein
+T20	Protein 1480 1484	YegM
+T21	Metabolite 1498 1508	novobiocin
+T22	Metabolite 1513 1525	deoxycholate
+T23	Protein 1571 1578	mdtABCD
+T24	Protein 1580 1583	mdt
+T25	Protein 1656 1660	yicO
+T26	Protein 1665 1669	ygcL
+T27	Protein 1700 1704	BaeR
+T5	Protein 337 349	(Delta)acrAB
+T28	Protein 614 626	(Delta)acrAB
+T29	Metabolite 642 652	novobiocin
+T30	Metabolite 670 682	deoxycholate
+T31	Metabolite 718 728	novobiocin
+T32	Protein 1560 1567	yegMNOB

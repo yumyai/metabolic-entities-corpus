@@ -1,0 +1,31 @@
+T1	Protein 21 27	ITPase
+T2	Protein 28 34	XTPase
+T3	Metabolite 95 115	Inosine triphosphate
+T4	Metabolite 117 120	ITP
+T5	Metabolite 126 149	xanthosine triphosphate
+T6	Metabolite 151 154	XTP
+T7	Metabolite 187 190	ATP
+T8	Metabolite 195 198	GTP
+T9	Metabolite 266 278	Nucleic acid
+T10	Metabolite 365 368	ITP
+T11	Metabolite 373 376	XTP
+T12	Protein 420 424	YjjX
+T13	Protein 496 500	YjjX
+T14	Protein 576 588	nucleotidase
+T15	Protein 606 609	Maf
+T16	Protein 686 690	YjjX
+T17	Protein 822 842	elongation factor Tu
+T18	Metabolite 748 755	inosine
+T20	Protein 870 874	YjjX
+T25	Protein 723 734	phosphatase
+T19	Metabolite 760 784	xanthosine triphosphates
+T21	Protein 889 914	xanthosine triphosphatase
+T26	Protein 881 914	inosine/xanthosine triphosphatase
+T22	Metabolic_production 279 288	synthesis
+E1	Metabolic_production:T22 Theme:T9
+T23	Metabolic_consumption 172 183	deamination
+E2	Metabolic_consumption:T23 Theme:T7
+E3	Metabolic_consumption:T23 Theme:T8
+T24	Metabolic_production 160 166	formed
+E4	Metabolic_production:T24 Theme:T3
+E5	Metabolic_production:T24 Theme:T5

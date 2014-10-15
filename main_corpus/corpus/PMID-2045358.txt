@@ -1,0 +1,1 @@
+Fine mapping of the rrnE, purHD, and hydGH operons on the Escherichia coli chromosome.

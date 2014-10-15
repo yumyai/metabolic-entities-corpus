@@ -1,0 +1,11 @@
+T1	Protein 82 102	glutamine synthetase
+T2	Protein 104 106	GS
+T4	Protein 523 543	glutamine synthetase
+T5	Protein 962 964	GS
+T6	Metabolite 0 14	Inhibitors 1-4
+T7	Metabolite 383 416	phosphorylated methionine sulfone
+T8	Metabolite 442 488	phosphorylated 2-amino-4-phosphonobutyric acid
+T10	Metabolite 1041 1052	phosphinate
+*	Equiv T1 T2
+T3	Metabolic_reaction 63 78	phosphorylation
+E1	Metabolic_reaction:T3 Cause:T1 Theme:T6

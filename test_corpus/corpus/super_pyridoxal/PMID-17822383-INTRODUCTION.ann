@@ -1,0 +1,44 @@
+T1	Metabolite 9 19	vitamin B6
+T2	Metabolite 30 39	pyridoxal
+T3	Metabolite 41 51	pyridoxine
+T4	Metabolite 53 65	pyridoxamine
+T5	Metabolite 214 222	pyridine
+T6	Metabolite 276 284	aldehyde
+T7	Metabolite 286 295	pyridoxal
+T8	Metabolite 301 308	alcohol
+T9	Metabolite 310 319	pyridoxol
+T10	Metabolite 320 330	pyridoxine
+T11	Metabolite 338 343	amine
+T12	Metabolite 345 357	pyridoxamine
+T14	Metabolite 1063 1066	PLP
+T15	Metabolite 1110 1120	vitamin B1
+T16	Metabolite 1122 1130	thiamine
+T17	Metabolite 1273 1283	vitamin B6
+T18	Metabolite 1461 1470	serotonin
+T19	Metabolite 1541 1551	vitamin B3
+T20	Metabolite 1553 1559	niacin
+T23	Metabolite 2061 2071	vitamin B6
+T24	Metabolite 2231 2241	vitamin B6
+T25	Metabolite 87 110	5'-phosphorylated forms
+T30	Metabolite 376 383	vitamin
+T31	Metabolite 475 478	PLP
+T32	Metabolite 480 502	pyridoxal 5'-phosphate
+T33	Metabolite 508 511	PMP
+T34	Metabolite 513 538	pyridoxamine 5'-phosphate
+T35	Metabolite 541 544	PLP
+T13	Metabolite 1180 1183	PMP
+T21	Metabolite 1947 1954	vitamin
+T22	Metabolite 2142 2152	vitamins C
+T36	Metabolite 2157 2158	E
+T26	Metabolic_production 1132 1144	biosynthesis
+T27	Metabolic_production 1471 1480	synthesis
+T28	Metabolic_production 1561 1570	formation
+T29	Metabolic_production 2220 2230	synthesize
+E4	Metabolic_production:T26 Theme:T15
+E6	Metabolic_production:T27 Theme:T18
+E7	Metabolic_production:T28 Theme:T19
+E9	Metabolic_production:T29 Theme:T24
+*	Equiv T31 T32
+*	Equiv T33 T34
+*	Equiv T16 T15
+*	Equiv T20 T19

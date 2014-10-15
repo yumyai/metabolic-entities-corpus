@@ -1,0 +1,23 @@
+T3	Metabolite 66 88	pyridoxal 5'-phosphate
+T4	Protein 150 153	epd
+T5	Protein 155 159	gapB
+T6	Protein 180 221	erythrose 4-phosphate (E4P) dehydrogenase
+T7	Metabolite 277 299	pyridoxal 5'-phosphate
+T8	Metabolite 301 304	PLP
+T9	Metabolite 310 335	pyridoxamine 5'-phosphate
+T10	Metabolite 337 340	PMP
+T11	Protein 414 437	gapA epd double mutants
+T12	Protein 450 499	glyceraldehyde 3-phosphate and E4P dehydrogenases
+T14	Metabolite 520 530	pyridoxine
+T15	Protein 560 564	GapA
+T16	Protein 569 587	Epd dehydrogenases
+T19	Metabolite 599 602	PLP
+T20	Metabolite 607 610	PMP
+T1	Protein 19 62	gapA- and epd (gapB)-encoded dehydrogenases
+T21	Metabolic_production 98 110	biosynthesis
+T22	Metabolic_production 620 632	biosynthesis
+E1	Metabolic_production:T21 Theme:T3
+E4	Metabolic_production:T22 Theme:T19
+E5	Metabolic_production:T22 Theme:T20
+*	Equiv T8 T7
+*	Equiv T10 T9

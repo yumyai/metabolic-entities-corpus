@@ -1,0 +1,24 @@
+T1	Protein 0 26	Escherichia coli purB gene
+T2	Protein 76 80	purR
+T3	Protein 82 103	Escherichia coli purB
+T4	Protein 112 134	adenylosuccinate lyase
+T5	Protein 136 139	ASL
+T7	Metabolite 215 218	IMP
+T8	Metabolite 284 287	AMP
+T9	Protein 289 298	Gene purB
+T10	Protein 333 344	ASL protein
+T11	Protein 515 523	fumarase
+T12	Protein 542 551	Gene phoP
+T13	Protein 576 580	purB
+T14	Protein 582 591	Gene purB
+T15	Protein 638 642	purR
+T16	Metabolite 622 628	purine
+T17	Protein 674 678	purB
+T18	Protein 747 763	regulon operator
+T19	Protein 769 782	purB operator
+T6	Metabolite 277 280	IMP
+T22	Protein 420 423	ASL
+T20	Positive_regulation 158 167	catalyzes
+T21	Metabolic_production 202 211	synthesis
+E1	Positive_regulation:T20 Cause:T4 Theme:E3
+E3	Metabolic_production:T21 Theme:T7

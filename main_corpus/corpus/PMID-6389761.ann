@@ -1,0 +1,19 @@
+T1	Metabolite 231 256	D-2-aminoxypropionic acid
+T2	Protein 623 633	peptidases
+T3	Protein 1011 1023	transaminase
+T4	Protein 1070 1091	endogenous peptidases
+T5	Metabolite 42 59	peptide analogues
+T7	Metabolite 99 115	aminoxy peptides
+T8	Metabolite 146 157	tripeptides
+T9	Metabolite 138 157	di- and tripeptides
+T10	Metabolite 225 256	L- or D-2-aminoxypropionic acid
+T11	Metabolite 258 269	L or D-OAla
+T12	Metabolite 263 269	D-OAla
+T13	Protein 495 512	peptide permeases
+T14	Metabolite 826 834	Ala-OAla
+T15	Metabolite 993 1001	Ala-OAla
+T16	Metabolite 1062 1066	OAla
+T6	Metabolic_consumption 14 24	hydrolysis
+E1	Metabolic_consumption:T6 Theme:T5
+*	Equiv T10 T11
+*	Equiv T1 T12

@@ -1,0 +1,38 @@
+T1	Protein 94 107	uhpABCT locus
+T2	Metabolite 228 247	glucose 6-phosphate
+T3	Protein 263 267	uhpT
+T4	Protein 268 272	lacZ
+T5	Protein 309 313	uhpA
+T6	Protein 315 319	uhpB
+T7	Protein 325 329	uhpC
+T8	Protein 341 345	uhpT
+T9	Protein 371 375	uhpT
+T10	Protein 456 460	uhpT
+T11	Protein 557 561	uhpT
+T12	Protein 593 597	uhpA
+T13	Protein 660 664	uhpT
+T15	Protein 849 853	uhpA
+T16	Protein 888 892	uhpC
+T17	Protein 929 933	uhpB
+T18	Protein 957 961	UhpB
+T19	Protein 985 989	UhpA
+T20	Protein 1008 1012	uhpA
+T21	Protein 1043 1047	uhpA
+T22	Protein 1048 1052	lacZ
+T23	Protein 1129 1133	uhpA
+T24	Protein 1181 1194	uhpT promoter
+T25	Protein 1210 1214	uhpT
+T26	Protein 1242 1246	uhpA
+T27	Protein 1399 1403	UhpA
+T28	Protein 1514 1518	OmpR
+T29	Protein 1520 1524	PhoB
+T30	Protein 1526 1530	NtrC
+T31	Protein 1536 1540	DctD
+T32	Protein 1569 1573	UhpB
+T33	Protein 1653 1657	EnvZ
+T34	Protein 1659 1664	PhoMR
+T35	Protein 1666 1670	NtrB
+T36	Protein 1676 1680	DctB
+T37	Protein 8 17	uhp genes
+T38	Metabolite 56 71	sugar-phosphate
+T39	Metabolite 165 180	sugar-phosphate

@@ -1,0 +1,37 @@
+T2	Metabolite 52 60	cysteine
+T3	Metabolite 37 44	sulfate
+T5	Metabolite 234 241	sulfite
+T8	Metabolite 178 215	3'-phosphoadenosine 5'-phosphosulfate
+T9	Metabolite 350 357	sulfite
+T10	Metabolite 361 369	cysteine
+T11	Protein 930 945	RNA polymerases
+T12	Protein 1294 1309	ATP sulfurylase
+T16	Protein 1743 1767	inositol monophosphatase
+T17	Metabolite 1802 1839	3'-phosphoadenoside 5'-phosphosulfate
+T19	Metabolite 1979 1986	sulfite
+T20	Metabolite 1926 1963	3'-phosphoadenoside 5'-phosphosulfate
+T22	Metabolite 100 107	sulfate
+T24	Metabolite 81 88	sulfate
+T26	Metabolite 135 162	adenosine 5'-phosphosulfate
+T15	Metabolite 1361 1388	adenosine 5'-phosphosulfate
+T27	Metabolite 1258 1265	sulfate
+T29	Metabolite 1466 1473	sulfate
+T31	Metabolite 1574 1582	ammonium
+T1	Metabolic_production 61 73	biosynthesis
+E1	Metabolic_production:T1 Theme:T2
+T4	Metabolic_consumption 21 33	assimilation
+E3	Metabolic_consumption:T4 Theme:T3
+T6	Metabolic_reaction 221 230	reduction
+E2	Metabolic_reaction:T6 Product:T5 Theme:T8
+T18	Metabolic_production 1987 1996	synthesis
+E7	Metabolic_production:T18 Theme:T19
+T21	Metabolic_consumption 108 118	activation
+E8	Metabolic_consumption:T21 Theme:T22
+T14	Positive_regulation 1352 1360	catalyze
+E5	Positive_regulation:T14 Theme:E6 Cause:T12
+T13	Metabolic_production 1389 1398	synthesis
+E6	Metabolic_production:T13 Theme:T15
+T7	Metabolic_reaction 164 174	conversion
+E4	Metabolic_reaction:T7 Product:T8 Theme:T26
+T25	Metabolic_production 122 131	formation
+E10	Metabolic_production:T25 Theme:T26

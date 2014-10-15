@@ -1,0 +1,24 @@
+T3	Protein 290 300	PD complex
+T6	Protein 1177 1187	PD complex
+T7	Protein 22 57	lipoate acetyltransferase component
+T1	Protein 70 92	pyruvate dehydrogenase
+T2	Protein 239 262	lipoamide dehydrogenase
+T8	Protein 264 266	E3
+T9	Protein 59 61	E2
+T10	Metabolite 320 328	pyruvate
+T12	Protein 411 413	E2
+T11	Protein 676 678	E3
+T13	Metabolite 780 784	NADH
+T5	Protein 1135 1137	E3
+T4	Protein 757 767	PD complex
+T14	Protein 1227 1229	E3
+T15	Protein 1243 1245	E3
+T16	Protein 1266 1276	PD complex
+T17	Metabolite 1347 1351	NADH
+T18	Protein 1395 1397	E3
+T19	Protein 1415 1425	PD complex
+T20	Metabolite 1476 1484	pyruvate
+T21	Protein 1581 1583	E3
+T22	Protein 372 382	PD complex
+*	Equiv T7 T9
+*	Equiv T2 T8

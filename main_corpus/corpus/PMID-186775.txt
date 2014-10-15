@@ -1,0 +1,2 @@
+DNA gyrase: an enzyme that introduces superhelical turns into DNA.
+Relaxed closed-circular DNA is converted to negatively supercoiled DNA by DNA gyrase. This enzyme has been purified from Escherichia coli cells. The reaction requires ATP and Mg++ and is stimulated by spermidine. The enzyme acts equally well on relaxed closed-circular colicin E1, phage lambda, and simian virus 40 DNA. The final superhelix density of the DNA can be considerably greater than that found in intracellularly supercoiled DNA.

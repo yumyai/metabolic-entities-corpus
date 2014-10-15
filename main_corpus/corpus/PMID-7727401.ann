@@ -1,0 +1,17 @@
+T1	Protein 71 108	phosphoribosyl anthranilate isomerase
+T2	Metabolite 635 645	tryptophan
+T5	Protein 737 774	phosphoribosyl anthranilate isomerase
+T4	Metabolite 414 440	phosphoribosylanthranilate
+T7	Metabolite 927 937	tryptophan
+T9	Protein 1079 1116	phosphoribosyl anthranilate isomerase
+T10	Protein 1229 1266	phosphoribosyl anthranilate isomerase
+T11	Metabolite 489 518	nonfluorescent stable product
+T12	Protein 561 594	indoleglycerol phosphate synthase
+T3	Metabolic_production 646 658	biosynthesis
+E1	Metabolic_production:T3 Theme:T2
+T6	Metabolic_reaction 471 481	isomerizes
+E2	Metabolic_reaction:T6 Theme:T4 Product:T11
+T8	Metabolic_production 938 950	biosynthesis
+E3	Metabolic_production:T8 Theme:T7
+T13	Positive_regulation 602 611	catalyzes
+E4	Positive_regulation:T13 Theme:E1 Cause:T12

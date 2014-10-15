@@ -1,0 +1,15 @@
+T1	Metabolite 112 129	acetyl coenzyme A
+T2	Metabolite 131 141	acetyl-CoA
+T4	Protein 55 85	pyruvate dehydrogenase complex
+T5	Metabolite 176 186	coenzyme A
+T6	Metabolite 191 215	S-acetyldihydrolipoamide
+T8	Protein 4 32	dihydrolipoyl transacetylase
+T9	Protein 44 46	E2
+T10	Metabolite 148 164	dihydrolipoamide
+T11	Metabolite 1392 1418	8-S-acetyldihydrolipoamide
+T12	Metabolite 586 612	8-S-acetyldihydrolipoamide
+*	Equiv T1 T2
+T3	Metabolic_reaction 100 108	reaction
+E1	Metabolic_reaction:T3 Theme:T1 Product:T5 Theme2:T10 Product2:T6
+T7	Positive_regulation 86 95	catalyzes
+E2	Positive_regulation:T7 Theme:E1 Cause:T4

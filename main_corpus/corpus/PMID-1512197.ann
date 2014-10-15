@@ -1,0 +1,30 @@
+T1	Protein 40 65	Arc regulatory components
+T2	Protein 170 203	transmembrane sensor protein ArcB
+T3	Protein 220 255	cytoplasmic regulatory protein ArcA
+T4	Protein 340 344	ArcB
+T6	Protein 533 537	ArcB
+T7	Protein 563 567	ArcB
+T8	Protein 634 638	ArcA
+T9	Protein 703 707	ArcB
+T10	Metabolite 768 771	ATP
+T11	Metabolite 814 817	GTP
+T12	Protein 824 828	ArcA
+T13	Protein 863 867	ArcB
+T14	Protein 888 892	ArcA
+T15	Protein 962 970	ArcB-32P
+T17	Metabolite 883 886	ATP
+T18	Protein 998 1002	ArcB
+T19	Protein 1029 1033	ArcA
+T20	Protein 1054 1062	ArcA-32P
+T21	Metabolite 1049 1052	ATP
+T22	Protein 1154 1158	ArcA
+T23	Protein 1216 1220	ArcB
+T24	Protein 1229 1233	ArcB
+T25	Protein 1256 1260	ArcA
+T26	Protein 1330 1338	ArcB-32P
+T27	Protein 1413 1421	ArcA-32P
+T28	Metabolite 1382 1400	aspartyl phosphate
+T29	Metabolite 1440 1458	aspartyl phosphate
+T5	Metabolite 796 799	ATP
+T16	Protein 1245 1251	kinase
+T30	Metabolite 1356 1374	histidyl phosphate

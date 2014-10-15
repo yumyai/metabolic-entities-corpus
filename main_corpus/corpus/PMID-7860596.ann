@@ -1,0 +1,41 @@
+T2	Protein 92 113	Escherichia coli K-12
+T8	Protein 202 258	pyridoxine (pyridoxamine) 5'-phosphate (PNP/PMP) oxidase
+T12	Metabolite 338 360	pyridoxal 5'-phosphate
+T13	Metabolite 362 365	PLP
+T14	Protein 390 394	pdxH
+T15	Protein 510 521	PdxH enzyme
+T18	Metabolite 588 609	flavin mononucleotide
+T19	Metabolite 611 614	FMN
+T20	Protein 658 669	PdxH enzyme
+T21	Metabolite 675 678	PNP
+T22	Metabolite 682 685	PMP
+T23	Metabolite 757 760	PNP
+T24	Metabolite 765 768	PMP
+T25	Metabolite 797 814	hydrogen peroxide
+T26	Protein 852 863	PdxH enzyme
+T27	Protein 899 919	flavoprotein oxidase
+T28	Protein 1063 1075	PdxH oxidase
+T29	Metabolite 1007 1010	PNP
+T30	Metabolite 1023 1026	PMP
+T31	Metabolite 1143 1146	PNP
+T32	Metabolite 1151 1154	PMP
+T34	Protein 1196 1211	PNP/PMP oxidase
+T36	Metabolite 1280 1283	PLP
+T38	Protein 1562 1577	PNP/PMP oxidase
+T39	Metabolite 1700 1707	glucose
+T41	Protein 1739 1754	PNP/PMP oxidase
+T42	Metabolite 1843 1855	PLP coenzyme
+T1	Protein 42 88	pyridoxine (pyridoxamine) 5'-phosphate oxidase
+T3	Metabolite 636 652	molecular oxygen
+T5	Metabolite 1304 1315	4-deoxy-PNP
+T43	Metabolic_production 299 311	biosynthesis
+E1	Metabolic_production:T43 Theme:T12
+*	Equiv T13 T12
+*	Equiv T19 T18
+E2	Metabolic_consumption:T6 Cause:T20 Theme:T21
+E3	Metabolic_consumption:T6 Theme:T22 Cause:T20
+T4	Metabolic_production 788 796	produces
+E4	Metabolic_production:T4 Theme:T25 Theme2:T20
+T6	Metabolic_consumption 670 674	uses
+T7	Metabolic_production 1856 1868	biosynthesis
+E5	Metabolic_production:T7 Theme:T42

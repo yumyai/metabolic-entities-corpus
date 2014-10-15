@@ -1,0 +1,5 @@
+T1	Protein 22 43	ethanol dehydrogenase
+T2	Metabolite 1446 1466	fructose-1-phosphate
+T3	Metabolite 1468 1471	F1P
+T4	Metabolite 1585 1588	F1P
+*	Equiv T2 T3

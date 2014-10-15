@@ -1,0 +1,19 @@
+T1	Protein 20 38	mannosyl hydrolase
+T2	Protein 64 75	MutT family
+T3	Metabolite 318 329	GDP-mannose
+T7	Metabolite 348 351	GDP
+T10	Protein 792 803	MutT family
+T11	Protein 884 888	MutT
+T12	Protein 1082 1112	GDP-mannose mannosyl hydrolase
+T13	Protein 1142 1153	MutT family
+T14	Metabolite 1220 1242	nucleoside diphosphate
+T16	Metabolite 371 377	hexose
+T4	Metabolite 333 344	GDP-glucose
+T6	Metabolite 589 600	GDP-mannose
+T8	Metabolite 475 491	sugar phosphates
+T9	Metabolite 453 470	nucleotide sugars
+E1	Metabolic_reaction:T5 Theme:T3 Product:T16
+T5	Metabolic_reaction 307 317	hydrolyzes
+E2	Metabolic_reaction:T5 Theme:T4 Product:T16
+T15	Positive_regulation 1065 1074	catalyzed
+E3	Positive_regulation:T15 Cause:T12

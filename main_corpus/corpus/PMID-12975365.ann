@@ -1,0 +1,43 @@
+T1	Protein 17 47	coproporphyrinogen III oxidase
+T2	Protein 49 53	HemF
+T3	Protein 190 213	oxygen-dependent (HemF)
+T7	Metabolite 112 116	heme
+T8	Metabolite 303 325	coproporphyrinogen III
+T9	Metabolite 334 355	protoporphyrinogen IX
+T10	Protein 374 404	coproporphyrinogen III oxidase
+T11	Protein 443 455	E. coli hemF
+T13	Metabolite 560 582	coproporphyrinogen III
+T14	Protein 639 643	HemF
+T18	Metabolite 661 682	protoporphyrinogen IX
+T19	Metabolite 686 704	coproporphyrin III
+T20	Metabolite 739 756	protoporphyrin IX
+T21	Protein 863 867	HemF
+T22	Protein 1026 1030	H2O2
+T24	Protein 1069 1081	E. coli HemF
+T25	Protein 1129 1159	coproporphyrinogen III oxidase
+T26	Metabolite 1351 1361	tryptophan
+T27	Protein 1615 1619	HemF
+T28	Metabolite 1437 1445	cysteine
+T29	Metabolite 1457 1465	tyrosine
+T30	Metabolite 1530 1540	tryptophan
+T31	Protein 1714 1718	HemF
+T32	Protein 1756 1760	HemF
+T37	Metabolite 94 103	manganese
+T4	Protein 222 247	oxygen-independent (HemN)
+T5	Metabolite 768 774	oxygen
+T6	Metabolite 939 945	oxygen
+T12	Metabolite 1224 1233	histidine
+T15	Metabolite 1286 1295	manganese
+T33	Metabolic_production 117 129	biosynthesis
+T35	Metabolic_consumption 274 299	oxidative decarboxylation
+T36	Metabolic_production 1013 1022	formation
+E1	Metabolic_production:T33 Theme:T7
+E4	Metabolic_consumption:T35 Theme:T8
+E7	Metabolic_production:T36 Theme:T22
+*	Equiv T1 T2
+T34	Positive_regulation 261 269	catalyze
+E2	Positive_regulation:T34 Theme:E4 Cause:T3
+E3	Positive_regulation:T34 Theme:E4 Cause:T4
+T16	Metabolic_production 329 333	form
+E5	Metabolic_production:T16 Theme:T9
+E6	Positive_regulation:T34 Cause:T3 Theme:E5

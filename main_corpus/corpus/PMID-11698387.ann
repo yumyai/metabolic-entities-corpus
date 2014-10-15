@@ -1,0 +1,14 @@
+T1	Protein 4 13	rlmB gene
+T3	Protein 149 178	rRNA Gm2270 methyltransferase
+T4	Protein 180 186	Pet56p
+T5	Protein 300 317	methyltransferase
+T6	Protein 386 390	RlmB
+T7	Protein 401 405	YjfH
+T8	Protein 472 480	23S rRNA
+T10	Protein 638 642	RlmB
+T2	Metabolite 44 50	Gm2251
+T9	Metabolite 449 468	Gm in position 2251
+T11	Protein 54 62	23S rRNA
+T12	Protein 493 502	DeltarlmB
+*	Equiv T3 T4
+*	Equiv T6 T7

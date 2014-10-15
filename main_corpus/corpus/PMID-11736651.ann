@@ -1,0 +1,30 @@
+T1	Protein 0 27	Kynurenine aminotransferase
+T2	Protein 32 56	glutamine transaminase K
+T3	Protein 92 118	aspartate aminotransferase
+T4	Protein 208 235	kynurenine aminotransferase
+T5	Protein 237 240	KAT
+T6	Protein 277 303	aspartate aminotransferase
+T7	Protein 305 310	AspAT
+T8	Protein 313 316	KAT
+T9	Metabolite 349 359	kynurenine
+T10	Metabolite 364 383	3-hydroxykynurenine
+T11	Metabolite 387 401	kynurenic acid
+T12	Metabolite 406 422	xanthurenic acid
+T13	Protein 547 550	KAT
+T14	Protein 783 788	AspAT
+T16	Metabolite 935 947	l-kynurenine
+T17	Metabolite 1000 1023	3-hydroxy-dl-kynurenine
+T18	Metabolite 1094 1102	pyruvate
+T19	Protein 1277 1299	glutamine transaminase
+T20	Metabolite 1316 1331	l-phenylalanine
+T21	Protein 1480 1498	KAT-active protein
+T22	Protein 1512 1517	AspAT
+T23	Protein 1548 1551	KAT
+T24	Protein 1564 1571	R-AspAT
+T25	Protein 1646 1651	AspAT
+T27	Positive_regulation 317 326	catalyses
+E1	Positive_regulation:T27 Theme:E2 Cause:T8
+T26	Metabolic_reaction 331 345	transamination
+E2	Metabolic_reaction:T26 Theme:T9 Product:T11
+E3	Metabolic_reaction:T26 Theme:T10 Product:T12
+E4	Positive_regulation:T27 Theme:E3 Cause:T8

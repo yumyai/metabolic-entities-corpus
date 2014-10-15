@@ -1,0 +1,11 @@
+T1	Metabolite 82 89	alanine
+T3	Protein 344 356	endonuclease
+T4	Protein 478 505	alanine-valine transaminase
+T5	Protein 507 521	transaminase C
+T6	Protein 549 582	tyrosine-repressible transaminase
+T7	Protein 584 598	transaminase D
+T8	Protein 666 696	alanine-glutamate transaminase
+T2	Metabolic_production 90 99	synthesis
+E1	Metabolic_production:T2 Theme:T1
+*	Equiv T5 T4
+*	Equiv T6 T7

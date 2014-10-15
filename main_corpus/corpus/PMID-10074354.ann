@@ -1,0 +1,30 @@
+T2	Metabolite 58 66	L-lysine
+T3	Metabolite 72 94	aspartate semialdehyde
+T4	Metabolite 99 107	pyruvate
+T1	Protein 302 310	DapATase
+T6	Protein 337 345	DapATase
+T7	Protein 625 634	NAcOATase
+T9	Protein 688 696	DapATase
+T11	Metabolite 759 778	alpha-ketoglutarate
+T13	Protein 892 901	NAcOATase
+T14	Protein 929 938	NAcOATase
+T15	Protein 943 951	DapATase
+T16	Metabolite 1083 1089	lysine
+T17	Metabolite 1094 1102	arginine
+T19	Metabolite 1023 1041	N-succinyl-L,L-DAP
+T20	Metabolite 1001 1018	N-acetylornithine
+T8	Protein 589 623	N-acetylornithine aminotransferase
+T5	Protein 232 300	N-succinyl-L, L-diaminopimelate:alpha-ketoglutarate aminotransferase
+T22	Protein 195 204	dapC gene
+T10	Metabolic_consumption 741 755	transamination
+E1	Metabolic_consumption:T10 Theme:T11
+T12	Positive_regulation 698 708	catalyzing
+E2	Positive_regulation:T12 Theme:E1 Cause:T9
+T18	Metabolic_production 1103 1115	biosynthesis
+E3	Metabolic_production:T18 Theme:T16
+T21	Metabolic_reaction 47 57	synthesize
+E4	Metabolic_reaction:T21 Product:T2 Theme:T3
+E5	Metabolic_reaction:T21 Product:T2 Theme:T4
+*	Equiv T5 T1
+*	Equiv T8 T7
+E6	Metabolic_production:T18 Theme:T17

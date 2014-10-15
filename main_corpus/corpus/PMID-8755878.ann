@@ -1,0 +1,23 @@
+T1	Protein 32 36	NfsA
+T2	Protein 42 79	Escherichia coli major nitroreductase
+T3	Protein 130 133	Frp
+T4	Protein 137 173	Vibrio harveyi flavin oxidoreductase
+T6	Protein 193 202	nfsA gene
+T7	Protein 242 256	nitroreductase
+T8	Protein 374 378	NfsA
+T9	Protein 418 422	NfsA
+T10	Protein 515 536	flavin mononucleotide
+T11	Protein 591 594	Frp
+T12	Protein 598 619	flavin oxidoreductase
+T13	Protein 767 781	nitroreductase
+T14	Protein 786 824	luminescent-bacterium flavin reductase
+T15	Protein 948 963	nitroreductases
+T16	Protein 965 969	NfsA
+T17	Protein 974 978	NfsB
+T18	Protein 980 984	NfsA
+T19	Protein 1014 1030	flavin reductase
+T20	Protein 1102 1106	NfsB
+T5	Protein 1108 1112	NfsA
+T22	Metabolite 1121 1134	nitrofurazone
+T21	Metabolic_consumption 1113 1120	reduced
+E1	Metabolic_consumption:T21 Theme:T22 Cause:T5

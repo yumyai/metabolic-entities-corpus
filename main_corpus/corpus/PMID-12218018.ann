@@ -1,0 +1,27 @@
+T1	Protein 0 4	MazG
+T2	Protein 8 52	nucleoside triphosphate pyrophosphohydrolase
+T3	Protein 69 72	Era
+T4	Protein 87 93	GTPase
+T5	Protein 115 118	Era
+T6	Protein 135 141	GTPase
+T7	Protein 167 170	Era
+T8	Protein 240 243	Era
+T9	Protein 420 423	Era
+T10	Protein 439 443	MazG
+T11	Protein 548 551	Era
+T12	Protein 556 560	MazG
+T13	Metabolite 624 627	GDP
+T14	Metabolite 652 661	GTPgammaS
+T15	Protein 663 667	MazG
+T17	Protein 976 985	mazG gene
+T18	Protein 1027 1031	mutT
+T19	Protein 1145 1149	mazG
+T20	Protein 316 324	era gene
+T25	Protein 691 735	nucleoside triphosphate pyrophosphohydrolase
+T27	Metabolite 793 822	deoxynucleoside triphosphates
+T28	Metabolite 843 857	monophosphates
+T29	Metabolite 862 867	PP(i)
+T16	Protein 911 915	mazG
+T30	Protein 1062 1106	nucleotide triphosphate pyrophosphohydrolase
+T26	Metabolic_reaction 746 755	hydrolyze
+E4	Metabolic_reaction:T26 Cause:T25 Theme:T27 Product:T28 Product2:T29

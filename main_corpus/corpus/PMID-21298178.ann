@@ -1,0 +1,27 @@
+T1	Protein 0 42	Recombinant Escherichia coli GMP reductase
+T2	Protein 150 189	Guanosine monophosphate (GMP) reductase
+T5	Metabolite 229 232	GMP
+T6	Metabolite 236 257	inosine monophosphate
+T7	Metabolite 259 262	IMP
+T8	Protein 265 278	GMP reductase
+T9	Metabolite 365 372	guanine
+T10	Protein 597 623	guaC-encoded GMP reductase
+T11	Protein 805 818	GMP reductase
+T14	Metabolite 872 875	GMP
+T15	Metabolite 914 919	NADPH
+T16	Metabolite 933 940	NADP(+)
+T19	Metabolite 1038 1041	GMP
+T20	Metabolite 1046 1049	IMP
+T23	Metabolite 1240 1243	GMP
+T24	Metabolite 1289 1294	NADPH
+T26	Protein 1835 1848	GMP reductase
+T3	Metabolite 376 383	adenine
+T4	Metabolite 429 435	purine
+T12	Metabolite 971 974	IMP
+T27	Metabolic_reaction 214 225	deamination
+T28	Positive_regulation 190 199	catalyzes
+T29	Metabolic_reaction 310 320	conversion
+E1	Metabolic_reaction:T27 Theme:T5 Product:T6
+E3	Positive_regulation:T28 Theme:E1 Cause:T2
+E4	Metabolic_reaction:T29 Theme:T9 Product:T3 Cause:T8
+*	Equiv T7 T6

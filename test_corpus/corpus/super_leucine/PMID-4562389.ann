@@ -1,0 +1,14 @@
+T1	Metabolite 0 10	Isoleucine
+T2	Metabolite 15 21	valine
+T3	Protein 71 105	acetohydroxy acid isomeroreductase
+T4	Protein 152 186	acetohydroxy acid isomeroreductase
+T5	Metabolite 247 262	chloramphenicol
+T6	Protein 346 362	isomeroreductase
+T7	Protein 408 424	isomeroreductase
+T8	Protein 496 512	isomeroreductase
+T9	Metabolite 539 546	glucose
+T11	Metabolite 267 275	rifampin
+T12	Metabolite 293 301	rifampin
+E1	Metabolic_reaction:T13 Theme:T1
+E2	Metabolic_reaction:T13 Theme:T2
+T13	Metabolic_reaction 22 32	metabolism

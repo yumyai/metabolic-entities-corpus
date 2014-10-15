@@ -1,0 +1,28 @@
+T1	Protein 178 182	cysD
+T2	Protein 187 191	cysN
+T3	Protein 161 176	ATP sulfurylase
+T4	Protein 197 207	APS kinase
+T5	Protein 209 213	cysC
+T7	Metabolite 247 264	activated sulfate
+T9	Protein 575 590	ATP sulfurylase
+T10	Protein 621 627	GTPase
+T11	Protein 1022 1037	ATP sulfurylase
+T13	Protein 1260 1266	GTPase
+T14	Metabolite 1165 1168	GTP
+T8	Protein 668 672	CysN
+T15	Protein 840 844	nodP
+T16	Protein 849 853	nodQ
+T17	Protein 677 682	Ef-Tu
+T18	Protein 697 701	CysN
+T19	Protein 835 838	RAS
+T20	Protein 825 830	Ef-Tu
+T21	Protein 980 984	NodP
+T22	Protein 1039 1043	NodQ
+T23	Protein 1071 1075	CysN
+T24	Protein 1080 1084	CysC
+*	Equiv T4 T5
+T6	Metabolic_production 234 243	synthesis
+E1	Metabolic_production:T6 Theme:T7
+E2	Positive_regulation:T12 Theme:E1 Cause:T4
+E3	Positive_regulation:T12 Theme:E1 Cause:T3
+T12	Positive_regulation 221 229	catalyze

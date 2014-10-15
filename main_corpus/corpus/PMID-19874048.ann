@@ -1,0 +1,13 @@
+T1	Protein 47 76	tRNA-guanine transglycosylase
+T2	Protein 273 302	tRNA-guanine transglycosylase
+T3	Protein 304 307	TGT
+T4	Protein 826 829	TGT
+T5	Metabolite 907 910	RNA
+T6	Metabolite 1166 1175	aspartate
+T7	Metabolite 1212 1221	aspartate
+T9	Complex 373 388	TGT-RNA complex
+T10	Complex 758 782	TGT-RNA covalent complex
+T11	Complex 1260 1276	covalent complex
+T8	Positive_regulation 260 269	catalyzed
+E1	Positive_regulation:T8 Cause:T2
+*	Equiv T3 T2

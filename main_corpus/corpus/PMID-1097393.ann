@@ -1,0 +1,39 @@
+T1	Protein 70 122	glucosephosphotransferase, mannosephosphotransferase
+T2	Protein 128 139	glucokinase
+T3	Metabolite 19 28	D-glucose
+T5	Metabolite 328 335	glucose
+T6	Metabolite 568 575	glucose
+T7	Metabolite 580 608	methyl-alpha-glucopyranoside
+T8	Metabolite 642 651	D-glucose
+T9	Metabolite 653 681	D-mannose, 2-deoxy-D-glucose
+T10	Metabolite 683 696	D-glucosamine
+T11	Protein 746 771	glucosephosphotransferase
+T12	Protein 830 834	purB
+T13	Protein 839 843	pyrC
+T14	Protein 912 945	loss of mannosephosphotransferase
+T15	Protein 947 950	mpt
+T16	Protein 967 970	eda
+T17	Protein 975 985	fadD genes
+T18	Protein 1008 1019	glucokinase
+T19	Protein 1021 1024	glk
+T20	Protein 1042 1046	ptsI
+T21	Protein 1051 1060	dsd genes
+T23	Metabolite 229 236	glucose
+T4	Protein 246 293	adenosine 5'-triphosphate-dependent glucokinase
+T26	Protein 369 394	glucosephosphotransferase
+T27	Metabolite 426 435	D-glucose
+T28	Protein 481 506	mannosephosphotransferase
+T29	Protein 538 554	former enzyme II
+T30	Metabolite 702 715	D-mannosamine
+T22	Metabolic_consumption 0 15	Phosphorylation
+E1	Metabolic_consumption:T22 Theme:T3
+T24	Metabolic_consumption 213 228	phosphorylating
+E2	Metabolic_consumption:T24 Theme:T23
+T25	Metabolic_consumption 558 564	active
+E3	Metabolic_consumption:T25 Theme:T6
+E4	Metabolic_consumption:T25 Theme:T7
+T31	Metabolic_consumption 632 638	active
+E5	Metabolic_consumption:T31 Theme:T10
+E6	Metabolic_consumption:T31 Theme:T8
+E7	Metabolic_consumption:T31 Theme:T9
+E8	Metabolic_consumption:T31 Theme:T30

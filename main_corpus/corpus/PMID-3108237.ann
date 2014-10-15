@@ -1,0 +1,23 @@
+T2	Metabolite 129 138	threonine
+T3	Metabolite 142 148	serine
+T4	Metabolite 232 241	threonine
+T6	Metabolite 346 352	serine
+T8	Metabolite 531 538	leucine
+T9	Metabolite 540 548	arginine
+T10	Metabolite 550 556	lysine
+T11	Metabolite 558 567	threonine
+T12	Metabolite 573 583	methionine
+T13	Protein 724 755	serine hydroxymethyltransferase
+T14	Protein 801 824	threonine dehydrogenase
+T15	Metabolite 959 966	leucine
+T16	Metabolite 968 976	arginine
+T17	Metabolite 978 984	lysine
+T18	Metabolite 986 995	threonine
+T19	Metabolite 1001 1011	methionine
+T22	Protein 767 790	glycine cleavage system
+T1	Metabolic_reaction 121 128	convert
+E1	Metabolic_reaction:T1 Theme:T2 Product:T3
+T5	Metabolic_consumption 242 253	utilization
+E2	Metabolic_consumption:T5 Theme:T4
+T7	Metabolic_production 353 365	biosynthesis
+E3	Metabolic_production:T7 Theme:T6

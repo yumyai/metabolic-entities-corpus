@@ -1,0 +1,36 @@
+T1	Protein 24 37	glutaredoxins
+T2	Protein 42 54	thioredoxins
+T3	Protein 79 104	ribonucleotide reductases
+T4	Protein 168 193	ribonucleotide reductases
+T5	Protein 195 199	RNRs
+T6	Metabolite 237 245	cysteine
+T7	Protein 478 493	class Ia enzyme
+T8	Protein 495 500	NrdAB
+T9	Protein 558 572	glutaredoxin 1
+T10	Protein 578 593	class Ib enzyme
+T11	Protein 595 600	NrdEF
+T12	Protein 636 661	glutaredoxin-like protein
+T13	Protein 663 667	NrdH
+T14	Protein 697 710	glutaredoxins
+T15	Protein 746 767	thioredoxin reductase
+T16	Protein 804 825	thioredoxin reductase
+T17	Protein 830 834	NrdH
+T18	Protein 836 850	glutaredoxin 1
+T19	Protein 873 877	NrdH
+T20	Protein 917 922	NrdEF
+T21	Protein 927 937	NrdAB RNRs
+T22	Protein 1115 1120	NrdEF
+T23	Protein 1194 1207	class III RNR
+T24	Protein 1209 1214	NrdDG
+T25	Protein 1285 1294	reductase
+T26	Protein 1298 1319	glutathione reductase
+T27	Protein 1381 1386	NrdDG
+T31	Metabolite 275 290	ribonucleotides
+T28	Metabolic_consumption 262 271	reduction
+E1	Metabolic_consumption:T28 Theme:T31
+T29	Positive_regulation 249 257	catalyze
+E2	Positive_regulation:T29 Theme:E1 Cause:T4
+*	Equiv T8 T7
+*	Equiv T13 T12
+*	Equiv T17 T16
+*	Equiv T24 T23

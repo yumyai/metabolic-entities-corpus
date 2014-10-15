@@ -1,0 +1,18 @@
+T1	Protein 65 73	tas gene
+T2	Metabolite 112 133	N-ethyl-N-nitrosourea
+T3	Metabolite 135 138	ENU
+T4	Metabolite 167 175	tyrosine
+T6	Protein 433 437	UmuC
+T7	Metabolite 406 409	ENU
+T8	Protein 579 582	tas
+T9	Protein 641 649	tas gene
+T10	Protein 718 722	lacZ
+T11	Protein 859 877	beta-galactosidase
+T12	Protein 879 886	betaGal
+T13	Protein 976 983	betaGal
+T14	Protein 1090 1098	tas gene
+T15	Protein 1524 1528	mutH
+T16	Protein 1774 1777	tas
+T5	Protein 1573 1581	ORF-o237
+*	Equiv T3 T2
+*	Equiv T11 T12

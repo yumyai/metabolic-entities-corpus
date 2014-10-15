@@ -1,0 +1,35 @@
+T1	Protein 15 39	phosphoglycerate mutases
+T3	Protein 234 238	dPGM
+T4	Protein 313 317	iPGM
+T6	Protein 656 660	dPGM
+T7	Protein 665 669	iPGM
+T9	Protein 925 929	dPGM
+T10	Protein 946 950	iPGM
+T11	Protein 1016 1019	PGM
+T12	Protein 1168 1172	iPGM
+T13	Protein 1224 1227	PGM
+T14	Protein 49 85	non-homologous isofunctional enzymes
+T15	Protein 87 91	NISE
+T16	Protein 478 486	PGM NISE
+T17	Protein 1037 1041	NISE
+T18	Protein 1256 1264	PGM NISE
+T19	Protein 1352 1356	NISE
+T20	Protein 1407 1411	dPGM
+T21	Protein 1437 1441	iPGM
+T22	Protein 1648 1652	dPGM
+T23	Protein 1514 1517	PGM
+T24	Protein 1562 1566	dPGM
+T25	Protein 1656 1660	iPGM
+T26	Protein 1747 1751	dPGM
+T27	Protein 1756 1760	iPGM
+T28	Protein 1764 1768	NISE
+T30	Protein 333 336	PGM
+T2	Protein 229 232	PGM
+T5	Protein 308 311	PGM
+T8	Protein 841 844	PGM
+T31	Protein 1088 1091	PGM
+T32	Protein 1369 1376	mutases
+T29	Protein 1921 1924	PGM
+T33	Metabolite 249 272	2,3-bisphosphoglycerate
+T34	Metabolite 1492 1501	manganese
+*	Equiv T15 T14

@@ -1,0 +1,20 @@
+T1	Metabolite 22 29	acetate
+T3	Metabolite 81 88	Acetate
+T4	Metabolite 424 431	acetate
+T5	Metabolite 909 916	acetate
+T6	Metabolite 1000 1007	acetate
+T8	Metabolite 344 351	acetate
+T10	Metabolite 544 551	acetate
+T7	Metabolite 1052 1059	acetate
+T12	Metabolite 220 227	acetate
+T14	Metabolite 271 277	oxygen
+T2	Metabolic_production 14 21	produce
+E1	Metabolic_production:T2 Theme:T1
+T9	Metabolic_production 352 361	formation
+E2	Metabolic_production:T9 Theme:T8
+T11	Metabolic_production 1060 1069	formation
+E3	Metabolic_production:T11 Theme:T7
+T13	Metabolic_production 228 237	formation
+E4	Metabolic_production:T13 Theme:T12
+T15	Metabolic_consumption 278 289	consumption
+E5	Metabolic_consumption:T15 Theme:T14

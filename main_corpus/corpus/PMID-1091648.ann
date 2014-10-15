@@ -1,0 +1,22 @@
+T1	Metabolite 221 229	nitrogen
+T2	Metabolite 231 240	phosphate
+T3	Protein 422 430	RNase II
+T4	Protein 405 420	ribonuclease II
+T5	Protein 957 998	exonucleases polynucleotide phosphorylase
+T6	Protein 1003 1011	RNase II
+T7	Protein 1225 1229	23 S
+T8	Protein 1234 1242	16 S RNA
+T9	Protein 1376 1394	23 S and 16 S RNAs
+T10	Protein 1487 1528	exonucleases polynucleotide phosphorylase
+T11	Protein 1533 1541	RNase II
+T12	Protein 390 400	EC 2.7.7.8
+T13	Protein 360 388	polynucleotide phosphorylase
+T14	Protein 347 358	EC 3.1.4.22
+T15	Protein 338 345	RNase I
+T16	Protein 432 443	EC 3.1.4.23
+T17	Metabolite 825 839	phosphate ions
+T18	Protein 895 904	nucleases
+T19	Protein 1639 1654	endonuclease(s)
+*	Equiv T12 T13
+*	Equiv T14 T15
+*	Equiv T3 T16 T4

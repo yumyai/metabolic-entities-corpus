@@ -1,0 +1,30 @@
+T1	Protein 28 65	aromatic amino acid aminotransferases
+T2	Metabolite 14 23	aspartate
+T3	Metabolite 235 250	L-aspartic acid
+T4	Metabolite 252 262	L-tyrosine
+T5	Metabolite 264 279	L-phenylalanine
+T6	Metabolite 285 297	L-tryptophan
+T7	Protein 361 369	Enzyme A
+T8	Protein 413 427	transaminase A
+T9	Protein 445 471	aspartate aminotransferase
+T10	Protein 473 481	enzyme B
+T11	Protein 524 560	aromatic amino acid aminotransferase
+T12	Metabolite 651 670	pyridoxal phosphate
+T13	Protein 915 923	enzyme B
+T14	Protein 944 952	enzyme A
+T15	Protein 1048 1074	aspartate aminotransferase
+T17	Protein 91 108	aminotransferases
+T18	Protein 212 220	enzyme A
+T19	Protein 691 699	enzyme A
+T20	Protein 722 730	enzyme B
+T21	Protein 1089 1097	enzyme B
+T22	Protein 1195 1203	enzyme A
+T24	Metabolite 338 359	aromatic amiono acids
+T25	Protein 311 319	enzyme B
+T16	Metabolic_consumption 225 231	active
+E1	Metabolic_consumption:T16 Theme:T3 Cause:T18
+E2	Metabolic_consumption:T16 Theme:T6 Cause:T18
+E3	Metabolic_consumption:T16 Theme:T5 Cause:T18
+T23	Metabolic_consumption 324 330	active
+E4	Metabolic_consumption:T23 Theme:T24 Cause:T25
+E5	Metabolic_consumption:T16 Theme:T4 Cause:T18

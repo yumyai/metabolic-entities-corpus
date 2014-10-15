@@ -1,0 +1,20 @@
+T1	Metabolite 0 13	2-Oxoaldehyde
+T3	Metabolite 271 284	methylglyoxal
+T4	Metabolite 290 298	pyruvate
+T5	Metabolite 303 310	lactate
+T6	Protein 362 374	glyoxalase I
+T7	Protein 455 471	yeast glyoxalase
+T8	Protein 670 682	glyoxalase I
+T9	Protein 751 763	glyoxalase I
+T10	Protein 768 791	methylglyoxal reductase
+T12	Protein 376 399	methylglyoxal reductase
+T13	Protein 404 431	methylglyoxal dehydrogenase
+T2	Protein 62 96	methylglyoxal-metabolizing enzymes
+T11	Positive_regulation 349 358	catalyzed
+E1	Positive_regulation:T11 Theme:E2 Cause:T6
+T14	Metabolic_reaction 335 345	conversion
+E2	Metabolic_reaction:T14
+E3	Positive_regulation:T11 Cause:T12 Theme:E2
+E4	Positive_regulation:T11 Cause:T13 Theme:E2
+T15	Metabolic_reaction 263 270	convert
+E5	Metabolic_reaction:T15 Product:T4 Theme:T3

@@ -1,0 +1,42 @@
+T1	Protein 4 7	pho
+T2	Metabolite 111 113	Pi
+T3	Metabolite 48 68	glycerol-3-phosphate
+T5	Metabolite 115 138	sn-Glycerol-3-phosphate
+T6	Metabolite 148 183	glyceryl phosphoryl phosphodiesters
+T7	Metabolite 324 333	phosphate
+T8	Protein 528 531	pho
+T9	Metabolite 633 635	Pi
+T12	Protein 733 736	G3P
+T13	Protein 791 793	Pi
+T14	Protein 802 812	Pst system
+T16	Protein 902 905	G3P
+T17	Protein 925 928	G3P
+T18	Protein 988 991	G3P
+T19	Protein 1032 1034	Pi
+T20	Protein 1077 1080	G3P
+T21	Protein 1089 1093	GlpT
+T23	Protein 1145 1148	G3P
+T24	Metabolite 1207 1210	G3P
+T25	Protein 1217 1221	GlpF
+T26	Protein 1292 1295	Ugp
+T27	Metabolite 1195 1203	glycerol
+T28	Metabolite 1244 1252	glycerol
+T29	Protein 1374 1377	Pst
+T30	Protein 1446 1459	Ugp transport
+T31	Metabolite 1533 1535	Pi
+T32	Protein 1670 1673	Ugp
+T34	Metabolite 140 143	G3P
+T4	Metabolite 362 368	carbon
+T37	Metabolite 602 605	G3P
+T15	Protein 695 698	ugp
+T39	Protein 838 841	Ugp
+T22	Protein 1110 1114	glpD
+T35	Protein 222 225	Ugp
+T36	Metabolite 1593 1595	Pi
+T44	Metabolite 1730 1739	phosphate
+T10	Protein 646 654	ugp-lacZ
+T33	Metabolic_reaction 1171 1184	phosphorylate
+E1	Metabolic_reaction:T33 Theme:T27 Product:T24
+*	Equiv T5 T34
+T38	Metabolic_reaction 613 624	degradation
+E3	Metabolic_reaction:T38 Theme:T37 Product:T9

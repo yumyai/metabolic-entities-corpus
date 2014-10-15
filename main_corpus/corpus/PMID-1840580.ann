@@ -1,0 +1,26 @@
+T1	Protein 49 60	phn operons
+T2	Metabolite 65 76	phosphonate
+T3	Protein 129 139	phn operon
+T4	Protein 158 161	phn
+T5	Protein 162 166	EcoK
+T6	Protein 272 281	phnC gene
+T7	Protein 300 311	S1 nuclease
+T8	Protein 325 328	pho
+T9	Protein 347 351	PhoB
+T10	Protein 363 366	pho
+T11	Protein 401 408	DNase I
+T12	Protein 490 493	phn
+T13	Protein 494 498	EcoK
+T14	Protein 550 560	phn operon
+T15	Protein 594 597	phn
+T16	Protein 598 602	EcoB
+T17	Protein 707 711	phnE
+T18	Protein 712 716	EcoK
+T19	Protein 762 766	phnE
+T20	Protein 767 771	EcoB
+T21	Protein 857 860	phn
+T22	Protein 861 865	EcoK
+T23	Protein 990 993	phn
+T24	Protein 1049 1059	phn operon
+T25	Protein 1089 1093	phnC
+T26	Protein 1097 1101	phnP

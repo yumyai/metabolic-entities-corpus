@@ -1,0 +1,30 @@
+T1	Metabolite 0 8	H(2)O(2)
+T2	Metabolite 115 123	H(2)O(2)
+T3	Metabolite 256 264	H(2)O(2)
+T4	Protein 383 392	catalases
+T5	Protein 397 408	peroxidases
+T6	Metabolite 440 448	H(2)O(2)
+T7	Metabolite 585 593	H(2)O(2)
+T8	Protein 618 650	ribulose-5-phosphate 3-epimerase
+T9	Protein 652 655	Rpe
+T10	Protein 722 725	Rpe
+T11	Metabolite 793 801	H(2)O(2)
+T12	Protein 928 931	Rpe
+T13	Protein 1181 1184	Rpe
+T14	Metabolite 1255 1263	H(2)O(2)
+T15	Protein 1322 1325	Rpe
+T16	Metabolite 1407 1415	H(2)O(2)
+T17	Metabolite 1455 1463	H(2)O(2)
+T18	Protein 1489 1492	Rpe
+T19	Metabolite 1631 1639	H(2)O(2)
+T25	Metabolite 499 516	pentose-phosphate
+T20	Metabolite 1509 1526	pentose-phosphate
+T21	Metabolite 1191 1200	Manganese
+T23	Metabolite 1212 1216	iron
+T24	Metabolite 1299 1308	manganese
+T26	Metabolite 1347 1351	iron
+T27	Metabolite 1442 1451	manganese
+T28	Metabolite 1592 1596	iron
+T29	Metabolite 1685 1689	iron
+T30	Metabolite 1694 1703	manganese
+*	Equiv T8 T9

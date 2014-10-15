@@ -1,0 +1,4 @@
+T1	Metabolite 21 31	ubiquinone
+T4	Protein 90 127	hydroxybenzoate polyprenyltransferase
+T3	Metabolic_production 32 44	biosynthesis
+E1	Metabolic_production:T3 Theme:T1

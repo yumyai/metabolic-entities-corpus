@@ -1,0 +1,31 @@
+T1	Protein 60 77	DEAD-box helicase
+T2	Protein 79 83	DbpA
+T3	Metabolite 11 14	ATP
+T4	Protein 85 115	DEAD-box RNA helicase proteins
+T5	Metabolite 134 137	ATP
+T6	Metabolite 223 226	ATP
+T7	Protein 331 335	DbpA
+T8	Protein 354 385	bacterial DEAD-box RNA helicase
+T9	Protein 416 436	peptidyl transferase
+T10	Protein 453 461	23S rRNA
+T11	Metabolite 287 290	ATP
+T12	Metabolite 658 661	ATP
+T13	Protein 844 848	DbpA
+T14	Protein 908 914	ATPase
+T15	Protein 927 945	DEAD-box helicases
+T21	Metabolite 487 490	ATP
+T24	Metabolite 696 700	P(i)
+T25	Metabolite 718 722	P(i)
+T16	Metabolic_consumption 15 26	utilization
+T17	Metabolic_consumption 138 148	hydrolysis
+T18	Metabolic_consumption 227 238	utilization
+T19	Metabolic_consumption 291 302	utilization
+E1	Metabolic_consumption:T16 Theme:T3
+E2	Metabolic_consumption:T17 Theme:T5
+E3	Metabolic_consumption:T18 Theme:T6
+E4	Metabolic_consumption:T19 Theme:T11
+*	Equiv T1 T2
+T22	Metabolic_consumption 674 684	hydrolysis
+E6	Metabolic_consumption:T22 Theme:T12
+T23	Metabolic_consumption 662 669	binding
+E7	Metabolic_consumption:T23 Theme:T12

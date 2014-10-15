@@ -1,0 +1,23 @@
+T1	Protein 0 7	RNase E
+T2	Metabolite 70 85	tRNA precursors
+T3	Protein 167 193	endo- and exoribonucleases
+T4	Protein 261 268	RNase P
+T5	Protein 782 797	tyrT transcript
+T6	Protein 971 976	RNase
+T7	Protein 990 997	RNase E
+T8	Protein 1002 1009	RNase P
+T9	Protein 1048 1053	tRNAs
+T10	Protein 1071 1098	multimeric tRNA transcripts
+T11	Protein 1165 1172	RNase E
+T12	Protein 1353 1358	RNase
+T13	Protein 1389 1396	RNase E
+T14	Protein 1510 1517	RNase E
+T15	Protein 1522 1529	RNase P
+T16	Protein 1556 1563	RNase E
+T17	Protein 1616 1640	E. coli tRNA transcripts
+T18	Protein 1687 1694	RNase P
+T19	Metabolite 101 116	tRNA precursors
+T20	Protein 177 193	exoribonucleases
+T21	Protein 243 259	endoribonuclease
+T22	Protein 282 298	exoribonucleases
+T23	Protein 697 714	endoribonucleases

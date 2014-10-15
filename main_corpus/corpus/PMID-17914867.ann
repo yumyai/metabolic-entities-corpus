@@ -1,0 +1,31 @@
+T1	Protein 0 13	Transketolase
+T2	Protein 29 65	thiamin diphosphate-dependent enzyme
+T6	Protein 234 247	transketolase
+T9	Metabolite 1903 1906	R5P
+T10	Metabolite 1956 1959	R5P
+T11	Metabolite 2082 2085	R5P
+T12	Metabolite 2136 2162	glyceraldehyde 3-phosphate
+T13	Metabolite 2167 2188	erythrose 4-phosphate
+T5	Metabolite 202 208	aldose
+T15	Metabolite 179 185	ketose
+T7	Metabolite 335 357	d-fructose 6-phosphate
+T16	Metabolite 359 362	F6P
+T18	Metabolite 326 329	X5P
+T17	Metabolite 294 324	ketoses d-xylulose 5-phosphate
+T19	Metabolite 1329 1332	X5P
+T20	Metabolite 1345 1348	X5P
+T8	Metabolite 1525 1552	aldose d-ribose 5-phosphate
+T21	Metabolite 1554 1557	R5P
+T22	Metabolite 1000 1009	phosphate
+T23	Metabolite 2311 2318	enamine
+T14	Metabolite 69 74	sugar
+*	Equiv T2 T1
+T3	Positive_regulation 91 100	catalyzes
+E1	Positive_regulation:T3 Theme:E2 Cause:T1
+T4	Metabolic_reaction 105 124	reversible transfer
+E2	Metabolic_reaction:T4 Theme:T15 Theme2:T5
+*	Equiv T7 T16
+*	Equiv T17 T18
+*	Equiv T8 T21
+T24	Metabolic_reaction 75 85	metabolism
+E3	Metabolic_reaction:T24 Theme:T14

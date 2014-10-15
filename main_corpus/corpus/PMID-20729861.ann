@@ -1,0 +1,19 @@
+T1	Protein 13 34	lysyl-tRNA synthetase
+T2	Protein 112 137	Aminoacyl-tRNA synthetase
+T3	Protein 139 143	aaRS
+T4	Protein 250 296	Escherichia coli lysyl-tRNA synthetase paralog
+T5	Protein 298 302	GenX
+T6	Protein 303 307	PoxA
+T7	Protein 308 312	YjeA
+T8	Protein 378 390	GenX protein
+T9	Metabolite 503 509	lysine
+T10	Protein 658 662	aaRS
+T11	Protein 836 840	GenX
+T12	Protein 924 933	EF-P gene
+T13	Protein 1046 1050	GenX
+T14	Protein 1055 1059	YjeK
+T17	Metabolite 61 67	lysine
+T15	Protein 79 110	translation elongation factor P
+T16	Protein 493 497	EF-P
+T18	Metabolic_consumption 35 48	aminoacylates
+E1	Metabolic_consumption:T18 Theme:T17 Cause:T1

@@ -1,0 +1,6 @@
+T1	Protein 4 33	dihydropteroate synthase gene
+T2	Protein 35 39	folP
+T3	Protein 53 70	leucine tRNA gene
+T4	Protein 72 76	leuU
+*	Equiv T1 T2
+*	Equiv T3 T4

@@ -1,0 +1,18 @@
+T1	Protein 13 37	glutamyl-tRNA synthetase
+T2	Protein 73 94	tRNAAsp QUC anticodon
+T4	Protein 121 125	YadB
+T5	Protein 188 212	glutamyl-tRNA synthetase
+T6	Protein 268 272	YadB
+T7	Protein 403 426	tRNA(Asp) QUC anticodon
+T9	Metabolite 656 665	guanosine
+T10	Metabolite 674 683	queuosine
+T11	Protein 808 821	YadB proteins
+T12	Protein 899 931	glutamyl-Q tRNA(Asp) synthetases
+T13	Metabolite 716 725	tRNA(Asp)
+T14	Metabolite 332 341	queuosine
+T8	Protein 574 605	tRNA-guanosine transglycosylase
+T16	Metabolite 540 549	tRNA(Asp)
+T3	Metabolic_consumption 315 327	glutamylates
+E1	Metabolic_consumption:T3 Cause:T6 Theme:T14
+T15	Metabolic_consumption 528 539	glutamylate
+E2	Metabolic_consumption:T15 Theme:T16

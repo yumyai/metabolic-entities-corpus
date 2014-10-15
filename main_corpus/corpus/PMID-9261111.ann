@@ -1,0 +1,28 @@
+T1	Protein 0 4	ArsC
+T3	Metabolite 73 81	arsenate
+T4	Metabolite 85 93	arsenite
+T8	Metabolite 584 592	arsenate
+T9	Protein 733 737	ArsC
+T10	Metabolite 1048 1056	arsenate
+T11	Metabolite 135 146	glutathione
+T12	Protein 151 163	glutaredoxin
+T13	Protein 208 212	ArsC
+T14	Protein 217 229	glutaredoxin
+T6	Protein 354 358	ArsC
+T7	Protein 430 434	ArsC
+T15	Protein 439 451	glutaredoxin
+T16	Metabolite 547 558	glutathione
+T17	Metabolite 634 641	sulfate
+T18	Metabolite 621 630	phosphate
+T19	Metabolite 662 673	glutathione
+T20	Metabolite 858 866	arsenate
+T21	Metabolite 888 899	glutathione
+T22	Metabolite 906 914	arsenate
+T23	Metabolite 1069 1080	glutathione
+T24	Metabolite 1127 1138	glutathione
+T25	Metabolite 650 658	thiolate
+T26	Metabolite 1176 1184	thiolate
+T2	Metabolic_reaction 60 69	reduction
+E1	Metabolic_reaction:T2 Theme:T3 Product:T4
+T5	Positive_regulation 46 55	catalyzes
+E2	Positive_regulation:T5 Theme:E1 Cause:T1

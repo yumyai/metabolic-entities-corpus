@@ -1,0 +1,17 @@
+T1	Protein 0 16	Chorismate lyase
+T2	Protein 109 125	chorismate lyase
+T3	Protein 127 129	CL
+T4	Metabolite 97 107	chorismate
+T5	Metabolite 140 157	p-hydroxybenzoate
+T6	Metabolite 159 163	p-HB
+T7	Metabolite 173 183	ubiquinone
+T9	Metabolite 700 704	p-HB
+T10	Metabolite 1334 1344	ubiquinone
+T11	Protein 223 225	CL
+T13	Protein 449 451	CL
+T14	Metabolite 573 580	serines
+T15	Protein 660 662	CL
+T8	Protein 1324 1326	CL
+T12	Metabolic_production 184 196	biosynthetic
+E2	Metabolic_production:T12 Theme:T7
+*	Equiv T2 T3

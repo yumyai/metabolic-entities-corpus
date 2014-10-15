@@ -1,0 +1,38 @@
+T2	Protein 88 114	Acetohydroxy acid synthase
+T3	Protein 116 120	AHAS
+T5	Metabolite 458 466	pyruvate
+T6	Metabolite 471 485	2-ketobutyrate
+T7	Metabolite 487 490	2KB
+T8	Metabolite 614 622	pyruvate
+T9	Metabolite 705 719	2-ketobutyrate
+T11	Metabolite 741 743	AL
+T12	Metabolite 747 750	AHB
+T13	Metabolite 845 853	pyruvate
+T14	Metabolite 947 961	2-ketobutyrate
+T15	Metabolite 1107 1115	pyruvate
+T16	Metabolite 1141 1155	2-ketobutyrate
+T17	Metabolite 1410 1418	pyruvate
+T18	Metabolite 1423 1437	2-ketobutyrate
+T19	Metabolite 1560 1574	2-ketovalerate
+T20	Metabolite 1611 1619	pyruvate
+T21	Metabolite 1729 1737	pyruvate
+T22	Metabolite 1742 1756	2-ketobutyrate
+T1	Protein 26 64	acetohydroxy acid synthase isozyme III
+T24	Protein 122 133	EC 4.1.3.18
+T25	Metabolite 301 304	AHB
+T4	Metabolite 279 299	acetohydroxybutyrate
+T26	Metabolite 257 269	acetolactate
+T27	Metabolite 271 273	AL
+T28	Metabolite 906 908	AL
+T29	Metabolite 913 916	AHB
+T32	Metabolite 1363 1375	2-Keto acids
+T23	Metabolic_production 244 253	formation
+E1	Metabolic_production:T23 Theme:T26
+*	Equiv T2 T3 T24
+*	Equiv T6 T7
+*	Equiv T4 T25
+*	Equiv T26 T27
+E2	Metabolic_production:T23 Theme:T4
+T10	Metabolic_production 893 902	formation
+E3	Metabolic_production:T10 Theme:T28
+E4	Metabolic_production:T10 Theme:T29

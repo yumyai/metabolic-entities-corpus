@@ -1,0 +1,18 @@
+T1	Metabolite 16 25	glutamine
+T2	Metabolite 88 97	glutamine
+T3	Metabolite 258 267	glutamine
+T4	Protein 359 384	glutamine binding protein
+T5	Metabolite 318 327	glutamine
+T7	Metabolite 465 474	glutamine
+T8	Protein 588 592	glnP
+T10	Protein 817 842	glutamine binding protein
+T11	Metabolite 560 569	glutamine
+T13	Metabolite 880 889	glutamine
+T14	Metabolite 974 983	glutamate
+T15	Metabolite 999 1008	glutamine
+T16	Metabolite 1013 1020	proline
+T6	Protein 769 773	glnP
+T9	Metabolic_consumption 960 970	catabolism
+E1	Metabolic_consumption:T9 Theme:T14
+E2	Metabolic_consumption:T9 Theme:T16
+E3	Metabolic_consumption:T9 Theme:T15

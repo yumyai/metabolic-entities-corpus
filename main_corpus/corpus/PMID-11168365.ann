@@ -1,0 +1,37 @@
+T1	Protein 41 75	D-xylulokinase of Escherichia coli
+T2	Metabolite 77 107	1-deoxy-D-xylulose 5-phosphate
+T3	Metabolite 167 175	thiamine
+T4	Metabolite 180 189	pyridoxal
+T5	Metabolite 215 240	isopentenyl pyrophosphate
+T6	Metabolite 245 272	dimethylallyl pyrophosphate
+T7	Metabolite 281 294	nonmevalonate
+T8	Protein 505 519	D-xylulokinase
+T10	Metabolite 737 767	1-deoxy-D-xylulose 5-phosphate
+T11	Metabolite 861 871	terpenoids
+T12	Metabolite 873 881	thiamine
+T13	Metabolite 886 895	pyridoxal
+T19	Metabolite 19 37	1-deoxy-D-xylulose
+T20	Metabolite 306 315	terpenoid
+T21	Metabolite 408 426	1-deoxy-D-xylulose
+T22	Protein 532 543	EC 2.7.1.17
+T9	Metabolite 578 596	1-deoxy-D-xylulose
+T24	Metabolite 797 815	1-deoxy-D-xylulose
+T14	Metabolic_production 138 150	biosynthesis
+T15	Metabolic_production 202 211	formation
+T16	Metabolic_production 316 328	biosynthesis
+E1	Metabolic_production:T14 Theme:T3
+E2	Metabolic_production:T15 Theme:T5
+E3	Metabolic_production:T16 Theme2:T20
+T18	Metabolic_consumption 0 15	Phosphorylation
+E6	Metabolic_consumption:T18 Cause:T1 Theme:T19
+E7	Metabolic_production:T14 Theme:T4
+E8	Metabolic_production:T15 Theme:T6
+*	Equiv T8 T22
+T17	Metabolic_consumption 559 574	phosphorylation
+E4	Metabolic_consumption:T17 Theme:T9
+T23	Positive_regulation 545 554	catalyzes
+E5	Positive_regulation:T23 Theme:E4 Cause:T8
+T25	Metabolic_production 845 857	biosynthesis
+E9	Metabolic_production:T25 Theme:T12
+E10	Metabolic_production:T25 Theme:T13
+E11	Metabolic_production:T25 Theme:T11

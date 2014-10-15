@@ -1,0 +1,42 @@
+T1	Protein 45 67	pyruvate dehydrogenase
+T2	Protein 69 72	PDH
+T3	Metabolite 175 179	NADH
+T4	Metabolite 184 188	NADH
+T5	Metabolite 199 206	glucose
+T10	Metabolite 330 347	acetyl coenzyme A
+T11	Metabolite 389 397	alcohols
+T12	Metabolite 361 382	fermentation products
+T14	Protein 655 685	dihydrolipoamide dehydrogenase
+T15	Protein 687 690	LPD
+T16	Protein 637 640	lpd
+T17	Protein 708 711	PDH
+T18	Protein 726 729	LPD
+T19	Metabolite 944 955	homoethanol
+T22	Protein 1041 1044	LPD
+T23	Metabolite 1095 1099	NADH
+T24	Protein 1127 1130	LPD
+T25	Metabolite 1145 1149	NADH
+T26	Protein 1177 1180	LPD
+T27	Protein 1238 1241	PDH
+T28	Metabolite 1253 1257	NADH
+T29	Protein 1295 1298	PDH
+T30	Metabolite 1329 1333	NADH
+T31	Protein 1350 1353	PDH
+T32	Protein 1380 1383	PDH
+T33	Metabolite 1387 1391	NADH
+T34	Protein 1424 1427	PDH
+T36	Protein 1568 1571	LPD
+T13	Metabolite 476 483	ethanol
+T7	Metabolite 279 283	NADH
+T8	Protein 296 299	PDH
+T6	Metabolic_production 161 171	production
+E1	Metabolic_production:T6 Theme:T3
+T9	Metabolic_reaction 316 326	conversion
+E3	Metabolic_reaction:T9 Theme:T10 Product:T12 Theme2:T7
+T20	Metabolic_production 956 968	fermentation
+E4	Metabolic_production:T20 Theme:T19
+T21	Metabolic_production 467 475	produced
+E5	Metabolic_production:T21 Theme:T13
+T35	Metabolic_production 284 292	produced
+E2	Metabolic_production:T35 Theme:T7 Cause:T8
+*	Equiv T1 T2

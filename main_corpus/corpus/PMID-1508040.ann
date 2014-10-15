@@ -1,0 +1,26 @@
+T1	Protein 39 43	narQ
+T3	Metabolite 143 150	nitrate
+T4	Protein 306 323	nitrate reductase
+T5	Protein 325 332	narGHJI
+T6	Protein 386 405	DMSO/TMAO reductase
+T7	Protein 407 413	dmsABC
+T8	Protein 416 434	fumarate reductase
+T9	Protein 436 443	frdABCD
+T10	Metabolite 286 293	nitrate
+T11	Protein 495 499	narL
+T12	Protein 504 522	narX gene products
+T13	Protein 645 649	NarX
+T14	Protein 763 767	NarL
+T15	Protein 787 791	NarX
+T17	Protein 917 921	narQ
+T19	Protein 1027 1031	narQ
+T20	Protein 1035 1039	narX
+T21	Protein 1121 1125	narQ
+T22	Protein 1130 1134	narX
+T24	Protein 1267 1284	narL gene product
+T25	Protein 1318 1322	narX
+T26	Protein 1327 1340	narQ products
+T27	Protein 1451 1455	NarL
+T28	Protein 1564 1573	narQ gene
+T29	Protein 1619 1628	narX gene
+T16	Metabolite 54 61	nitrate

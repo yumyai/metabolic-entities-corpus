@@ -1,0 +1,4 @@
+T1	Protein 44 59	asparaginase II
+T2	Protein 61 71	EC 3.5.1.1
+T3	Metabolite 322 331	aspartate
+*	Equiv T1 T2

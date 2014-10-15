@@ -1,0 +1,56 @@
+T2	Protein 89 128	dihydroneopterin-triphosphate epimerase
+T3	Protein 133 158	dihydroneopterin aldolase
+T4	Protein 265 290	dihydroneopterin aldolase
+T5	Metabolite 345 378	6-hydroxymethyl-7,8-dihydropterin
+T6	Metabolite 410 426	tetrahydrofolate
+T7	Protein 465 469	folB
+T8	Protein 475 487	FolB protein
+T9	Protein 525 564	dihydroneopterin-triphosphate epimerase
+T10	Protein 592 601	folX gene
+T11	Protein 659 663	folX
+T12	Protein 668 677	folB gene
+T13	Protein 845 853	Aldolase
+T14	Metabolite 862 886	L-threo-dihydroneopterin
+T15	Metabolite 891 917	D-erythro-dihydroneopterin
+T16	Metabolite 953 981	6-hydroxymethyldihydropterin
+T17	Protein 1106 1115	Epimerase
+T18	Metabolite 1312 1321	pteridine
+T19	Protein 1562 1570	aldolase
+T20	Protein 1590 1599	epimerase
+T21	Protein 1654 1663	folX gene
+T22	Protein 1797 1806	epimerase
+T23	Protein 1933 1941	aldolase
+T25	Protein 1999 2038	dihydroneopterin-triphosphate epimerase
+T27	Metabolite 16 26	pteridines
+T1	Metabolite 321 341	7,8-dihydroneopterin
+T36	Metabolite 1063 1080	dihydromonapterin
+T37	Metabolite 1036 1058	2' of dihydroneopterin
+T39	Metabolite 1181 1197	dihydroneopterin
+T40	Metabolite 1202 1219	dihydromonapterin
+T42	Protein 1847 1851	ygiG
+T26	Metabolic_reaction 307 317	conversion
+T29	Metabolic_production 940 949	formation
+T30	Positive_regulation 1116 1125	catalyzes
+T31	Positive_regulation 1250 1258	catalyze
+E1	Metabolic_reaction:T26 Product:T5 Theme:T1
+E3	Positive_regulation:T32 Theme:E1 Cause:T4
+E5	Metabolic_production:T29 Theme:T16 Cause:T13
+E6	Positive_regulation:T30 Cause:T17 Theme:E12
+E7	Positive_regulation:T31 Theme:E15
+T32	Positive_regulation 292 302	catalyzing
+T33	Metabolic_production 0 12	Biosynthesis
+E8	Metabolic_production:T33 Theme:T27
+T34	Metabolic_consumption 858 861	use
+E2	Metabolic_consumption:T34 Theme:T14 Theme2:T15 Cause:T13
+T28	Positive_regulation 999 1007	catalyze
+E4	Positive_regulation:T28 Theme:E10
+T35	Metabolic_consumption 1012 1025	epimerization
+E9	Metabolic_consumption:T35 Theme:T37
+E10	Metabolic_consumption:T35 Theme:T36
+E11	Positive_regulation:T28 Theme:E9
+T38	Metabolic_consumption 1130 1143	epimerization
+E12	Metabolic_consumption:T38 Theme:T39
+E13	Metabolic_consumption:T38 Theme:T40
+E14	Positive_regulation:T30 Cause:T17 Theme:E13
+T41	Metabolic_consumption 1263 1271	cleavage
+E15	Metabolic_consumption:T41 Theme:T18

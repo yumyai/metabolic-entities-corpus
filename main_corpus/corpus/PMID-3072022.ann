@@ -1,0 +1,24 @@
+T2	Metabolite 212 231	carbamoyl phosphate
+T3	Metabolite 363 382	carbamoyl phosphate
+T5	Metabolite 522 534	L-citrulline
+T6	Metabolite 540 559	carbamoyl phosphate
+T7	Metabolite 564 575	L-ornithine
+T8	Metabolite 953 962	ornithine
+T9	Metabolite 769 788	carbamoyl phosphate
+T10	Metabolite 1335 1354	carbamoyl phosphate
+T11	Metabolite 1069 1080	L-norvaline
+T12	Metabolite 1111 1122	L-norvaline
+T13	Metabolite 1253 1262	ornithine
+T14	Metabolite 1293 1302	ornithine
+T15	Metabolite 1307 1316	norvaline
+T16	Metabolite 1391 1400	norvaline
+T17	Metabolite 1675 1694	carbamoyl phosphate
+T18	Metabolite 1923 1942	carbamoyl phosphate
+T19	Metabolite 1998 2007	ornithine
+T22	Metabolite 596 615	inorganic phosphate
+T23	Protein 48 75	ornithine transcarbamoylase
+T1	Metabolite 1514 1524	amino acid
+T4	Metabolic_reaction 509 518	synthesis
+E2	Metabolic_reaction:T4 Product:T5 Theme:T6 Theme2:T7 Product2:T22
+T24	Positive_regulation 35 44	catalyzed
+E3	Positive_regulation:T24 Cause:T23

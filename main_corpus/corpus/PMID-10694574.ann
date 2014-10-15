@@ -1,0 +1,30 @@
+T1	Protein 28 40	YgbB protein
+T2	Metabolite 50 103	4-diphosphocytidyl-2C-methyl-D-erythritol 2-phosphate
+T3	Metabolite 107 150	2C-methyl-D-erythritol 2,4-cyclodiphosphate
+T4	Protein 206 232	Escherichia coli ygbB gene
+T5	Protein 286 290	ygbP
+T6	Metabolite 339 348	terpenoid
+T7	Protein 367 376	ygbB gene
+T8	Metabolite 551 604	4-diphosphocytidyl-2C-methyl-D-erythritol 2-phosphate
+T9	Metabolite 610 653	2C-methyl-D-erythritol 2,4-cyclodiphosphate
+T10	Metabolite 658 661	CMP
+T11	Metabolite 884 927	2C-methyl-D-erythritol 2,4-cyclodiphosphate
+T13	Metabolite 1102 1112	isoprenoid
+T14	Protein 1127 1139	YgbB protein
+T15	Metabolite 1166 1207	4-diphosphocytidyl-2C-methyl-D-erythritol
+T16	Metabolite 1213 1254	2C-methyl-D-erythritol 3,4-cyclophosphate
+T23	Metabolite 16 26	terpenoids
+T24	Metabolite 815 821	Mn(2+)
+T25	Metabolite 825 831	Mg(2+)
+T17	Metabolic_reaction 41 49	converts
+T18	Metabolic_production 0 12	Biosynthesis
+T19	Metabolic_production 349 361	biosynthesis
+T20	Metabolic_reaction 543 550	convert
+T21	Metabolic_production 1113 1125	biosynthesis
+T22	Metabolic_reaction 1158 1165	convert
+E1	Metabolic_reaction:T17 Theme:T2 Cause:T1 Product:T3
+E3	Metabolic_production:T19 Theme:T6
+E4	Metabolic_reaction:T20 Theme:T8 Product:T9 Product2:T10
+E7	Metabolic_production:T21 Theme:T13
+E9	Metabolic_reaction:T22 Theme:T15 Cause:T14 Product:T16
+E10	Metabolic_production:T18 Theme:T23

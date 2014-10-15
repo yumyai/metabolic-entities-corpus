@@ -1,0 +1,8 @@
+T1	Protein 136 164	diadenosine tetraphosphatase
+T2	Protein 563 567	apaH
+T3	Protein 581 617	E. coli diadenosine tetraphosphatase
+T4	Protein 764 792	diadenosine tetraphosphatase
+T5	Protein 51 112	diadenosine 5',5'''-P1,P4-tetraphosphate pyrophosphohydrolase
+T6	Protein 166 229	diadenosine 5', 5'''-P1, P4-tetraphosphate pyrophosphohydrolase
+T7	Metabolite 807 834	dinucleoside tetraphosphate
+*	Equiv T6 T1

@@ -1,0 +1,38 @@
+T1	Protein 0 15	ATP sulfurylase
+T2	Metabolite 178 181	APS
+T3	Metabolite 159 176	activated sulfate
+T6	Metabolite 193 196	GTP
+T9	Metabolite 402 405	GTP
+T10	Metabolite 410 413	GTP
+T11	Metabolite 639 642	GDP
+T13	Protein 841 854	E.GDP complex
+T18	Protein 983 1007	Pi.GDP.E.APS.PPi complex
+T19	Protein 932 953	GDP.E.APS.PPi complex
+T20	Metabolite 1142 1148	GMPPNP
+T23	Metabolite 1565 1582	activated sulfate
+T24	Protein 59 65	GTPase
+T7	Metabolite 272 275	APS
+T12	Metabolite 763 766	APS
+T25	Metabolite 124 127	GTP
+T27	Metabolite 1060 1061	P
+T22	Metabolite 1434 1437	APS
+T21	Metabolite 1226 1229	APS
+T30	Metabolite 879 882	APS
+*	Equiv T3 T2
+T4	Metabolic_production 146 155	synthesis
+E1	Metabolic_production:T4 Theme:T3
+T5	Positive_regulation 86 95	catalyzes
+E2	Positive_regulation:T5 Theme:E1 Cause:T1
+T8	Metabolic_consumption 388 398	hydrolysis
+E3	Metabolic_consumption:T8 Theme:T9
+T15	Positive_regulation 855 864	catalyzes
+E4	Positive_regulation:T15 Theme:E9 Cause:T13
+T26	Metabolic_consumption 128 138	hydrolysis
+E6	Metabolic_consumption:T26 Theme:T25
+T28	Metabolic_reaction 1438 1446	reaction
+E7	Metabolic_reaction:T28 Theme:T22
+T29	Metabolic_reaction 1230 1238	reaction
+E8	Metabolic_reaction:T29 Theme:T21
+T14	Metabolic_reaction 883 891	reaction
+E9	Metabolic_reaction:T14 Theme:T30
+*	Equiv T24 T1

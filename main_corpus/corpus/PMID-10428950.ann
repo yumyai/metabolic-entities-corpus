@@ -1,0 +1,9 @@
+T1	Protein 267 271	ldcA
+T2	Protein 297 315	D-carboxypeptidase
+T3	Metabolite 345 354	D-alanine
+T4	Metabolite 360 409	L-alanyl-D-glutamyl-meso-diaminopimelyl-D-alanine
+T5	Metabolite 689 743	uridine 5'-pyrophosphoryl N-acetylmuramyl-tetrapeptide
+T6	Protein 834 840	murein
+T7	Protein 1027 1033	murein
+T8	Metabolic_reaction 323 331	releases
+E2	Metabolic_reaction:T8 Cause:T2 Theme:T4

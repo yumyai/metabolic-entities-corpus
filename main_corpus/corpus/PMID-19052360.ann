@@ -1,0 +1,7 @@
+T1	Protein 75 102	copper amine oxidase family
+T2	Protein 427 447	copper amine oxidase
+T4	Protein 1037 1064	copper amine oxidase family
+T3	Protein 449 453	ECAO
+T5	Metabolite 991 997	oxygen
+T6	Metabolite 27 33	oxygen
+*	Equiv T3 T2

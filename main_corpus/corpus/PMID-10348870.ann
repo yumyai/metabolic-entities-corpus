@@ -1,0 +1,37 @@
+T2	Metabolite 439 447	pyruvate
+T3	Metabolite 453 463	propionate
+T6	Protein 636 658	pyruvate-formate lyase
+T8	Protein 1105 1127	pyruvate-formate lyase
+T10	Metabolite 610 618	pyruvate
+T15	Metabolite 1164 1171	glycine
+T16	Metabolite 1150 1159	trehalose
+T23	Metabolite 145 158	methylcitrate
+T19	Metabolite 163 177	methylmalonate
+T1	Metabolite 70 84	propionic acid
+T5	Metabolite 472 485	methylcitrate
+T13	Metabolite 597 604	formate
+T22	Metabolite 699 707	pyruvate
+T12	Metabolite 742 750	pyruvate
+T24	Metabolite 783 795	oxaloacetate
+T25	Metabolite 820 829	glutamate
+T27	Metabolite 899 912	methylcitrate
+T20	Metabolite 938 956	tricarboxylic acid
+T28	Metabolite 958 961	TCA
+T29	Metabolite 993 996	TCA
+T7	Metabolite 1042 1066	[1-13C]acetyl coenzyme A
+T14	Metabolite 1084 1092	pyruvate
+T17	Metabolite 1269 1279	propionate
+T18	Metabolite 1368 1378	propionate
+T21	Metabolite 1440 1450	propionate
+T9	Metabolite 39 49	propionate
+T26	Metabolite 834 843	succinate
+T4	Metabolic_reaction 426 435	formation
+E1	Metabolic_reaction:T4 Theme:T2 Product:T3
+T11	Metabolic_reaction 572 581	formation
+E2	Metabolic_reaction:T11 Cause:T6 Theme:T10 Product:T13
+T30	Metabolic_reaction 1029 1038	formation
+E3	Metabolic_reaction:T30 Theme:T14 Product:T7 Cause:T8
+T31	Metabolic_consumption 1451 1462	utilization
+E4	Metabolic_consumption:T31 Theme:T21
+T32	Metabolic_reaction 85 95	metabolism
+E5	Metabolic_reaction:T32 Theme:T1

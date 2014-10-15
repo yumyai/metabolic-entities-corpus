@@ -1,0 +1,13 @@
+T1	Protein 40 63	ornithine decarboxylase
+T2	Protein 65 90	L-ornithine carboxy-lyase
+T3	Protein 92 103	EC 4.1.1.17
+T4	Metabolite 159 169	polyamines
+T5	Protein 210 233	ornithine decarboxylase
+T6	Metabolite 313 323	putrescine
+T7	Metabolite 331 341	spermidine
+T8	Protein 398 421	ornithine decarboxylase
+T9	Metabolite 642 657	phosphotyrosine
+T10	Protein 754 778	ornithine decarboxylases
+T11	Protein 924 948	ornithine decarboxylases
+T12	Metabolite 591 617	phosphoserine oligopeptide
+*	Equiv T1 T2 T3

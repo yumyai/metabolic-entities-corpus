@@ -1,0 +1,64 @@
+T1	Metabolite 20 30	pyrimidine
+T2	Metabolite 192 198	uracil
+T3	Protein 232 236	RutA
+T4	Protein 241 254	RutB proteins
+T5	Protein 359 375	flavin reductase
+T6	Protein 377 381	RutF
+T7	Metabolite 494 508	ureidoacrylate
+T8	Metabolite 611 625	ureidoacrylate
+T9	Protein 951 955	RutA
+T10	Protein 966 970	RutB
+T11	Metabolite 1029 1037	ammonium
+T12	Metabolite 1039 1059	malonic semialdehyde
+T13	Metabolite 1116 1129	aminoacrylate
+T14	Metabolite 1134 1143	carbamate
+T15	Protein 1326 1330	RutC
+T17	Metabolite 1401 1415	ureidoacrylate
+T18	Metabolite 1440 1453	aminoacrylate
+T19	Protein 1473 1477	RutC
+T20	Metabolite 1582 1595	aminoacrylate
+T21	Protein 1613 1617	RutE
+T22	Protein 1652 1656	YdfG
+T23	Metabolite 1680 1692	semialdehyde
+T24	Metabolite 1696 1719	3-hydroxypropionic acid
+T25	Protein 1721 1725	RutG
+T26	Protein 1742 1760	uracil transporter
+T33	Metabolite 453 459	uracil
+T35	Protein 326 330	RutA
+T38	Metabolite 979 993	ureidoacrylate
+T39	Metabolite 1065 1079	carbon dioxide
+T40	Protein 1326 1334	RutC, -D
+T41	Protein 1326 1342	RutC, -D, and -E
+T16	Protein 1370 1374	RutB
+T45	Metabolite 1486 1499	aminoacrylate
+T46	Metabolite 1511 1524	aminoacrylate
+T47	Protein 1529 1533	RutD
+T27	Metabolic_consumption 31 42	degradation
+T28	Positive_regulation 402 410	catalyze
+T29	Metabolic_production 1012 1019	release
+T30	Metabolic_consumption 1159 1168	hydrolyze
+T31	Metabolic_consumption 1568 1578	hydrolysis
+T32	Metabolic_reaction 1664 1671	reduces
+E1	Metabolic_consumption:T27 Theme:T1
+E2	Positive_regulation:T28 Cause:T5 Theme:E8
+E3	Metabolic_production:T29 Cause:T10 Theme:T11 Theme2:T12 Theme3:T39
+E5	Metabolic_consumption:T30 Theme:T13
+E6	Metabolic_consumption:T31 Theme:T20
+E7	Metabolic_reaction:T32 Theme:T23 Product:T24 Cause:T22
+*	Equiv T5 T6
+T34	Metabolic_consumption 441 448	cleaves
+E8	Metabolic_consumption:T34 Theme:T33
+E9	Positive_regulation:T28 Cause:T35 Theme:E8
+T36	Metabolic_production 488 493	yield
+E10	Metabolic_production:T36 Theme:T7
+T37	Metabolic_consumption 971 978	cleaves
+E4	Metabolic_consumption:T37 Theme:T38 Cause:T10
+E11	Metabolic_consumption:T30 Theme:T14
+T42	Metabolic_consumption 1375 1385	hydrolyzes
+E12	Metabolic_consumption:T42 Theme:T17 Cause:T16
+T43	Metabolic_production 1419 1424	yield
+E13	Metabolic_production:T43 Theme:T18 Cause:T16
+T44	Metabolic_reaction 1478 1485	reduces
+E14	Metabolic_reaction:T44 Theme:T45 Cause:T19 Product:T46
+T48	Positive_regulation 1534 1543	increases
+E15	Positive_regulation:T48 Cause:T47 Theme:E6

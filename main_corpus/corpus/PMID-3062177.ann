@@ -1,0 +1,29 @@
+T1	Protein 22 56	acetohydroxy acid isomeroreductase
+T2	Protein 58 69	EC 1.1.1.89
+T4	Protein 188 222	acetohydroxy acid isomeroreductase
+T5	Metabolite 235 255	acetohydroxybutyrate
+T6	Metabolite 259 271	acetolactate
+T7	Protein 1107 1141	acetohydroxy acid isomeroreductase
+T8	Protein 1174 1188	RNA polymerase
+T9	Protein 1233 1240	DNase I
+T10	Metabolite 1559 1579	acetohydroxybutyrate
+T11	Protein 1679 1713	acetohydroxy acid isomeroreductase
+T12	Protein 1840 1854	RNA polymerase
+T13	Metabolite 1980 2000	acetohydroxybutyrate
+T14	Metabolite 2005 2017	acetolactate
+T3	Metabolite 106 116	isoleucine
+T15	Metabolite 117 123	valine
+T16	Protein 542 572	ilvY-encoded activator protein
+T17	Protein 363 367	ilvY
+T18	Protein 373 377	ilvY
+T19	Protein 382 386	ilvC
+T20	Protein 578 590	ilvY product
+T21	Protein 665 669	ilvY
+T22	Protein 674 678	ilvC
+T23	Protein 164 173	ilvC gene
+T24	Complex 1063 1087	ilvY protein-DNA complex
+T25	Protein 809 813	ilvY
+T26	Protein 1585 1597	ilvY product
+T27	Protein 1766 1784	ilvC transcription
+T28	Protein 1433 1442	ilvC gene
+*	Equiv T1 T2

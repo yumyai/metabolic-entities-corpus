@@ -1,0 +1,31 @@
+T1	Protein 0 40	Adenosine 5'-phosphosulfate (APS) kinase
+T2	Protein 42 71	ATP:APS 3'-phosphotransferase
+T4	Metabolite 124 161	3'-phosphoadenosine 5'-phosphosulfate
+T5	Metabolite 163 167	PAPS
+T7	Protein 209 219	APS kinase
+T9	Metabolite 371 374	APS
+T11	Metabolite 438 441	APS
+T12	Protein 553 563	APS kinase
+T13	Complex 690 693	E-P
+T14	Metabolite 697 700	APS
+T15	Protein 908 918	APS kinase
+T16	Protein 1543 1547	PAPS
+T17	Protein 1662 1666	PAPS
+T18	Metabolite 443 446	ATP
+T19	Metabolite 1227 1245	purine nucleotides
+T20	Metabolite 1303 1306	ATP
+T22	Protein 964 968	cysC
+*	Equiv T1 T2
+T3	Metabolic_production 108 120	biosynthesis
+E1	Metabolic_production:T3 Theme:T4
+*	Equiv T4 T5
+T6	Positive_regulation 73 82	catalyzes
+E2	Positive_regulation:T6 Theme:E1 Cause:T1
+T8	Metabolic_consumption 352 367	phosphorylation
+E3	Metabolic_consumption:T8 Theme:T9
+T10	Positive_regulation 314 322	complete
+E4	Positive_regulation:T10 Cause:T7 Theme:E3
+T21	Metabolic_reaction 1667 1677	metabolism
+E5	Metabolic_reaction:T21 Theme:T17
+T23	Metabolic_reaction 652 660	transfer
+E6	Metabolic_reaction:T23 Theme:T13 Theme2:T14

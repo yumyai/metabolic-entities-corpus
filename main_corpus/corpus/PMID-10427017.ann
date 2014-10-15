@@ -1,0 +1,54 @@
+T1	Protein 45 69	2-ketoaldonate reductase
+T2	Protein 71 74	2KR
+T3	Protein 151 175	ketogluconate reductases
+T4	Protein 186 219	2, 5-diketo-D-gluconate reductase
+T5	Protein 221 227	25DKGR
+T6	Protein 328 358	5-diketo-D-gluconate reductase
+T7	Protein 360 365	5KDGR
+T8	Protein 396 402	25DKGR
+T9	Protein 524 538	oxidoreductase
+T10	Protein 584 589	5KDGR
+T11	Protein 625 640	oxidoreductases
+T12	Protein 719 725	25DKGR
+T13	Protein 815 820	5KDGR
+T14	Metabolite 997 1010	ketogluconate
+T15	Protein 1192 1200	25DKGR-A
+T16	Protein 1206 1214	25DKGR-B
+T18	Metabolite 1258 1263	25KDG
+T19	Metabolite 1267 1284	2-keto-L-gulonate
+T20	Metabolite 1286 1290	2KLG
+T22	Protein 1304 1312	25DKGR-A
+T23	Protein 1314 1322	25DKGR-B
+T24	Protein 1328 1333	5KDGR
+T25	Protein 1584 1592	25DKGR-A
+T26	Protein 1594 1602	25DKGR-B
+T27	Protein 1608 1613	5KDGR
+T28	Protein 1757 1762	5KDGR
+T29	Protein 1793 1801	25DKGR-A
+T30	Protein 1806 1814	25DKGR-B
+T31	Metabolite 1869 1874	25DKG
+T32	Metabolite 1895 1899	5KDG
+T33	Protein 1903 1906	2KR
+T34	Protein 1948 1953	5KDGR
+T36	Metabolite 1933 1944	D-gluconate
+T38	Protein 2120 2144	ketogluconate reductases
+T39	Metabolite 257 270	ketogluconate
+T40	Metabolite 1779 1783	NADH
+T41	Metabolite 1832 1837	NADPH
+*	Equiv T1 T2
+*	Equiv T6 T7
+*	Equiv T4 T5
+T17	Metabolic_reaction 1245 1254	reduction
+E1	Metabolic_reaction:T17 Theme:T18 Product:T19
+*	Equiv T19 T20
+E2	Positive_regulation:T42 Theme:E1 Cause:T15
+T35	Metabolic_reaction 1922 1929	reduced
+E3	Metabolic_reaction:T35 Cause:T34 Theme:T32 Product:T36
+T37	Metabolic_reaction 1882 1891	converted
+E4	Metabolic_reaction:T37 Theme:T31 Product:T32 Cause:T33
+E5	Positive_regulation:T42 Theme:E1 Cause:T16
+T42	Positive_regulation 1230 1240	catalyzing
+T21	Metabolic_reaction 271 281	metabolism
+E6	Metabolic_reaction:T21 Theme:T39
+T43	Metabolic_reaction 983 993	metabolism
+E7	Metabolic_reaction:T43 Theme:T14

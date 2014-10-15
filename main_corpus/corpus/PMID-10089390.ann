@@ -1,0 +1,30 @@
+T1	Protein 0 30	Carbamoyl phosphate synthetase
+T2	Protein 495 525	carbamoyl phosphate synthetase
+T3	Metabolite 58 77	carbamoyl phosphate
+T6	Metabolite 129 136	Mg2+ATP
+T7	Metabolite 157 166	glutamine
+T9	Metabolite 369 378	glutamine
+T10	Protein 789 816	alpha/beta-hydrolase family
+T11	Metabolite 1164 1171	Mn2+ADP
+T12	Metabolite 951 967	carboxyphosphate
+T13	Metabolite 1021 1040	carbamoyl phosphate
+T14	Metabolite 1097 1113	carboxyphosphate
+T15	Metabolite 1118 1137	carbamoyl phosphate
+T16	Metabolite 1180 1206	carboxyphosphate synthetic
+T17	Metabolite 1517 1520	ADP
+T18	Metabolite 1529 1548	carbamoyl phosphate
+T19	Metabolite 1716 1732	carboxyphosphate
+T20	Metabolite 1737 1756	carbamoyl phosphate
+T21	Metabolite 99 110	bicarbonate
+T22	Metabolite 1235 1239	Mn2+
+T23	Metabolite 1590 1594	Mn2+
+T24	Metabolite 170 177	ammonia
+T25	Protein 287 293	enzyme
+T4	Positive_regulation 31 40	catalyzes
+E1	Positive_regulation:T4 Theme:E2 Cause:T1
+T5	Metabolic_reaction 45 54	formation
+E2	Metabolic_reaction:T5 Product:T3 Theme:T21
+T8	Metabolic_consumption 358 368	hydrolyzes
+E3	Metabolic_consumption:T8 Theme:T9
+T26	Positive_regulation 404 413	catalyzes
+E4	Positive_regulation:T26 Cause:T25

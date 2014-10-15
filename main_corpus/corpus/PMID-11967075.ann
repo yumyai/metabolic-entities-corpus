@@ -1,0 +1,78 @@
+T1	Protein 17 44	polytopic membrane proteins
+T2	Protein 45 49	NarK
+T3	Protein 51 55	NarU
+T4	Protein 60 64	NirC
+T5	Protein 168 172	NarK
+T6	Protein 177 181	NarU
+T7	Metabolite 263 270	nitrate
+T8	Protein 377 396	nitrate reductase Z
+T9	Protein 405 434	periplasmic nitrate reductase
+T10	Protein 468 472	narK
+T11	Protein 477 481	narU
+T12	Protein 522 539	nitrate reductase
+T13	Protein 541 560	nitrate reductase A
+T14	Protein 750 754	NarK
+T15	Protein 759 763	NarU
+T16	Metabolite 772 779	nitrate
+T17	Metabolite 784 791	nitrite
+T18	Protein 835 839	NarK
+T19	Protein 843 847	NarU
+T20	Metabolite 938 946	glycerol
+T21	Metabolite 977 984	nitrate
+T22	Protein 1044 1048	narK
+T23	Protein 1049 1053	narU
+T25	Metabolite 1117 1124	nitrate
+T26	Protein 1326 1345	nitrate reductase A
+T27	Protein 1382 1399	nitrite reductase
+T28	Protein 1423 1427	narK
+T29	Protein 1432 1446	narU mutations
+T31	Protein 1523 1540	nitrite reductase
+T32	Protein 1597 1607	NarK+-NarU
+T33	Protein 1715 1719	NarK
+T34	Protein 1723 1727	NarU
+T35	Metabolite 1460 1467	nitrite
+T37	Metabolite 1658 1665	nitrite
+T38	Protein 1733 1743	nir operon
+T39	Protein 1763 1792	cytoplasmic nitrite reductase
+T41	Metabolite 1836 1843	nitrite
+T42	Metabolite 1847 1854	ammonia
+T43	Protein 1932 1936	NirC
+T44	Protein 1987 1997	nir operon
+T45	Metabolite 1901 1908	nitrite
+T46	Protein 2106 2110	NarK
+T47	Protein 2115 2119	NirC
+T48	Protein 2238 2242	narK
+T49	Protein 2246 2250	nirC
+T50	Protein 2281 2305	NarU complemented a narK
+T51	Metabolite 2319 2326	nitrite
+T52	Metabolite 2350 2357	nitrite
+T53	Protein 2399 2403	NirC
+T54	Protein 2436 2440	NarK
+T55	Protein 2445 2449	NarU
+T56	Metabolite 2490 2497	nitrate
+T57	Metabolite 2502 2509	nitrite
+T58	Protein 2530 2534	NarU
+T59	Metabolite 2585 2592	nitrite
+T40	Metabolite 594 601	nitrate
+T66	Metabolite 2130 2137	nitrite
+T68	Metabolite 2427 2434	nitrite
+T61	Metabolic_reaction 1823 1832	reduction
+T62	Positive_regulation 1798 1807	catalyses
+T63	Metabolic_consumption 2358 2364	uptake
+T64	Metabolic_consumption 2593 2599	uptake
+E3	Metabolic_reaction:T61 Theme:T41 Product:T42
+E5	Positive_regulation:T62 Theme:E3 Cause:T39
+E6	Metabolic_consumption:T63 Theme:T52
+E7	Metabolic_consumption:T64 Theme:T59
+T65	Metabolic_consumption 602 611	reduction
+E2	Metabolic_consumption:T65 Theme:T40
+T24	Metabolic_consumption 969 976	reduced
+E1	Metabolic_consumption:T24 Theme:T21
+T30	Metabolic_consumption 1468 1477	reduction
+E4	Metabolic_consumption:T30 Theme:T35
+T60	Positive_regulation 1478 1487	catalysed
+E8	Positive_regulation:T60 Theme:E4 Cause:T31
+T36	Metabolic_consumption 1666 1672	uptake
+E9	Metabolic_consumption:T36 Theme:T37
+T67	Metabolic_consumption 2138 2144	uptake
+E10	Metabolic_consumption:T67 Theme:T66

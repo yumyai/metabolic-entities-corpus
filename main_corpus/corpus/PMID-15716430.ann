@@ -1,0 +1,22 @@
+T1	Protein 4 23	metal permease ZupT
+T2	Protein 183 187	ZupT
+T3	Protein 285 289	ZupT
+T4	Protein 366 370	ZupT
+T5	Protein 559 563	zupT
+T6	Protein 627 631	ZIP1
+T7	Protein 727 731	mntH
+T8	Protein 735 741	feoABC
+T9	Protein 791 795	ZupT
+T11	Metabolite 856 859	Feo
+T12	Metabolite 818 824	55Fe2+
+T13	Metabolite 848 852	MntH
+T14	Protein 906 910	ZupT
+T15	Protein 949 953	zupT
+T16	Metabolite 995 999	Co2+
+T17	Protein 1023 1027	ZupT
+T22	Protein 1126 1130	zupT
+T24	Protein 117 121	zupT
+T25	Protein 132 136	ygiE
+T10	Metabolite 927 933	57Co2+
+T18	Protein 1082 1110	Phi(zupT-lacZ) operon fusion
+*	Equiv T25 T24

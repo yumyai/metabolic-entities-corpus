@@ -1,0 +1,23 @@
+T1	Metabolite 65 78	Phenylalanine
+T2	Metabolite 80 88	tyrosine
+T3	Metabolite 94 104	tryptophan
+T4	Metabolite 350 359	histidine
+T5	Metabolite 361 368	leucine
+T6	Metabolite 370 380	methionine
+T7	Metabolite 382 389	alanine
+T8	Metabolite 391 399	cysteine
+T9	Metabolite 405 418	aspartic acid
+T10	Metabolite 529 550	p-fluorophenylalanine
+T11	Metabolite 552 573	beta-2-thienylalanine
+T12	Metabolite 579 597	5-methyltryptophan
+T13	Protein 623 627	aroP
+T14	Protein 637 640	leu
+T15	Protein 698 701	leu
+T16	Metabolite 735 748	Phenylalanine
+T17	Metabolite 750 758	tyrosine
+T18	Metabolite 764 774	tryptophan
+T19	Metabolite 985 992	glucose
+T20	Protein 1498 1502	aroP
+T21	Metabolite 1082 1087	Azide
+T22	Metabolite 1092 1109	2,4-dinitrophenol
+T23	Metabolite 1228 1243	trichloroacetic

@@ -1,0 +1,10 @@
+T1	Protein 42 73	Escherichia coli Orf135 protein
+T3	Protein 263 289	recombinant Orf135 protein
+T4	Metabolite 366 405	2-hydroxydeoxyadenosine 5'-triphosphate
+T5	Metabolite 438 477	8-hydroxydeoxyguanosine 5'-triphosphate
+T7	Metabolite 14 34	oxidized nucleotides
+T2	Protein 111 125	Orf135 protein
+T6	Metabolic_reaction 0 10	Hydrolysis
+E1	Metabolic_reaction:T6 Theme:T7 Cause:T1
+T8	Metabolic_consumption 484 494	hydrolyzed
+E2	Metabolic_consumption:T8 Theme:T5

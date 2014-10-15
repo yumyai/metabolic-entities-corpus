@@ -1,0 +1,18 @@
+T1	Protein 53 85	glucosamine-6-phosphate synthase
+T2	Metabolite 116 136	fructose 6-phosphate
+T3	Metabolite 621 641	fructose 6-phosphate
+T4	Metabolite 1153 1160	lysines
+T5	Metabolite 1190 1210	fructose 6-phosphate
+T6	Protein 1915 1947	glucosamine-6-phosphate synthase
+T7	Metabolite 1483 1503	fructose 6-phosphate
+T8	Metabolite 1557 1577	fructose 6-phosphate
+T9	Metabolite 1676 1698	pyridoxal 5'-phosphate
+T11	Protein 1843 1847	purF
+T13	Metabolite 0 22	Pyridoxal 5'-phosphate
+T10	Metabolite 277 299	pyridoxal 5'-phosphate
+T16	Complex 829 864	enzyme-fructose-6-phosphate complex
+T17	Complex 904 936	enzyme-[14C]fructose-6-phosphate
+T18	Metabolite 1064 1081	potassium cyanide
+T19	Metabolite 1730 1737	lysines
+T20	Protein 1849 1896	glutamine-dependent, amidotransferase subfamily
+T12	Complex 324 361	enzyme-pyridoxal-5'-phosphate complex

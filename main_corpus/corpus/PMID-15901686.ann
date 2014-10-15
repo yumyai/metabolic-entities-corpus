@@ -1,0 +1,30 @@
+T1	Metabolite 17 45	anhydro-N-acetylmuramic acid
+T2	Metabolite 110 139	N-acetylglucosamine-phosphate
+T3	Protein 186 192	murein
+T4	Metabolite 337 343	murein
+T5	Metabolite 499 528	N-acetylglucosamine-phosphate
+T6	Protein 578 613	anhydro-N-acetylmuramic acid kinase
+T7	Protein 615 619	AnmK
+T9	Metabolite 631 639	MurNAc-P
+T10	Metabolite 718 731	D-lactic acid
+T11	Metabolite 789 797	GlcNAc-P
+T12	Protein 947 967	anmK deletion mutant
+T13	Protein 995 1004	anhMurNAc
+T14	Protein 1027 1038	anmK mutant
+T17	Metabolite 431 440	anhMurNAc
+T18	Metabolite 397 429	1,6-anhydro-N-acetylmuramic acid
+T19	Metabolite 530 538	GlcNAc-P
+T8	Protein 678 686	etherase
+T22	Metabolite 770 778	MurNAc-P
+T23	Protein 1040 1049	anhMurNAc
+T24	Protein 1170 1179	anhMurNAc
+T15	Metabolic_reaction 96 106	conversion
+T16	Metabolic_reaction 485 495	conversion
+E1	Metabolic_reaction:T15 Product:T2 Theme:T1
+E2	Metabolic_reaction:T16 Product:T5 Theme:T18
+*	Equiv T18 T17
+*	Equiv T5 T19
+T20	Positive_regulation 665 671	action
+E3	Positive_regulation:T20 Cause:T8 Theme:E4
+T21	Metabolic_reaction 693 700	cleaves
+E4	Metabolic_reaction:T21 Theme:T22 Product:T11

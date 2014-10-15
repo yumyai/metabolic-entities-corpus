@@ -1,0 +1,25 @@
+T1	Protein 557 568	phosphatase
+T3	Metabolite 835 850	1-pyrophosphate
+T4	Metabolite 18 25	lipid A
+T6	Metabolite 187 194	lipid A
+T7	Metabolite 378 385	lipid A
+T11	Metabolite 1657 1673	lipid A variants
+T5	Metabolite 95 106	glucosamine
+T2	Metabolite 597 620	lipid A 1-pyrophosphate
+T8	Metabolite 756 771	1-pyrophosphate
+T9	Metabolite 313 333	1-pyrophosphate unit
+T16	Metabolite 875 894	lipid A derivatives
+T17	Metabolite 1474 1501	4-amino-4-deoxy-L-arabinose
+T18	Metabolite 1518 1525	lipid A
+T19	Metabolite 253 266	pyrophosphate
+T20	Protein 668 679	phosphatase
+T21	Metabolite 1045 1052	lipid A
+T13	Regulation 569 578	regulates
+E1	Regulation:T13 Theme:T2 Cause:T1
+T12	Metabolic_production 293 305	biosynthesis
+E2	Metabolic_production:T12 Theme:T9
+T14	Metabolic_production 719 728	increased
+E3	Metabolic_production:T14 Theme:T8
+T15	Metabolic_production 815 824	generated
+E4	Metabolic_production:T15 Theme:T3
+A1	Negation E4

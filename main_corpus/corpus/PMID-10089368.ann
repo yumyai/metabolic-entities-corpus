@@ -1,0 +1,8 @@
+T1	Protein 54 76	pyruvate formate-lyase
+T4	Protein 78 81	PFL
+T5	Protein 210 213	PFL
+T3	Metabolite 129 137	pyruvate
+T8	Protein 342 349	trypsin
+*	Equiv T1 T4
+T2	Metabolic_production 115 125	production
+E1	Metabolic_production:T2 Theme:T3

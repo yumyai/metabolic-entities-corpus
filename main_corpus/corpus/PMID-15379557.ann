@@ -1,0 +1,27 @@
+T1	Protein 175 229	2-C-methyl-D-erythritol-4-phosphate cytidyltransferase
+T2	Protein 231 235	YgbP
+T3	Protein 239 243	IspD
+T4	Metabolite 273 308	2-C-methyl-D-erythritol 4-phosphate
+T5	Metabolite 310 313	MEP
+T6	Metabolite 319 340	cytidine triphosphate
+T7	Metabolite 342 345	CTP
+T8	Metabolite 350 389	4-diphosphocytidyl-2-C-methylerythritol
+T10	Metabolite 528 531	CTP
+T11	Protein 607 615	apo-YgbP
+T12	Protein 627 631	YgbP
+T15	Metabolite 1192 1195	CTP
+T16	Metabolite 1328 1331	MEP
+T19	Metabolite 391 396	CDPME
+T9	Metabolite 652 662	CTP.Mg(2+)
+T20	Metabolite 667 679	CDPME.Mg(2+)
+T13	Metabolite 1152 1165	MEP phosphate
+T14	Metabolite 1088 1097	phosphate
+T21	Protein 37 91	2-C-methyl-D-erythritol-4-phosphate cytidyltransferase
+T17	Metabolic_reaction 259 269	conversion
+T18	Positive_regulation 245 254	catalyzes
+E1	Metabolic_reaction:T17 Theme:T4 Product:T8 Theme2:T6
+E7	Positive_regulation:T18 Theme:E1 Cause:T1
+*	Equiv T5 T4
+*	Equiv T6 T7
+*	Equiv T8 T19
+*	Equiv T1 T2 T3

@@ -1,0 +1,9 @@
+T1	Protein 0 24	Dihydroxy acid dehydrase
+T2	Metabolite 68 78	isoleucine
+T3	Metabolite 83 89	valine
+T4	Metabolic_production 52 64	biosynthesis
+E1	Metabolic_production:T4 Theme:T2
+E2	Metabolic_production:T4 Theme:T3
+T5	Regulation 36 44	involved
+E3	Regulation:T5 Cause:T1 Theme:E2
+E4	Regulation:T5 Theme:E1 Cause:T1

@@ -1,0 +1,15 @@
+T1	Protein 0 23	Anthranilate synthetase
+T2	Protein 52 69	tryptophan operon
+T4	Protein 185 208	anthranilate synthetase
+T5	Protein 551 583	Purified anthranilate synthetase
+T6	Metabolite 607 616	glutamine
+T7	Metabolite 674 684	chorismate
+T9	Metabolite 744 752	ammonium
+T10	Metabolite 835 843	ammonium
+T12	Metabolite 1016 1026	tryptophan
+T13	Protein 1295 1339	Purified anthranilate synthetase component I
+T14	Metabolite 1356 1368	l-tryptophan
+T8	Metabolite 687 698	l-glutamine
+T15	Metabolite 703 715	anthranilate
+T16	Metabolic_reaction 699 702	-->
+E1	Metabolic_reaction:T16 Theme:T7 Theme2:T8 Product:T15

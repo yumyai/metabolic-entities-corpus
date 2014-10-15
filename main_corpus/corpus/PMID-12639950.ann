@@ -1,0 +1,20 @@
+T2	Metabolite 79 119	3-Deoxy-d-manno-octulosonate 8-phosphate
+T3	Metabolite 206 215	phosphate
+T5	Protein 493 497	yrbI
+T6	Protein 503 512	yrbI gene
+T7	Protein 944 963	KDO 8-P phosphatase
+T8	Protein 983 1026	haloacid dehalogenase hydrolase superfamily
+T1	Protein 17 21	YrbI
+T10	Protein 25 77	3-deoxy-D-manno-octulosonate 8-phosphate phosphatase
+T11	Metabolite 121 128	KDO 8-P
+T12	Protein 79 141	3-Deoxy-d-manno-octulosonate 8-phosphate (KDO 8-P) phosphatase
+T14	Metabolite 177 184	KDO 8-P
+T15	Metabolite 188 191	KDO
+T16	Metabolite 243 246	KDO
+T4	Protein 322 341	KDO 8-P phosphatase
+T18	Metabolite 799 806	KDO 8-P
+T9	Metabolic_reaction 163 173	hydrolysis
+E1	Metabolic_reaction:T9 Product:T3 Product2:T15 Theme:T14
+*	Equiv T2 T11
+T13	Positive_regulation 149 158	catalyzes
+E2	Positive_regulation:T13 Theme:E1 Cause:T12

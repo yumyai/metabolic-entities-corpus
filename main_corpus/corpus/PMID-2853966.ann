@@ -1,0 +1,10 @@
+T2	Protein 41 96	5-methyltetrahydrofolate-homocysteine methyltransferase
+T3	Protein 98 109	EC 2.1.1.13
+T4	Metabolite 991 1009	adenosylmethionine
+T5	Metabolite 1328 1340	homocysteine
+T6	Metabolite 1215 1228	cob(II)alamin
+T7	Metabolite 387 400	cob(II)alamin
+T8	Protein 0 39	Cobalamin-dependent methionine synthase
+T1	Metabolite 259 272	cob(II)alamin
+T9	Complex 639 672	cob(III)alamin-superoxide complex
+*	Equiv T2 T3 T8

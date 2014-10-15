@@ -1,0 +1,24 @@
+T1	Metabolite 68 81	D-galactarate
+T2	Metabolite 83 94	D-glucarate
+T3	Metabolite 100 111	D-glycerate
+T4	Protein 274 278	garD
+T5	Protein 280 287	garPLRK
+T6	Metabolite 155 168	D-galactarate
+T7	Protein 170 173	gar
+T8	Metabolite 179 190	D-glucarate
+T9	Metabolite 407 420	D-galactarate
+T10	Metabolite 422 433	D-glucarate
+T11	Metabolite 439 450	D-glycerate
+T12	Protein 516 519	Tn5
+T13	Protein 544 553	yaeG gene
+T14	Protein 570 574	sdaR
+T15	Metabolite 589 602	D-galactarate
+T16	Metabolite 607 618	D-glucarate
+T17	Protein 646 655	sdaR gene
+T19	Protein 192 195	gud
+T20	Protein 293 298	gudPD
+T18	Metabolic_consumption 112 123	utilization
+E1	Metabolic_consumption:T18 Theme:T1
+E2	Metabolic_consumption:T18 Theme:T3
+E3	Metabolic_consumption:T18 Theme:T2
+*	Equiv T13 T14

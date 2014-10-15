@@ -1,0 +1,14 @@
+T1	Protein 50 62	PutA protein
+T2	Protein 188 192	putP
+T3	Protein 230 234	putA
+T4	Metabolite 92 99	Proline
+T5	Protein 205 224	proline transporter
+T6	Protein 267 279	PutA protein
+T7	Protein 333 346	dehydrogenase
+T8	Protein 467 479	PutA protein
+T9	Protein 746 791	delta 1-pyrroline-5-carboxylate dehydrogenase
+T10	Metabolite 734 741	proline
+T12	Protein 813 825	PutA protein
+T13	Protein 958 979	proline dehydrogenase
+T14	Metabolic_consumption 100 111	utilization
+E1	Metabolic_consumption:T14 Theme:T4

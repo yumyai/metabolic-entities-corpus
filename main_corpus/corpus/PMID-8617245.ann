@@ -1,0 +1,18 @@
+T1	Protein 60 85	aminoacyl-tRNA synthetase
+T2	Protein 179 205	glutaminyl-tRNA synthetase
+T3	Protein 207 212	GlnRS
+T4	Protein 278 283	GlnRS
+T7	Metabolite 288 295	tRNAGln
+T10	Metabolite 418 425	tRNAGln
+T11	Protein 704 715	GlnRS-D235H
+T13	Protein 910 915	GlnRS
+T14	Metabolite 920 927	tRNAGln
+T18	Complex 1280 1301	tRNAGln-GlnRS complex
+T5	Protein 341 346	GlnRS
+T6	Metabolite 675 687	tRNA(CUA)Tyr
+T12	Metabolite 689 699	tyrT (UAG)
+*	Equiv T2 T3
+T8	Positive_regulation 131 140	catalysis
+E2	Positive_regulation:T8 Cause:T2
+T9	Metabolic_consumption 657 671	Aminoacylation
+E1	Metabolic_consumption:T9 Theme:T6 Cause:T11

@@ -1,0 +1,33 @@
+T1	Protein 98 115	CsrA gene product
+T2	Metabolite 33 41	glycogen
+T13	Metabolite 493 501	glycogen
+T14	Protein 710 714	glgA
+T15	Protein 716 733	glycogen synthase
+T16	Protein 739 743	glgS
+T17	Protein 788 792	csrA
+T18	Protein 800 804	csrA
+T20	Protein 960 1001	degradative enzyme glycogen phosphorylase
+T21	Protein 1023 1027	glgY
+T22	Protein 1070 1074	csrA
+T24	Protein 1126 1130	glgY
+T25	Protein 1179 1196	CsrA gene product
+T27	Metabolite 1245 1253	glycogen
+T28	Protein 1471 1480	csrA gene
+T29	Protein 1496 1523	glycogen debranching enzyme
+T3	Protein 152 156	csrA
+T5	Metabolite 378 386	glycogen
+T4	Protein 224 255	glycogen biosynthetic gene glgC
+T6	Protein 1570 1574	glgX
+T9	Protein 846 873	glycogen biosynthetic genes
+T10	Protein 875 878	glg
+T11	Protein 1317 1330	glgCAY operon
+T32	Metabolic_consumption 42 52	catabolism
+T33	Metabolic_production 57 69	biosynthesis
+T35	Metabolic_production 1254 1266	biosynthetic
+E1	Metabolic_consumption:T32 Theme:T2
+E2	Metabolic_production:T33 Theme:T2
+E4	Metabolic_production:T35 Theme:T27
+T7	Metabolic_consumption 592 603	degradation
+E5	Metabolic_consumption:T7 Theme:T13
+T8	Metabolic_production 502 514	accumulation
+E6	Metabolic_production:T8 Theme:T13

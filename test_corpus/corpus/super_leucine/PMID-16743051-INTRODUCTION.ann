@@ -1,0 +1,39 @@
+T1	Metabolite 34 45	L-threonine
+T2	Protein 342 369	L-threonine 3-dehydrogenase
+T4	Metabolite 274 285	L-threonine
+T5	Protein 496 506	CoA-ligase
+T6	Metabolite 417 438	2-amino-3-oxobutyrate
+T7	Metabolite 454 464	acetyl-CoA
+T8	Metabolite 469 476	glycine
+T9	Protein 557 577	L-Threonine aldolase
+T11	Protein 791 814	L-threonine dehydratase
+T12	Protein 816 838	L-threonine hydrolyase
+T13	Metabolite 743 754	L-threonine
+T15	Metabolite 1061 1071	Lthreonine
+T16	Metabolite 1273 1282	threonine
+T17	Protein 1326 1337	dehydratase
+T18	Metabolite 1441 1452	L-threonine
+T19	Metabolite 1603 1616	2-oxobutyrate
+T20	Metabolite 1621 1631	propionate
+T3	Protein 371 383	EC 1.1.1.103
+T10	Protein 579 589	EC 2.1.2.1
+T27	Protein 840 851	EC 4.2.1.16
+T14	Protein 1212 1235	L-threonine dehydratase
+T25	Protein 1527 1551	L-threonine dehydratases
+T29	Metabolite 1658 1683	branched-chain amino acid
+T21	Metabolic_consumption 46 56	catabolism
+T22	Metabolic_reaction 443 450	cleaved
+T23	Metabolic_consumption 755 765	catabolism
+T24	Metabolic_consumption 1453 1463	catabolism
+E1	Metabolic_consumption:T21 Theme:T1
+E3	Metabolic_reaction:T22 Product:T7 Cause:T5 Theme:T6
+E4	Metabolic_reaction:T22 Product:T8 Cause:T5 Theme:T6
+E5	Metabolic_consumption:T23 Theme:T13
+E6	Metabolic_consumption:T24 Theme:T18
+T26	Metabolic_reaction 305 316	metabolized
+E8	Metabolic_reaction:T26 Theme:T4 Cause:T2
+*	Equiv T2 T3
+*	Equiv T9 T10
+*	Equiv T11 T12 T27
+T28	Metabolic_consumption 1684 1694	catabolism
+E2	Metabolic_consumption:T28 Theme:T29

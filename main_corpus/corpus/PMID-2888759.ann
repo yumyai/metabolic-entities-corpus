@@ -1,0 +1,10 @@
+T1	Protein 71 90	tryptophan synthase
+T2	Protein 540 559	tryptophan synthase
+T4	Metabolite 674 686	L-tryptophan
+T5	Metabolite 692 700	L-serine
+T6	Metabolite 705 711	indole
+T7	Protein 1672 1691	tryptophan synthase
+T8	Metabolic_reaction 661 670	synthesis
+E2	Metabolic_reaction:T8 Theme:T5 Theme2:T6 Product:T4
+T3	Positive_regulation 609 618	stimulate
+E1	Positive_regulation:T3 Theme:E2 Cause:T2

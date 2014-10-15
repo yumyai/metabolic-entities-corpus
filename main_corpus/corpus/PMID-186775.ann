@@ -1,0 +1,7 @@
+T1	Protein 0 10	DNA gyrase
+T2	Protein 141 151	DNA gyrase
+T3	Metabolite 234 237	ATP
+T4	Metabolite 242 246	Mg++
+T5	Metabolite 268 278	spermidine
+T6	Metabolic_reaction 98 107	converted
+E1	Metabolic_reaction:T6 Cause:T2

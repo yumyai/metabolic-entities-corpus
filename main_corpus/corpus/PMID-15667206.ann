@@ -1,0 +1,9 @@
+T1	Protein 293 309	GlcN6P deaminase
+T2	Protein 311 322	EC 3.5.99.6
+T3	Protein 2266 2284	deaminase hexamers
+T4	Protein 110 143	glucosamine-6-phosphate deaminase
+T5	Protein 258 291	glucosamine-6-phosphate deaminase
+T6	Complex 1261 1322	enzyme-activator (R(A)) and enzyme-inhibitor (R(S)) complexes
+T7	Complex 1387 1410	ternary complex (R(AS))
+T8	Complex 1578 1602	enzyme-activator complex
+*	Equiv T5 T1

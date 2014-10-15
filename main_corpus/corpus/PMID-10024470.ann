@@ -1,0 +1,27 @@
+T1	Protein 0 27	Ketol-acid reductoisomerase
+T2	Protein 29 40	EC 1.1.1.86
+T4	Metabolite 70 92	2-aceto-2-hydroxyacids
+T5	Metabolite 96 117	2-keto-3-hydroxyacids
+T7	Protein 469 494	acetohydroxyacid synthase
+T8	Protein 496 507	EC 4.1.3.18
+T9	Protein 620 647	ketol-acid reductoisomerase
+T11	Metabolite 700 708	pyruvate
+T13	Protein 828 853	acetohydroxyacid synthase
+T14	Metabolite 564 574	amino acid
+T16	Metabolite 152 157	NADPH
+T17	Metabolite 161 179	2,3-dihydroxyacids
+T19	Protein 257 292	hexahistidine-tagged fusion protein
+*	Equiv T1 T2
+*	Equiv T7 T8
+T3	Metabolic_reaction 56 66	conversion
+E1	Metabolic_reaction:T3 Theme:T4 Product:T5
+T6	Positive_regulation 42 51	catalyzes
+E2	Positive_regulation:T6 Theme:E1 Cause:T1
+T10	Metabolic_consumption 687 696	reduction
+E3	Metabolic_consumption:T10 Theme:T11
+T12	Positive_regulation 673 682	catalyzes
+E4	Positive_regulation:T12 Theme:E3 Cause:T9
+T15	Metabolic_production 575 587	biosynthesis
+E5	Metabolic_production:T15 Theme:T14
+T18	Metabolic_reaction 139 148	reduction
+E6	Metabolic_reaction:T18 Product:T17 Theme:T5 Theme2:T16

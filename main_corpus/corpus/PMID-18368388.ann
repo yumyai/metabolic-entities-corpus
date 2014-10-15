@@ -1,0 +1,10 @@
+T2	Metabolite 236 243	glucose
+T3	Protein 352 385	glucose-6-phosphate dehydrogenase
+T4	Metabolite 556 563	glucose
+T5	Protein 613 637	phosphoglucose isomerase
+T6	Metabolite 774 781	glucose
+T7	Metabolite 1313 1320	glucose
+T8	Metabolite 1353 1360	glucose
+T9	Metabolite 903 910	glucose
+T1	Metabolic_reaction 244 254	metabolism
+E1	Metabolic_reaction:T1 Theme:T2

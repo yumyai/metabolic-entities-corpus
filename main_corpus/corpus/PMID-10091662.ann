@@ -1,0 +1,19 @@
+T1	Protein 0 32	Glucosamine 6-phosphate synthase
+T3	Metabolite 59 73	glucosamine-6P
+T4	Metabolite 42 53	fructose-6P
+T5	Metabolite 77 87	glucose-6P
+T6	Metabolite 348 358	glucose-6P
+T8	Metabolite 445 455	Glucose-6P
+T10	Protein 759 782	glucosamine-6P synthase
+T12	Metabolite 788 803	sugar phosphate
+T13	Metabolite 128 137	glutamine
+T14	Protein 143 152	isomerase
+T7	Protein 737 746	isomerase
+T9	Metabolite 972 979	enediol
+T15	Metabolite 487 513	2-amino-2-deoxyglucitol-6P
+T16	Metabolite 396 422	2-amino-2-deoxyglucitol-6P
+T2	Metabolic_reaction 33 41	converts
+E1	Metabolic_reaction:T2 Cause:T1 Theme:T4 Product:T3
+T11	Metabolic_reaction 804 817	isomerization
+E2	Metabolic_reaction:T11 Theme:T12
+E3	Metabolic_reaction:T2 Cause:T1 Theme:T4 Product:T5

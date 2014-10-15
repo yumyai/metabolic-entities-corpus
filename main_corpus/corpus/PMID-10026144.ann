@@ -1,0 +1,10 @@
+T1	Protein 0 34	D-3-Phosphoglycerate dehydrogenase
+T2	Protein 36 40	PGDH
+T3	Metabolite 95 103	L-serine
+T5	Protein 273 277	PGDH
+T6	Protein 302 326	V-type allosteric enzyme
+T7	Protein 362 366	PGDH
+T8	Protein 734 738	PGDH
+T10	Metabolite 1318 1324	serine
+T11	Metabolite 194 200	serine
+*	Equiv T1 T2

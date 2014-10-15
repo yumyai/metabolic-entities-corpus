@@ -1,0 +1,29 @@
+T1	Protein 38 60	ketopantoate reductase
+T2	Metabolite 87 91	NADP
+T3	Metabolite 97 105	pantoate
+T4	Protein 178 200	Ketopantoate reductase
+T5	Protein 202 205	KPR
+T6	Metabolite 235 240	NADPH
+T7	Metabolite 264 276	ketopantoate
+T8	Metabolite 280 288	pantoate
+T9	Metabolite 332 344	pantothenate
+T10	Metabolite 346 356	vitamin B5
+T12	Metabolite 561 566	NADP+
+T13	Metabolite 571 579	pantoate
+T15	Metabolite 928 936	pantoate
+T16	Metabolite 938 946	Pantoate
+T17	Protein 1466 1469	KPR
+T19	Metabolite 1495 1507	ketopantoate
+T20	Metabolite 1535 1540	NADPH
+T21	Protein 1744 1747	KPR
+T25	Protein 207 219	EC 1.1.1.169
+T11	Protein 518 521	KPR
+T14	Metabolite 1516 1524	pantoate
+T22	Metabolic_reaction 251 260	reduction
+T23	Metabolic_production 316 328	biosynthesis
+T24	Positive_regulation 221 230	catalyzes
+E1	Metabolic_reaction:T22 Theme:T7 Product:T8
+E2	Metabolic_production:T23 Theme:T9
+E4	Positive_regulation:T24 Theme:E1 Cause:T4
+*	Equiv T25 T5 T4
+*	Equiv T9 T10

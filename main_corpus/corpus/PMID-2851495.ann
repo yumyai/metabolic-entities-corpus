@@ -1,0 +1,7 @@
+T1	Protein 79 86	kinases
+T2	Protein 91 105	dehydrogenases
+T5	Metabolite 211 219	aldehyde
+T6	Metabolite 191 202	carboxylate
+T3	Protein 747 774	argB and argC gene products
+T7	Metabolic_reaction 175 185	conversion
+E1	Metabolic_reaction:T7 Theme:T6 Product:T5

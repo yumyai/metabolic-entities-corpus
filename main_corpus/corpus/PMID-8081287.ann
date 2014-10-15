@@ -1,0 +1,16 @@
+T1	Protein 99 108	Trehalase
+T2	Protein 184 193	trehalose
+T3	Protein 399 422	carbohydrate hydrolases
+T4	Metabolite 437 444	sucrose
+T5	Metabolite 446 455	galactose
+T6	Metabolite 460 467	maltose
+T7	Metabolite 623 630	maleate
+T8	Metabolite 716 725	trehalose
+T9	Metabolite 1114 1123	trehalose
+T10	Protein 0 21	Periplasmic trehalase
+T11	Metabolite 480 489	trehalose
+T12	Protein 271 280	Trehalase
+T13	Metabolic_consumption 430 433	act
+E1	Metabolic_consumption:T13 Theme:T4 Cause:T3
+E2	Metabolic_consumption:T13 Theme:T5 Cause:T3
+E3	Metabolic_consumption:T13 Theme:T6 Cause:T3

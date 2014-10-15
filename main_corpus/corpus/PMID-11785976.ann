@@ -1,0 +1,24 @@
+T1	Protein 56 60	LldP
+T3	Metabolite 13 22	L-Lactate
+T4	Metabolite 24 33	D-Lactate
+T5	Metabolite 39 48	glycolate
+T6	Protein 181 185	LldP
+T7	Protein 187 205	L-lactate permease
+T8	Protein 211 215	GlcA
+T9	Protein 217 235	glycolate permease
+T10	Protein 426 430	lldP
+T11	Protein 438 447	glcA gene
+T14	Metabolite 502 511	L-lactate
+T15	Metabolite 513 522	D-lactate
+T17	Protein 825 829	LldP
+T18	Protein 926 930	GlcA
+T20	Metabolite 786 795	L-lactate
+T21	Metabolite 797 806	D-lactate
+T22	Metabolite 812 821	glycolate
+T24	Metabolite 1069 1078	D-Lactate
+T25	Protein 1172 1176	LldP
+T2	Protein 65 69	GlcA
+T12	Metabolite 528 537	glycolate
+T13	Metabolite 617 657	carbonyl cyanide m-chlorophenylhydrazone
+T16	Metabolite 742 757	(14)C-L-lactate
+T19	Protein 1105 1113	permease

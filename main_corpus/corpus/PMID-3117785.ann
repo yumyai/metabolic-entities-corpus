@@ -1,0 +1,23 @@
+T1	Metabolite 88 99	L-threonine
+T2	Protein 193 226	2-amino-3-ketobutyrate CoA ligase
+T3	Protein 240 263	aminoacetone synthetase
+T4	Protein 267 275	synthase
+T6	Metabolite 350 372	2-amino-3-ketobutyrate
+T7	Metabolite 452 459	glycine
+T8	Metabolite 462 472	acetyl-CoA
+T10	Metabolite 1211 1230	pyridoxal phosphate
+T11	Metabolite 1472 1479	glycine
+T12	Metabolite 1493 1503	acetyl-CoA
+T14	Metabolite 1512 1527	n-propionyl-CoA
+T15	Metabolite 1539 1552	n-butyryl-CoA
+T16	Metabolite 1624 1634	acetyl-CoA
+T17	Metabolite 1636 1651	n-propionyl-CoA
+T18	Metabolite 1657 1664	glycine
+T20	Protein 283 289	ligase
+T9	Protein 402 427	L-threonine dehydrogenase
+T23	Metabolite 1058 1071	hydroxylamine
+*	Equiv T2 T3 T4
+T5	Positive_regulation 297 306	catalyzes
+E4	Positive_regulation:T5 Theme:E1 Cause:T20
+T21	Metabolic_reaction 311 332	cleavage/condensation
+E1	Metabolic_reaction:T21 Theme:T6 Theme2:T7 Theme3:T8

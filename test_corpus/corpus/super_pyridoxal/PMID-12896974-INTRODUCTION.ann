@@ -1,0 +1,131 @@
+T1	Metabolite 0 22	Pyridoxal 5'-phosphate
+T2	Metabolite 57 67	vitamin B6
+T3	Metabolite 169 179	Vitamin B6
+T4	Metabolite 181 191	pyridoxine
+T5	Metabolite 341 351	pyridoxine
+T6	Protein 478 482	SOR1
+T7	Protein 483 487	Pdx1
+T8	Metabolite 618 637	pyridoxal phosphate
+T9	Protein 804 808	SOR1
+T10	Metabolite 825 835	pyridoxine
+T11	Metabolite 878 900	pyridoxal 5'-phosphate
+T13	Protein 1196 1200	PdxB
+T15	Protein 1279 1283	SerC
+T16	Protein 1288 1292	GapA
+T17	Protein 1391 1395	PdxA
+T18	Metabolite 1429 1462	4-hydroxy-L-threonine 4-phosphate
+T19	Metabolite 1464 1467	HTP
+T21	Metabolite 1647 1652	NADP+
+T22	Metabolite 1656 1660	NAD+
+T24	Protein 1887 1891	PdxJ
+T26	Metabolite 1905 1928	pyridoxine 5'-phosphate
+T27	Metabolite 2014 2024	pyridoxine
+T28	Protein 2064 2068	PdxA
+T30	Metabolite 2107 2110	HTP
+T31	Protein 2307 2311	PdxA
+T32	Protein 2446 2450	PdxJ
+T33	Protein 2608 2612	PdxA
+T34	Protein 2882 2886	PdxA
+T36	Protein 2914 2918	PdxA
+T38	Metabolite 2996 2999	HTP
+T39	Metabolite 3113 3124	L-threonine
+T40	Metabolite 3128 3152	L-2-amino-3-ketobutyrate
+T42	Metabolite 3183 3207	L-2-amino-3-ketobutyrate
+T43	Metabolite 3240 3247	glycine
+T44	Metabolite 3252 3262	acetyl-CoA
+T46	Protein 3419 3423	PdxA
+T47	Protein 3428 3451	threonine dehydrogenase
+T51	Protein 3929 3953	isocitrate dehydrogenase
+T52	Protein 4165 4189	isocitrate dehydrogenase
+T54	Metabolite 4248 4262	oxalosuccinate
+T56	Metabolite 4367 4377	pyridoxine
+T57	Metabolite 4571 4594	pyridoxine 5'-phosphate
+T58	Metabolite 4599 4624	pyridoxamine 5'-phosphate
+T59	Metabolite 4628 4650	pyridoxal 5'-phosphate
+T60	Protein 4675 4679	PdxA
+T61	Protein 4838 4862	isocitrate dehydrogenase
+T62	Protein 4867 4896	isopropylmalate dehydrogenase
+T63	Protein 4976 4980	PdxA
+T65	Metabolite 5083 5095	nicotinamide
+T67	Protein 5295 5307	PdxA enzymes
+T68	Protein 5367 5398	isocitrate dehydrogenase family
+T69	Protein 5420 5424	PdxA
+T70	Metabolite 5229 5232	HTP
+T85	Metabolite 1014 1035	erythrose 4-phosphate
+T86	Metabolite 1040 1065	deoxyxylulose 5-phosphate
+T12	Protein 1150 1194	PdxA,1 erythromate-4-phosphate dehydrogenase
+T14	Protein 1207 1238	pyridoxine-5'-phosphate oxidase
+T87	Protein 1397 1411	E.C. 1.1.1.262
+T90	Metabolite 1472 1508	3-amino-1-hydroxyacetone 1-phosphate
+T20	Metabolite 1556 1604	2-amino-3-keto-4-hydroxybutyric acid 4-phosphate
+T91	Metabolite 1709 1730	4-hydroxy-L-threonine
+T92	Metabolite 1824 1849	deoxyxylulose 5-phosphate
+T25	Protein 1853 1885	pyridoxine-5'-phosphate synthase
+T29	Metabolite 2192 2196	Mn2+
+T94	Metabolite 2198 2202	Co2+
+T95	Metabolite 2204 2208	Mg2+
+T96	Metabolite 2213 2217	Ca2+
+T97	Metabolite 2259 2263	Ni2+
+T98	Metabolite 2272 2276	Zn2+
+T99	Metabolite 2360 2396	3-amino-1-hydroxyacetone 1-phosphate
+T100	Metabolite 2472 2495	deoxyxylulose phosphate
+T101	Metabolite 2523 2559	3-amino-1-hydroxyacetone 1-phosphate
+T35	Metabolite 2670 2717	2-amino-3-oxo-4-hydroxybutyric acid 4-phosphate
+T37	Protein 3014 3037	threonine dehydrogenase
+T41	Protein 3266 3299	2-amino-3-ketobutyrate CoA ligase
+T45	Protein 3656 3660	PdxA
+T48	Protein 3699 3731	3-isopropylmalate dehydrogenases
+T49	Protein 3670 3694	isocitrate dehydrogenase
+T102	Metabolite 3873 3897	b-hydroxy acid substrate
+T53	Metabolite 4045 4072	3-keto acid, oxalosuccinate
+T55	Protein 4434 4438	PdxJ
+T104	Protein 4451 4482	pyridoxine-5'-phosphate oxidase
+T106	Metabolite 4689 4693	Zn2+
+T107	Metabolite 4709 4712	HTP
+T64	Protein 4993 5007	dehydrogenases
+T66	Metabolite 5252 5256	Zn2+
+T23	Metabolite 1772 1804	The product of the PdxA reaction
+T50	Metabolite 1940 1959	inorganic phosphate
+T71	Metabolic_production 328 337	synthesis
+T72	Metabolic_production 638 647	synthesis
+T73	Metabolic_production 836 848	biosynthesis
+T74	Metabolic_production 901 913	biosynthesis
+T75	Metabolic_consumption 2094 2103	oxidation
+T76	Metabolic_consumption 2977 2992	decarboxylation
+T77	Positive_regulation 2925 2933	catalyze
+T78	Metabolic_reaction 3100 3109	oxidation
+T79	Positive_regulation 3038 3047	catalyzes
+T80	Metabolic_reaction 3227 3236	converted
+T81	Metabolic_consumption 3852 3867	decarboxylation
+T82	Positive_regulation 3783 3792	catalyzes
+T83	Metabolic_consumption 4235 4244	reduction
+T84	Positive_regulation 4193 4201	catalyze
+E1	Metabolic_production:T71 Theme:T5
+E2	Metabolic_production:T72 Theme:T8
+E3	Metabolic_production:T73 Theme:T10
+E4	Metabolic_production:T74 Theme:T11
+E6	Metabolic_consumption:T75 Theme:T30
+E8	Metabolic_consumption:T76 Theme:T38
+E10	Positive_regulation:T77 Theme:E8 Cause:T36
+E11	Metabolic_reaction:T78 Theme:T39 Product:T40
+E12	Positive_regulation:T79 Theme:E11 Cause:T37
+E13	Metabolic_reaction:T80 Theme:T42 Product:T43 Product2:T44 Cause:T41
+E16	Metabolic_consumption:T81 Theme:T102
+E17	Positive_regulation:T82 Theme:E16
+E18	Metabolic_consumption:T83 Theme:T54
+E19	Positive_regulation:T84 Theme:E18 Cause:T52
+*	Equiv T12 T13
+*	Equiv T17 T87
+T88	Positive_regulation 1378 1387	catalyzed
+E20	Positive_regulation:T88 Cause:T17 Theme:E21
+T89	Metabolic_reaction 1420 1428	converts
+E21	Metabolic_reaction:T89 Theme:T18 Product:T90
+*	Equiv T25 T24
+T93	Metabolic_reaction 1808 1812	used
+E22	Metabolic_reaction:T93 Theme:T92 Cause:T25 Theme2:T23 Product:T26 Product2:T50
+T103	Metabolic_consumption 4211 4226	decarboxylation
+E5	Metabolic_consumption:T103 Theme:T54
+E7	Positive_regulation:T84 Theme:E5 Cause:T52
+T105	Metabolic_reaction 4562 4570	oxidizes
+E14	Metabolic_reaction:T105 Theme:T57 Cause:T104 Product:T59
+E9	Metabolic_reaction:T105 Theme:T58 Product:T59 Cause:T104

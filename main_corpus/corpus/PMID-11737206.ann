@@ -1,0 +1,35 @@
+T1	Protein 0 20	l-Threonine aldolase
+T2	Protein 22 53	serine hydroxymethyltransferase
+T3	Protein 58 81	fungal alanine racemase
+T4	Protein 159 190	Serine hydroxymethyltransferase
+T5	Protein 192 196	SHMT
+T6	Protein 372 376	SHMT
+T7	Metabolite 403 409	serine
+T8	Metabolite 413 439	tetrahydropteroylglutamate
+T9	Protein 645 649	SHMT
+T10	Protein 760 768	racemase
+T11	Protein 770 786	aminotransferase
+T12	Protein 791 804	decarboxylase
+T13	Protein 925 929	SHMT
+T14	Protein 1039 1043	SHMT
+T17	Protein 1311 1315	SHMT
+T18	Protein 1343 1374	serine hydroxymethyltransferase
+T19	Protein 1425 1429	SHMT
+T20	Protein 1434 1454	l-threonine aldolase
+T21	Protein 1586 1590	SHMT
+T22	Protein 1595 1615	l-threonine aldolase
+T23	Protein 1679 1702	fungal alanine racemase
+T24	Protein 1735 1755	l-threonine aldolase
+T25	Protein 1876 1945	aldolase from E. coli and alanine racemase from Cochliobolus carbonum
+T26	Protein 1977 1999	SHMT crystal structure
+T27	Protein 2019 2048	tetrahydrofolate binding site
+T31	Protein 239 267	vitamin B6-dependent enzymes
+T32	Metabolite 552 559	folates
+T33	Metabolite 441 449	H4PteGlu
+T34	Metabolite 579 587	H4PteGlu
+T15	Protein 1207 1227	l-threonine aldolase
+T28	Metabolic_reaction 382 390	transfer
+E1	Metabolic_reaction:T28 Theme:T7 Theme2:T8
+T30	Positive_regulation 359 368	catalysed
+E3	Positive_regulation:T30 Cause:T6 Theme:E1
+*	Equiv T8 T33

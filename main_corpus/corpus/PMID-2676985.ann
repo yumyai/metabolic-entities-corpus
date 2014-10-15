@@ -1,0 +1,12 @@
+T1	Protein 90 119	farnesyl diphosphate synthase
+T2	Protein 301 330	farnesyl diphosphate synthase
+T3	Metabolite 216 226	isoprenoid
+T4	Protein 358 362	ispA
+T5	Protein 453 456	tsx
+T6	Protein 457 461	ispA
+T7	Protein 462 465	lon
+T8	Protein 471 487	mutant ispA gene
+T9	Protein 639 668	farnesyl diphosphate synthase
+T10	Metabolite 980 1000	polyprenyl phosphate
+T11	Metabolic_production 227 236	synthesis
+E1	Metabolic_production:T11 Theme:T3

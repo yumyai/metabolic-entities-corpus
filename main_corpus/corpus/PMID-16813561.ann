@@ -1,0 +1,37 @@
+T1	Protein 10 30	aldo-keto reductases
+T2	Protein 4 8	AKRs
+T3	Metabolite 82 87	NADPH
+T5	Metabolite 168 176	alcohols
+T6	Metabolite 219 224	NADPH
+T7	Metabolite 225 229	NADH
+T8	Metabolite 262 267	NADPH
+T9	Metabolite 296 300	NADH
+T10	Protein 352 368	xylose reductase
+T11	Protein 370 376	AKR2B5
+T12	Metabolite 435 444	glutamate
+T13	Metabolite 392 396	NAD+
+T14	Metabolite 517 522	NADP+
+T15	Protein 622 626	AKRs
+T16	Metabolite 636 640	NADH
+T17	Metabolite 706 710	NADH
+T18	Metabolite 1048 1053	NADPH
+T19	Metabolite 1151 1155	NADH
+T20	Metabolite 1280 1285	NADPH
+T21	Metabolite 1290 1294	NADH
+T22	Metabolite 1558 1562	NADH
+T23	Protein 1055 1061	AKR2E3
+T24	Protein 1063 1069	AKR3F2
+T25	Protein 1074 1080	AKR3F3
+T26	Protein 1007 1010	AKR
+T27	Protein 1107 1113	AKR3C2
+T28	Protein 1118 1124	AKR3F1
+T29	Protein 1157 1164	AKR11B2
+T30	Protein 1197 1200	AKR
+T31	Metabolite 1400 1404	NADH
+T32	Metabolite 117 146	carbonyl-containing compounds
+*	Equiv T2 T1
+*	Equiv T10 T11
+T35	Metabolic_consumption 641 652	utilization
+E1	Metabolic_consumption:T35 Theme:T16
+T4	Metabolic_reaction 102 108	reduce
+E2	Metabolic_reaction:T4 Theme:T32 Product:T5 Cause:T2

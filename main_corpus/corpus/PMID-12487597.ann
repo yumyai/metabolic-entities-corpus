@@ -1,0 +1,37 @@
+T1	Protein 95 130	undecaprenyl pyrophosphate synthase
+T2	Protein 194 217	many prenyltransferases
+T3	Metabolite 132 154	Farnesyl pyrophosphate
+T4	Metabolite 156 159	FPP
+T5	Metabolite 250 270	isoprenoid compounds
+T6	Protein 272 307	Undecaprenyl pyrophosphate synthase
+T7	Protein 309 313	UPPs
+T8	Metabolite 349 352	FPP
+T9	Metabolite 356 388	C(55) undecaprenyl pyrophosphate
+T10	Metabolite 390 393	UPP
+T11	Metabolite 478 587	7-(2,6-dimethyl-8-diphospho-2,6-octadienyloxy)-8-methyl-4-trifluoromethyl-chromen-2-one geranyl pyrophosphate
+T12	Metabolite 615 618	FPP
+T14	Metabolite 1222 1225	FPP
+T15	Protein 1575 1592	prenyltransferase
+T16	Protein 1856 1876	FPP-binding proteins
+T21	Metabolite 438 451	peptidoglycan
+T23	Protein 688 692	UPPs
+T24	Metabolite 878 881	FPP
+T25	Metabolite 1022 1047	isopentenyl pyrophosphate
+T26	Metabolite 1049 1052	IPP
+T13	Metabolite 1612 1615	FPP
+T27	Protein 1636 1640	UPPs
+T28	Metabolite 1647 1650	FPP
+T29	Metabolite 1758 1761	FPP
+T17	Metabolic_production 234 246	biosynthesis
+T18	Metabolic_reaction 329 345	chain elongation
+E1	Metabolic_production:T17 Theme:T5
+E2	Metabolic_reaction:T18 Theme:T8 Product:T9
+T20	Regulation 218 226	involved
+E5	Regulation:T20 Theme:E1 Cause:T2
+T19	Positive_regulation 315 324	catalyzes
+E3	Positive_regulation:T19 Theme:E2 Cause:T6
+*	Equiv T6 T7
+*	Equiv T9 T10
+T22	Metabolic_production 452 461	synthesis
+E4	Metabolic_production:T22 Theme:T21
+*	Equiv T25 T26

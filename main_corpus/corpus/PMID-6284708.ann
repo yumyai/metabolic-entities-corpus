@@ -1,0 +1,4 @@
+T1	Protein 545 567	histidinol phosphatase
+T2	Protein 539 543	hisB
+T3	Protein 713 724	S1 nuclease
+*	Equiv T2 T1

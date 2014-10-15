@@ -1,0 +1,24 @@
+T2	Metabolite 312 322	tryptophan
+T5	Metabolite 468 487	phosphoenolpyruvate
+T6	Metabolite 492 513	erythrose-4-phosphate
+T7	Metabolite 522 565	3-deoxy-D-arabino-heptulosonate-7-phosphate
+T8	Protein 571 593	DAHP synthase isozymes
+T11	Metabolite 1014 1035	erythrose-4-phosphate
+T12	Metabolite 1055 1074	phosphoenolpyruvate
+T13	Metabolite 1228 1240	L-Tryptophan
+T14	Metabolite 1419 1440	erythrose-4-phosphate
+T15	Metabolite 1634 1653	phosphoenolpyruvate
+T16	Protein 47 99	3-deoxy-D-arabino-heptulosonate-7-phosphate synthase
+T1	Protein 171 223	3-deoxy-d-arabino-heptulosonate-7-phosphate synthase
+T17	Protein 225 235	DAHPS(Trp)
+T18	Metabolite 425 433	aromatic
+T3	Protein 332 342	DAHPS(Trp)
+T9	Protein 855 865	DAHPS(Trp)
+T10	Metabolite 1558 1579	erythrose-4-phosphate
+*	Equiv T17 T1
+T19	Metabolic_production 434 446	biosynthesis
+E1	Metabolic_production:T19 Theme:T18
+T20	Positive_regulation 398 406	catalyze
+E2	Positive_regulation:T20 Theme:E1 Cause:T3
+T4	Metabolic_reaction 452 464	condensation
+E3	Metabolic_reaction:T4 Theme:T5 Theme2:T6 Product:T7

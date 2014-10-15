@@ -1,0 +1,15 @@
+T1	Protein 11 27	D-alanine ligase
+T2	Metabolite 0 9	D-alanine
+T3	Protein 327 333	pDOC89
+T4	Protein 338 344	pDOC87
+T5	Protein 422 425	ddl
+T6	Protein 463 466	lac
+T7	Protein 471 490	lambda PL promoters
+T8	Metabolite 376 385	D-alanine
+T9	Protein 599 607	ddl gene
+T10	Protein 1026 1033	ligases
+T11	Metabolite 859 915	[1(S)-Aminoethyl][(2RS)2-carboxy-1-octyl]phosphinic acid
+T12	Metabolite 917 918	I
+T13	Metabolite 1006 1015	D-alanine
+T14	Protein 1184 1187	Med
+T15	Protein 1319 1333	E. coli ligase

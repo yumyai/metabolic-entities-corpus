@@ -1,0 +1,30 @@
+T1	Protein 0 39	L-1,2-Propanediol:NAD+ 1-oxidoreductase
+T4	Metabolite 222 225	NAD
+T5	Metabolite 231 235	NADH
+T7	Metabolite 424 432	pyruvate
+T8	Metabolite 377 386	L-lactate
+T9	Metabolite 346 360	L-lactaldehyde
+T12	Protein 518 532	oxidoreductase
+T13	Metabolite 460 471	propanediol
+T14	Protein 537 558	Fe2+-dependent enzyme
+T2	Metabolite 141 149	L-fucose
+T6	Metabolite 275 289	L-lactaldehyde
+T17	Metabolite 293 304	propanediol
+T20	Metabolite 665 676	propanediol
+T21	Metabolite 912 923	propanediol
+T22	Protein 953 967	oxidoreductase
+T24	Metabolite 1153 1156	NAD
+T23	Protein 78 82	fucO
+T3	Metabolic_reaction 211 221	regenerate
+E1	Metabolic_reaction:T3 Product:T4 Theme:T5
+T10	Metabolic_reaction 364 373	converted
+E2	Metabolic_reaction:T10 Theme:T9 Product:T8
+T16	Metabolic_consumption 124 137	dissimilation
+E3	Metabolic_consumption:T16 Theme:T2
+T11	Metabolic_reaction 391 397	thence
+E4	Metabolic_reaction:T11 Theme:T8 Product:T7
+T18	Metabolic_reaction 239 247	reducing
+E5	Metabolic_reaction:T18 Theme:T6 Product:T17
+T19	Metabolic_reaction 498 510	inactivation
+E6	Metabolic_reaction:T19 Product:T13 Theme:T12
+*	Equiv T12 T14

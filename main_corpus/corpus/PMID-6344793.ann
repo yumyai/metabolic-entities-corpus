@@ -1,0 +1,13 @@
+T1	Protein 30 49	D-glucose isomerase
+T2	Protein 132 139	pUC1002
+T4	Protein 493 511	D-xylose isomerase
+T5	Protein 516 533	D-xylulose kinase
+T6	Protein 569 578	isomerase
+T7	Metabolite 624 633	D-glucose
+T8	Metabolite 637 647	D-fructose
+T3	Protein 174 215	HindIII restriction endonuclease fragment
+T11	Metabolite 391 397	xylose
+T9	Metabolic_reaction 610 620	conversion
+T10	Positive_regulation 596 605	catalyzed
+E1	Metabolic_reaction:T9 Theme:T7 Product:T8
+E2	Positive_regulation:T10 Theme:E1 Cause:T6

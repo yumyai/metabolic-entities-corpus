@@ -1,0 +1,14 @@
+T1	Protein 37 65	homocysteine transmethylases
+T4	Protein 571 582	MetH enzyme
+T8	Metabolite 745 756	vitamin B12
+T9	Metabolite 761 771	methionine
+T10	Metabolite 853 863	methionine
+T11	Metabolite 869 880	vitamin B12
+T12	Metabolite 885 895	methionine
+T2	Protein 95 125	vitamin B12-independent enzyme
+T3	Protein 188 216	vitamin B12-requiring enzyme
+T6	Protein 1328 1345	metE gene product
+T7	Protein 1055 1067	metE product
+T5	Protein 1119 1136	metE gene product
+T13	Protein 294 321	metE and metH gene products
+T14	Protein 1215 1219	metE

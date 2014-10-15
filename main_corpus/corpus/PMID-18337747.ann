@@ -1,0 +1,8 @@
+T1	Protein 278 296	fumarate reductase
+T2	Protein 298 301	FRD
+T3	Protein 329 332	FRD
+T4	Protein 429 433	FliG
+T5	Metabolite 573 581	fumarate
+T6	Protein 674 677	FRD
+T7	Protein 800 803	FRD
+*	Equiv T1 T2

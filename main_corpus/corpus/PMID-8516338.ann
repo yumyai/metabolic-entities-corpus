@@ -1,0 +1,27 @@
+T1	Protein 63 94	cytochrome bd ubiquinol oxidase
+T2	Metabolite 29 38	heme-heme
+T3	Protein 149 166	ubiquinol oxidase
+T4	Protein 281 297	heme-Cu oxidases
+T5	Protein 306 326	cytochrome c oxidase
+T6	Metabolite 423 432	heme b558
+T7	Metabolite 434 443	heme b595
+T9	Metabolite 522 528	quinol
+T10	Metabolite 534 538	heme
+T11	Metabolite 621 630	heme b595
+T12	Complex 895 902	CO-heme
+T13	Metabolite 965 969	heme
+T16	Protein 1391 1407	heme-Cu oxidases
+T17	Metabolite 1409 1418	Heme b595
+T18	Protein 1470 1509	Cu(B) component of cytochrome c oxidase
+T19	Metabolite 449 455	heme d
+T20	Metabolite 459 466	chlorin
+T8	Metabolite 469 478	Heme b558
+T21	Metabolite 681 683	CO
+T22	Metabolite 814 816	CO
+T23	Metabolite 923 925	CO
+T24	Metabolite 1008 1010	CO
+T15	Metabolite 1288 1299	heme d-heme
+T14	Metabolite 1112 1118	heme d
+T25	Metabolite 1123 1132	heme b595
+T26	Complex 1064 1076	CO-heme b595
+*	Equiv T19 T20

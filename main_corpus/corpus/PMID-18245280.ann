@@ -1,0 +1,31 @@
+T3	Protein 143 158	yfdXWUVE operon
+T4	Protein 443 447	YfdW
+T5	Protein 476 485	yfdW gene
+T7	Protein 650 653	FRC
+T8	Metabolite 537 544	oxalate
+T9	Protein 790 794	YfdW
+T10	Protein 821 825	YfdW
+T11	Protein 831 873	formyl coenzyme A (formyl-CoA) transferase
+T12	Protein 879 883	YfdW
+T15	Metabolite 977 987	formyl-CoA
+T16	Metabolite 992 999	oxalate
+T17	Protein 1055 1061	Trp-48
+T18	Protein 1156 1171	E. coli protein
+T19	Metabolite 1094 1103	glutamine
+T20	Protein 1216 1222	Trp-48
+T21	Protein 1298 1302	YfdW
+T22	Metabolite 1233 1240	oxalate
+T23	Protein 1462 1466	YfdW
+T24	Metabolite 1385 1392	oxalate
+T25	Protein 1662 1677	yfdXWUVE operon
+T26	Metabolite 1590 1597	oxalate
+T1	Protein 76 80	YfdW
+T2	Protein 85 137	Oxalobacter formigenes formyl coenzyme A transferase
+T6	Protein 605 648	O. formigenes formyl coenzyme A transferase
+T13	Protein 944 947	FRC
+T14	Protein 1069 1072	FRC
+T27	Metabolic_consumption 545 555	catabolism
+T28	Metabolic_consumption 1598 1608	catabolism
+E1	Metabolic_consumption:T27 Theme:T8
+E2	Metabolic_consumption:T28 Theme:T26
+*	Equiv T6 T7

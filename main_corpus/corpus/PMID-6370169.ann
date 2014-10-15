@@ -1,0 +1,30 @@
+T1	Metabolite 28 37	trehalose
+T2	Metabolite 104 113	trehalose
+T3	Metabolite 246 255	trehalose
+T4	Metabolite 269 284	[14C]-trehalose
+T5	Metabolite 288 315	[14C]-trehalose 6-phosphate
+T6	Metabolite 417 436	phosphoenolpyruvate
+T7	Metabolite 438 441	ATP
+T8	Protein 535 566	trehalose 6-phosphate hydrolase
+T9	Metabolite 616 638	disaccharide phosphate
+T10	Metabolite 644 651	glucose
+T11	Metabolite 656 675	glucose 6-phosphate
+T12	Metabolite 764 773	trehalose
+T13	Protein 862 910	phosphoenolpyruvate:trehalose phosphotransferase
+T14	Metabolite 803 812	trehalose
+T19	Metabolite 370 391	[14C]-sugar phosphate
+T20	Metabolite 397 412	[14C]-trehalose
+T22	Metabolite 477 498	Trehalose 6-phosphate
+T24	Protein 950 959	trehalase
+T15	Metabolic_reaction 353 362	synthesis
+T16	Positive_regulation 339 348	catalyzed
+T17	Metabolic_reaction 521 531	hydrolyzed
+T18	Metabolic_reaction 598 608	hydrolysis
+E1	Metabolic_reaction:T15 Theme:T6 Product:T19 Theme2:T20
+E2	Positive_regulation:T16 Theme:E1
+E3	Metabolic_reaction:T17 Cause:T8 Theme:T22
+E4	Metabolic_reaction:T18 Theme:T9 Product:T10 Product2:T11
+T21	Metabolic_reaction 14 24	metabolism
+E5	Metabolic_reaction:T21 Theme:T1
+T23	Positive_regulation 584 593	catalyzes
+E6	Positive_regulation:T23 Theme:E4 Cause:T8

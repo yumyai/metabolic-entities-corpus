@@ -1,0 +1,16 @@
+T1	Protein 41 49	hmp gene
+T2	Protein 65 76	haemoglobin
+T3	Protein 191 217	dihydropteridine reductase
+T4	Protein 219 223	DHPR
+T5	Protein 484 515	serine hydroxymethyltransferase
+T6	Protein 532 541	glyA gene
+T7	Protein 635 639	glyA
+T8	Protein 740 754	44 kDa protein
+T9	Protein 768 772	DHPR
+T10	Protein 1094 1118	Vitreoscilla haemoglobin
+T12	Protein 1209 1217	hmp gene
+T13	Protein 1263 1267	DHPR
+T14	Protein 1330 1334	DHPR
+T16	Protein 864 894	CO-binding b-type haemoprotein
+T11	Protein 1164 1188	haemoglobin-like protein
+*	Equiv T3 T4

@@ -1,0 +1,19 @@
+T1	Protein 38 55	chorismate mutase
+T2	Protein 56 78	prephenate dehydratase
+T4	Protein 80 105	chorismate pyruvatemutase
+T5	Protein 106 127	prephenate hydrolyase
+T6	Protein 146 157	EC 5.4.99.5
+T7	Protein 158 169	EC 4.2.1.51
+T3	Protein 250 272	prephenate dehydratase
+T8	Protein 672 694	prephenate dehydratase
+T9	Protein 904 926	prephenate dehydratase
+T10	Protein 1011 1033	prephenate dehydratase
+T11	Protein 1303 1325	prephenate dehydratase
+T12	Protein 1373 1395	prephenate dehydratase
+T13	Metabolite 16 32	N-ethylmaleimide
+T14	Metabolite 792 808	N-ethylmaleimide
+T15	Metabolite 869 883	phenylpyruvate
+T16	Metabolite 940 953	cis-aconitate
+T17	Metabolite 995 1005	prephenate
+*	Equiv T1 T4 T6
+*	Equiv T2 T5 T7

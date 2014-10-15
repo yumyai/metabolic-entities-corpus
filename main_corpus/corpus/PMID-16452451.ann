@@ -1,0 +1,17 @@
+T1	Protein 0 13	MurQ Etherase
+T2	Metabolite 69 97	anhydro-N-acetylmuramic acid
+T3	Protein 162 166	MurQ
+T4	Metabolite 238 246	MurNAc-P
+T5	Protein 311 317	MurNAc
+T6	Metabolite 250 279	N-acetylglucosamine-phosphate
+T7	Protein 440 444	MurQ
+T8	Protein 457 474	MurNAc-P etherase
+T9	Protein 504 508	MurQ
+T10	Protein 513 524	AnmK kinase
+T11	Metabolite 557 571	anhydro-MurNAc
+T14	Protein 173 223	N-acetylmuramic acid-phosphate (MurNAc-P) etherase
+T12	Metabolic_reaction 229 237	converts
+T13	Metabolic_consumption 542 553	utilization
+E1	Metabolic_reaction:T12 Cause:T14 Theme:T4 Product:T6
+E4	Metabolic_consumption:T13 Theme:T11
+*	Equiv T14 T3

@@ -1,0 +1,5 @@
+T1	Metabolite 19 32	D-galactonate
+T2	Metabolite 37 63	D-2-oxo-3-deoxygalactonate
+T3	Metabolic_consumption 4 15	utilisation
+E1	Metabolic_consumption:T3 Theme:T1
+E2	Metabolic_consumption:T3 Theme:T2

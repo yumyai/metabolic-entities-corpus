@@ -1,0 +1,3 @@
+T1	Metabolite 22 31	threonine
+T2	Metabolic_consumption 32 42	catabolism
+E1	Metabolic_consumption:T2 Theme:T1

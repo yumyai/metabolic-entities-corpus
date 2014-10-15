@@ -1,0 +1,24 @@
+T1	Metabolite 63 70	sulfate
+T3	Metabolite 217 224	sulfate
+T6	Metabolite 367 370	GTP
+T7	Metabolite 318 335	activated sulfate
+T9	Protein 427 433	GTPase
+T10	Metabolite 898 905	sulfate
+T12	Metabolite 1008 1025	activated sulfate
+T13	Metabolite 769 776	sulfate
+T15	Metabolite 560 577	activated sulfate
+T16	Metabolite 714 731	activated sulfate
+T2	Metabolic_consumption 71 81	activation
+E1	Metabolic_consumption:T2 Theme:T1
+T4	Metabolic_consumption 225 235	activation
+E2	Metabolic_consumption:T4 Theme:T3
+T5	Metabolic_consumption 371 381	hydrolysis
+E3	Metabolic_consumption:T5 Theme:T6
+T8	Metabolic_production 305 314	synthesis
+E4	Metabolic_production:T8 Theme:T7
+T11	Metabolic_consumption 906 916	activation
+E5	Metabolic_consumption:T11 Theme:T10
+T14	Metabolic_consumption 777 789	assimilation
+E6	Metabolic_consumption:T14 Theme:T13
+T17	Metabolic_production 732 741	formation
+E7	Metabolic_production:T17 Theme:T16

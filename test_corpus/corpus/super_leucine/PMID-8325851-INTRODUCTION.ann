@@ -1,0 +1,36 @@
+T1	Protein 0 26	Dihydroxy-acid dehydratase
+T17	Protein 28 57	2,3-dihydroxy-acid hydrolyase
+T18	Protein 59 69	EC 4.2.1.9
+T20	Metabolite 108 134	branched-chain amino acids
+T2	Metabolite 139 149	coenzyme A
+T21	Metabolite 182 207	branched-chain amino acid
+T3	Protein 328 354	dihydroxy-acid dehydratase
+T4	Protein 496 522	dihydroxy-acid dehydratase
+T7	Metabolite 797 814	keto acid product
+T10	Metabolite 835 855	isoleucine precursor
+T5	Protein 1009 1035	dihydroxy-acid dehydratase
+T8	Protein 1219 1245	dihydroxy-acid dehydratase
+T9	Protein 1259 1289	6-phosphogluconate dehydratase
+T6	Protein 1299 1323	vicinal diol dehydratase
+T11	Protein 1423 1449	Dihydroxy-acid dehydratase
+T12	Protein 2467 2477	hydrolyase
+T24	Protein 2499 2508	aconitase
+T25	Protein 2535 2544	aconitase
+T13	Protein 2552 2578	Dihydroxy-acid dehydratase
+T26	Metabolite 2784 2810	branched-chain amino acids
+T14	Protein 2871 2897	dihydroxy-acid dehydratase
+T15	Protein 2912 2938	Dihydroxy-acid dehydratase
+T27	Protein 3119 3145	dihydroxy-acid dehydratase
+T28	Protein 3316 3342	dihydroxy-acid dehydratase
+T29	Metabolite 3042 3050	paraquat
+*	Equiv T1 T17 T18
+E1	Metabolic_production:T16 Theme:T2
+E2	Positive_regulation:T19 Cause:T1 Theme:E1
+E3	Metabolic_production:T16 Theme:T20
+E4	Positive_regulation:T19 Theme:E3 Cause:T1
+E5	Metabolic_production:T22 Theme:T21
+E6	Positive_regulation:T23 Theme:E5
+T19	Positive_regulation 74 83	essential
+T16	Metabolic_production 92 104	biosynthesis
+T23	Positive_regulation 154 163	catalyzes
+T22	Metabolic_production 208 220	biosynthetic

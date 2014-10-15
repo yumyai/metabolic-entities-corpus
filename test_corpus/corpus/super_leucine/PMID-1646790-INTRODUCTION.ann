@@ -1,0 +1,75 @@
+T1	Protein 128 142	leuABCD operon
+T2	Protein 321 324	TrB
+T3	Protein 338 341	dyE
+T4	Protein 351 384	tyrosine-repressible transaminase
+T5	Metabolite 67 74	leucine
+T6	Metabolite 182 199	2-ketoisocaproate
+T7	Metabolite 211 218	leucine
+T8	Metabolite 351 359	tyrosine
+T9	Metabolite 201 206	2-KIC
+T10	Protein 438 442	leuA
+T11	Protein 444 448	leuB
+T12	Protein 450 454	leuC
+T13	Protein 460 471	leuD mutant
+T15	Protein 589 593	ilvE
+T16	Protein 597 616	tyrB single mutants
+T17	Metabolite 499 506	leucine
+T18	Metabolite 510 515	2-KIC
+T19	Metabolite 560 567	leucine
+T20	Protein 702 706	aspC
+T21	Protein 708 711	TrA
+T22	Protein 717 721	avtA
+T23	Protein 723 726	TrC
+T24	Protein 925 929	ilvE
+T25	Metabolite 772 779	leucine
+T26	Metabolite 899 906	leucine
+T27	Metabolite 1024 1031	leucine
+T28	Protein 1146 1159	tyrB mutation
+T29	Protein 1166 1170	ilvE
+T30	Protein 1323 1327	ilvE
+T31	Protein 1328 1332	tyrB
+T32	Protein 1352 1355	Tn5
+T33	Protein 1389 1392	leu
+T34	Metabolite 1239 1246	leucine
+T35	Protein 1414 1437	ilvE leu double mutants
+T36	Metabolite 1466 1471	2-KIC
+T38	Metabolite 1578 1595	2-ketoisovalerate
+T39	Metabolite 1597 1602	2-KIV
+T48	Protein 305 319	transaminase B
+T49	Protein 386 400	transaminase D
+T50	Protein 402 405	TrD
+T14	Protein 528 532	tyrB
+T51	Protein 523 527	ilvE
+T52	Metabolite 579 584	2-KIC
+T53	Protein 660 673	transaminases
+T55	Protein 992 1005	transaminases
+T56	Metabolite 1278 1283	2-KIC
+T57	Metabolite 1548 1553	2-KIC
+T40	Protein 1652 1655	TrD
+T58	Metabolite 1659 1666	leucine
+T37	Protein 1513 1517	ilvE
+T59	Protein 1518 1521	leu
+T61	Protein 265 303	branched chain amino acid transaminase
+T41	Metabolic_production 75 87	biosynthesis
+T42	Metabolic_production 780 789	synthesis
+T43	Metabolic_production 1032 1041	synthesis
+T44	Positive_regulation 1015 1023	catalyze
+T45	Metabolic_production 1667 1676	synthesis
+E1	Metabolic_production:T41 Theme:T5
+E2	Metabolic_production:T42 Theme:T25
+E3	Metabolic_production:T43 Theme:T27
+E4	Positive_regulation:T44 Theme:E3 Cause:T55
+E5	Metabolic_production:T45 Theme:T58
+T46	Positive_regulation 92 101	catalyzed
+E6	Positive_regulation:T46 Theme2:E1 Cause:T1
+T47	Metabolic_reaction 169 178	amination
+E7	Metabolic_reaction:T47 Theme:T6 Product:T7
+*	Equiv T6 T9
+*	Equiv T2 T48
+*	Equiv T4 T49 T50
+T54	Positive_regulation 736 744	catalyze
+E8	Positive_regulation:T54 Cause:T53 Theme:E2
+A1	Negation E8
+T60	Positive_regulation 223 232	catalyzed
+E9	Positive_regulation:T60 Theme:E7 Cause:T61
+E10	Positive_regulation:T60 Theme:E7 Cause:T4

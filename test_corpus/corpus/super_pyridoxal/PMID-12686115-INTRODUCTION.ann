@@ -1,0 +1,84 @@
+T1	Metabolite 30 40	vitamin B6
+T2	Metabolite 59 69	vitamin B6
+T3	Metabolite 71 81	pyridoxine
+T4	Metabolite 83 85	PN
+T5	Metabolite 348 351	PLP
+T6	Protein 433 441	oxidases
+T7	Metabolite 230 239	pyridoxal
+T8	Metabolite 241 243	PL
+T9	Metabolite 245 257	pyridoxamine
+T10	Metabolite 259 261	PM
+T11	Metabolite 317 340	pyridoxine 5'-phosphate
+T12	Metabolite 342 345	PNP
+T13	Metabolite 578 588	vitamin B6
+T14	Metabolite 632 642	vitamin B6
+T15	Protein 880 890	pdx family
+T16	Protein 957 961	SOR1
+T17	Protein 1147 1157	pdx family
+T19	Protein 1245 1249	gapB
+T20	Protein 1254 1258	serC
+T21	Protein 1307 1311	pdxA
+T22	Protein 1313 1317	pdxB
+T23	Protein 1319 1323	pdxJ
+T24	Protein 1328 1332	pdxH
+T25	Metabolite 1348 1358	vitamin B6
+T26	Metabolite 1449 1459	vitamin B6
+T28	Protein 1663 1667	pdxA
+T29	Protein 1669 1673	pdxB
+T30	Protein 1678 1682	pdxJ
+T31	Protein 1696 1700	PdxA
+T33	Protein 1863 1867	PdxJ
+T35	Metabolite 1974 2004	1-deoxy-d-xylulose-5-phosphate
+T36	Metabolite 2006 2009	DXP
+T37	Protein 2083 2087	PdxJ
+T38	Protein 2100 2112	PNP synthase
+T39	Metabolite 2127 2130	PNP
+T40	Metabolite 2251 2254	PLP
+T41	Protein 2258 2262	PdxH
+T42	Protein 2276 2279	PLP
+T43	Metabolite 2319 2329	vitamin B6
+T45	Metabolite 2491 2494	PNP
+T47	Metabolite 2807 2810	DXP
+T48	Metabolite 3203 3206	PNP
+T49	Metabolite 3232 3241	glutamine
+T50	Protein 3290 3299	SOR1 gene
+T51	Protein 3516 3520	SOR1
+T52	Metabolite 3614 3624	vitamin B6
+T53	Metabolite 226 228	PN
+T61	Metabolite 353 356	PMP
+T62	Protein 446 453	kinases
+T63	Protein 418 431	transaminases
+T18	Protein 1221 1224	pdx
+T27	Protein 1720 1733	dehydrogenase
+T32	Metabolite 1784 1811	1-amino-acetone-3-phosphate
+T44	Metabolite 1813 1816	AAP
+T64	Metabolite 1823 1853	4-(phosphohydroxy)-l-threonine
+T65	Metabolite 1855 1860	4-HTP
+T34	Metabolite 2015 2018	AAP
+T67	Metabolite 2027 2030	PNP
+T69	Metabolite 2035 2054	inorganic phosphate
+T70	Metabolite 2628 2646	1-deoxy-d-xylulose
+T46	Metabolite 2658 2661	DXP
+T54	Metabolic_production 17 26	synthesis
+T55	Metabolic_production 565 574	synthesis
+T56	Metabolic_production 1359 1371	biosynthesis
+T57	Metabolic_production 1460 1472	biosynthesis
+T58	Metabolic_production 2478 2487	formation
+T59	Metabolic_production 3207 3219	biosynthesis
+T60	Metabolic_production 3625 3637	biosynthesis
+E2	Metabolic_production:T54 Theme:T1
+E4	Metabolic_production:T55 Theme:T13
+E5	Metabolic_production:T56 Theme:T25
+E6	Metabolic_production:T57 Theme:T26
+E8	Metabolic_production:T58 Theme:T45
+E9	Metabolic_production:T59 Theme:T48
+E10	Metabolic_production:T60 Theme:T52
+*	Equiv T4 T3 T2
+*	Equiv T44 T32
+*	Equiv T65 T64
+T66	Positive_regulation 1868 1877	catalyses
+E1	Positive_regulation:T66 Cause:T33 Theme:E3
+T68	Metabolic_reaction 1931 1939	reaction
+E3	Metabolic_reaction:T68 Theme:T35 Theme2:T34 Product:T67 Product2:T69
+T71	Metabolic_reaction 2239 2247	oxidised
+E7	Metabolic_reaction:T71 Theme:T39 Product:T40 Cause:T41

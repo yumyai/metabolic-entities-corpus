@@ -1,0 +1,20 @@
+T1	Protein 326 341	ATP sulfurylase
+T2	Protein 343 374	ATP:sulfate adenylyltransferase
+T3	Protein 376 386	EC 2.7.7.4
+T4	Protein 392 402	APS kinase
+T5	Protein 404 457	ATP:adenosine-5'-phosphosulfate 3'-phosphotransferase
+T6	Protein 459 470	EC 2.7.1.25
+T7	Protein 537 552	ATP sulfurylase
+T8	Protein 733 748	ATP sulfurylase
+T9	Protein 1040 1050	APS kinase
+T11	Metabolite 4 11	sulfate
+T12	Metabolite 944 951	sulfate
+T14	Metabolite 298 305	sulfate
+*	Equiv T1 T2 T3
+*	Equiv T6 T5 T4
+T10	Metabolic_consumption 12 22	activation
+E1	Metabolic_consumption:T10 Theme:T11
+T13	Metabolic_consumption 952 962	activation
+E2	Metabolic_consumption:T13 Theme:T12
+T15	Metabolic_consumption 306 316	activation
+E3	Metabolic_consumption:T15 Theme:T14

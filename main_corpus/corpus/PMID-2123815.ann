@@ -1,0 +1,8 @@
+T1	Protein 32 60	argininosuccinate synthetase
+T2	Protein 220 248	argininosuccinate synthetase
+T3	Protein 277 281	argG
+T5	Metabolite 637 640	ATP
+T6	Protein 744 755	PurA enzyme
+T4	Protein 313 317	ARG1
+T7	Positive_regulation 762 771	catalyses
+E1	Positive_regulation:T7 Cause:T6

@@ -1,0 +1,17 @@
+T1	Protein 144 154	protein L3
+T2	Protein 536 546	protein L3
+T3	Metabolite 653 664	methylamine
+T4	Metabolite 759 768	glutamine
+T5	Metabolite 772 782	asparagine
+T6	Metabolite 818 838	N4-methyl-asparagine
+T7	Metabolite 843 861	N5-methylglutamine
+T8	Protein 1167 1187	ribosomal protein L3
+T10	Metabolite 121 139	N5-methylglutamine
+T11	Protein 349 354	prm-1
+T12	Protein 212 217	prm-2
+T13	Protein 411 422	protein L11
+T14	Protein 448 463	prm-2 ribosomes
+T15	Protein 936 950	prm-2 proteins
+T9	Metabolic_consumption 709 724	acid hydrolysis
+E1	Metabolic_consumption:T9 Theme:T4
+E2	Metabolic_consumption:T9 Theme:T5

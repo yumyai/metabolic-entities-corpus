@@ -1,0 +1,12 @@
+T1	Protein 36 80	benzyl viologen-linked formate dehydrogenase
+T2	Protein 82 88	FDH-BV
+T3	Protein 208 214	FDH-BV
+T4	Protein 797 818	formate hydrogenlyase
+T5	Protein 891 897	FDH-BV
+T6	Protein 930 941	hydrogenase
+T7	Metabolite 585 592	nitrate
+T8	Metabolite 560 567	formate
+T9	Metabolite 594 601	nitrite
+T10	Metabolite 605 627	trimethylamine N-oxide
+T11	Metabolite 739 747	selenium
+*	Equiv T1 T2

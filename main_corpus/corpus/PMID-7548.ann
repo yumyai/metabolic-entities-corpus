@@ -1,0 +1,15 @@
+T1	Protein 8 33	L-threonine dehydrogenase
+T2	Metabolite 55 64	threonine
+T3	Metabolite 82 89	glycine
+T4	Protein 115 147	enzyme L-threonine dehydrogenase
+T5	Metabolite 266 275	threonine
+T6	Metabolite 279 286	glycine
+T7	Metabolite 314 323	L-leucine
+T8	Metabolite 351 362	L-threonine
+T9	Metabolite 394 401	leucine
+T10	Metabolic_reaction 69 78	synthesis
+E1	Metabolic_reaction:T10 Theme:T3 Cause:T1
+T11	Metabolic_consumption 41 51	catabolism
+E2	Metabolic_consumption:T11 Theme:T2 Cause:T1
+T12	Metabolic_reaction 255 265	converting
+E3	Metabolic_reaction:T12 Theme:T5 Product:T6 Cause:T4

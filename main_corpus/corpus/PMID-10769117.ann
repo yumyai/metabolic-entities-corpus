@@ -1,0 +1,28 @@
+T1	Metabolite 62 71	succinate
+T2	Metabolite 75 85	propionate
+T3	Protein 167 176	crotonase
+T4	Protein 178 197	enoyl CoA hydratase
+T5	Protein 389 393	YgfG
+T6	Protein 455 480	methylmalonyl CoA mutases
+T7	Protein 482 485	Sbm
+T8	Protein 491 512	acyl CoA transferases
+T9	Protein 514 518	YgfH
+T10	Protein 542 556	protein kinase
+T11	Protein 558 562	YgfD
+T12	Protein 563 567	ArgK
+T13	Protein 602 633	methylmalonyl CoA decarboxylase
+T14	Protein 635 639	YgfH
+T15	Protein 643 656	propionyl CoA
+T16	Protein 657 682	succinate CoA transferase
+T17	Protein 695 719	methylmalonyl CoA mutase
+T18	Metabolite 653 656	CoA
+T19	Metabolite 831 840	succinate
+T20	Metabolite 844 854	propionate
+T21	Protein 943 974	methylmalonyl CoA decarboxylase
+T22	Protein 1034 1055	crotonase superfamily
+T23	Metabolic_reaction 48 58	conversion
+T24	Metabolic_reaction 812 827	decarboxylation
+E1	Metabolic_reaction:T23 Theme:T1 Product:T2
+E2	Metabolic_reaction:T24 Theme:T19 Product:T20
+E4	Positive_regulation:T26 Theme:E2
+T26	Positive_regulation 799 807	catalyze

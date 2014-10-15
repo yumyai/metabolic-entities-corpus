@@ -1,0 +1,25 @@
+T1	Metabolite 291 309	L-phosphinothricin
+T2	Metabolite 311 353	L-homoalanine-4-yl-(methyl)phosphinic acid
+T3	Metabolite 523 541	L-phosphinothricin
+T4	Metabolite 567 582	2-ketoglutarate
+T6	Metabolite 1323 1341	L-phosphinothricin
+T8	Metabolite 61 72	glufosinate
+T11	Metabolite 33 59	herbicide phosphinothricin
+T12	Protein 155 167	transaminase
+T13	Protein 194 210	aminotransferase
+T14	Metabolite 237 287	2-oxo-4-[(hydroxy)(methyl)phosphinoyl]butyric acid
+T17	Protein 616 628	transaminase
+T5	Protein 997 1041	4-aminobutyrate:2-ketoglutarate transaminase
+T18	Protein 1043 1054	EC 2.6.1.19
+T19	Protein 1160 1172	transaminase
+T20	Metabolite 1472 1490	L-phosphinothricin
+T7	Metabolic_consumption 505 519	transamination
+E1	Metabolic_consumption:T7 Theme:T3 Theme2:T4
+E3	Positive_regulation:T9 Theme:E1
+T9	Positive_regulation 491 500	catalyzes
+T10	Metabolic_production 15 25	production
+E2	Metabolic_production:T10 Theme:T11
+*	Equiv T11 T8
+T15	Metabolic_reaction 222 236	transaminating
+E4	Metabolic_reaction:T15 Cause:T13 Theme:T14 Product:T1
+*	Equiv T1 T2

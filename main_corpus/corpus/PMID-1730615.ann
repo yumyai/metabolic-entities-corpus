@@ -1,0 +1,25 @@
+T2	Metabolite 32 35	APS
+T3	Metabolite 37 64	adenosine 5'-phosphosulfate
+T4	Protein 97 128	ATP:sulfate adenylyltransferase
+T5	Protein 130 140	EC 2.7.7.4
+T6	Protein 80 95	ATP sulfurylase
+T7	Protein 148 154	GTPase
+T8	Metabolite 272 275	APS
+T9	Protein 368 374	GTPase
+T10	Protein 529 544	ATP sulfurylase
+T13	Protein 754 760	GTPase
+T15	Metabolite 491 494	GTP
+T11	Metabolite 247 250	GTP
+T16	Metabolite 341 344	GTP
+T17	Metabolite 406 409	ATP
+T18	Metabolite 434 437	SO4
+T19	Metabolite 448 451	SO4
+T20	Metabolite 0 3	GTP
+*	Equiv T6 T4 T5
+T1	Metabolic_reaction 19 28	synthesis
+E1	Metabolic_reaction:T1 Theme:T2 Cause:T6
+*	Equiv T2 T3
+T12	Metabolic_production 276 285	formation
+E3	Metabolic_production:T12 Theme:T8
+T14	Metabolic_consumption 495 505	hydrolysis
+E4	Metabolic_consumption:T14 Theme:T15

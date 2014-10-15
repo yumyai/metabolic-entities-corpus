@@ -1,0 +1,26 @@
+T1	Protein 22 31	pdxK gene
+T3	Protein 116 124	miniTn10
+T4	Protein 125 128	Cmr
+T5	Protein 221 225	pdxK
+T7	Protein 317 321	pdxK
+T8	Protein 401 405	pdxK
+T9	Protein 407 423	miniTn10 mutants
+T10	Protein 454 463	PN kinase
+T11	Protein 629 638	PL kinase
+T12	Metabolite 491 500	pyridoxal
+T13	Metabolite 502 504	PL
+T14	Metabolite 510 522	pyridoxamine
+T15	Metabolite 524 526	PM
+T16	Protein 667 671	PdxK
+T17	Protein 700 716	PfkB superfamily
+T18	Protein 720 740	carbohydrate kinases
+T2	Protein 45 75	pyridoxine (vitamin B6) kinase
+T22	Protein 155 177	pyridoxine (PN) kinase
+T6	Protein 757 777	phosphofructokinases
+T19	Protein 782 793	ribokinases
+T20	Protein 931 947	PN/PL/PM kinases
+*	Equiv T13 T12
+*	Equiv T14 T15
+T21	Metabolic_consumption 476 490	phosphorylates
+E1	Metabolic_consumption:T21 Cause:T10 Theme:T14
+E2	Metabolic_consumption:T21 Cause:T10 Theme:T12

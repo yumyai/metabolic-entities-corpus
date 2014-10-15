@@ -1,0 +1,19 @@
+T1	Protein 39 62	isoaspartyl dipeptidase
+T2	Protein 86 109	Isoaspartyl dipeptidase
+T3	Protein 111 114	IAD
+T4	Protein 135 161	amidohydrolase superfamily
+T5	Protein 203 227	beta-aspartyl dipeptides
+T6	Protein 471 495	beta-aspartyl dipeptides
+T8	Protein 2138 2144	Asp285
+T14	Metabolite 564 576	beta-Asp-Leu
+T7	Protein 1614 1619	D285N
+T15	Metabolite 1642 1654	beta-Asp-His
+T9	Positive_regulation 26 35	catalyzed
+T10	Positive_regulation 166 175	catalyzes
+E1	Positive_regulation:T9 Cause:T1
+E2	Positive_regulation:T10 Theme:E4 Cause:T2
+T12	Metabolic_consumption 191 199	cleavage
+E4	Metabolic_consumption:T12 Theme:T5
+T13	Metabolic_consumption 550 560	hydrolysis
+E5	Metabolic_consumption:T13 Theme:T14
+*	Equiv T2 T3

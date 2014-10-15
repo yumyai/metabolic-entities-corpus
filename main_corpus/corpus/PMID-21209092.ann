@@ -1,0 +1,41 @@
+T1	Protein 76 100	2-oxoacid dehydrogenases
+T2	Protein 182 196	dehydrogenases
+T3	Protein 387 391	LipB
+T4	Protein 396 400	LipA
+T6	Metabolite 416 427	lipoic acid
+T7	Protein 464 476	LplA protein
+T9	Protein 478 482	LipB
+T10	Protein 594 598	LipA
+T12	Protein 540 564	2-oxoacid dehydrogenases
+T13	Protein 603 641	S-adenosyl-L-methionine radical enzyme
+T15	Protein 791 819	2-oxoglutarate dehydrogenase
+T16	Protein 862 866	LipB
+T17	Protein 871 875	LipA
+T18	Protein 901 914	dehydrogenase
+T19	Protein 954 977	2-oxoacid dehydrogenase
+T20	Protein 1015 1019	LplA
+T21	Protein 1025 1047	lipoate protein ligase
+T22	Protein 1105 1129	2-oxoacid dehydrogenases
+T23	Protein 1166 1180	dehydrogenases
+T25	Protein 1199 1227	lipoic acid-requiring enzyme
+T26	Protein 1318 1322	LipA
+T27	Protein 1326 1330	LipB
+T28	Protein 1343 1347	LipB
+T30	Protein 1406 1434	2-oxoglutarate dehydrogenase
+T31	Protein 1467 1471	LipB
+T32	Protein 1555 1559	LipB
+T33	Protein 1704 1717	dehydrogenase
+T34	Metabolite 0 11	Lipoic acid
+T35	Protein 109 132	glycine cleavage system
+T36	Protein 1253 1276	glycine cleavage system
+T37	Metabolite 152 163	lipoic acid
+T38	Metabolite 302 313	lipoic acid
+T5	Metabolite 778 786	pyruvate
+T40	Metabolite 1663 1674	lipoic acid
+T41	Protein 1277 1286	H protein
+T39	Metabolite 1058 1065	lipoate
+T11	Complex 716 750	lipoylated dehydrogenase complexes
+T8	Positive_regulation 447 456	catalyzed
+E1	Positive_regulation:T8 Theme:T6 Cause:T7
+T42	Metabolic_consumption 1066 1073	salvage
+E5	Metabolic_consumption:T42 Theme:T39

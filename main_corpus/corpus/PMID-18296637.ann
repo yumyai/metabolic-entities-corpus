@@ -1,0 +1,33 @@
+T1	Protein 13 47	glycerol-3-phosphate dehydrogenase
+T2	Protein 128 165	Sn-glycerol-3-phosphate dehydrogenase
+T3	Protein 167 171	GlpD
+T4	Protein 444 448	GlpD
+T5	Protein 741 745	GlpD
+T6	Metabolite 781 800	phosphoenolpyruvate
+T7	Metabolite 802 827	glyceric acid 2-phosphate
+T8	Metabolite 829 855	glyceraldehyde-3-phosphate
+T10	Metabolite 1043 1063	glycerol-3-phosphate
+T11	Metabolite 1132 1152	glycerol-3-phosphate
+T12	Protein 1335 1339	GlpD
+T14	Metabolite 1372 1381	menadione
+T16	Metabolite 1478 1488	ubiquinone
+T17	Protein 1580 1593	GlpD shuttles
+T18	Protein 1677 1684	insulin
+T19	Metabolite 1634 1642	Glycerol
+T20	Metabolite 1716 1724	glycerol
+T21	Protein 1792 1796	GlpD
+T22	Protein 2012 2024	GlpD enzymes
+T26	Metabolite 274 286	phospholipid
+T28	Protein 610 614	GlpD
+T9	Metabolite 870 896	dihydroxyacetone phosphate
+T13	Metabolite 1351 1371	ubiquinone analogues
+T15	Metabolite 1386 1423	2-n-heptyl-4-hydroxyquinoline N-oxide
+T24	Positive_regulation 1098 1108	catalyzing
+E1	Positive_regulation:T24 Theme:E4
+*	Equiv T3 T2
+T27	Metabolic_production 287 299	biosynthesis
+E3	Metabolic_production:T27 Theme:T26
+T29	Metabolic_consumption 1113 1128	dehydrogenation
+E4	Metabolic_consumption:T29 Theme:T11
+T30	Metabolic_consumption 1736 1746	catabolism
+E5	Metabolic_consumption:T30 Theme:T20

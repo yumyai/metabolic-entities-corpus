@@ -1,0 +1,43 @@
+T3	Protein 287 291	pdxA
+T4	Protein 293 297	pdxB
+T5	Protein 299 303	serC
+T6	Protein 305 309	pdxJ
+T7	Protein 315 325	pdxH genes
+T10	Metabolite 246 255	pyridoxal
+T11	Protein 473 477	pdxA
+T12	Protein 479 483	pdxB
+T13	Protein 489 493	pdxH
+T14	Protein 505 509	pdxJ
+T15	Metabolite 398 408	pyridoxine
+T16	Metabolite 410 420	vitamin B6
+T17	Protein 543 547	pdxJ
+T18	Protein 554 558	pdxA
+T19	Protein 560 564	pdxB
+T20	Protein 570 574	serC
+T21	Protein 687 691	pdxJ
+T22	Protein 855 859	pdxJ
+T23	Protein 961 965	pdxJ
+T24	Protein 1050 1053	dpj
+T27	Protein 1134 1150	pdxJ-dpj operons
+T28	Protein 1189 1206	pdxJ-dpj promoter
+T29	Protein 1222 1226	recO
+T30	Protein 1234 1238	pdxJ
+T31	Protein 1402 1405	dpj
+T32	Protein 1410 1414	pdxJ
+T33	Protein 1588 1592	pdxJ
+T34	Protein 1665 1668	dpj
+T35	Metabolite 1751 1773	pyridoxal 5'-phosphate
+T1	Protein 41 52	pdxJ operon
+T2	Protein 186 189	pdx
+T8	Metabolite 231 241	vitamin B6
+T9	Metabolite 219 229	pyridoxine
+T36	Metabolite 425 434	pyridoxal
+T25	Protein 1117 1120	rnc
+T26	Protein 1121 1124	era
+T37	Protein 1125 1129	recO
+T39	Protein 1308 1315	PDX box
+T40	Protein 1435 1438	dpj
+T38	Metabolic_production 1774 1786	biosynthetic
+E5	Metabolic_production:T38 Theme:T35
+*	Equiv T9 T8
+*	Equiv T16 T15

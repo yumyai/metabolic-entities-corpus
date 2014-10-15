@@ -1,0 +1,40 @@
+T1	Metabolite 51 62	L-threonine
+T2	Protein 97 105	nitrogen
+T3	Protein 270 290	L-threonine aldolase
+T4	Metabolite 306 315	threonine
+T5	Protein 368 393	L-Threonine dehydrogenase
+T6	Metabolite 593 602	threonine
+T7	Protein 784 807	threonine dehydrogenase
+T8	Protein 837 860	L-threonine dehydratase
+T9	Protein 979 1002	threonine dehydrogenase
+T10	Protein 1007 1028	threonine dehydratase
+T11	Protein 1399 1422	threonine dehydrogenase
+T12	Metabolite 1448 1459	L-threonine
+T14	Metabolite 1581 1590	threonine
+T15	Metabolite 1833 1844	L-threonine
+T16	Metabolite 1883 1892	threonine
+T17	Protein 2100 2118	threonine aldolase
+T18	Protein 2125 2148	threonine dehydrogenase
+T20	Metabolite 2066 2075	threonine
+T21	Protein 2274 2296	glyoxylate carboligase
+T22	Protein 2301 2319	serine dehydratase
+T23	Metabolite 2357 2364	glycine
+T24	Metabolite 2384 2393	glycerate
+T25	Metabolite 2410 2416	serine
+T26	Protein 2605 2626	threonine dehydratase
+T27	Metabolite 2512 2521	threonine
+T28	Metabolite 2526 2539	2-oxobutyrate
+T29	Metabolite 2544 2554	propionate
+T13	Protein 1660 1683	threonine dehydrogenase
+T19	Protein 2154 2186	2-amino-3-oxobutyrate-CoA ligase
+T30	Metabolic_production 424 433	synthesis
+T31	Metabolic_consumption 1893 1903	catabolism
+E1	Metabolic_production:T30 Theme:T5
+E2	Metabolic_consumption:T31 Theme:T16
+T32	Metabolic_consumption 2076 2086	catabolism
+E3	Metabolic_consumption:T32 Theme:T20
+T33	Positive_regulation 2087 2096	catalysed
+E4	Positive_regulation:T33 Cause:T17 Theme:E3
+E5	Positive_regulation:T33 Theme:E3 Cause:T18
+T34	Metabolic_consumption 2365 2375	catabolism
+E6	Metabolic_consumption:T34 Theme:T23

@@ -1,0 +1,20 @@
+T1	Protein 39 46	CuZnSOD
+T2	Protein 17 37	superoxide dismutase
+T3	Metabolite 183 193	superoxide
+T4	Metabolite 1106 1116	superoxide
+T6	Protein 1210 1217	CuZnSOD
+T7	Protein 859 866	CuZnSOD
+T8	Protein 334 337	SOD
+T9	Protein 429 432	SOD
+T10	Metabolite 710 727	hydrogen peroxide
+T11	Metabolite 910 920	superoxide
+T12	Metabolite 991 1008	hydrogen peroxide
+T14	Metabolite 1295 1303	peroxide
+T15	Protein 385 389	sodC
+T16	Protein 484 487	Fnr
+T17	Protein 568 572	RpoS
+T18	Protein 746 750	RpoS
+T5	Metabolic_production 1120 1129	generated
+E1	Metabolic_production:T5 Theme:T4
+T13	Metabolic_consumption 1197 1206	scavenged
+E2	Metabolic_consumption:T13 Cause:T6 Theme:T4

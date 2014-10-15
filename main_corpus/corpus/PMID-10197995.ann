@@ -1,0 +1,35 @@
+T1	Protein 669 691	pyruvate formate lyase
+T2	Protein 693 696	PFL
+T3	Protein 883 886	PFL
+T4	Protein 895 925	pyruvate dehydrogenase complex
+T5	Protein 927 931	PDHc
+T6	Metabolite 861 869	pyruvate
+T7	Protein 1050 1054	PDHc
+T8	Protein 1302 1306	PDHc
+T9	Protein 1510 1514	PDHc
+T11	Protein 1624 1658	dihydrolipoamide acetyltransferase
+T12	Protein 1718 1722	PDHc
+T13	Protein 1782 1786	PDHc
+T15	Protein 1516 1546	dihydrolipoamide dehydrogenase
+T19	Metabolite 492 500	pyruvate
+T20	Protein 616 642	pyruvate-consuming enzymes
+T21	Metabolite 974 982	fumarate
+T22	Metabolite 986 993	nitrate
+T23	Protein 2112 2141	pyruvate-catabolizing enzymes
+T10	Metabolite 131 139	fumarate
+T24	Metabolite 141 148	nitrate
+T16	Metabolite 203 207	NADH
+T25	Metabolite 208 211	NAD
+T17	Metabolite 473 477	NADH
+T26	Metabolite 478 481	NAD
+T27	Protein 1612 1622	E2 subunit
+T14	Metabolite 47 54	glucose
+T28	Metabolite 153 159	oxygen
+T29	Metabolite 433 439	oxygen
+T30	Metabolite 806 812	oxygen
+T31	Metabolite 1430 1436	oxygen
+*	Equiv T2 T1
+*	Equiv T4 T5
+T18	Metabolic_consumption 501 511	catabolism
+E2	Metabolic_consumption:T18 Theme:T19
+*	Equiv T11 T27

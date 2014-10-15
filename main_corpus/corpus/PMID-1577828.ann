@@ -1,0 +1,35 @@
+T1	Protein 16 26	endotoxins
+T4	Protein 217 226	kdtA gene
+T5	Protein 317 320	Kdo
+T8	Protein 403 412	lipid IVA
+T9	Metabolite 326 333	CMP-Kdo
+T10	Protein 451 462	transferase
+T12	Protein 1016 1027	polymixin B
+T13	Protein 1032 1044	Re endotoxin
+T17	Protein 1381 1384	Kdo
+T18	Metabolite 1357 1360	CMP
+T19	Protein 1421 1436	Kdo transferase
+T2	Protein 69 113	3-deoxy-D-manno-octulosonic acid transferase
+T22	Protein 148 198	3-deoxy-D-manno-octulosonic acid (Kdo) transferase
+T3	Metabolite 271 289	lipopolysaccharide
+T6	Metabolite 337 344	lipid A
+T7	Metabolite 669 673	Mg2+
+T24	Metabolite 716 723	CMP-Kdo
+T11	Metabolite 891 909	lipid A precursors
+T14	Metabolite 1217 1224	CMP-Kdo
+T16	Metabolite 1245 1255	(Kdo)2-IVA
+T27	Metabolite 1141 1150	substance
+T28	Metabolite 1270 1280	(Kdo)1-IVA
+T30	Metabolite 1337 1347	(Kdo)2-IVA
+T20	Metabolic_production 0 12	Biosynthesis
+T21	Metabolic_reaction 307 316	transfers
+E1	Metabolic_production:T20 Theme:T1
+E2	Metabolic_reaction:T21 Theme:T9 Theme2:T6
+T23	Metabolic_production 290 302	biosynthesis
+E4	Metabolic_production:T23 Theme:T3
+T26	Metabolic_reaction 863 872	transfers
+E3	Metabolic_reaction:T26 Theme:T11
+T15	Metabolic_reaction 1232 1241	converted
+E5	Metabolic_reaction:T15 Product:T16 Theme:T27
+T29	Metabolic_production 1257 1266	Formation
+E6	Metabolic_production:T29 Theme:T28

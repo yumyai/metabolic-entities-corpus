@@ -1,0 +1,53 @@
+T1	Metabolite 67 75	glycerol
+T3	Metabolite 238 258	glycerol-3-phosphate
+T4	Metabolite 376 396	glycerol-3-phosphate
+T5	Metabolite 400 419	inorganic phosphate
+T6	Metabolite 424 432	glycerol
+T8	Metabolite 600 622	D-glycerol-3-phosphate
+T9	Protein 687 690	GPP
+T11	Metabolite 770 800	DL- and L-glycerol-3-phosphate
+T12	Protein 845 864	gpp deletion mutant
+T13	Metabolite 933 941	glycerol
+T14	Protein 970 973	gpp
+T15	Metabolite 999 1007	glycerol
+T16	Protein 1238 1251	glycerokinase
+T17	Protein 1256 1282	glycerol facilitator genes
+T18	Metabolite 1134 1154	glycerol-3-phosphate
+T20	Metabolite 1316 1324	glycerol
+T21	Protein 1360 1363	gpp
+T22	Metabolite 1399 1407	glycerol
+T23	Metabolite 1425 1445	glycerol-3-phosphate
+T24	Protein 1706 1725	gpp deletion strain
+T25	Protein 1758 1761	gpp
+T26	Metabolite 1570 1593	DL-glycerol-3-phosphate
+T27	Metabolite 1637 1660	DL-glycerol-3-phosphate
+T28	Protein 1864 1906	gpp homologues of Escherichia coli (b2293)
+T29	Protein 1961 1965	gpp1
+T30	Protein 2074 2077	GPP
+T35	Protein 0 22	Glycerol-3-phosphatase
+T2	Protein 335 357	glycerol-3-phosphatase
+T38	Protein 359 362	GPP
+T40	Protein 434 437	GPP
+T41	Protein 567 570	GPP
+T42	Metabolite 593 595	L-
+T7	Metabolite 536 540	Mg2+
+T10	Metabolite 544 548	Mn2+
+T19	Protein 1523 1526	GPP
+T45	Protein 1781 1784	GPP
+T31	Metabolic_production 54 63	Formation
+T32	Metabolic_production 223 232	synthesis
+T33	Metabolic_consumption 1008 1020	accumulation
+T34	Metabolic_consumption 1555 1566	utilization
+E1	Metabolic_production:T31 Theme:T1
+E2	Metabolic_production:T32 Theme:T3
+E3	Metabolic_consumption:T33 Theme:T15
+E4	Metabolic_consumption:T34 Theme:T26
+T36	Positive_regulation 207 215	involved
+E5	Positive_regulation:T36 Theme:E2
+*	Equiv T2 T38
+T39	Metabolic_reaction 364 375	hydrolyzing
+E6	Metabolic_reaction:T39 Theme:T4 Product:T5 Product2:T6 Cause:T2
+T43	Metabolic_consumption 571 587	dephosphorylated
+E7	Metabolic_consumption:T43 Theme:T42 Theme2:T8 Cause:T41
+T44	Positive_regulation 1543 1551	involved
+E8	Positive_regulation:T44 Theme:E4 Cause:T19

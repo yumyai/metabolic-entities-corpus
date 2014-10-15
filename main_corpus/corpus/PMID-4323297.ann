@@ -1,0 +1,26 @@
+T1	Metabolite 98 107	biquinone
+T2	Metabolite 119 158	2-octaprenyl-6-methoxy-1,4-benzoquinone
+T3	Metabolite 163 211	2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinone
+T4	Metabolite 240 279	2-octaprenyl-6-methoxy-1,4-benzoquinone
+T5	Metabolite 284 332	2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinone
+T7	Protein 634 638	ubiE
+T8	Protein 643 647	ubiF
+T9	Metabolite 491 530	2-octaprenyl-6-methoxy-1,4-benzoquinone
+T10	Metabolite 535 583	2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinone
+T13	Protein 667 676	ubiE gene
+T14	Protein 713 717	metE
+T15	Metabolite 774 784	ubiquinone
+T16	Protein 803 812	ubiF gene
+T17	Protein 876 880	gltA
+T18	Protein 886 896	entA genes
+T22	Protein 871 874	lip
+T19	Metabolic_production 785 797	biosynthesis
+E1	Metabolic_production:T19 Theme:T15
+T20	Metabolic_production 81 93	accumulating
+E2	Metabolic_production:T20 Theme:T1
+T21	Metabolic_production 478 490	accumulating
+E3	Metabolic_production:T21 Theme:T9
+E4	Metabolic_production:T21 Theme:T10
+T24	Metabolic_reaction 108 118	precursors
+E5	Metabolic_reaction:T24 Theme:T1 Product:T2 Product2:T3
+E6	Metabolic_reaction:T24 Theme:T1

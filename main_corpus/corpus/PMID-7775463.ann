@@ -1,0 +1,43 @@
+T1	Metabolite 0 22	Glutathionylspermidine
+T2	Protein 133 166	glutathionylspermidine synthetase
+T3	Protein 167 174	amidase
+T4	Protein 176 216	Glutathionylspermidine (GSP) synthetases
+T7	Metabolite 279 282	ATP
+T10	Protein 676 690	GSP synthetase
+T11	Metabolite 968 990	glutathionylspermidine
+T12	Protein 1037 1051	GSP synthetase
+T13	Protein 1052 1059	amidase
+T14	Metabolite 1146 1149	ATP
+T15	Protein 1320 1338	N-terminal amidase
+T16	Protein 1343 1364	C-terminal synthetase
+T17	Metabolite 1468 1471	ATP
+T18	Metabolite 1473 1484	glutathione
+T19	Protein 1569 1579	synthetase
+T21	Metabolite 1889 1899	spermidine
+T22	Metabolite 1925 1938	aminopropyl N
+T23	Metabolite 1955 1966	glutathione
+T24	Metabolite 2097 2107	spermidine
+T29	Metabolite 287 290	ADP
+T30	Metabolite 295 297	Pi
+T8	Metabolite 339 349	spermidine
+T31	Metabolite 419 430	glutathione
+T33	Metabolite 552 574	antioxidant metabolite
+T34	Metabolite 576 589	trypanothione
+T9	Metabolite 591 625	N1,N8-bis-(glutathionyl)spermidine
+T35	Metabolite 432 449	gamma-Glu-Cys-Gly
+T36	Metabolite 351 386	N-(3-aminopropyl)-1,4-diaminobutane
+T37	Metabolite 1490 1494	Mg2+
+T38	Metabolite 1606 1620	diaminopropane
+T5	Protein 1155 1165	synthetase
+T25	Metabolic_reaction 265 275	hydrolysis
+T26	Metabolic_consumption 1002 1012	hydrolysis
+T27	Metabolic_consumption 1132 1142	hydrolysis
+E1	Metabolic_reaction:T25 Theme:T7 Theme2:T4 Product:T29 Product2:T30
+E2	Metabolic_consumption:T26 Theme:T11
+E3	Metabolic_consumption:T27 Theme:T14
+T28	Metabolic_reaction 23 33	metabolism
+E4	Metabolic_reaction:T28 Theme:T1
+T32	Metabolic_production 532 544	biosynthesis
+E5	Metabolic_production:T32 Theme:T33
+*	Equiv T8 T36
+*	Equiv T33 T34 T9

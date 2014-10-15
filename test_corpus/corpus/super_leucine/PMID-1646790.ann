@@ -1,0 +1,39 @@
+T1	Protein 13 27	leuABCD operon
+T2	Protein 69 102	tyrosine-repressible transaminase
+T3	Metabolite 44 51	leucine
+T5	Protein 179 183	ilvE
+T6	Protein 188 192	tyrB
+T7	Metabolite 220 237	2-ketoisocaproate
+T8	Metabolite 254 261	leucine
+T9	Metabolite 239 244	2-KIC
+T11	Protein 393 397	tyrB
+T12	Protein 471 481	leu operon
+T13	Protein 503 507	tyrB
+T14	Metabolite 272 279	leucine
+T15	Metabolite 347 352	2-KIC
+T16	Protein 615 618	leu
+T17	Protein 689 702	tyrB mutation
+T18	Protein 708 711	Tn5
+T19	Protein 797 807	Mu dII4042
+T20	Protein 883 886	Tn5
+T21	Protein 1019 1022	Tn5
+T22	Protein 1066 1069	leu
+T23	Protein 1097 1120	ilvE leu double mutants
+T24	Metabolite 1156 1161	2-KIC
+T25	Metabolite 1174 1181	leucine
+T26	Protein 1229 1232	leu
+T27	Protein 1299 1324	tyrB-encoded transaminase
+T28	Protein 1341 1345	aspC
+T30	Metabolite 1203 1220	2-ketoisovalerate
+T4	Protein 1351 1377	avtA-encoded transaminases
+T10	Metabolite 1276 1281	2-KIC
+T31	Metabolic_production 52 61	synthesis
+T32	Metabolic_reaction 207 216	amination
+T33	Positive_regulation 194 202	catalyze
+E1	Metabolic_production:T31 Theme:T3 Cause:T2
+E2	Metabolic_reaction:T32 Theme:T7 Product:T8
+E3	Metabolic_reaction:T32 Theme:T9 Product:T8
+E4	Positive_regulation:T33 Theme:E2 Cause:T5
+E5	Positive_regulation:T33 Theme:E3 Cause:T5
+E6	Positive_regulation:T33 Theme:E2 Cause:T6
+E7	Positive_regulation:T33 Theme:E3 Cause:T6

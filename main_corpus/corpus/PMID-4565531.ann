@@ -1,0 +1,21 @@
+T1	Protein 79 107	ferric-enterochelin esterase
+T2	Protein 187 215	ferric-enterochelin esterase
+T3	Metabolite 352 380	N-2,3-dihydroxybenzoylserine
+T6	Protein 976 997	enterochelin esterase
+T7	Protein 1072 1093	enterochelin esterase
+T8	Protein 1099 1108	fesB gene
+T9	Protein 1177 1185	esterase
+T15	Metabolite 270 312	enterochelin moiety of ferric-enterochelin
+T16	Metabolite 687 691	iron
+T17	Metabolite 695 702	citrate
+T18	Metabolite 505 509	iron
+T5	Complex 538 577	ferric-dihydroxybenzoylserine complexes
+T19	Metabolite 445 457	enterochelin
+T11	Positive_regulation 238 247	catalyzes
+T12	Metabolic_production 458 470	biosynthesis
+E1	Positive_regulation:T11 Theme:E3
+E2	Metabolic_production:T12 Theme:T19
+T13	Metabolic_consumption 252 262	hydrolysis
+E3	Metabolic_consumption:T13 Theme:T15
+T14	Metabolic_production 316 321	yield
+E4	Metabolic_production:T14 Theme:T3

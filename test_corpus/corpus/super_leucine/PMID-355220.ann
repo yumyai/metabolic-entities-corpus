@@ -1,0 +1,49 @@
+T1	Metabolite 0 9	Threonine
+T2	Metabolite 102 111	threonine
+T3	Metabolite 123 135	aminoacetone
+T4	Metabolite 159 166	glucose
+T5	Metabolite 171 175	urea
+T6	Protein 213 236	threonine dehydrogenase
+T9	Metabolite 417 426	threonine
+T10	Metabolite 474 486	aminoacetone
+T11	Metabolite 492 501	threonine
+T12	Metabolite 526 535	threonine
+T13	Protein 568 591	threonine dehydrogenase
+T14	Protein 596 615	threonine deaminase
+T15	Metabolite 668 677	threonine
+T16	Metabolite 681 688	glycine
+T17	Metabolite 786 793	glycine
+T18	Metabolite 812 819	glycine
+T19	Protein 898 921	threonine dehydrogenase
+T20	Metabolite 938 945	glycine
+T21	Metabolite 961 970	threonine
+T23	Metabolite 1021 1030	threonine
+T24	Metabolite 1046 1058	aminoacetone
+T7	Protein 256 275	threonine deaminase
+T8	Protein 295 313	threonine aldolase
+T30	Metabolite 324 333	Threonine
+T32	Metabolite 769 778	threonine
+T22	Metabolite 976 1005	alpha-amino-beta-ketobutyrate
+T34	Protein 324 347	Threonine dehydrogenase
+T25	Metabolic_consumption 10 21	degradation
+T26	Metabolic_consumption 517 525	degraded
+T27	Metabolic_reaction 946 955	formation
+T28	Metabolic_reaction 1031 1042	degradation
+E1	Metabolic_consumption:T25 Theme:T1
+E2	Metabolic_consumption:T26 Theme:T12
+E3	Metabolic_reaction:T27 Product:T20 Theme:T21 Theme2:T22
+E5	Metabolic_reaction:T28 Product:T24 Theme:T23
+T29	Metabolic_production 116 122	formed
+E6	Metabolic_production:T29 Theme:T3
+T31	Metabolic_reaction 469 473	form
+E7	Metabolic_reaction:T31 Theme:T10 Product:T11
+A1	Negation E7
+T33	Metabolic_consumption 93 101	degraded
+E4	Metabolic_consumption:T33 Theme:T2
+T35	Metabolic_consumption 659 667	degraded
+E8	Metabolic_consumption:T35 Theme:T15
+A2	Negation E8
+T36	Positive_regulation 922 934	participates
+E9	Positive_regulation:T36 Theme:T19 Cause:E3
+T37	Regulation 922 934	participates
+E10	Regulation:T37 Theme:T19 Cause:E5

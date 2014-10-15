@@ -1,0 +1,14 @@
+T1	Metabolite 0 7	Leucine
+T2	Metabolite 150 157	leucine
+T3	Protein 370 382	leu promoter
+T5	Protein 926 936	leu operon
+T7	Protein 1192 1202	leu operon
+T8	Protein 1418 1428	leu operon
+T9	Metabolite 1382 1389	leucine
+T10	Protein 1648 1660	leu promoter
+T11	Protein 1830 1834	leuA
+T4	Protein 1747 1773	a-isopropylmalate synthase
+T12	Metabolic_production 8 20	biosynthesis
+E1	Metabolic_production:T12 Theme:T1
+T14	Positive_regulation 44 53	catalyzed
+E3	Positive_regulation:T14 Theme:E1

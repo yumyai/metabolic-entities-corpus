@@ -1,0 +1,23 @@
+T1	Protein 23 48	phosphoglucosamine mutase
+T2	Protein 72 97	Phosphoglucosamine mutase
+T3	Protein 99 103	GlmM
+T4	Metabolite 132 155	glucosamine-1-phosphate
+T5	Metabolite 161 184	glucosamine-6-phosphate
+T6	Metabolite 223 246	UDP-N-acetylglucosamine
+T7	Metabolite 375 403	glucosamine-1, 6-diphosphate
+T8	Protein 678 703	phosphoglucosamine mutase
+T9	Protein 811 837	phosphoglucosamine mutases
+T15	Metabolite 1325 1338	phosphoserine
+T10	Protein 874 910	N-acetylglucosamine-phosphate mutase
+T11	Protein 930 948	phosphoglucomutase
+T20	Protein 974 985	GlmM enzyme
+T19	Metabolite 773 783	[(32)P]ATP
+T12	Metabolite 991 1001	[(32)P]ATP
+T13	Protein 1579 1583	GlmM
+T16	Metabolic_reaction 119 128	formation
+T17	Metabolic_production 247 259	biosynthesis
+T18	Positive_regulation 105 114	catalyzes
+E1	Metabolic_reaction:T16 Theme:T4 Product:T5
+E2	Metabolic_production:T17 Theme:T6
+E4	Positive_regulation:T18 Theme:E1 Cause:T2
+*	Equiv T3 T2

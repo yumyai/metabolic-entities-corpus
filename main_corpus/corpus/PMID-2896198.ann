@@ -1,0 +1,29 @@
+T1	Protein 88 108	glutamine synthetase
+T2	Protein 191 211	glutamine synthetase
+T3	Protein 294 303	proteases
+T4	Protein 305 316	Protease So
+T5	Protein 332 347	serine protease
+T8	Protein 471 491	glutamine synthetase
+T9	Protein 521 541	glutamine synthetase
+T12	Protein 907 927	glutamine synthetase
+T13	Protein 1133 1144	protease So
+T10	Metabolite 625 631	casein
+T17	Protein 847 855	protease
+T14	Protein 1171 1179	protease
+T19	Protein 1191 1193	Do
+T20	Protein 1195 1197	Ci
+T21	Protein 1199 1201	Mi
+T22	Protein 1203 1205	Fa
+T23	Protein 1207 1209	Pi
+T24	Protein 1242 1244	Ti
+T25	Protein 1249 1251	La
+T26	Protein 646 657	protease So
+T11	Protein 814 825	Protease Re
+T15	Metabolite 415 436	acid-soluble peptides
+T28	Metabolite 959 968	glutamine
+T6	Metabolite 374 411	oxidized form of glutamine synthetase
+*	Equiv T4 T5
+T7	Metabolic_reaction 362 369	degrade
+E1	Metabolic_reaction:T7 Cause:T4 Product:T15 Theme:T6
+T16	Metabolic_reaction 632 642	hydrolysis
+E2	Metabolic_reaction:T16 Theme:T10 Cause:T26

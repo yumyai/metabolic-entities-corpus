@@ -1,0 +1,51 @@
+T1	Protein 0 4	MalY
+T2	Protein 61 75	beta C-S lyase
+T3	Protein 77 90	cystathionase
+T4	Metabolite 219 226	maltose
+T5	Protein 246 250	MalT
+T6	Protein 420 433	maltose genes
+T7	Protein 449 453	malY
+T8	Protein 457 478	MalT-independent gene
+T9	Protein 511 531	MalT-dependent genes
+T10	Protein 550 554	MalY
+T11	Protein 664 678	beta C-S lyase
+T12	Protein 680 693	cystathionase
+T14	Protein 696 700	MalY
+T15	Protein 767 771	MalY
+T16	Protein 825 837	metC mutants
+T17	Metabolite 799 809	methionine
+T18	Protein 865 869	MetC
+T19	Protein 961 965	MalY
+T20	Metabolite 887 900	cystathionine
+T21	Metabolite 904 916	homocysteine
+T22	Metabolite 918 925	ammonia
+T23	Metabolite 931 939	pyruvate
+T24	Protein 980 993	cystathionase
+T25	Protein 1039 1043	MalY
+T26	Protein 1206 1210	MalY
+T27	Metabolite 1133 1139	lysine
+T28	Metabolite 1155 1174	pyridoxal phosphate
+T29	Metabolite 1214 1224	isoleucine
+T30	Protein 1241 1255	beta C-S lyase
+T31	Protein 1375 1379	metC
+T32	Protein 1395 1403	mal gene
+T33	Protein 1459 1463	MetC
+T34	Protein 1489 1493	MalY
+T37	Metabolite 231 244	maltodextrins
+T35	Metabolite 114 121	maltose
+T40	Protein 331 375	cyclic AMP-catabolite gene activator protein
+T13	Protein 591 630	pyridoxal-5-phosphate-containing enzyme
+T41	Metabolite 1062 1069	maltose
+T42	Metabolite 1315 1322	maltose
+T36	Metabolic_reaction 875 883	cleavage
+E3	Metabolic_reaction:T36 Theme:T20 Product:T21
+E4	Metabolic_reaction:T36 Theme:T20 Product:T22
+*	Equiv T3 T2
+T39	Metabolic_reaction 205 215	metabolism
+E5	Metabolic_reaction:T39 Theme:T4
+E6	Metabolic_reaction:T39 Theme:T37
+E7	Metabolic_reaction:T36 Theme:T20 Product:T23
+T38	Positive_regulation 948 957	catalyzed
+E1	Positive_regulation:T38 Theme:E7 Cause:T19
+E2	Positive_regulation:T38 Theme:E3 Cause:T19
+E8	Positive_regulation:T38 Theme:E4 Cause:T19

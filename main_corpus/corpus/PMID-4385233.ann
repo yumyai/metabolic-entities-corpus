@@ -1,0 +1,3 @@
+T1	Metabolite 13 34	Dg-1-amino-2-propanol
+T2	Metabolic_production 0 9	Formation
+E1	Metabolic_production:T2 Theme:T1

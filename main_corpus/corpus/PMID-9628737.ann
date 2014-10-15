@@ -1,0 +1,23 @@
+T2	Metabolite 103 128	2-hydroxycarboxylic acids
+T3	Metabolite 48 68	alpha-keto aldehydes
+T4	Protein 206 218	glyoxalase I
+T5	Protein 220 224	GlxI
+T8	Protein 656 660	GlxI
+T9	Protein 913 917	GlxI
+T1	Protein 15 25	glyoxalase
+T16	Metabolite 140 151	glutathione
+T17	Metabolite 153 156	GSH
+T11	Metabolite 309 312	GSH
+T18	Metabolite 317 347	cytotoxic alpha-keto aldehydes
+T7	Protein 379 383	GlxI
+T10	Protein 1030 1034	GlxI
+T20	Protein 1077 1081	GlxI
+T12	Protein 1166 1170	GlxI
+T14	Protein 1672 1676	GlxI
+*	Equiv T4 T5
+T6	Positive_regulation 227 236	catalyzes
+E1	Positive_regulation:T6 Theme:E3 Cause:T4
+T15	Metabolic_reaction 33 41	converts
+E2	Metabolic_reaction:T15 Cause:T1 Theme:T3 Product:T2
+T19	Metabolic_reaction 241 254	isomerization
+E3	Metabolic_reaction:T19 Theme:T11 Theme2:T18

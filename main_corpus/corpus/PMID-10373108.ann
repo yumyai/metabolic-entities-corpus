@@ -1,0 +1,16 @@
+T1	Protein 30 48	fumarate reductase
+T3	Protein 170 193	succinate dehydrogenase
+T4	Protein 328 346	Fumarate reductase
+T6	Protein 532 550	fumarate reductase
+T7	Protein 737 755	fumarate reductase
+T8	Metabolite 104 112	fumarate
+T9	Metabolite 490 498	quinones
+T10	Metabolite 693 700	quinone
+T11	Metabolite 816 824	quinones
+T12	Metabolite 406 433	flavin adenine dinucleotide
+T5	Complex 451 462	iron-sulfur
+T13	Metabolite 720 726	flavin
+T2	Positive_regulation 49 58	catalyzes
+E1	Positive_regulation:T2 Cause:T1 Theme:E2
+T14	Metabolic_reaction 87 98	respiration
+E2	Metabolic_reaction:T14 Theme:T8

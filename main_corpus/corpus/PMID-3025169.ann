@@ -1,0 +1,30 @@
+T1	Protein 23 50	Escherichia coli NAD kinase
+T4	Metabolite 54 59	NADPH
+T5	Metabolite 64 68	NADH
+T6	Protein 70 80	NAD kinase
+T7	Metabolite 197 201	NAD+
+T8	Metabolite 203 206	ATP
+T9	Protein 395 405	NAD kinase
+T10	Metabolite 284 299	quinolinic acid
+T11	Metabolite 301 315	nicotinic acid
+T12	Metabolite 317 329	nicotinamide
+T13	Metabolite 331 358	nicotinamide mononucleotide
+T14	Metabolite 360 363	AMP
+T15	Metabolite 365 368	ADP
+T16	Metabolite 374 379	NADP+
+T17	Metabolite 505 509	NADH
+T18	Metabolite 514 519	NADPH
+T19	Metabolite 652 656	NAD+
+T20	Protein 874 884	NAD kinase
+T21	Metabolite 823 827	NADH
+T22	Metabolite 851 856	NADPH
+T23	Protein 938 948	NAD kinase
+T24	Metabolite 994 997	ATP
+T25	Metabolite 999 1003	NAD+
+T26	Metabolite 1057 1062	NADP+
+T27	Metabolite 1063 1068	NADPH
+T28	Metabolite 1073 1077	NAD+
+T29	Metabolite 1078 1082	NADH
+T30	Protein 1097 1107	NAD kinase
+T31	Metabolite 1151 1155	NADP
+T2	Metabolite 212 216	Mg2+

@@ -1,0 +1,1 @@
+Control of leu operon expression in Escherichia coli by a transcription attenuation mechanism.

@@ -1,0 +1,55 @@
+T1	Protein 138 160	aspartate transaminase
+T2	Protein 234 266	aromatic amino acid transaminase
+T3	Protein 285 289	tyrB
+T4	Metabolite 314 322	tyrosine
+T5	Metabolite 380 389	glutamate
+T6	Metabolite 405 412	leucine
+T7	Metabolite 414 423	aspartate
+T8	Metabolite 429 439	methionine
+T9	Protein 445 467	aspartate transaminase
+T10	Protein 484 488	aspC
+T11	Metabolite 505 514	aspartate
+T12	Metabolite 519 528	glutamate
+T13	Protein 591 595	tyrB
+T14	Protein 600 609	aspC gene
+T15	Protein 622 654	aromatic amino acid transaminase
+T16	Protein 659 681	aspartate transaminase
+T17	Metabolite 888 897	glutamate
+T18	Metabolite 899 906	leucine
+T19	Metabolite 908 918	isoleucine
+T20	Metabolite 920 926	valine
+T21	Metabolite 928 941	phenylalanine
+T22	Metabolite 947 957	methionine
+T23	Metabolite 1104 1110	valine
+T24	Metabolite 1112 1119	alanine
+T25	Metabolite 1125 1140	a-aminobutyrate
+T26	Metabolite 1168 1174	valine
+T27	Metabolite 1178 1185	leucine
+T28	Protein 1268 1282	Transaminase B
+T29	Protein 1376 1385	ilvE gene
+T30	Protein 1409 1413	ilvO
+T31	Protein 1440 1455	ilvGOEDA operon
+T32	Protein 1846 1860	transaminase B
+T33	Protein 32 45	transaiinases
+T34	Protein 81 113	aromatic amino acid transaminase
+T35	Protein 180 194	transaminase B
+T36	Protein 209 223	transaminase C
+T37	Protein 759 773	Transaminase B
+T38	Protein 790 794	ilvE
+T39	Protein 1046 1060	Transaminase C
+T42	Protein 1765 1769	ilvO
+T43	Protein 2052 2087	valine-a-ketoglutarate transaminase
+T40	Positive_regulation 1071 1080	catalyzes
+E1	Positive_regulation:T40 Cause:T39 Theme:E2
+T41	Metabolic_reaction 1085 1100	interconversion
+E2	Metabolic_reaction:T41 Theme:T23 Theme2:T24 Theme3:T25
+T44	Metabolic_consumption 874 882	interact
+E3	Metabolic_consumption:T44 Cause:T37 Theme:T22
+E4	Metabolic_consumption:T44 Cause:T37 Theme:T21
+E5	Metabolic_consumption:T44 Cause:T37 Theme:T20
+E6	Metabolic_consumption:T44 Cause:T37 Theme:T19
+E7	Metabolic_consumption:T44 Cause:T37 Theme:T18
+E8	Metabolic_consumption:T44 Cause:T37 Theme:T17
+T45	Metabolic_consumption 493 499	reacts
+E9	Metabolic_consumption:T45 Cause:T9 Theme:T12
+E10	Metabolic_consumption:T45 Cause:T9 Theme:T11

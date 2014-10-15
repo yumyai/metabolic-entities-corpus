@@ -1,0 +1,11 @@
+T2	Protein 168 180	leu promoter
+T3	Protein 276 280	leuP
+T4	Protein 559 563	leuA
+T5	Protein 702 706	leuP
+T6	Protein 761 765	leuA
+T7	Protein 878 908	alpha-isopropylmalate synthase
+T8	Metabolite 1083 1090	leucine
+T1	Protein 38 53	leucine operons
+T9	Protein 1184 1214	alpha-isopropylmalate synthase
+T10	Protein 1234 1268	beta-isopropylmalate dehydrogenase
+T11	Protein 1270 1282	leuB product

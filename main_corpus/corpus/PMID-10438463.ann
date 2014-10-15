@@ -1,0 +1,27 @@
+T1	Protein 64 89	sugar efflux transporters
+T2	Protein 131 134	SET
+T3	Protein 136 160	sugar efflux transporter
+T4	Protein 467 471	SetA
+T5	Protein 476 480	SetB
+T6	Metabolite 495 502	lactose
+T7	Metabolite 507 514	glucose
+T8	Metabolite 588 598	glucosides
+T9	Metabolite 602 614	galactosides
+T11	Protein 820 830	lac operon
+T12	Protein 871 875	SetA
+T13	Metabolite 930 966	o-nitrophenyl-beta-D-thiogalactoside
+T14	Protein 1121 1131	lac operon
+T15	Metabolite 1056 1063	lactose
+T18	Protein 394 398	SetA
+T19	Protein 400 404	SetB
+T20	Protein 410 414	SetC
+T10	Protein 737 741	SetA
+T21	Protein 745 749	SetB
+T22	Metabolite 770 777	lactose
+T23	Protein 529 533	SetA
+T17	Metabolic_consumption 1064 1075	utilization
+E5	Metabolic_consumption:T17 Theme:T15
+*	Equiv T2 T3
+T24	Metabolic_consumption 572 583	preferences
+E1	Metabolic_consumption:T24 Theme:T9 Cause:T23
+E3	Metabolic_consumption:T24 Theme:T8 Cause:T23

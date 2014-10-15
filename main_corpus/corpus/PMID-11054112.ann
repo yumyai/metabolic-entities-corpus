@@ -1,0 +1,29 @@
+T2	Protein 89 93	WaaF
+T3	Protein 118 140	Heptosyltransferase II
+T5	Protein 598 619	heptosyltransferase I
+T6	Protein 621 625	WaaC
+T7	Protein 990 1005	Kdo transferase
+T8	Protein 1007 1011	WaaA
+T9	Protein 1014 1035	heptosyltransferase I
+T10	Protein 1037 1041	WaaC
+T11	Protein 1047 1069	heptosyltransferase II
+T12	Protein 1071 1075	WaaF
+T13	Metabolite 913 947	3-deoxy-Dmanno-oct-2-ulosonic acid
+T14	Metabolite 949 952	Kdo
+T15	Metabolite 958 965	heptose
+T1	Protein 52 73	heptosyltransferase I
+T16	Protein 75 79	WaaC
+T17	Protein 85 87	II
+T4	Protein 157 166	waaF gene
+T18	Protein 193 212	glycosyltransferase
+T19	Metabolite 267 285	lipopolysaccharide
+T22	Metabolite 677 703	ADP-LglyceroDmanno-heptose
+*	Equiv T1 T16
+*	Equiv T2 T17
+*	Equiv T5 T6
+T20	Metabolic_production 229 238	synthesis
+E1	Metabolic_production:T20 Theme:T19
+T21	Positive_regulation 213 221	involved
+E2	Positive_regulation:T21 Theme:E1 Cause:T3
+T23	Metabolic_consumption 627 632	using
+E3	Metabolic_consumption:T23 Theme:T22 Cause:T5

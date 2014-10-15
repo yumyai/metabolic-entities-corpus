@@ -1,0 +1,33 @@
+T1	Protein 128 143	RNA degradosome
+T4	Protein 857 872	RNA degradosome
+T7	Metabolite 25 29	mRNA
+T8	Metabolite 0 9	Small RNA
+T9	Metabolite 11 15	sRNA
+T10	Metabolite 71 75	sRNA
+T11	Metabolite 88 92	mRNA
+T12	Metabolite 242 246	mRNA
+T13	Metabolite 261 265	sRNA
+T14	Metabolite 423 427	mRNA
+T15	Metabolite 496 500	sRNA
+T16	Metabolite 520 524	mRNA
+T17	Metabolite 540 544	mRNA
+T18	Metabolite 599 603	mRNA
+T20	Metabolite 661 665	sRNA
+T21	Metabolite 679 683	mRNA
+T23	Metabolite 972 976	sRNA
+T24	Metabolite 985 989	mRNA
+T26	Metabolite 1100 1104	mRNA
+T5	Metabolic_consumption 201 209	cleavage
+E1	Metabolic_consumption:T5 Theme:T12
+T6	Metabolic_consumption 214 225	degradation
+E2	Metabolic_consumption:T6 Theme:T12
+*	Equiv T8 T9
+T19	Metabolic_consumption 545 556	degradation
+E3	Metabolic_consumption:T19 Theme:T17
+T22	Metabolic_consumption 684 692	cleavage
+E4	Metabolic_consumption:T22 Theme:T21
+T25	Metabolic_consumption 990 998	cleavage
+E5	Metabolic_consumption:T25 Theme:T24
+T27	Positive_regulation 151 158	induces
+E6	Positive_regulation:T27 Cause:T1 Theme:E1
+E7	Positive_regulation:T27 Cause:T1 Theme:E2

@@ -1,0 +1,36 @@
+T1	Metabolite 65 80	trans-aconitate
+T2	Protein 291 308	RpoS sigma factor
+T3	Metabolite 365 380	trans-aconitate
+T4	Metabolite 417 430	cis-aconitate
+T5	Metabolite 432 442	isocitrate
+T7	Protein 918 927	o252 gene
+T8	Protein 1023 1026	tam
+T9	Protein 1031 1064	trans-aconitate methyltransferase
+T12	Metabolite 1376 1391	trans-aconitate
+T13	Metabolite 1421 1436	trans-aconitate
+T14	Metabolite 1567 1580	cis-aconitate
+T15	Protein 1698 1731	trans-aconitate methyltransferase
+T18	Protein 8 25	methyltransferase
+T22	Metabolite 448 455	citrate
+T6	Protein 842 894	S-adenosyl-L-methionine-dependent methyltransferases
+T23	Protein 965 982	methyltransferase
+T11	Metabolite 1280 1308	trans-aconitate methyl ester
+T10	Protein 1342 1353	tam- mutant
+T16	Positive_regulation 26 35	catalyzes
+T17	Positive_regulation 322 331	catalyzes
+E1	Positive_regulation:T16 Cause:T18 Theme:E3
+E2	Positive_regulation:T17 Theme:E4
+T19	Metabolic_consumption 40 61	methyl esterification
+E3	Metabolic_consumption:T19 Theme:T1
+T20	Metabolic_consumption 336 361	monomethyl esterification
+E4	Metabolic_consumption:T20 Theme:T3
+E5	Metabolic_consumption:T20 Theme:T22
+E6	Metabolic_consumption:T20 Theme:T5
+E7	Metabolic_consumption:T20 Theme:T4
+E8	Positive_regulation:T17 Theme:E7
+E9	Positive_regulation:T17 Theme:E5
+E10	Positive_regulation:T17 Theme:E6
+T24	Metabolic_production 1267 1276	formation
+E11	Metabolic_production:T24 Theme:T11
+T25	Metabolic_consumption 1602 1613	methylation
+E12	Metabolic_consumption:T25 Theme:T14

@@ -1,0 +1,9 @@
+T1	Protein 96 114	cytidine deaminase
+T2	Protein 219 247	wild-type cytidine deaminase
+T4	Metabolite 870 877	alanine
+T5	Protein 1234 1253	E104A mutant enzyme
+T6	Metabolite 369 417	3,4-hydrated species 5-fluoro-3,4-dihydrouridine
+T3	Metabolite 510 526	5-fluorocytidine
+T7	Metabolite 731 758	5-fluoro-3,4-dihydrouridine
+T8	Complex 1444 1456	ES++ complex
+T9	Complex 1512 1522	ES complex

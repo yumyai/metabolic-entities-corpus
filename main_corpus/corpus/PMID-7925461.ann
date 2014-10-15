@@ -1,0 +1,39 @@
+T1	Protein 88 119	serine hydroxymethyltransferase
+T2	Metabolite 16 24	arginine
+T3	Protein 194 225	serine hydroxymethyltransferase
+T4	Metabolite 242 249	alanine
+T5	Metabolite 254 260	lysine
+T6	Metabolite 407 426	pyridoxal phosphate
+T7	Metabolite 742 749	glycine
+T8	Metabolite 754 760	serine
+T9	Protein 766 785	R363A mutant enzyme
+T10	Metabolite 799 805	serine
+T11	Metabolite 810 817	glycine
+T12	Metabolite 846 852	serine
+T13	Protein 876 882	R363 K
+T14	Protein 887 900	R363A enzymes
+T15	Metabolite 986 1004	serine ethyl ester
+T16	Metabolite 1009 1019	serinamide
+T17	Protein 1051 1057	R363 K
+T18	Protein 1062 1075	R363A enzymes
+T19	Metabolite 1165 1171	serine
+T20	Metabolite 1248 1270	D-alanine methyl ester
+T21	Metabolite 1275 1297	L-alanine methyl ester
+T22	Metabolite 1349 1358	D-alanine
+T23	Metabolite 1363 1372	L-alanine
+T24	Protein 1622 1653	serine hydroxymethyltransferase
+T28	Protein 1191 1210	R363A mutant enzyme
+T25	Metabolic_consumption 1331 1345	transamination
+E1	Metabolic_consumption:T25 Theme:T22 Theme2:T23
+T26	Positive_regulation 948 957	catalyzed
+E2	Positive_regulation:T26 Cause:T13 Theme:E5
+E3	Positive_regulation:T26 Cause:T14 Theme:E4
+T27	Metabolic_consumption 962 982	retro-aldol cleavage
+E4	Metabolic_consumption:T27 Theme:T15
+E5	Metabolic_consumption:T27 Theme:T16
+T29	Positive_regulation 1211 1220	catalyzed
+E6	Positive_regulation:T29 Theme:E7 Cause:T28
+T30	Metabolic_reaction 1230 1244	transamination
+E7	Metabolic_reaction:T30 Theme:T20 Theme2:T21
+E8	Positive_regulation:T26 Cause:T13 Theme:E4
+E9	Positive_regulation:T26 Cause:T14 Theme:E5

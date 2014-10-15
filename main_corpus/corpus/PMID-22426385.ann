@@ -1,0 +1,16 @@
+T1	Protein 51 124	Escherichia coli major facilitator superfamily multidrug transporter MdtM
+T2	Protein 313 316	MDR
+T3	Protein 491 523	Escherichia coli MDR transporter
+T4	Protein 525 529	MdtM
+T5	Protein 605 634	major facilitator superfamily
+T6	Protein 667 671	MdtM
+T7	Protein 898 902	MdtM
+T8	Metabolite 949 957	arginine
+T9	Protein 1009 1013	MdtM
+T10	Metabolite 1076 1103	dodecyl-B-D-maltopyranoside
+T11	Protein 1257 1270	Purified MdtM
+T12	Metabolite 1298 1325	dodecyl-B-D-maltopyranoside
+T13	Metabolite 1345 1360	chloramphenicol
+T14	Protein 1485 1514	multidrug transporter protein
+T15	Metabolite 809 825	ethidium bromide
+T16	Metabolite 830 845	chloramphenicol

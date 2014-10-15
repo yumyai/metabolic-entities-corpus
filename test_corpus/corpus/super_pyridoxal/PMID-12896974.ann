@@ -1,0 +1,39 @@
+T2	Metabolite 70 89	pyridoxal phosphate
+T3	Metabolite 112 134	Pyridoxal 5'-phosphate
+T4	Protein 472 476	PdxA
+T5	Metabolite 510 541	4-hydroxy-l-threonine phosphate
+T6	Metabolite 543 546	HTP
+T7	Metabolite 551 580	3-amino-2-oxopropyl phosphate
+T9	Metabolite 722 727	NADP+
+T10	Metabolite 731 735	NAD+
+T12	Protein 1476 1480	PdxA
+T13	Protein 1549 1573	isocitrate dehydrogenase
+T14	Protein 1578 1607	isopropylmalate dehydrogenase
+T15	Protein 1676 1700	isocitrate dehydrogenase
+T16	Protein 1743 1747	PdxA
+T17	Protein 1806 1810	PdxA
+T8	Protein 798 802	PdxA
+T1	Protein 38 42	PdxA
+T11	Metabolite 832 836	Zn2+
+T24	Metabolite 824 827	HTP
+T25	Metabolite 1097 1101	Zn2+
+T26	Metabolite 1466 1470	Zn2+
+T18	Protein 1875 1878	HTP
+T19	Protein 478 492	E.C. 1.1.1.262
+T27	Protein 426 470	4-hydroxythreonine-4-phosphate dehydrogenase
+T29	Metabolite 694 697	HTP
+T20	Metabolic_production 90 102	biosynthesis
+T21	Metabolic_reaction 501 509	converts
+T22	Metabolic_reaction 707 714	utilize
+T23	Positive_regulation 1811 1820	catalyzes
+E1	Metabolic_production:T20 Theme:T2
+E2	Metabolic_reaction:T21 Theme:T5 Product:T7
+E4	Metabolic_reaction:T22 Theme:T9
+E5	Metabolic_reaction:T22 Theme:T10
+E6	Positive_regulation:T23 Cause:T17 Theme:E3
+*	Equiv T4 T19
+T28	Positive_regulation 413 422	catalyzed
+E7	Positive_regulation:T28 Cause:T27 Theme:E2
+*	Equiv T6 T5
+T30	Metabolic_consumption 1842 1857	decarboxylation
+E3	Metabolic_consumption:T30 Theme:T18

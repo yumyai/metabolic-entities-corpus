@@ -1,0 +1,7 @@
+T1	Protein 23 49	phosphofructokinase enzyme
+T2	Protein 146 166	phosphofructokinases
+T5	Protein 604 629	CDP-diglyceride hydrolase
+T3	Protein 631 634	cdh
+T4	Protein 304 323	phosphofructokinase
+T6	Protein 1308 1327	phosphofructokinase
+*	Equiv T5 T3

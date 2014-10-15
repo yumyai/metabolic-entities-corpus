@@ -1,0 +1,26 @@
+T1	Protein 0 30	Carbamoyl phosphate synthetase
+T2	Protein 32 35	CPS
+T4	Metabolite 65 84	carbamoyl phosphate
+T7	Metabolite 201 209	arginine
+T8	Metabolite 175 197	pyrimidine nucleotides
+T12	Protein 378 381	CPS
+T13	Protein 388 421	alpha, beta-heterodimeric protein
+T11	Protein 797 800	CPS
+T15	Metabolite 1845 1848	CPS
+T17	Protein 1660 1682	glutathione synthetase
+T18	Metabolite 554 563	ornithine
+T19	Metabolite 569 572	UMP
+T20	Metabolite 1713 1716	ATP
+T22	Metabolite 301 317	carboxyphosphate
+T23	Metabolite 319 326	ammonia
+T24	Metabolite 332 341	carbamate
+T26	Metabolite 1103 1122	carbamoyl phosphate
+T6	Protein 1629 1655	D-alanine:D-alanine ligase
+*	Equiv T1 T2
+T3	Metabolic_production 51 61	production
+E1	Metabolic_production:T3 Theme:T4
+T5	Positive_regulation 37 46	catalyzes
+E2	Positive_regulation:T5 Theme:E1 Cause:T1
+E3	Metabolic_reaction:T9 Product:T8 Theme:T4
+E4	Metabolic_reaction:T9 Product:T7 Theme:T4
+T9	Metabolic_reaction 162 171	synthesis

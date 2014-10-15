@@ -1,0 +1,4 @@
+T1	Protein 41 74	bacterial galactarate dehydratase
+T2	Metabolite 26 37	galactarate
+T3	Metabolic_consumption 11 22	dehydration
+E1	Metabolic_consumption:T3 Theme:T2 Cause:T1

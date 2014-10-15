@@ -1,0 +1,13 @@
+T1	Protein 34 44	pitrilysin
+T2	Protein 91 105	beta-endorphin
+T3	Protein 127 137	Pitrilysin
+T4	Protein 258 268	Pitrilysin
+T5	Metabolite 840 847	beta-EP
+T6	Metabolite 410 424	beta-endorphin
+T7	Metabolite 426 433	beta-EP
+T9	Metabolite 521 528	beta-EP
+T10	Metabolite 652 659	beta-EP
+T11	Metabolite 994 1001	beta-EP
+*	Equiv T6 T7
+T8	Metabolic_consumption 402 409	cleaved
+E1	Metabolic_consumption:T8 Theme:T6

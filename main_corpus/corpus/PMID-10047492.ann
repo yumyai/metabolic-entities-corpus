@@ -1,0 +1,23 @@
+T1	Protein 17 46	carbamoylphosphate synthetase
+T2	Protein 48 54	CPSase
+T3	Protein 1675 1681	CPSase
+T4	Metabolite 79 101	pyrimidine nucleotides
+T5	Metabolite 106 114	arginine
+T6	Metabolite 198 207	ornithine
+T7	Protein 266 272	CPSase
+T9	Metabolite 238 241	IMP
+T10	Metabolite 212 236	inosine 5'-monophosphate
+T11	Protein 490 496	CPSase
+T12	Metabolite 608 617	ornithine
+T13	Metabolite 667 670	UMP
+T14	Metabolite 675 678	IMP
+T15	Metabolite 813 816	UMP
+T16	Metabolite 821 824	IMP
+T17	Metabolite 852 861	ornithine
+T18	Metabolite 1091 1100	ornithine
+T21	Protein 1302 1308	CPSase
+T22	Protein 1413 1419	CPSase
+*	Equiv T9 T10
+T23	Metabolic_production 115 127	biosynthetic
+E1	Metabolic_production:T23 Theme:T4
+E2	Metabolic_production:T23 Theme:T5

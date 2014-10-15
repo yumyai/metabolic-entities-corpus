@@ -1,0 +1,14 @@
+T1	Protein 100 118	cytidine deaminase
+T2	Protein 314 332	cytidine deaminase
+T4	Protein 522 540	cytidine deaminase
+T5	Protein 1645 1663	cytidine deaminase
+T6	Metabolite 1777 1785	cytidine
+T7	Metabolite 2292 2308	transition state
+T10	Complex 672 682	ES complex
+T11	Complex 821 831	ES complex
+T14	Metabolite 987 989	ES
+T16	Metabolite 1594 1604	ES complex
+T8	Positive_regulation 159 168	catalysis
+E1	Positive_regulation:T8 Cause:T1
+T15	Metabolic_production 990 999	formation
+E4	Metabolic_production:T15 Theme:T14

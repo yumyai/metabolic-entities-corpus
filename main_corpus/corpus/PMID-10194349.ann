@@ -1,0 +1,18 @@
+T1	Protein 25 47	phosphofructo-1-kinase
+T2	Protein 49 52	PFK
+T3	Metabolite 78 81	ATP
+T4	Protein 207 210	ATP
+T5	Metabolite 630 633	CTP
+T6	Metabolite 1003 1006	GTP
+T7	Metabolite 1011 1014	CTP
+T8	Metabolite 1129 1132	ATP
+T9	Metabolite 1177 1180	GTP
+T10	Metabolite 1226 1229	ITP
+T11	Metabolite 1231 1234	CTP
+T12	Metabolite 1240 1243	UTP
+T13	Metabolite 1361 1384	nucleoside triphosphate
+T14	Metabolite 125 136	nucleotides
+T15	Metabolite 761 771	nucleotide
+T16	Metabolite 858 861	ATP
+T17	Metabolite 912 915	ATP
+*	Equiv T1 T2

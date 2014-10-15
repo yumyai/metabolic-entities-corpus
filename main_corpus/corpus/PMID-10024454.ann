@@ -1,0 +1,26 @@
+T1	Protein 0 30	Phosphoserine aminotransferase
+T2	Protein 32 36	PSAT
+T3	Protein 38 49	EC 2.6.1.52
+T5	Metabolite 130 154	3-phosphohydroxypyruvate
+T6	Metabolite 158 173	l-phosphoserine
+T8	Protein 200 204	PSAT
+T9	Protein 432 436	PSAT
+T10	Protein 83 100	aminotransferases
+T11	Protein 958 986	vitamin B6-dependent enzymes
+T12	Protein 1127 1131	PSAT
+T13	Protein 1703 1707	PSAT
+T14	Protein 1712 1738	aspartate aminotransferase
+T15	Protein 1827 1831	PSAT
+T16	Protein 1882 1886	PSAT
+T18	Protein 595 599	PSAT
+T19	Complex 1342 1358	PSAT-AMG complex
+T20	Metabolite 1470 1473	AMG
+T21	Metabolite 1384 1387	AMG
+T22	Metabolite 453 477	alpha-methyl-l-glutamate
+T17	Metabolite 479 482	AMG
+*	Equiv T1 T2 T3
+T4	Metabolic_reaction 116 126	conversion
+E1	Metabolic_reaction:T4 Theme:T5 Product:T6
+T7	Positive_regulation 102 111	catalyses
+E2	Positive_regulation:T7 Theme:E1 Cause:T1
+*	Equiv T22 T17

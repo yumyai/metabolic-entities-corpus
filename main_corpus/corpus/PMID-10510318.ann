@@ -1,0 +1,104 @@
+T1	Protein 75 81	AKR7A2
+T2	Protein 84 102	aldehyde reductase
+T3	Protein 104 110	AKR1A1
+T4	Protein 113 129	aldose reductase
+T5	Protein 131 137	AKR1B1
+T6	Protein 140 167	dihydrodiol dehydrogenase 1
+T7	Protein 169 175	AKR1C1
+T8	Protein 181 202	chlordecone reductase
+T9	Protein 204 210	AKR1C4
+T10	Protein 40 73	aflatoxin B(1) aldehyde reductase
+T11	Protein 274 311	aldo-keto reductase (AKR) superfamily
+T12	Protein 393 399	AKR7A2
+T14	Metabolite 488 509	2-carboxybenzaldehyde
+T17	Protein 517 523	AKR7A2
+T16	Protein 429 444	AKR1 isoenzymes
+T18	Metabolite 611 632	succinic semialdehyde
+T19	Metabolite 634 637	SSA
+T20	Protein 761 767	AKR1A1
+T21	Metabolite 796 825	carbonyl-containing compounds
+T23	Metabolite 868 871	SSA
+T26	Protein 1116 1122	AKR7A2
+T27	Protein 1127 1133	AKR1A1
+T28	Metabolite 1220 1223	SSA
+T30	Protein 1299 1305	AKR1A1
+T31	Protein 1335 1341	AKR1B1
+T32	Protein 1441 1447	AKR1A1
+T33	Metabolite 1477 1496	aliphatic aldehydes
+T34	Protein 1514 1520	AKR1C1
+T35	Protein 1525 1531	AKR1C4
+T36	Protein 1666 1672	AKR1A1
+T37	Protein 1677 1683	AKR1B1
+T38	Protein 1690 1696	AKR1C1
+T39	Protein 1701 1707	AKR1C4
+T42	Metabolite 1747 1762	1-acenaphthenol
+T43	Protein 1781 1787	AKR1C4
+T46	Protein 1874 1880	AKR7A2
+T47	Protein 1882 1888	AKR1A1
+T48	Protein 1890 1896	AKR1B1
+T49	Protein 1898 1904	AKR1C1
+T50	Protein 1909 1915	AKR1C4
+T51	Protein 1966 1976	reductases
+T52	Protein 2017 2023	AKR1B1
+T53	Protein 2028 2034	AKR1C1
+T54	Protein 2111 2117	AKR1B1
+T55	Protein 2333 2339	AKR7A2
+T56	Protein 2386 2392	AKR1B1
+T57	Protein 2502 2508	AKR1A1
+T59	Protein 2670 2676	AKR1C1
+T60	Protein 2653 2663	reductases
+T61	Protein 2730 2736	AKR1C4
+T62	Protein 2801 2804	AKR
+T63	Protein 2952 2958	AKR1A1
+T64	Protein 2960 2966	AKR1B1
+T65	Protein 2968 2974	AKR1C1
+T66	Protein 2979 2985	AKR7A2
+T67	Protein 3103 3109	AKR7A2
+T58	Protein 2582 2602	AKR1C family members
+T68	Protein 3151 3170	AKR1 family members
+T69	Protein 3238 3244	AKR7A2
+T70	Protein 3249 3261	AKR1 members
+T71	Metabolite 640 659	2-nitrobenzaldehyde
+T25	Metabolite 661 680	pyridine-2-aldehyde
+T72	Metabolite 682 688	isatin
+T74	Metabolite 722 746	9,10-phenanthrenequinone
+T75	Metabolite 873 894	4-carboxybenzaldehyde
+T76	Metabolite 896 915	4-nitrobenzaldehyde
+T77	Metabolite 917 936	pyridine-3-aldehyde
+T78	Metabolite 938 957	pyridine-4-aldehyde
+T79	Metabolite 959 975	4-hydroxynonenal
+T80	Metabolite 977 990	phenylglyoxal
+T81	Metabolite 992 1005	methylglyoxal
+T82	Metabolite 1007 1022	2,3-hexanedione
+T83	Metabolite 1024 1031	1, 2-NQ
+T84	Metabolite 710 716	1,2-NQ
+T73	Metabolite 690 708	1,2-naphthoquinone
+T24	Metabolite 1033 1047	16-ketoestrone
+T85	Metabolite 1052 1069	d-glucuronic acid
+T86	Metabolite 1225 1231	1,2-NQ
+T87	Metabolite 1236 1250	16-ketoestrone
+T29	Metabolite 1585 1604	aliphatic aldehydes
+T88	Metabolite 1606 1624	aromatic aldehydes
+T89	Metabolite 1626 1633	aldoses
+T90	Metabolite 1637 1648	dicarbonyls
+T44	Metabolite 1802 1837	di- and tri-hydroxylated bile acids
+T91	Metabolite 1464 1496	aromatic and aliphatic aldehydes
+*	Equiv T10 T1
+*	Equiv T2 T3
+*	Equiv T4 T5
+*	Equiv T6 T7
+T13	Metabolic_consumption 475 484	reduction
+E1	Metabolic_consumption:T13 Theme:T14
+T15	Positive_regulation 462 470	catalyse
+E2	Positive_regulation:T15 Cause:T12 Theme:E1
+*	Equiv T18 T19
+T22	Metabolic_reaction 768 775	reduces
+E3	Metabolic_reaction:T22 Theme:T21 Cause:T20
+T41	Metabolic_consumption 1734 1743	oxidation
+E5	Metabolic_consumption:T41 Theme:T42
+E7	Positive_regulation:T45 Theme:E5 Cause:T38
+E8	Positive_regulation:T45 Theme:E5 Cause:T39
+*	Equiv T73 T84
+T45	Positive_regulation 1721 1729	catalyse
+T40	Metabolic_reaction 1794 1801	oxidize
+E6	Metabolic_reaction:T40 Theme:T44 Cause:T43

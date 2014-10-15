@@ -1,0 +1,13 @@
+T1	Protein 72 113	glycinamide ribonucleotide transformylase
+T2	Protein 127 156	ribonucleotide transformylase
+T3	Protein 158 167	GAR TFase
+T4	Protein 169 179	EC 2.1.2.2
+T5	Protein 297 314	purN gene product
+T6	Protein 316 325	GAR TFase
+T7	Metabolite 497 505	cofactor
+T8	Metabolite 657 692	N10-(bromoacetyl)-5,8-dideazafolate
+T9	Metabolite 886 896	pyrimidine
+T10	Metabolic_consumption 506 517	utilization
+E1	Metabolic_consumption:T10 Theme:T7
+*	Equiv T2 T3 T4
+*	Equiv T6 T5

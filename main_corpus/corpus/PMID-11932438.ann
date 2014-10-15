@@ -1,0 +1,54 @@
+T1	Protein 0 4	LuxS
+T2	Metabolite 67 100	4-hydroxy-5-methyl-3(2H)-furanone
+T3	Protein 325 335	luciferase
+T4	Protein 468 485	luxS gene product
+T5	Protein 554 558	luxS
+T6	Protein 563 566	pfs
+T8	Protein 639 642	MTA
+T9	Protein 643 650	SAH'ase
+T11	Protein 579 601	5'-methylthioadenosine
+T12	Metabolite 685 707	S-adenosylhomocysteine
+T13	Metabolite 709 712	SAH
+T14	Metabolite 717 739	5'-methylthioadenosine
+T15	Metabolite 741 744	MTA
+T16	Protein 844 852	DH5alpha
+T17	Protein 870 874	luxS
+T18	Metabolite 968 971	MTA
+T19	Metabolite 1014 1017	SAH
+T20	Metabolite 973 995	S-Ribosyl-homocysteine
+T21	Metabolite 997 999	RH
+T22	Protein 1158 1162	luxS
+T23	Protein 1264 1267	pfs
+T24	Protein 1268 1279	luxS operon
+T25	Protein 1346 1359	LuxS proteins
+T26	Metabolite 1449 1451	RH
+T27	Metabolite 1455 1467	homocysteine
+T28	Protein 1676 1680	T3SH
+T29	Protein 1862 1865	SAH
+T31	Protein 1878 1906	SAM-dependent transmethylase
+T33	Protein 1947 1959	LuxS protein
+T34	Protein 2016 2019	SAH
+T7	Protein 602 637	S-adenosylhomocysteine nucleosidase
+T10	Metabolite 218 231	autoinducer 2
+T36	Metabolite 233 237	AI-2
+T37	Metabolite 410 414	AI-2
+T38	Metabolite 772 776	AI-2
+T39	Metabolite 924 928	AI-2
+T40	Metabolite 955 958	SAH
+T41	Metabolite 1073 1075	RH
+T42	Metabolite 1179 1183	AI-2
+T43	Metabolite 1497 1501	AI-2
+T45	Metabolite 1511 1544	4-Hydroxy-5-methyl-3(2H)-furanone
+T32	Protein 1700 1739	T3 S-adenosylmethionine (SAM) hydrolase
+T46	Metabolite 1763 1767	AI-2
+T47	Metabolite 1818 1822	AI-2
+T30	Metabolite 2079 2083	AI-2
+T48	Metabolite 2162 2166	AI-2
+T35	Metabolic_production 54 63	synthesis
+E1	Metabolic_production:T35 Theme:T2
+*	Equiv T15 T14
+*	Equiv T12 T13
+*	Equiv T10 T36
+*	Equiv T20 T21
+T44	Metabolic_reaction 1439 1448	converted
+E2	Metabolic_reaction:T44 Theme:T26 Product:T27 Cause:T25

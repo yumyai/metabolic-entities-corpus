@@ -1,0 +1,8 @@
+T1	Protein 58 88	phosphoenolpyruvate carboxylas
+T2	Protein 90 101	EC 4.1.1.31
+T3	Metabolite 213 224	L-aspartate
+T4	Metabolite 365 376	L-aspartate
+T5	Metabolite 381 389	L-malate
+T6	Metabolite 521 533	oxaloacetate
+T7	Metabolite 538 546	L-malate
+*	Equiv T1 T2

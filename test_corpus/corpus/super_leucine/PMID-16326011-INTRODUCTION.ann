@@ -1,0 +1,54 @@
+T1	Protein 0 25	Acetohydroxyacid synthase
+T2	Protein 27 31	AHAS
+T5	Metabolite 212 218	valine
+T6	Metabolite 220 227	leucine
+T7	Metabolite 232 242	isoleucine
+T8	Metabolite 292 300	pyruvate
+T9	Metabolite 452 460	pyruvate
+T10	Metabolite 464 478	2-ketobutyrate
+T12	Protein 712 716	AHAS
+T13	Metabolite 837 843	valine
+T14	Protein 1214 1224	AHAS genes
+T15	Protein 1239 1247	AHAS III
+T16	Protein 1469 1475	AHAS I
+T17	Metabolite 1517 1523	valine
+T18	Protein 1675 1681	AHAS I
+T19	Metabolite 1740 1754	2-ketobutyrate
+T20	Metabolite 1760 1768	pyruvate
+T21	Metabolite 1825 1839	2-ketobutyrate
+T22	Protein 1931 1937	AHAS I
+T23	Protein 2063 2068	ilvBN
+T24	Protein 2084 2090	AHAS I
+T25	Protein 2325 2331	AHAS I
+T26	Protein 2484 2490	AHAS I
+T27	Protein 2599 2605	AHAS I
+T28	Protein 2709 2722	AHAS isozymes
+T31	Protein 262 279	enzyme-bound ThDP
+T32	Metabolite 424 434	a-ketoacid
+T11	Metabolite 502 514	acetolactate
+T33	Metabolite 518 538	acetohydroxybutyrate
+T34	Protein 614 618	AHAS
+T35	Protein 1177 1182	AHASs
+T36	Protein 1290 1295	AHASs
+T37	Protein 1564 1572	AHAS III
+T38	Protein 1593 1597	AHAS
+T40	Protein 1972 1977	AHASs
+T41	Metabolite 2206 2210	cAMP
+T4	Protein 59 69	EC 2.2.1.6
+T3	Protein 1814 1817	III
+T43	Protein 1798 1809	isozymes II
+T29	Metabolic_production 165 177	biosynthesis
+T30	Positive_regulation 126 135	catalyzes
+E1	Metabolic_production:T29 Theme:T5
+E2	Metabolic_production:T29 Theme:T6
+E3	Metabolic_production:T29 Theme:T7
+E4	Positive_regulation:T30 Theme:E1 Cause:T1
+E5	Positive_regulation:T30 Theme:E2 Cause:T1
+E6	Positive_regulation:T30 Theme:E3 Cause:T1
+*	Equiv T2 T1 T4
+T39	Metabolic_reaction 1701 1711	preference
+E7	Metabolic_reaction:T39 Cause:T18 Theme:T19
+E8	Metabolic_reaction:T39 Cause:T18 Theme:T20
+T42	Metabolic_reaction 1818 1824	prefer
+E9	Metabolic_reaction:T42 Theme:T21 Cause:T3
+E10	Metabolic_reaction:T42 Cause:T43 Theme:T21

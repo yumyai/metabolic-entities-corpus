@@ -1,0 +1,1 @@
+A deletion that removes one repetitive extragenic palindromic sequence downstream of the structural gene of Escherichia coli glutamate dehydrogenase, reduces twofold the half-life of gdhA mRNA.

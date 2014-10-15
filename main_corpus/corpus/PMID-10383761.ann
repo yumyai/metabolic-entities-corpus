@@ -1,0 +1,19 @@
+T1	Protein 20 45	amino acid decarboxylases
+T3	Protein 409 436	glutamic acid decarboxylase
+T4	Protein 438 442	GadA
+T5	Protein 447 451	GadB
+T6	Metabolite 574 593	gamma-aminobutyrate
+T8	Metabolite 599 612	glutamic acid
+T11	Protein 823 827	GadC
+T10	Protein 812 816	GadA
+T12	Protein 1010 1014	H-NS
+T13	Protein 1193 1197	H-NS
+T14	Protein 1202 1206	RpoS
+T15	Protein 1285 1289	H-NS
+T16	Protein 1381 1385	RpoS
+T17	Protein 1395 1399	H-NS
+T2	Protein 812 818	GadA/B
+T9	Protein 1495 1504	gad genes
+T18	Protein 692 696	gadC
+T7	Metabolic_production 613 628	decarboxylation
+E1	Metabolic_production:T7 Theme:T8

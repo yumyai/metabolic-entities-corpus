@@ -1,0 +1,10 @@
+T3	Metabolite 145 165	fructose 6-phosphate
+T5	Metabolite 249 256	glucose
+T1	Protein 0 19	Phosphofructokinase
+T8	Protein 21 25	pfkA
+T4	Protein 352 370	phosphotransferase
+T9	Metabolite 315 334	phosphoenolpyruvate
+T10	Metabolite 337 340	PEP
+T6	Metabolic_reaction 293 307	phosphorylated
+E1	Metabolic_reaction:T6 Cause:T4 Theme:T5
+*	Equiv T1 T8

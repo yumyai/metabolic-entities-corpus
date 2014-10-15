@@ -1,0 +1,42 @@
+T1	Protein 0 34	Adenosine-5'-phosphosulfate kinase
+T2	Protein 36 77	ATP:adenylylsulfate 3'-phosphotransferase
+T4	Metabolite 116 123	sulfate
+T5	Metabolite 356 393	3'-phosphoadenosine 5'-phosphosulfate
+T6	Metabolite 395 399	PAPS
+T7	Metabolite 774 801	adenosine 5'-phosphosulfate
+T8	Metabolite 803 806	APS
+T9	Metabolite 816 820	PAPS
+T10	Metabolite 827 830	ADP
+T11	Metabolite 839 842	ATP
+T13	Metabolite 1418 1423	MgADP
+T14	Metabolite 1431 1435	PAPS
+T15	Metabolite 1462 1465	APS
+T16	Metabolite 1516 1519	ATP
+T17	Metabolite 1674 1677	APS
+T18	Metabolite 1720 1725	MgATP
+T19	Metabolite 1741 1744	APS
+T20	Metabolite 1781 1784	APS
+T21	Metabolite 1813 1818	MgADP
+T22	Metabolite 1823 1827	PAPS
+T23	Metabolite 1999 2002	APS
+T24	Metabolite 2009 2014	MgADP
+T26	Metabolite 2177 2180	APS
+T27	Metabolite 2210 2213	APS
+T28	Metabolite 2233 2236	APS
+T29	Metabolite 661 666	MgATP
+T30	Protein 706 736	isolated phosphorylated enzyme
+T31	Metabolite 1198 1201	ATP
+T32	Metabolite 2070 2075	MgADP
+T33	Metabolite 2118 2121	APS
+T34	Metabolite 493 496	APS
+T35	Complex 2279 2292	E.APS complex
+T3	Metabolic_consumption 124 134	activation
+E1	Metabolic_consumption:T3 Theme:T4
+*	Equiv T5 T6
+T25	Metabolic_reaction 1962 1974	transferring
+E4	Metabolic_reaction:T25 Theme:T23
+T12	Metabolic_reaction 741 749	transfer
+E2	Metabolic_reaction:T12 Theme:T7 Product:T9 Cause:T30
+E3	Metabolic_reaction:T12 Theme:T10 Product:T11 Cause:T30
+E5	Metabolic_reaction:T25 Theme:T24
+*	Equiv T2 T1

@@ -1,0 +1,29 @@
+T1	Metabolite 0 7	Leucine
+T2	Metabolite 361 366	LIV-I
+T3	Metabolite 368 377	L-leucine
+T4	Metabolite 379 391	L-isoleucine
+T5	Metabolite 638 647	L-leucine
+T6	Metabolite 649 661	L-isoleucine
+T7	Metabolite 667 675	L-valine
+T8	Metabolite 747 756	L-leucine
+T9	Metabolite 810 819	L-leucine
+T10	Metabolite 941 950	L-leucine
+T11	Metabolite 1179 1188	L-leucine
+T12	Metabolite 1190 1202	L-iosleucine
+T13	Metabolite 1208 1216	L-valine
+T14	Metabolite 1330 1339	L-leucine
+T15	Metabolite 1473 1482	L-leucine
+T16	Metabolite 1484 1496	L-isoleucine
+T17	Metabolite 1501 1509	L-valine
+T18	Metabolite 1511 1520	L-leucine
+T19	Metabolite 1793 1796	ATP
+T20	Metabolite 1926 1929	ATP
+T24	Metabolite 172 181	L-leucine
+T25	Metabolite 337 346	L-leucine
+T26	Metabolite 398 406	L-valine
+T21	Metabolite 2030 2038	arsenate
+T27	Metabolite 2043 2060	2,4-dinitrophenol
+T22	Metabolic_production 1780 1789	synthesis
+T23	Metabolic_production 1930 1939	synthesis
+E3	Metabolic_production:T22 Theme:T19
+E4	Metabolic_production:T23 Theme:T20

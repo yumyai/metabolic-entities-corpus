@@ -1,0 +1,27 @@
+T1	Protein 35 57	agmatine ureohydrolase
+T2	Metabolite 4 14	putrescine
+T4	Protein 59 62	AUH
+T5	Protein 65 76	EC 3.5.3.11
+T6	Metabolite 106 114	agmatine
+T7	Metabolite 118 128	putrescine
+T10	Protein 150 153	AUH
+T11	Protein 452 455	AUH
+T12	Protein 646 649	AUH
+T13	Protein 777 780	AUH
+T14	Protein 878 881	AUH
+T15	Protein 991 994	AUH
+T16	Metabolite 999 1007	agmatine
+T18	Protein 1115 1118	AUH
+T19	Protein 1245 1248	AUH
+T20	Protein 1337 1340	AUH
+T21	Protein 1371 1374	AUH
+T22	Metabolite 1428 1436	arginine
+T23	Metabolite 1351 1360	Ornithine
+T17	Protein 1447 1450	AUH
+T3	Metabolic_production 15 27	biosynthetic
+E1	Metabolic_production:T3 Theme:T2
+*	Equiv T1 T4 T5
+T8	Metabolic_reaction 92 102	conversion
+E2	Metabolic_reaction:T8 Theme:T6 Product:T7
+T9	Positive_regulation 78 87	catalyzes
+E3	Positive_regulation:T9 Theme:E2 Cause:T1

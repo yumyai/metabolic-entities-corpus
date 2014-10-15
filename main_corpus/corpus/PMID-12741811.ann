@@ -1,0 +1,22 @@
+T1	Protein 52 69	citrate synthases
+T2	Protein 71 81	type II CS
+T3	Protein 283 292	type I CS
+T4	Metabolite 379 383	NADH
+T5	Protein 468 470	CS
+T6	Metabolite 621 625	NADH
+T7	Metabolite 669 673	NADH
+T8	Protein 705 707	CS
+T9	Metabolite 939 943	NADH
+T10	Protein 997 1007	type II CS
+T11	Metabolite 1060 1064	NADH
+T12	Metabolite 1235 1239	NADH
+T13	Metabolite 1389 1393	NADH
+T15	Metabolite 1688 1692	NADH
+T16	Metabolite 1862 1866	NADH
+T17	Protein 1959 1961	CS
+T18	Protein 2022 2032	type II CS
+T19	Metabolite 2112 2116	NADH
+T20	Protein 2202 2204	CS
+T21	Metabolite 2239 2243	NADH
+T14	Metabolite 1579 1583	NADH
+T22	Metabolite 1588 1594	NAD(+)

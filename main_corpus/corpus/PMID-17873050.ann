@@ -1,0 +1,54 @@
+T1	Protein 0 38	Phosphopantetheine adenylyltransferase
+T3	Metabolite 127 137	coenzyme A
+T4	Protein 152 190	Phosphopantetheine adenylyltransferase
+T5	Protein 192 196	PPAT
+T6	Metabolite 292 302	coenzyme A
+T7	Metabolite 304 307	CoA
+T8	Metabolite 403 421	phosphopantetheine
+T9	Metabolite 423 426	PhP
+T10	Metabolite 440 453	dephospho-CoA
+T11	Metabolite 455 460	dPCoA
+T12	Metabolite 466 479	pyrophosphate
+T13	Protein 512 516	PPAT
+T14	Metabolite 547 550	CoA
+T15	Protein 806 810	PPAT
+T16	Protein 960 964	PPAT
+T19	Metabolite 947 950	CoA
+T20	Metabolite 989 992	ATP
+T21	Metabolite 994 997	PhP
+T22	Protein 1045 1049	PPAT
+T24	Metabolite 1108 1111	PhP
+T25	Metabolite 1116 1121	dPCoA
+T26	Metabolite 1144 1147	ATP
+T27	Metabolite 1152 1155	CoA
+T30	Metabolite 1200 1203	ATP
+T31	Metabolite 1205 1208	PhP
+T32	Metabolite 1210 1215	dPCoA
+T33	Metabolite 1221 1224	CoA
+T34	Metabolite 1279 1282	CoA
+T35	Protein 1407 1411	PPAT
+T36	Protein 1524 1528	PPAT
+T37	Protein 1636 1649	PPAT monomers
+T38	Metabolite 1502 1505	CoA
+T39	Metabolite 1588 1591	PhP
+T40	Metabolite 1681 1684	CoA
+T41	Protein 1730 1734	PPAT
+T45	Metabolite 392 398	Mg-ATP
+T46	Metabolite 675 680	dPCoA
+T49	Metabolite 1003 1008	dPCoA
+T17	Protein 1256 1268	PPAT hexamer
+T18	Protein 1795 1814	pantothenate kinase
+T42	Metabolic_production 138 150	biosynthesis
+T43	Metabolic_production 309 321	biosynthesis
+T44	Metabolic_production 1506 1518	biosynthesis
+E2	Metabolic_production:T42 Theme:T3
+E4	Metabolic_production:T43 Theme:T6
+E5	Metabolic_production:T44 Theme:T38
+*	Equiv T4 T5
+T2	Positive_regulation 258 267	catalyzes
+E1	Positive_regulation:T2 Theme:E4 Cause:T4
+*	Equiv T6 T7
+*	Equiv T9 T8
+T48	Metabolic_reaction 383 391	utilizes
+E6	Metabolic_reaction:T48 Theme:T45 Product:T10 Product2:T12 Theme2:T8
+*	Equiv T10 T11

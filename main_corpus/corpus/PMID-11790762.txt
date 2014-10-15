@@ -1,0 +1,2 @@
+ZupT is a Zn(II) uptake system in Escherichia coli.
+Escherichia coli zupT (ygiE), encoding a ZIP family member, mediated zinc uptake. Growth of cells disrupted in both zupT and the znuABC operon was inhibited by EDTA at a much lower concentration than a single mutant or the wild type. Cells expressing ZupT from a plasmid exhibited increased uptake of (65)Zn(2+).

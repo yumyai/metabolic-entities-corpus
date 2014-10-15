@@ -1,0 +1,4 @@
+T1	Protein 101 127	aspartate aminotransferase
+T3	Protein 710 717	eAATase
+T2	Protein 129 136	eAATase
+*	Equiv T2 T1

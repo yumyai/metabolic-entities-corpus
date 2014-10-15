@@ -1,0 +1,31 @@
+T1	Protein 0 22	Glycogen phosphorylase
+T2	Protein 43 52	glgP Gene
+T3	Metabolite 64 72	glycogen
+T4	Metabolite 95 102	glucose
+T5	Protein 197 229	bacterial glycogen phosphorylase
+T6	Protein 231 235	GlgP
+T10	Protein 383 405	glycogen phosphorylase
+T11	Protein 481 493	glgP product
+T12	Protein 517 539	glycogen phosphorylase
+T13	Metabolite 661 668	glucose
+T14	Metabolite 684 692	glycogen
+T15	Metabolite 714 722	glycogen
+T16	Protein 968 972	GlgP
+T17	Metabolite 983 991	glycogen
+T18	Metabolite 1045 1052	glucose
+T23	Protein 317 321	glgP
+T7	Protein 334 338	glgP
+T24	Metabolite 608 616	glycogen
+T19	Positive_regulation 54 63	catalyzes
+T20	Metabolic_production 723 735	accumulation
+T21	Positive_regulation 973 982	catalyzes
+E1	Positive_regulation:T19 Theme:E5 Cause:T1
+E2	Metabolic_production:T20 Theme:T15
+E3	Positive_regulation:T21 Cause:T16 Theme:E4
+T22	Metabolic_consumption 73 82	breakdown
+E5	Metabolic_consumption:T22 Theme:T3
+*	Equiv T5 T6
+T8	Metabolic_consumption 992 1001	breakdown
+E4	Metabolic_consumption:T8 Theme:T17
+T9	Metabolic_consumption 576 586	reductions
+E6	Metabolic_consumption:T9 Theme:T24

@@ -1,0 +1,31 @@
+T1	Protein 58 84	acetohydroxy acid synthase
+T2	Protein 86 90	AHAS
+T3	Protein 260 264	AHAS
+T4	Metabolite 491 505	2-ketobutyrate
+T5	Metabolite 478 486	pyruvate
+T6	Metabolite 594 602	pyruvate
+T7	Metabolite 706 726	acetohydroxybutyrate
+T8	Metabolite 728 731	AHB
+T9	Metabolite 800 812	acetolactate
+T10	Metabolite 814 816	AL
+T11	Metabolite 827 835	pyruvate
+T12	Metabolite 840 854	2-ketobutyrate
+T13	Metabolite 1096 1104	pyruvate
+T14	Metabolite 1123 1137	2-ketobutyrate
+T15	Protein 1139 1145	AHAS I
+T16	Metabolite 1176 1178	AL
+T17	Metabolite 1196 1199	AHB
+T18	Metabolite 1247 1250	AHB
+T19	Metabolite 1279 1281	AL
+T21	Protein 1575 1581	AHAS I
+T23	Protein 1405 1417	AHAS isozyme
+T24	Protein 1695 1708	AHAS isozymes
+T25	Protein 1726 1732	AHAS I
+T26	Metabolite 1816 1824	pyruvate
+T27	Protein 1850 1865	AHAS II and III
+T28	Metabolite 1953 1960	glucose
+T29	Metabolite 2015 2017	AL
+T30	Metabolite 2044 2052	pyruvate
+T31	Protein 1850 1857	AHAS II
+*	Equiv T7 T8
+*	Equiv T10 T9

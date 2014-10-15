@@ -1,0 +1,59 @@
+T1	Protein 0 11	Hemoglobins
+T2	Protein 90 100	hemoglobin
+T3	Protein 102 104	Hb
+T4	Protein 128 145	red blood cell Hb
+T5	Protein 165 167	Mb
+T6	Protein 177 202	microbial flavohemoglobin
+T7	Protein 204 211	flavoHb
+T8	Metabolite 391 398	nitrate
+T9	Metabolite 981 988	nitrate
+T10	Metabolite 1057 1060	O-O
+T11	Metabolite 1171 1178	nitrate
+T12	Protein 1180 1182	Hb
+T13	Metabolite 24 36	nitric oxide
+T15	Protein 147 163	muscle myoglobin
+T17	Metabolite 225 237	nitric oxide
+T18	Metabolite 239 242	.NO
+T19	Metabolite 284 287	.NO
+T22	Metabolite 538 541	.NO
+T24	Metabolite 589 592	.NO
+T25	Protein 640 643	MbO
+T26	Protein 455 457	Hb
+T27	Protein 467 469	Mb
+T28	Protein 482 489	flavoHb
+T29	Metabolite 655 673	superoxide radical
+T30	Metabolite 675 681	-O.(2)
+T31	Metabolite 793 796	.NO
+T32	Metabolite 853 856	.NO
+T33	Metabolite 864 877	Fe(III-)O.(2)
+T34	Metabolite 899 911	Fe(III-)OONO
+T36	Metabolite 947 959	Fe(III-)OONO
+T37	Metabolite 1101 1115	Fe(IV)O .NO(2)
+T39	Metabolite 1141 1147	oxygen
+T40	Metabolite 1156 1162	.NO(2)
+T42	Protein 1198 1213	.NO dioxygenase
+T43	Metabolite 1229 1233	O(2)
+T44	Metabolite 1272 1275	.NO
+T14	Metabolic_consumption 12 23	dioxygenate
+E1	Metabolic_consumption:T14 Theme:T13 Cause:T1
+*	Equiv T2 T3
+*	Equiv T15 T5
+*	Equiv T6 T7
+T16	Metabolic_consumption 213 224	dioxygenate
+E2	Metabolic_consumption:T16 Theme:T17 Cause:T15
+*	Equiv T17 T18
+E3	Metabolic_consumption:T16 Theme:T17 Cause:T6
+E4	Metabolic_consumption:T16 Theme:T17 Cause:T4
+T20	Metabolic_reaction 288 298	metabolism
+E5	Metabolic_reaction:T20 Theme:T19
+T21	Metabolic_consumption 303 317	detoxification
+E6	Metabolic_consumption:T21 Theme:T19
+T23	Metabolic_consumption 542 555	dioxygenation
+E7	Metabolic_consumption:T23 Theme:T22
+*	Equiv T30 T29
+T35	Metabolic_reaction 926 939	isomerization
+E8	Metabolic_reaction:T35 Theme:T36 Product:T9
+T38	Metabolic_production 1079 1083	form
+E9	Metabolic_production:T38 Theme:T37
+T41	Metabolic_reaction 1148 1155	attacks
+E10	Metabolic_reaction:T41 Theme:T39 Theme2:T40 Product:T11
