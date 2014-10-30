@@ -1,4 +1,5 @@
 T1	Protein 11 46	acetohydroxy adcid reductoisomerase
+T2	Protein 48 93	2,3-dihydroxyisovalerate:NADP+ oxidoreductase
 T3	Protein 95 106	EC 1.1.1.86
 T5	Metabolite 406 412	valine
 T6	Metabolite 416 423	leucine
@@ -8,17 +9,21 @@ T9	Metabolite 970 990	dihydroxyisovalerate
 T10	Metabolite 1715 1732	(2S)-acetolactate
 T11	Metabolite 1749 1774	(2s)-acetohydroxybutyrate
 T12	Metabolite 1986 1998	acetolactate
-T14	Metabolite 2153 2165	acetolactate
+T13	Metabolite 2041 2061	acetohydroxybutyrate
+T14	Metabolite 2141 2165	13C-labeled acetolactate
 T15	Metabolite 2272 2301	2,3-dihydroxy-3-methylbutyrat
+T16	Metabolite 2327 2347	acetohydroxybutyrate
 T17	Protein 2474 2490	reductoisomerase
 T18	Metabolite 2528 2540	ketopantoate
+T19	Metabolite 2552 2560	pantoate
 T20	Metabolite 2582 2592	coenzyme A
 T21	Metabolite 2794 2799	NADPH
 T22	Protein 2855 2859	ilvC
 T23	Protein 2869 2885	reductoisomerase
 T24	Protein 2938 2947	ilvY gene
 T25	Protein 2972 2988	reductoisomerase
-T27	Protein 3223 3227	ilvC
+T26	Protein 3134 3150	reductoisomerase
+T27	Protein 3215 3227	E. coli ilvC
 T28	Protein 3232 3236	ilvY
 T29	Protein 3404 3423	activator protein Y
 T30	Protein 3555 3571	reductoisomerase
@@ -28,33 +33,24 @@ T33	Protein 3802 3818	reductoisomerase
 T34	Protein 3855 3878	reductoisomerase enzyme
 T35	Protein 3996 4000	ilvC
 T36	Metabolite 4306 4338	3-hydroxy-3-methyl-2-oxobutyrate
-T2	Protein 48 93	2,3-dihydroxyisovalerate:NADP+ oxidoreductase
-T13	Metabolite 2041 2061	acetohydroxybutyrate
-T16	Metabolite 2327 2347	acetohydroxybutyrate
-T19	Metabolite 2552 2560	pantoate
-T45	Metabolite 2671 2689	2-(R)-hydroxy acid
-T26	Protein 3134 3150	reductoisomerase
-T47	Metabolite 3667 3678	amino acids
-T48	Metabolite 3577 3590	sulfonyl urea
-T37	Metabolic_reaction 936 950	transformation
-T38	Positive_regulation 871 880	catalyzes
-T39	Metabolic_reaction 2515 2524	reduction
-T40	Metabolic_production 2593 2605	biosynthesis
-T41	Positive_regulation 2502 2510	catalyze
-T42	Metabolic_reaction 2758 2766	transfer
-T43	Metabolic_production 3117 3126	synthesis
-T44	Metabolic_production 3645 3657	biosynthesis
-E1	Metabolic_reaction:T37 Theme:T8 Product:T9
-E2	Positive_regulation:T38 Theme:E1
-E3	Metabolic_reaction:T39 Theme:T18 Product:T19
-E5	Metabolic_production:T40 Theme:T20
-E7	Positive_regulation:T41 Cause:T17 Theme:E3
-E8	Metabolic_reaction:T42 Theme:T21
-E9	Metabolic_production:T43 Theme:T26
-E10	Metabolic_production:T44 Theme:T47
-*	Equiv T1 T2 T3
-T4	Metabolic_production 355 367	biosynthesis
-E11	Metabolic_production:T4 Theme:T5
-E12	Metabolic_production:T4 Theme:T6
-T46	Metabolic_production 2661 2668	produce
-E4	Metabolic_production:T46 Theme:T45
+T4	Metabolic_production 391 398	produce
+E1	Metabolic_production:T4 Theme:T6
+E2	Metabolic_production:T4 Theme:T5
+T37	Metabolite 589 598	cobalamin
+T38	Metabolite 684 706	divalent magnesium ion
+T39	Metabolic_reaction 936 950	transformation
+E3	Metabolic_reaction:T39 Theme:T8 Product:T9
+T40	Positive_regulation 2502 2510	catalyze
+E4	Positive_regulation:T40 Cause:T17 Theme:E5
+T41	Metabolic_consumption 2515 2524	reduction
+E5	Metabolic_consumption:T41 Theme:T18
+T42	Metabolic_production 2593 2605	biosynthesis
+E6	Metabolic_production:T42 Theme:T20
+T43	Metabolite 2671 2689	2-(R)-hydroxy acid
+T44	Metabolite 2774 2788	pro-S hydrogen
+T45	Metabolite 3577 3590	sulfonyl urea
+T46	Metabolic_production 2544 2551	produce
+E7	Metabolic_production:T46 Theme:T19
+E8	Positive_regulation:T40 Cause:T17 Theme:E7
+T47	Metabolic_reaction 2758 2766	transfer
+E9	Metabolic_reaction:T47 Theme:T44 Theme2:T21

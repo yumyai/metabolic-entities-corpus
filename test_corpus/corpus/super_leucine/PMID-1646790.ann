@@ -6,34 +6,42 @@ T6	Protein 188 192	tyrB
 T7	Metabolite 220 237	2-ketoisocaproate
 T8	Metabolite 254 261	leucine
 T9	Metabolite 239 244	2-KIC
+T10	Protein 308 312	ilvE
 T11	Protein 393 397	tyrB
 T12	Protein 471 481	leu operon
 T13	Protein 503 507	tyrB
 T14	Metabolite 272 279	leucine
 T15	Metabolite 347 352	2-KIC
 T16	Protein 615 618	leu
-T17	Protein 689 702	tyrB mutation
+T17	Protein 689 693	tyrB
 T18	Protein 708 711	Tn5
-T19	Protein 797 807	Mu dII4042
 T20	Protein 883 886	Tn5
 T21	Protein 1019 1022	Tn5
 T22	Protein 1066 1069	leu
-T23	Protein 1097 1120	ilvE leu double mutants
+T23	Protein 1097 1101	ilvE
 T24	Metabolite 1156 1161	2-KIC
 T25	Metabolite 1174 1181	leucine
 T26	Protein 1229 1232	leu
 T27	Protein 1299 1324	tyrB-encoded transaminase
-T28	Protein 1341 1345	aspC
 T30	Metabolite 1203 1220	2-ketoisovalerate
-T4	Protein 1351 1377	avtA-encoded transaminases
-T10	Metabolite 1276 1281	2-KIC
 T31	Metabolic_production 52 61	synthesis
-T32	Metabolic_reaction 207 216	amination
-T33	Positive_regulation 194 202	catalyze
-E1	Metabolic_production:T31 Theme:T3 Cause:T2
-E2	Metabolic_reaction:T32 Theme:T7 Product:T8
-E3	Metabolic_reaction:T32 Theme:T9 Product:T8
-E4	Positive_regulation:T33 Theme:E2 Cause:T5
-E5	Positive_regulation:T33 Theme:E3 Cause:T5
-E6	Positive_regulation:T33 Theme:E2 Cause:T6
-E7	Positive_regulation:T33 Theme:E3 Cause:T6
+E1	Metabolic_production:T31 Theme:T3
+E2	Positive_regulation:T28 Cause:T6 Theme:E5
+T32	Metabolic_production 249 253	form
+E3	Metabolic_production:T32 Theme:T8
+T33	Metabolic_consumption 207 216	amination
+E5	Metabolic_consumption:T33 Theme:T7
+T19	Protein 1102 1105	leu
+T34	Protein 1224 1228	ilvE
+T35	Metabolite 1276 1281	2-KIC
+T36	Metabolic_consumption 1282 1291	amination
+E10	Metabolic_consumption:T36 Theme:T35 Cause:T27
+T37	Protein 1341 1377	aspC- and avtA-encoded transaminases
+T28	Positive_regulation 194 202	catalyze
+E6	Positive_regulation:T28 Cause:T6 Theme:E3
+E4	Positive_regulation:T28 Cause:T5 Theme:E3
+E7	Positive_regulation:T28 Cause:T5 Theme:E5
+T4	Positive_regulation 31 39	required
+E8	Positive_regulation:T4 Theme:E1 Cause:T1
+T29	Metabolic_production 1187 1199	accumulation
+E9	Metabolic_production:T29 Theme:T30

@@ -3,8 +3,8 @@
 A stemming form of verb/nominalised verbs for each 
 
 ## Metabolic consumption
-   #Occurence  | Snowball stemming form
-   ------------|-----------------------
+   #Occurence  | Snowball
+   ------------|---------
      20        | catabol
      18        | util
      16        | hydrolysi
@@ -107,40 +107,42 @@ A stemming form of verb/nominalised verbs for each
      1         |  attack
 
 ## Metabolic production
-     #Occurence    Snowball
-     93            biosynthesi
-     41            synthesi
-     26            format
-     12            biosynthet
-     8             product
-     8             form
-     5             synthes
-     5             produc
-     5             accumul
-     4             yield
-     3             generat
-     1             releas
-     1             increas
-     1             ferment
-     1             decarboxyl
+     #Occurence   |  Snowball
+     -------------|----------
+     93           |  biosynthesi
+     41           |  synthesi
+     26           |  format
+     12           |  biosynthet
+     8            |  product
+     8            |  form
+     5            |  synthes
+     5            |  produc
+     5            |  accumul
+     4            |  yield
+     3            |  generat
+     1            |  releas
+     1            |  increas
+     1            |  ferment
+     1            |  decarboxyl
 
 ## Positive Regulation
-   #Occurence      Snowball
-     100            catalyz
-     13             catalys
-     8              involv
-     2              requir
-     2              particip
-     2              initi
-     2              concern
-     2              catalysi
-     1              stimul
-     1              regul
-     1              mediat
-     1              induc
-     1              increas
-     1              express
-     1              essenti
-     1              complet
-     1              carri
-     1              action
+   #Occurence    |  Snowball
+   --------------|----------
+     100         |   catalyz
+     13          |   catalys
+     8           |   involv
+     2           |   requir
+     2           |   particip
+     2           |   initi
+     2           |   concern
+     2           |   catalysi
+     1           |   stimul
+     1           |   regul
+     1           |   mediat
+     1           |   induc
+     1           |   increas
+     1           |   express
+     1           |   essenti
+     1           |   complet
+     1           |   carri
+     1           |   action

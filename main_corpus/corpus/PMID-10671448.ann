@@ -7,17 +7,17 @@ T6	Metabolite 223 246	UDP-N-acetylglucosamine
 T7	Metabolite 375 403	glucosamine-1, 6-diphosphate
 T8	Protein 678 703	phosphoglucosamine mutase
 T9	Protein 811 837	phosphoglucosamine mutases
+T10	Protein 868 910	yeast N-acetylglucosamine-phosphate mutase
+T11	Protein 916 948	rabbit muscle phosphoglucomutase
+T13	Metabolite 991 1001	[(32)P]ATP
+T14	Protein 1571 1583	E. coli GlmM
 T15	Metabolite 1325 1338	phosphoserine
-T10	Protein 874 910	N-acetylglucosamine-phosphate mutase
-T11	Protein 930 948	phosphoglucomutase
-T20	Protein 974 985	GlmM enzyme
-T19	Metabolite 773 783	[(32)P]ATP
-T12	Metabolite 991 1001	[(32)P]ATP
-T13	Protein 1579 1583	GlmM
-T16	Metabolic_reaction 119 128	formation
-T17	Metabolic_production 247 259	biosynthesis
-T18	Positive_regulation 105 114	catalyzes
-E1	Metabolic_reaction:T16 Theme:T4 Product:T5
-E2	Metabolic_production:T17 Theme:T6
-E4	Positive_regulation:T18 Theme:E1 Cause:T2
-*	Equiv T3 T2
+T16	Positive_regulation 105 114	catalyzes
+E1	Positive_regulation:T16 Theme:E2 Cause:T2
+T17	Metabolic_reaction 119 128	formation
+E2	Metabolic_reaction:T17 Product:T4 Theme:T5
+T18	Metabolic_production 247 259	biosynthesis
+E3	Metabolic_production:T18 Theme:T6
+T19	Protein 966 985	E. coli GlmM enzyme
+T12	Metabolite 773 783	[(32)P]ATP
+T20	Metabolite 1268 1277	phosphate

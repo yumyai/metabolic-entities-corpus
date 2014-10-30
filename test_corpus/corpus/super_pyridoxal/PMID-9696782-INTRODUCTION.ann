@@ -16,8 +16,7 @@ T17	Metabolite 746 749	PMP
 T18	Metabolite 770 773	PLP
 T19	Protein 1099 1116	E4P dehydrogenase
 T20	Protein 1206 1224	PdxB dehydrogenase
-T21	Protein 1250 1254	SerC
-T22	Protein 1256 1260	PdxF
+T21	Protein 1250 1268	SerC (PdxF) enzyme
 T23	Protein 1354 1378	tktA tktB double mutants
 T26	Metabolite 1508 1518	pyridoxine
 T27	Metabolite 1520 1522	PN

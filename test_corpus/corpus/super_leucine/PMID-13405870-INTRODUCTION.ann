@@ -1,5 +1,4 @@
-T1	Protein 29 51	L-threonine deaminases
-T2	Protein 16 24	L-serine
+T2	Protein 16 51	L-serine and L-threonine deaminases
 T3	Metabolite 432 440	L-serine
 T4	Metabolite 453 464	L-threonine
 T5	Metabolite 629 637	L-serine
@@ -7,7 +6,7 @@ T6	Metabolite 642 653	L-threonine
 T7	Metabolite 911 922	L-threonine
 T8	Metabolite 959 970	L-threonine
 T9	Metabolite 1006 1014	L-serine
-T11	Protein 1172 1211	Wood and Gunsalus L-threonine deaminase
+T10	Protein 1190 1211	L-threonine deaminase
 T12	Metabolite 1462 1474	L-isoleucine
 T13	Metabolite 1537 1549	L-isoleucine
 T14	Protein 1658 1679	L-threonine deaminase
@@ -15,26 +14,26 @@ T15	Metabolite 1752 1760	L-serine
 T16	Metabolite 1765 1775	Lthreonine
 T17	Metabolite 1846 1854	L-serine
 T18	Protein 1892 1902	deaminases
-T27	Metabolite 1269 1280	L-threonine
-T10	Protein 1366 1390	Wood and Gunsalus enzyme
-T19	Metabolic_consumption 896 907	deamination
-T20	Positive_regulation 881 891	catalyzing
-T21	Metabolic_production 1521 1533	biosynthesis
-T22	Metabolic_production 1645 1657	biosynthetic
-T23	Metabolic_consumption 1833 1840	utilize
-E1	Metabolic_consumption:T19 Theme:T7
-E2	Positive_regulation:T20 Theme:E1
-E3	Metabolic_production:T21 Theme:T13
-E4	Metabolic_production:T22 Theme:T14
-E5	Metabolic_consumption:T23 Theme:T17
-T24	Metabolic_consumption 417 428	deamination
-E6	Metabolic_consumption:T24 Theme:T3
-E7	Metabolic_consumption:T24 Theme:T4
-T25	Positive_regulation 469 478	catalyzed
-E8	Positive_regulation:T25 Theme:E7
-E9	Positive_regulation:T25 Theme:E6
-T26	Metabolic_consumption 614 625	deamination
-E10	Metabolic_consumption:T26 Theme:T5
-E11	Metabolic_consumption:T26 Theme:T6
-T28	Metabolic_consumption 1257 1268	deaminating
-E12	Metabolic_consumption:T28 Theme:T27
+T1	Metabolic_consumption 417 428	deamination
+E1	Metabolic_consumption:T1 Theme:T3
+E2	Metabolic_consumption:T1 Theme:T4
+E3	Positive_regulation:T27 Theme:E1
+E4	Positive_regulation:T27 Theme:E2
+T20	Metabolic_consumption 896 907	deamination
+E5	Metabolic_consumption:T20 Theme:T7
+T21	Positive_regulation 881 891	catalyzing
+E6	Positive_regulation:T21 Theme:E5
+T11	Metabolite 1269 1280	L-threonine
+T22	Metabolic_consumption 1257 1268	deaminating
+E7	Metabolic_consumption:T22 Theme:T11
+T24	Metabolic_production 1521 1533	biosynthesis
+E8	Metabolic_production:T24 Theme:T13
+T25	Metabolic_consumption 1740 1746	attack
+E9	Metabolic_consumption:T25 Theme:T16
+E10	Metabolic_consumption:T25 Theme:T15
+T26	Metabolic_consumption 1833 1840	utilize
+E11	Metabolic_consumption:T26 Theme:T17
+T27	Positive_regulation 469 478	catalyzed
+T19	Metabolic_consumption 614 625	deamination
+E12	Metabolic_consumption:T19 Theme:T6
+E13	Metabolic_consumption:T19 Theme:T5
