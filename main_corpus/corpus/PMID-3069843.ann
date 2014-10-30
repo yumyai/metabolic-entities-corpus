@@ -1,9 +1,11 @@
+T1	Protein 77 89	tac promotor
 T2	Protein 108 150	branched-chain amino acid aminotransferase
-T1	Protein 227 243	aminotransferase
-T3	Protein 704 744	branch-chain amino acid aminotransferase
-T4	Metabolite 1049 1071	pyridoxal 5'-phosphate
-T5	Protein 1140 1182	branched-chain amino acid aminotransferase
-T6	Protein 1226 1252	aspartate aminotransferase
-T7	Metabolite 1296 1318	pyridoxal 5'-phosphate
-T8	Metabolite 1394 1416	pyridoxal 5'-phosphate
-T9	Protein 383 392	ilvE gene
+T3	Protein 227 243	aminotransferase
+T4	Protein 383 392	ilvE gene
+T5	Protein 704 744	branch-chain amino acid aminotransferase
+T6	Protein 1140 1182	branched-chain amino acid aminotransferase
+T7	Protein 1218 1252	E. coli aspartate aminotransferase
+T8	Metabolite 1296 1318	pyridoxal 5'-phosphate
+T9	Metabolite 1394 1416	pyridoxal 5'-phosphate
+T10	Protein 0 9	ilvE gene
+T11	Metabolite 1049 1071	pyridoxal 5'-phosphate

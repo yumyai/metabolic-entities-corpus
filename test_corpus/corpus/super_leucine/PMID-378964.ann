@@ -1,6 +1,7 @@
+T1	Protein 231 242	EC 2.6.1.42
 T2	Protein 249 266	ilvE gene product
-T3	Protein 360 364	ilvE
-T6	Protein 1023 1046	Purified transaminase B
+T3	Protein 360 369	ilvE gene
+T6	Protein 1032 1046	transaminase B
 T7	Metabolite 1080 1099	alpha-ketoglutarate
 T8	Metabolite 1104 1116	l-isoleucine
 T9	Metabolite 1118 1127	l-leucine
@@ -13,35 +14,14 @@ T15	Metabolite 1458 1494	dl-alpha-keto-beta-methyl-n-valerate
 T16	Metabolite 1529 1537	l-valine
 T18	Protein 1763 1777	transaminase B
 T20	Protein 1840 1879	valine-alpha-ketoglutarate transaminase
-T1	Protein 231 243	EC 2.6.1.42)
-T22	Protein 187 229	branched-chain amino acid aminotransferase
-T23	Protein 171 185	Transaminase B
-T24	Protein 0 14	Transaminase B
-T25	Metabolite 956 959	Gly
-T4	Metabolite 960 963	Thr
-T5	Metabolite 964 967	Lys
-T26	Metabolite 968 971	Lys
-T27	Metabolite 972 975	Ala
-T28	Metabolite 976 979	Asp
-T29	Metabolite 980 983	Tyr
-T30	Metabolite 984 987	Ile
-T31	Metabolite 989 992	Trp
-T32	Metabolite 994 997	Phe
-T33	Metabolite 998 1001	Asn
-T34	Metabolite 1002 1005	Gly
-T35	Metabolite 1007 1010	Thr
-T36	Metabolite 1013 1016	Met
-T37	Metabolite 1018 1021	Val
-T40	Metabolite 1335 1365	branched-chain alpha-ketoacids
-T17	Metabolite 1568 1598	isoleucine-alpha-ketoglutarate
-T19	Metabolite 1556 1598	valine- and isoleucine-alpha-ketoglutarate
-T21	Protein 1894 1917	transaminase B antibody
-*	Equiv T22 T1 T23
-T38	Positive_regulation 1047 1056	catalyzed
-E1	Positive_regulation:T38 Cause:T6 Theme:E2
-T39	Metabolic_reaction 1057 1071	transamination
-E2	Metabolic_reaction:T39 Theme:T7 Theme2:T8 Theme3:T10 Theme4:T12
-E3	Metabolic_reaction:T39 Theme:T9
-E4	Metabolic_reaction:T39 Theme:T11
-E5	Positive_regulation:T38 Cause:T6 Theme:E4
-E6	Positive_regulation:T38 Cause:T6 Theme:E3
+T21	Protein 1886 1908	E. coli transaminase B
+T22	Protein 0 14	Transaminase B
+T4	Protein 171 185	Transaminase B
+T5	Protein 187 229	branched-chain amino acid aminotransferase
+T23	Metabolic_reaction 1057 1071	transamination
+E1	Metabolic_reaction:T23 Theme:T7 Theme2:T8 Theme3:T9 Theme4:T10 Theme5:T11 Theme6:T12
+T24	Positive_regulation 1047 1056	catalyzed
+E7	Positive_regulation:T24 Cause:T6 Theme:E1
+T25	Metabolite 1335 1365	branched-chain alpha-ketoacids
+T17	Metabolite 1556 1598	valine- and isoleucine-alpha-ketoglutarate
+T19	Metabolite 134 160	valine-alpha-ketoglutarate

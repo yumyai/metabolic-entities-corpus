@@ -1,7 +1,18 @@
 T1	Protein 29 45	citrate synthase
-T2	Protein 50 73	succinate dehydrogenase
-T3	Metabolite 684 691	glucose
-T4	Metabolite 852 856	cAMP
-T5	Metabolite 857 860	CRP
-T6	Metabolite 990 994	cAMP
-T7	Metabolite 995 998	CRP
+T2	Protein 50 79	succinate dehydrogenase genes
+T4	Protein 127 138	nuclease S1
+T5	Protein 192 208	gltA transcripts
+T6	Protein 352 370	gltA coding region
+T7	Protein 438 445	sdhCDAB
+T8	Protein 458 464	sdhDAB
+T9	Protein 525 529	sdhC
+T10	Protein 554 558	sdhD
+T11	Protein 572 576	sdhC
+T12	Metabolite 684 691	glucose
+T16	Protein 995 998	CRP
+T17	Protein 81 93	gltA-sdhCDAB
+T3	Protein 857 860	CRP
+T13	Protein 862 899	cyclic AMP-cyclicAMP receptor protein
+T14	Metabolite 852 856	cAMP
+T15	Metabolite 990 994	cAMP
+T18	Protein 421 436	sdh transcripts

@@ -3,21 +3,21 @@ T2	Metabolite 150 172	pyridoxal 5'-phosphate
 T3	Metabolite 231 238	vitamin
 T4	Protein 751 755	PdxA
 T5	Protein 760 764	PdxJ
+T6	Metabolite 685 713	4-phosphohydroxy-L-threonine
 T7	Protein 1037 1041	Pdx1
 T8	Protein 1046 1050	Pdx2
 T9	Metabolite 1100 1110	vitamin B6
 T10	Metabolite 1585 1595	vitamin B6
-T13	Metabolite 89 99	Vitamin B6
-T14	Metabolite 655 680	deoxyxylulose 5-phosphate
-T6	Metabolite 685 713	4-phosphohydroxy-L-threonine
-T17	Metabolite 856 863	vitamin
 T11	Metabolic_production 45 57	biosynthesis
-T12	Metabolic_production 1569 1581	biosynthesis
 E1	Metabolic_production:T11 Theme:T1
-E2	Metabolic_production:T12 Theme:T10
-T15	Positive_regulation 714 723	catalysed
-E3	Positive_regulation:T15 Theme:E5 Cause:T5
-T16	Metabolic_consumption 639 651	condensation
-E4	Metabolic_consumption:T16 Theme:T6
-E5	Metabolic_consumption:T16 Theme:T14
-E6	Positive_regulation:T15 Theme:E4 Cause:T4
+T12	Metabolite 89 99	Vitamin B6
+T13	Metabolite 655 680	deoxyxylulose 5-phosphate
+T14	Positive_regulation 714 723	catalysed
+E2	Positive_regulation:T14 Cause:T4 Theme:E3
+T15	Metabolic_consumption 639 651	condensation
+E3	Metabolic_consumption:T15 Theme:T13 Theme2:T6
+T16	Metabolite 856 863	vitamin
+T17	Metabolite 938 955	pentose phosphate
+T18	Metabolic_production 1569 1581	biosynthesis
+E4	Metabolic_production:T18 Theme:T10
+E5	Positive_regulation:T14 Cause:T5 Theme:E3

@@ -6,89 +6,95 @@ T5	Metabolite 328 351	pyridoxine 5'-phosphate
 T6	Metabolite 353 356	PNP
 T7	Metabolite 389 392	PNP
 T8	Protein 417 429	PdxH oxidase
-T10	Metabolite 518 521	PLP
-T12	Metabolite 604 606	PN
-T13	Metabolite 613 625	pyridoxamine
-T14	Metabolite 627 629	PM
-T16	Metabolite 773 776	PLP
-T17	Metabolite 778 781	PNP
-T18	Metabolite 787 812	pyridoxamine 5'-phosphate
-T19	Metabolite 814 817	PMP
-T20	Protein 884 896	PdxH oxidase
-T21	Metabolite 852 855	PNP
-T22	Metabolite 860 863	PMP
-T24	Protein 1178 1188	PL kinases
-T27	Protein 1436 1445	pdxK gene
-T28	Protein 1493 1502	PN kinase
-T29	Protein 1526 1535	PM kinase
-T30	Protein 1596 1600	pdxK
-T31	Protein 1780 1789	PL kinase
-T32	Protein 1909 1918	PL kinase
-T34	Protein 2004 2008	pdxK
-T35	Protein 2027 2036	PN kinase
-T36	Protein 2065 2074	PL kinase
-T38	Protein 2247 2256	PL kinase
-T39	Metabolite 2277 2280	PLP
-T40	Protein 2333 2342	pdxY gene
-T41	Protein 2366 2375	PL kinase
-T42	Protein 2459 2463	pdxY
-T46	Protein 2667 2676	tyrS gene
-T47	Protein 2692 2720	aminoacyl-tRNATyr synthetase
-T50	Metabolite 262 290	4-phosphohydroxy-l-threonine
-T51	Metabolite 292 296	4PHT
-T52	Metabolite 302 319	d-1-deoxyxylulose
-T53	Metabolite 438 441	PLP
-T9	Metabolite 576 585	pyridoxal
-T11	Metabolite 587 589	PL
-T54	Metabolite 592 602	pyridoxine
-T60	Metabolite 714 716	PL
-T62	Metabolite 718 720	PN
-T63	Metabolite 726 728	PM
-T65	Protein 1519 1521	PL
-T15	Protein 757 764	kinases
-T67	Metabolite 1051 1054	PLP
-T23	Metabolite 1108 1111	PLP
-T25	Protein 1195 1219	PLP-specific phosphatase
-T26	Protein 1243 1258	PLP phosphatase
-T69	Protein 1351 1362	phosphatase
-T70	Metabolite 1379 1382	PLP
-T71	Protein 1463 1472	PN kinase
-T72	Protein 1614 1629	PN/PL/PM kinase
-T73	Protein 1691 1706	PN/PL/PM kinase
-T33	Protein 1965 1969	PdxK
-T74	Metabolite 2132 2135	PLP
-T76	Metabolite 2271 2273	PL
-T37	Metabolite 2410 2420	B6 vitamer
-T43	Protein 2534 2554	PdxH PNP/PMP oxidase
-T44	Metabolite 2616 2619	PLP
-T48	Metabolic_production 181 192	synthesized
-T49	Metabolic_reaction 2262 2270	converts
-E1	Metabolic_production:T48 Theme:T4
-E2	Metabolic_reaction:T49 Cause:T38 Theme:T76 Product:T39
-*	Equiv T51 T50
-*	Equiv T13 T14
-*	Equiv T12 T54
-*	Equiv T11 T9
-T56	Metabolic_reaction 253 261	condense
-E4	Metabolic_reaction:T56 Theme:T50 Theme2:T52 Product:T5
-T58	Metabolic_reaction 401 409	oxidized
-E6	Metabolic_reaction:T58 Theme:T7 Cause:T8 Product:T53
-T59	Metabolic_production 529 540	synthesized
-E7	Metabolic_production:T59 Theme:T10
-E8	Metabolic_consumption:T61 Theme:T13
-E9	Metabolic_consumption:T61 Theme:T9
-T61	Metabolic_consumption 567 575	utilizes
-E10	Metabolic_consumption:T61 Theme:T54
-T64	Metabolic_reaction 739 753	phosphorylated
-E11	Metabolic_reaction:T64 Theme:T63 Product:T18 Cause:T15
-E12	Metabolic_reaction:T64 Theme:T60 Product:T16 Cause:T15
-E13	Metabolic_reaction:T64 Theme:T62 Product:T17 Cause:T15
-T66	Metabolic_consumption 868 876	oxidized
-E14	Metabolic_consumption:T66 Theme:T21 Cause:T20
-E15	Metabolic_consumption:T66 Theme:T22 Cause:T20
-T68	Metabolic_production 1055 1067	biosynthetic
-E16	Metabolic_production:T68 Theme:T67
-T75	Metabolic_production 2136 2148	biosynthesis
-E17	Metabolic_production:T75 Theme:T74
-T45	Metabolic_production 2620 2629	synthesis
-E18	Metabolic_production:T45 Theme:T44
+T9	Metabolite 518 521	PLP
+T10	Metabolite 576 585	pyridoxal
+T11	Metabolite 604 606	PN
+T12	Metabolite 613 625	pyridoxamine
+T13	Metabolite 627 629	PM
+T14	Metabolite 773 776	PLP
+T15	Metabolite 778 781	PNP
+T16	Metabolite 787 812	pyridoxamine 5'-phosphate
+T17	Metabolite 814 817	PMP
+T18	Protein 884 896	PdxH oxidase
+T19	Metabolite 852 855	PNP
+T20	Metabolite 860 863	PMP
+T21	Metabolite 1108 1111	PLP
+T22	Protein 1178 1188	PL kinases
+T23	Protein 1195 1219	PLP-specific phosphatase
+T24	Protein 1231 1258	cytoplasmic PLP phosphatase
+T25	Protein 1436 1445	pdxK gene
+T26	Protein 1493 1502	PN kinase
+T28	Protein 1596 1600	pdxK
+T29	Protein 1780 1789	PL kinase
+T30	Protein 1909 1918	PL kinase
+T31	Protein 1957 1969	E. coli PdxK
+T32	Protein 2004 2008	pdxK
+T33	Protein 2027 2036	PN kinase
+T34	Protein 2065 2074	PL kinase
+T36	Protein 2247 2256	PL kinase
+T37	Metabolite 2277 2280	PLP
+T38	Protein 2333 2342	pdxY gene
+T39	Protein 2366 2375	PL kinase
+T40	Protein 2459 2463	pdxY
+T41	Protein 2534 2554	PdxH PNP/PMP oxidase
+T43	Protein 2667 2676	tyrS gene
+T44	Protein 2692 2720	aminoacyl-tRNATyr synthetase
+T45	Metabolic_production 181 192	synthesized
+E1	Metabolic_production:T45 Theme:T4
+T46	Metabolite 262 290	4-phosphohydroxy-l-threonine
+T47	Metabolite 292 296	4PHT
+T48	Metabolite 302 319	d-1-deoxyxylulose
+T49	Metabolic_consumption 253 261	condense
+E2	Metabolic_consumption:T49 Theme:T46 Theme2:T48
+T50	Metabolite 438 441	PLP
+T51	Metabolic_consumption 401 409	oxidized
+E3	Metabolic_consumption:T51 Theme:T7 Cause:T8
+T52	Metabolic_production 529 540	synthesized
+E4	Metabolic_production:T52 Theme:T9
+T53	Metabolite 592 602	pyridoxine
+T54	Metabolite 587 589	PL
+T55	Metabolite 714 716	PL
+T56	Metabolite 718 720	PN
+T57	Metabolite 726 728	PM
+E5	Metabolic_consumption:T61 Theme:T56 Cause:T58
+E6	Metabolic_consumption:T60 Theme:T55 Cause:T58
+E7	Metabolic_consumption:T60 Theme:T57 Cause:T58
+T59	Metabolic_production 768 772	form
+E8	Metabolic_production:T59 Cause:T58 Theme:T15
+E9	Metabolic_production:T59 Cause:T58 Theme:T16
+E10	Metabolic_production:T59 Cause:T58 Theme:T14
+T60	Metabolic_consumption 739 753	phosphorylated
+T61	Metabolic_consumption 739 753	phosphorylated
+T58	Protein 757 764	kinases
+T62	Metabolic_consumption 868 876	oxidized
+E11	Metabolic_consumption:T62 Theme:T20 Cause:T18
+E12	Metabolic_consumption:T62 Theme:T19 Cause:T18
+T63	Metabolite 1051 1054	PLP
+T64	Metabolic_production 1055 1067	biosynthetic
+E13	Metabolic_production:T64 Theme:T63
+T65	Metabolite 1351 1362	phosphatase
+T66	Metabolite 1379 1382	PLP
+T67	Protein 1463 1472	PN kinase
+T27	Protein 1519 1535	PL and PM kinase
+T68	Protein 1614 1629	PN/PL/PM kinase
+T69	Protein 1691 1706	PN/PL/PM kinase
+T70	Metabolite 2132 2135	PLP
+T71	Metabolic_production 2136 2148	biosynthesis
+E14	Metabolic_production:T71 Theme:T70
+T35	Metabolite 2271 2273	PL
+T72	Metabolic_reaction 2262 2270	converts
+E15	Metabolic_reaction:T72 Cause:T36 Theme:T35 Product:T37
+T73	Metabolite 2410 2420	B6 vitamer
+T74	Metabolic_consumption 2421 2428	salvage
+E16	Metabolic_consumption:T74 Theme:T73
+T42	Metabolite 2616 2619	PLP
+T75	Metabolic_production 2620 2629	synthesis
+E17	Metabolic_production:T75 Theme:T42
+T76	Metabolic_production 433 437	form
+E18	Metabolic_production:T76 Cause:T8 Theme:T50
+T77	Metabolic_production 323 327	form
+E19	Metabolic_production:T77 Theme:T5
+T78	Metabolic_consumption 567 575	utilizes
+E20	Metabolic_consumption:T78 Theme:T12
+E21	Metabolic_consumption:T78 Theme:T53
+E22	Metabolic_consumption:T78 Theme:T10
