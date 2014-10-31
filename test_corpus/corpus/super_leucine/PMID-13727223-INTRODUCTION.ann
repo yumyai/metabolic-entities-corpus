@@ -14,8 +14,8 @@ E1	Metabolic_production:T13 Theme:T2
 E2	Metabolic_production:T13 Theme:T1
 T14	Protein 184 196	transaminase
 T15	Metabolite 276 298	aliphatic a-keto acids
-T16	Metabolic_reaction 216 224	transfer
-E3	Metabolic_reaction:T16 Theme:T3 Theme2:T15
+T16	Metabolic_consumption 216 224	transfer
+E3	Metabolic_consumption:T16 Theme:T3 Theme2:T15
 T17	Positive_regulation 203 211	mediates
 E4	Positive_regulation:T17 Cause:T14 Theme:E3
 T18	Metabolite 596 631	a,b-dihydroxy b-methyl-valeric acid
