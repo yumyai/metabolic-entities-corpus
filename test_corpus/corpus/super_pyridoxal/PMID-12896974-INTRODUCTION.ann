@@ -22,7 +22,6 @@ T23	Protein 1791 1795	PdxA
 T24	Protein 1887 1891	PdxJ
 T25	Protein 1853 1885	pyridoxine-5'-phosphate synthase
 T26	Metabolite 1905 1928	pyridoxine 5'-phosphate
-T27	Metabolite 2014 2024	pyridoxine
 T28	Protein 2064 2068	PdxA
 T30	Metabolite 2107 2110	HTP
 T31	Protein 2307 2311	PdxA
@@ -72,10 +71,10 @@ T75	Metabolite 1040 1065	deoxyxylulose 5-phosphate
 T76	Protein 1397 1411	E.C. 1.1.1.262
 T77	Metabolite 1472 1508	3-amino-1-hydroxyacetone 1-phosphate
 T78	Metabolic_reaction 1420 1428	converts
-E4	Metabolic_reaction:T78 Theme:T18 Product:T77 Cause:T17
-T80	Metabolite 1701 1730	alcohol 4-hydroxy-L-threonine
+E4	Metabolic_reaction:T78 Theme:T18 Product:T77
+T80	Metabolite 1696 1730	free alcohol 4-hydroxy-L-threonine
 T81	Metabolic_reaction 1896 1904	generate
-E6	Metabolic_reaction:T81 Cause:T25 Product:T26 Product2:T82 Theme:T83
+E6	Metabolic_reaction:T81 Cause:T25 Theme:T83 Product:T26 Product2:T82
 T82	Metabolite 1940 1959	inorganic phosphate
 T83	Metabolite 1824 1849	deoxyxylulose 5-phosphate
 T84	Metabolite 2192 2196	Mn2+
@@ -128,3 +127,5 @@ T106	Metabolic_reaction 1523 1538	decarboxylation
 E20	Metabolic_reaction:T106 Theme:T18 Product:T77
 T7	Protein 812 854	E. coli-like pyridoxine biosynthesis genes
 T10	Protein 1155 1194	1 erythromate-4-phosphate dehydrogenase
+T27	Metabolite 3086 3089	NAD
+T110	Metabolite 3795 3807	nicotinamide

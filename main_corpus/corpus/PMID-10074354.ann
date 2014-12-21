@@ -21,8 +21,8 @@ T22	Metabolite 1094 1102	arginine
 T23	Protein 1210 1230	bacterial dapC locus
 T24	Metabolic_reaction 47 57	synthesize
 E1	Metabolic_reaction:T24 Product:T5 Theme:T6 Theme2:T7
-T12	Metabolic_consumption 741 755	transamination
-E2	Metabolic_consumption:T12 Theme:T14
+T12	Metabolic_reaction 741 755	transamination
+E2	Metabolic_reaction:T12 Theme:T14
 T2	Positive_regulation 698 708	catalyzing
 E3	Positive_regulation:T2 Cause:T11 Theme:E2
 T25	Metabolic_production 1103 1115	biosynthesis

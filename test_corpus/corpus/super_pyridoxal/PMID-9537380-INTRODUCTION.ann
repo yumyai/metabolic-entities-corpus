@@ -72,7 +72,7 @@ E12	Metabolic_consumption:T62 Theme:T19 Cause:T18
 T63	Metabolite 1051 1054	PLP
 T64	Metabolic_production 1055 1067	biosynthetic
 E13	Metabolic_production:T64 Theme:T63
-T65	Metabolite 1351 1362	phosphatase
+T65	Protein 1351 1362	phosphatase
 T66	Metabolite 1379 1382	PLP
 T67	Protein 1463 1472	PN kinase
 T27	Protein 1519 1535	PL and PM kinase

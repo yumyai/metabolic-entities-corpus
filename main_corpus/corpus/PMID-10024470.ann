@@ -19,3 +19,4 @@ E4	Positive_regulation:T14 Theme:E5 Cause:T5
 T15	Metabolic_consumption 687 696	reduction
 E5	Metabolic_consumption:T15 Theme:T6
 T16	Protein 828 853	acetohydroxyacid synthase
+E6	Positive_regulation:T9 Cause:T1 Theme:E3

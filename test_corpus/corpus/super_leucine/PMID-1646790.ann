@@ -45,3 +45,4 @@ T4	Positive_regulation 31 39	required
 E8	Positive_regulation:T4 Theme:E1 Cause:T1
 T29	Metabolic_production 1187 1199	accumulation
 E9	Metabolic_production:T29 Theme:T30
+E11	Metabolic_consumption:T36 Cause:T37 Theme:T35

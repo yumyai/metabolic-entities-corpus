@@ -18,13 +18,14 @@ T21	Protein 1886 1908	E. coli transaminase B
 T22	Protein 0 14	Transaminase B
 T4	Protein 171 185	Transaminase B
 T5	Protein 187 229	branched-chain amino acid aminotransferase
-E1	Metabolic_consumption:T26 Theme:T7 Theme2:T8
+E1	Metabolic_reaction:T23 Theme:T7 Theme2:T8
 T24	Positive_regulation 1047 1056	catalyzed
 E7	Positive_regulation:T24 Cause:T6 Theme:E1
 T25	Metabolite 1335 1365	branched-chain alpha-ketoacids
 T17	Metabolite 1556 1598	valine- and isoleucine-alpha-ketoglutarate
 T19	Metabolite 134 160	valine-alpha-ketoglutarate
-E2	Metabolic_consumption:T27 Theme:T9 Theme2:T10
-E3	Metabolic_consumption:T26 Theme:T11 Theme2:T12
-T26	Metabolic_consumption 1057 1071	transamination
-T27	Metabolic_consumption 1057 1071	transamination
+E2	Metabolic_reaction:T23 Theme:T9 Theme2:T10
+E3	Metabolic_reaction:T23 Theme:T11 Theme2:T12
+E4	Positive_regulation:T24 Theme:E2 Cause:T6
+E5	Positive_regulation:T24 Theme:E3 Cause:T6
+T23	Metabolic_reaction 1057 1071	transamination

@@ -4,7 +4,7 @@ T3	Metabolite 123 135	aminoacetone
 T4	Metabolite 159 166	glucose
 T5	Metabolite 171 175	urea
 T6	Protein 213 236	threonine dehydrogenase
-T7	Protein 256 275	threonine deaminase
+T7	Protein 241 275	"biosynthetic" threonine deaminase
 T8	Protein 295 313	threonine aldolase
 T9	Metabolite 417 426	threonine
 T10	Metabolite 474 486	aminoacetone
