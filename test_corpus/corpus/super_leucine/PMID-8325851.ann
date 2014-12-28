@@ -2,9 +2,13 @@ T2	Protein 99 125	Dihydroxy-acid dehydratase
 T6	Protein 1112 1138	Dihydroxy-acid dehydratase
 T8	Metabolite 1567 1571	Fe2+
 T9	Metabolite 1576 1581	thiol
-T1	Protein 71 97	dihydroxy-acid dehydratase
+T1	Protein 54 97	Escherichia coli dihydroxy-acid dehydratase
 T3	Protein 434 468	spinach dihydroxy-acid dehydratase
-T4	Protein 803 829	dihydroxy-acid dehydratase
+T4	Protein 795 829	E. coli dihydroxy-acid dehydratase
 T5	Protein 976 985	aconitase
 T10	Protein 1267 1276	aconitase
-T7	Protein 1310 1336	dihydroxy-acid dehydratase
+T7	Protein 1302 1336	E. coli dihydroxy-acid dehydratase
+T11	Metabolite 880 884	iron
+T12	Metabolite 1170 1172	O2
+T13	Metabolite 1500 1502	Fe
+T14	Metabolite 1503 1504	S

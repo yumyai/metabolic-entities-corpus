@@ -10,7 +10,7 @@ T10	Metabolite 1715 1732	(2S)-acetolactate
 T11	Metabolite 1749 1774	(2s)-acetohydroxybutyrate
 T12	Metabolite 1986 1998	acetolactate
 T13	Metabolite 2041 2061	acetohydroxybutyrate
-T14	Metabolite 2153 2165	acetolactate
+T14	Metabolite 2141 2165	13C-labeled acetolactate
 T15	Metabolite 2272 2301	2,3-dihydroxy-3-methylbutyrat
 T16	Metabolite 2327 2347	acetohydroxybutyrate
 T17	Protein 2474 2490	reductoisomerase
@@ -56,3 +56,6 @@ E9	Metabolic_consumption:T47 Theme:T44 Theme2:T21
 T48	Positive_regulation 871 880	catalyzes
 E10	Positive_regulation:T48 Theme:E3
 T43	Protein 3006 3015	Y protein
+T49	Metabolite 123 148	branched-chain amino acid
+T50	Metabolite 2442 2446	diol
+T51	Metabolite 3504 3530	branched-chain amino acids

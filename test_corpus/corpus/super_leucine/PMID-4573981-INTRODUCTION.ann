@@ -1,10 +1,6 @@
 T1	Protein 76 97	L-threonine deaminase
 T3	Metabolite 353 365	L-isoleucine
 T5	Protein 1325 1346	L-threonine deaminase
-T4	Protein 833 854	L-threonine deaminase
+T4	Protein 820 854	E. coli K-12 L-threonine deaminase
 T7	Metabolic_production 340 349	formation
 E1	Metabolic_production:T7 Theme:T3
-T8	Metabolic_production 63 75	biosynthetic
-E2	Metabolic_production:T8 Theme:T1
-T9	Metabolic_production 1312 1324	biosynthetic
-E3	Metabolic_production:T9 Theme:T5

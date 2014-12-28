@@ -1,5 +1,5 @@
 T1	Metabolite 51 62	L-threonine
-T2	Protein 97 105	nitrogen
+T2	Metabolite 97 105	nitrogen
 T3	Protein 270 290	L-threonine aldolase
 T4	Metabolite 306 315	threonine
 T5	Protein 368 393	L-Threonine dehydrogenase
@@ -38,3 +38,9 @@ E4	Positive_regulation:T33 Cause:T17 Theme:E3
 E5	Positive_regulation:T33 Theme:E3 Cause:T18
 T34	Metabolic_consumption 2365 2375	catabolism
 E6	Metabolic_consumption:T34 Theme:T23
+T35	Metabolite 86 92	carbon
+E7	Positive_regulation:T33 Theme:E3 Cause:T19
+T36	Positive_regulation 2568 2574	employ
+E8	Positive_regulation:T36 Cause:T26 Theme:T29
+E9	Positive_regulation:T36 Cause:T26 Theme:T28
+E10	Positive_regulation:T36 Cause:T26 Theme:T27

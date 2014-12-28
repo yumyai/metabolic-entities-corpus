@@ -37,5 +37,5 @@ T30	Positive_regulation 922 934	participates
 E5	Positive_regulation:T30 Cause:T19 Theme:E6
 E7	Positive_regulation:T30 Cause:T19 Theme:E9
 T32	Metabolic_reaction 946 955	formation
-E9	Metabolic_reaction:T32 Theme:T20 Product:T21
+E9	Metabolic_reaction:T32 Theme:T21 Product:T20
 T33	Metabolite 769 778	threonine

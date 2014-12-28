@@ -8,7 +8,7 @@ T9	Metabolite 301 313	acetaldehyde
 T10	Metabolite 318 325	glycine
 T11	Metabolite 410 419	threonine
 T12	Metabolite 423 437	a-ketobutyrate
-T13	Metabolite 442 450	ammonium
+T13	Metabolite 442 454	ammonium ion
 T14	Metabolite 549 558	threonine
 T16	Metabolite 657 666	threonine
 T17	Metabolite 695 705	isoleucine
@@ -44,9 +44,8 @@ E1	Metabolic_consumption:T30 Theme:T1
 E2	Metabolic_reaction:T31 Theme:T4 Cause:T2 Product:T5
 E3	Metabolic_consumption:T32 Theme:T16
 E5	Metabolic_production:T33 Theme:T17
-E6	Metabolic_reaction:T34 Theme2:T19 Product:T18
+E6	Metabolic_reaction:T34 Product:T18 Theme:T19
 E7	Metabolic_production:T35 Theme:T23
-E8	Metabolic_production:T36 Theme:T24
 E9	Metabolic_production:T36 Theme:T26
 E10	Metabolic_production:T37 Theme:T27
 E11	Metabolic_consumption:T38 Theme:T28
@@ -63,3 +62,7 @@ E15	Metabolic_reaction:T45 Theme:T14 Cause:T44
 T46	Regulation 642 651	concerned
 E4	Regulation:T46 Cause:T15 Theme:E3
 E16	Regulation:T46 Cause:T15 Theme:E5
+T47	Metabolic_consumption 1195 1206	degradation
+E17	Metabolic_consumption:T47 Theme:T25
+T48	Metabolic_production 1147 1154	produce
+E18	Metabolic_production:T48 Theme:T24

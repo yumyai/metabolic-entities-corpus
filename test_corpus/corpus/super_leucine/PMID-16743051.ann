@@ -20,27 +20,19 @@ T20	Metabolite 2115 2128	2-oxobutyrate
 T27	Protein 70 92	l-threonine hydrolyase
 T30	Metabolite 541 551	propionate
 T14	Metabolite 1277 1285	l-valine
-T33	Protein 2001 2027	branched-chain amino acids
+T33	Metabolite 2001 2027	branched-chain amino acids
 T36	Metabolite 2155 2181	branched-chain 2-oxo acids
 T37	Metabolite 236 262	branched-chain amino acids
 T21	Metabolic_consumption 10 20	catabolism
 T22	Metabolic_consumption 45 56	degradation
 T24	Metabolic_consumption 666 676	catabolism
-T25	Metabolic_production 1650 1659	synthesis
 E1	Metabolic_consumption:T21 Theme:T1
 E2	Metabolic_consumption:T22 Theme:T2
 E4	Metabolic_consumption:T24 Theme:T9
-E5	Metabolic_production:T25 Theme:T16
 T28	Positive_regulation 57 66	initiated
 E7	Positive_regulation:T28 Theme:E2 Cause:T27
 T29	Metabolic_reaction 475 486	catabolized
-E8	Metabolic_reaction:T29 Theme:T5 Theme2:T6
-T23	Metabolic_reaction 531 537	thence
-E3	Metabolic_reaction:T23 Theme:T6 Product:T30
-E9	Regulation:T38 Theme:E4 Cause:T7
-A1	Negation E9
-E10	Regulation:T38 Theme:E4 Cause:T8
-A2	Negation E10
+E8	Metabolic_reaction:T29 Theme:T5 Product:T6
 T31	Metabolic_consumption 1842 1852	catabolism
 E11	Metabolic_consumption:T31 Theme:T19
 T26	Positive_regulation 1880 1889	initiated
@@ -49,4 +41,7 @@ T34	Metabolic_consumption 1987 1997	catabolism
 E12	Metabolic_consumption:T34 Theme:T33
 T35	Metabolic_consumption 2101 2111	catabolism
 E13	Metabolic_consumption:T35 Theme:T20
-T38	Regulation 586 597	involvement
+T23	Metabolic_reaction 531 537	thence
+E3	Metabolic_reaction:T23 Theme:T6 Product:T30
+T32	Protein 1557 1566	isoenzyme
+T38	Metabolite 1775 1801	branched-chain amino acids

@@ -11,7 +11,7 @@ T10	Protein 484 488	aspC
 T11	Metabolite 505 514	aspartate
 T12	Metabolite 519 528	glutamate
 T13	Protein 591 595	tyrB
-T14	Protein 600 609	aspC gene
+T14	Protein 600 618	aspC gene products
 T15	Protein 622 654	aromatic amino acid transaminase
 T16	Protein 659 681	aspartate transaminase
 T17	Metabolite 888 897	glutamate
@@ -30,7 +30,7 @@ T29	Protein 1376 1385	ilvE gene
 T30	Protein 1409 1413	ilvO
 T31	Protein 1440 1455	ilvGOEDA operon
 T32	Protein 1846 1860	transaminase B
-T33	Protein 32 45	transaiinases
+T33	Protein 32 45	transaminases
 T34	Protein 81 113	aromatic amino acid transaminase
 T35	Protein 180 194	transaminase B
 T36	Protein 209 223	transaminase C

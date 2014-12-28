@@ -1,8 +1,7 @@
-T1	Protein 102 110	ilvGMEDA
+T1	Protein 102 124	ilvGMEDA leader region
 T2	Metabolite 24 31	leucine
-T3	Protein 198 233	ilvGMEDA operon of Escherichia coli
-T4	Protein 417 421	lacZ
-T5	Protein 425 433	cat gene
+T3	Protein 198 213	ilvGMEDA operon
+T5	Protein 417 421	lacZ
 T6	Metabolite 462 469	leucine
 T7	Metabolite 482 490	arginine
 T8	Metabolite 516 524	arginine
@@ -15,3 +14,5 @@ T14	Metabolite 1016 1029	phenylalanine
 T15	Metabolite 1060 1067	leucine
 T16	Metabolite 1126 1139	phenylalanine
 T17	Protein 1463 1477	RNA polymerase
+T4	Protein 820 830	ilv operon
+T18	Protein 425 433	cat gene

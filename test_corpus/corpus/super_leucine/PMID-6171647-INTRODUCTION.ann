@@ -1,14 +1,14 @@
 T1	Metabolite 28 35	leucine
 T2	Protein 222 229	leuABCD
 T3	Metabolite 381 388	leucine
-T4	Protein 494 497	leu
-T5	Protein 510 536	Zeu-specific messenger RNA
+T4	Protein 493 504	leu enzymes
+T5	Protein 509 535	Zeu-specific messenger RNA
 T6	Metabolite 667 674	leucine
-T7	Protein 843 853	leu operon
-T8	Protein 1083 1097	leucine operon
-T9	Protein 1255 1276	leu oprron of E. coli
-T10	Protein 1547 1550	leu
-T11	Protein 1719 1722	leu
+T7	Protein 842 852	leu operon
+T8	Protein 1082 1096	leucine operon
+T9	Protein 1253 1263	leu operon
+T10	Protein 1545 1564	leu control regions
+T11	Protein 1717 1727	leu leader
 T13	Metabolite 435 442	leucine
 T12	Metabolic_production 36 48	biosynthesis
 E1	Metabolic_production:T12 Theme:T1
