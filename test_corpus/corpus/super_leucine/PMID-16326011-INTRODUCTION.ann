@@ -17,26 +17,24 @@ T19	Metabolite 1740 1754	2-ketobutyrate
 T20	Metabolite 1760 1768	pyruvate
 T21	Metabolite 1825 1839	2-ketobutyrate
 T22	Protein 1931 1937	AHAS I
-T23	Protein 2063 2068	ilvBN
+T23	Protein 2056 2068	operon ilvBN
 T24	Protein 2084 2090	AHAS I
 T25	Protein 2325 2331	AHAS I
 T26	Protein 2484 2490	AHAS I
 T27	Protein 2599 2605	AHAS I
 T28	Protein 2709 2722	AHAS isozymes
-T31	Protein 262 279	enzyme-bound ThDP
 T32	Metabolite 424 434	a-ketoacid
 T11	Metabolite 502 514	acetolactate
 T33	Metabolite 518 538	acetohydroxybutyrate
 T34	Protein 614 618	AHAS
 T35	Protein 1177 1182	AHASs
-T36	Protein 1290 1295	AHASs
+T36	Protein 1280 1295	bacterial AHASs
 T37	Protein 1564 1572	AHAS III
 T38	Protein 1593 1597	AHAS
-T40	Protein 1972 1977	AHASs
+T40	Protein 1962 1977	bacterial AHASs
 T41	Metabolite 2206 2210	cAMP
 T4	Protein 59 69	EC 2.2.1.6
-T3	Protein 1814 1817	III
-T43	Protein 1798 1809	isozymes II
+T43	Protein 1798 1817	isozymes II and III
 T29	Metabolic_production 165 177	biosynthesis
 T30	Positive_regulation 126 135	catalyzes
 E1	Metabolic_production:T29 Theme:T5
@@ -50,5 +48,14 @@ T39	Metabolic_reaction 1701 1711	preference
 E7	Metabolic_reaction:T39 Cause:T18 Theme:T19
 E8	Metabolic_reaction:T39 Cause:T18 Theme:T20
 T42	Metabolic_reaction 1818 1824	prefer
-E9	Metabolic_reaction:T42 Theme:T21 Cause:T3
-E10	Metabolic_reaction:T42 Cause:T43 Theme:T21
+E9	Metabolic_reaction:T42 Theme:T21 Cause:T43
+T31	Metabolite 275 279	ThDP
+T44	Metabolite 76 95	thiamin diphosphate
+T45	Metabolite 97 101	ThDP
+T46	Metabolite 344 348	ThDP
+T47	Metabolic_consumption 318 333	decarboxylation
+E11	Metabolic_consumption:T47 Theme:T8
+T48	Protein 1439 1454	bacterial AHASs
+T49	Protein 1632 1636	AHAS
+T50	Protein 1319 1336	isozymes I and II
+T3	Protein 2691 2698	isozyme

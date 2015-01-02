@@ -66,7 +66,7 @@ T58	Protein 1518 1521	leu
 T59	Metabolite 1548 1553	2-KIC
 T60	Protein 1652 1655	TrD
 T61	Metabolic_production 1667 1676	synthesis
-E10	Metabolic_production:T61 Theme:T40 Cause:T60
+E10	Metabolic_production:T61 Theme:T40
 T62	Metabolic_production 1604 1616	accumulation
 E11	Metabolic_production:T62 Theme:T38
 T63	Positive_regulation 223 232	catalyzed

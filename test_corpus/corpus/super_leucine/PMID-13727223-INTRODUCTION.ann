@@ -6,24 +6,21 @@ T5	Metabolite 344 354	isoleucine
 T6	Metabolite 359 365	valine
 T7	Metabolite 518 528	isoleucine
 T8	Metabolite 529 535	valine
-T9	Metabolite 575 585	isoleucine
 T11	Metabolite 960 977	a-ketoisovalerate
 T12	Protein 1601 1625	dihydroxy acid dehydrase
 T13	Metabolic_production 84 96	biosynthesis
 E1	Metabolic_production:T13 Theme:T2
 E2	Metabolic_production:T13 Theme:T1
 T14	Protein 184 196	transaminase
-T15	Metabolite 276 298	aliphatic a-keto acids
 T16	Metabolic_reaction 216 224	transfer
-E3	Metabolic_reaction:T16 Theme:T3 Theme2:T15
+E3	Metabolic_reaction:T16 Theme:T3
 T17	Positive_regulation 203 211	mediates
 E4	Positive_regulation:T17 Cause:T14 Theme:E3
 T18	Metabolite 596 631	a,b-dihydroxy b-methyl-valeric acid
-T19	Metabolite 640 646	valine
+T19	Metabolite 640 656	valine precursor
 T20	Metabolite 657 685	a,b-dihydroxyisovaleric acid
 T21	Metabolite 765 799	a,b-dihydroxy b-methylvaleric acid
 T22	Metabolite 804 832	a,b-dihydroxyisovaleric acid
-T23	Metabolite 854 866	a-keto acids
 T24	Metabolic_reaction 754 764	converting
 E5	Metabolic_reaction:T24 Theme:T27 Product:T11
 T25	Metabolite 868 898	a,b-dihydroxy b-methylvalerate
@@ -33,3 +30,7 @@ E6	Metabolic_reaction:T24 Theme:T25 Product:T26
 T10	Positive_regulation 150 157	carried
 E7	Positive_regulation:T10 Theme:E2 Cause:T14
 E8	Positive_regulation:T10 Theme:E1 Cause:T14
+T9	Metabolite 575 595	isoleucine precursor
+T15	Metabolic_production 560 570	accumulate
+E9	Metabolic_production:T15 Theme:T20
+E10	Metabolic_production:T15 Theme:T18

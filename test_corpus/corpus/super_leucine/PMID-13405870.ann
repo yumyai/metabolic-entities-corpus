@@ -1,4 +1,4 @@
 T1	Metabolite 0 9	Threonine
-T2	Protein 64 86	L-threonine deaminases
+T2	Protein 60 86	two L-threonine deaminases
 T3	Metabolic_consumption 10 21	deamination
 E1	Metabolic_consumption:T3 Theme:T1

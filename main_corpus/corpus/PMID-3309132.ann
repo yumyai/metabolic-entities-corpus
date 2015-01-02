@@ -12,7 +12,8 @@ T12	Metabolite 684 691	glucose
 T16	Protein 995 998	CRP
 T17	Protein 81 93	gltA-sdhCDAB
 T3	Protein 857 860	CRP
-T13	Protein 862 899	cyclic AMP-cyclicAMP receptor protein
 T14	Metabolite 852 856	cAMP
 T15	Metabolite 990 994	cAMP
 T18	Protein 421 436	sdh transcripts
+T13	Metabolite 862 872	cyclic AMP
+T19	Protein 873 899	cyclicAMP receptor protein

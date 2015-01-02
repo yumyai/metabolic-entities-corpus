@@ -1,118 +1,126 @@
-T1	Protein 116 139	glycogen phosphorylases
-T2	Metabolite 0 22	Pyridoxal 5'-phosphate
-T3	Metabolite 24 27	PLP
-T4	Metabolite 180 183	PLP
-T5	Protein 444 448	PdxA
-T6	Protein 453 465	PdxJ enzymes
-T8	Metabolite 385 415	1-deoxy-d-xylulose 5-phosphate
-T9	Metabolite 474 497	pyridoxine 5'-phosphate
-T10	Metabolite 499 502	PNP
-T11	Protein 553 564	PdxH enzyme
-T12	Metabolite 629 632	PLP
-T13	Metabolite 649 674	pyridoxamine 5'-phosphate
-T14	Metabolite 676 679	PMP
-T16	Protein 826 838	PdxH oxidase
-T17	Metabolite 746 749	PMP
-T18	Metabolite 770 773	PLP
-T19	Protein 1099 1116	E4P dehydrogenase
-T20	Protein 1206 1224	PdxB dehydrogenase
-T21	Protein 1250 1268	SerC (PdxF) enzyme
-T23	Protein 1354 1378	tktA tktB double mutants
-T26	Metabolite 1508 1518	pyridoxine
-T27	Metabolite 1520 1522	PN
-T28	Protein 1558 1569	PdxB enzyme
-T29	Protein 1626 1630	SerC
-T30	Protein 1632 1636	PdxF
-T31	Protein 1745 1749	pdxB
-T32	Protein 1754 1758	serC
-T33	Protein 1760 1764	pdxF
-T34	Protein 1839 1856	E4P dehydrogenase
-T35	Metabolite 1778 1780	PN
-T36	Protein 1934 1937	epd
-T37	Protein 1939 1943	gapB
-T38	Protein 1981 1990	gapB gene
-T39	Protein 2009 2012	epd
-T40	Protein 2043 2060	E4P dehydrogenase
-T41	Protein 2071 2088	E4P dehydrogenase
-T42	Protein 2105 2115	Epd enzyme
-T43	Protein 2213 2230	E4P dehydrogenase
-T44	Protein 2256 2259	Epd
-T45	Protein 2313 2359	glyceraldehyde 3-phosphate (G3P) dehydrogenase
-T47	Metabolite 2412 2421	phosphate
-T48	Protein 2451 2468	G3P dehydrogenase
-T49	Protein 2519 2531	gapA mutants
-T50	Protein 2548 2571	major G3P dehydrogenase
-T51	Protein 2641 2659	GapA dehydrogenase
-T54	Protein 2872 2883	gapB single
-T55	Protein 2888 2912	gapA gapB double mutants
-T58	Metabolite 2971 2973	PN
-T60	Metabolite 3020 3023	PLP
-T61	Metabolite 3028 3031	PMP
-T62	Protein 3142 3159	E4P dehydrogenase
-T63	Metabolite 3163 3166	PLP
-T64	Protein 3394 3411	gapA gapB mutants
-T65	Protein 3460 3472	gapB mutants
-T66	Metabolite 3505 3507	PN
-T72	Metabolite 345 373	4-phosphohydroxy-l-threonine
-T73	Metabolite 375 379	4PHT
-T74	Metabolite 530 533	PNP
-T78	Metabolite 584 596	PLP coenzyme
-T79	Protein 705 718	transaminases
-T80	Protein 805 818	transaminases
-T81	Metabolite 1579 1582	4PE
-T82	Metabolite 1175 1178	4PE
-T83	Metabolite 1120 1140	4-phosphoerythronate
-T84	Metabolite 1142 1145	4PE
-T85	Metabolite 1069 1072	E4P
-T86	Metabolite 1044 1067	d-erythrose-4-phosphate
-T87	Metabolite 1001 1005	4PHT
-T89	Metabolite 905 909	4PHT
-T90	Metabolite 983 986	PNP
-T92	Metabolite 1277 1281	4PHT
-T24	Protein 1391 1404	transketolase
-T25	Metabolite 1436 1439	E4P
-T96	Metabolite 1476 1484	vitamins
-T98	Metabolite 1650 1654	4PHT
-T100	Protein 2196 2199	Epd
-T46	Protein 2726 2743	E4P dehydrogenase
-T52	Protein 2802 2813	GapA enzyme
-T53	Metabolite 2950 2961	B6 vitamers
-T59	Metabolite 2978 2987	pyridoxal
-T101	Metabolite 2989 2991	PL
-T67	Metabolic_production 332 341	synthesis
-T68	Metabolic_reaction 636 645	converted
-T69	Metabolic_reaction 3007 3016	converted
-T70	Metabolic_production 3167 3179	biosynthesis
+*	Equiv T101 T59
+*	Equiv T9 T10
 E1	Metabolic_production:T67 Theme:T8
+E10	Metabolic_consumption:T57 Theme:T8 Cause:T5
+E11	Metabolic_production:T75 Theme:T9 Cause:T6
+E12	Metabolic_consumption:T57 Theme:T8 Cause:T6
+E13	Metabolic_production:T75 Theme:T9 Cause:T5
+E14	Metabolic_production:T7 Theme:T78 Cause:T11
+E15	Metabolic_consumption:T76 Cause:T11 Theme:T74
+E16	Metabolic_reaction:T69 Theme:T59 Product:T61
+E17	Metabolic_reaction:T91 Theme:T86 Cause:T19 Product:T83
+E18	Metabolic_consumption:T93 Theme:T82 Cause:T20
+E19	Metabolic_production:T94 Theme:T92 Cause:T21
 E2	Metabolic_reaction:T68 Product:T13 Theme:T12 Cause:T79
-E6	Metabolic_reaction:T69 Theme:T60 Product:T61
+E20	Metabolic_reaction:T95 Theme:T82 Cause:T21
+E21	Metabolic_consumption:T97 Theme:T81 Cause:T28
+E22	Metabolic_reaction:T99 Theme:T98 Cause:T29
+E3	Metabolic_reaction:T15 Theme:T17 Product:T18 Cause:T80 Cause2:T16
+E4	Metabolic_production:T88 Theme:T87
+E5	Positive_regulation:T56 Cause:T62 Theme:E7
+E6	Metabolic_reaction:T69 Theme:T58 Product:T60
 E7	Metabolic_production:T70 Theme:T63
-T71	Metabolic_production 201 212	synthesized
 E8	Metabolic_production:T71 Theme:T4
 E9	Metabolic_production:T67 Theme:T72
-T75	Metabolic_production 469 473	form
-E11	Metabolic_production:T75 Theme:T9
-T76	Metabolic_reaction 537 545	oxidized
-E15	Metabolic_reaction:T76 Cause:T11 Theme:T74 Product:T78
-T15	Metabolic_reaction 753 761	recycled
-E3	Metabolic_reaction:T15 Theme:T17 Product:T18 Cause:T80 Cause2:T16
-*	Equiv T9 T10
-T88	Metabolic_production 1006 1018	biosynthesis
-E4	Metabolic_production:T88 Theme:T87
-T91	Metabolic_reaction 1084 1092	oxidized
-E17	Metabolic_reaction:T91 Theme:T86 Cause:T19 Product:T83
-T93	Metabolic_reaction 1190 1198	oxidized
-E18	Metabolic_reaction:T93 Theme:T82 Cause:T20
-T94	Metabolic_production 1272 1276	form
-E19	Metabolic_production:T94 Theme:T92
-T95	Metabolic_reaction 1229 1242	transaminated
-E20	Metabolic_reaction:T95 Theme:T82 Cause:T21
-T97	Metabolic_consumption 1570 1578	oxidizes
-E21	Metabolic_consumption:T97 Theme:T81 Cause:T28
-T99	Metabolic_reaction 1645 1649	uses
-E22	Metabolic_reaction:T99 Theme:T98 Cause:T29
-*	Equiv T101 T59
-T56	Positive_regulation 3123 3134	requirement
-E5	Positive_regulation:T56 Cause:T62 Theme:E7
-T7	Metabolic_reaction 427 436	condensed
-E10	Metabolic_reaction:T7 Theme:T8 Cause:T5 Cause2:T6
+T2	Metabolite 0 22	Pyridoxal 5'-phosphate
+T3	Metabolite 24 27	PLP
+T1	Protein 116 139	glycogen phosphorylases
+T4	Metabolite 180 183	PLP
+T71	Metabolic_production 201 212	synthesized
+T67	Metabolic_production 324 333	synthesis
+T72	Metabolite 337 365	4-phosphohydroxy-l-threonine
+T73	Metabolite 367 371	4PHT
+T8	Metabolite 377 407	1-deoxy-d-xylulose 5-phosphate
+T57	Metabolic_consumption 419 428	condensed
+T5	Protein 436 440	PdxA
+T6	Protein 445 457	PdxJ enzymes
+T75	Metabolic_production 461 465	form
+T9	Metabolite 466 489	pyridoxine 5'-phosphate
+T10	Metabolite 491 494	PNP
+T74	Metabolite 514 517	PNP
+T76	Metabolic_consumption 521 529	oxidized
+T11	Protein 537 548	PdxH enzyme
+T7	Metabolic_production 552 556	form
+T78	Metabolite 568 580	PLP coenzyme
+T12	Metabolite 604 607	PLP
+T68	Metabolic_reaction 611 620	converted
+T13	Metabolite 624 649	pyridoxamine 5'-phosphate
+T14	Metabolite 651 654	PMP
+T79	Protein 680 693	transaminases
+T17	Metabolite 712 715	PMP
+T15	Metabolic_reaction 719 727	recycled
+T18	Metabolite 736 739	PLP
+T80	Protein 771 784	transaminases
+T16	Protein 792 804	PdxH oxidase
+T89	Metabolite 871 875	4PHT
+T90	Metabolite 949 952	PNP
+T87	Metabolite 967 971	4PHT
+T88	Metabolic_production 972 984	biosynthesis
+T86	Metabolite 1010 1033	d-erythrose-4-phosphate
+T85	Metabolite 1035 1038	E4P
+T91	Metabolic_reaction 1050 1058	oxidized
+T19	Protein 1065 1082	E4P dehydrogenase
+T83	Metabolite 1086 1106	4-phosphoerythronate
+T84	Metabolite 1108 1111	4PE
+T82	Metabolite 1132 1135	4PE
+T93	Metabolic_consumption 1147 1155	oxidized
+T20	Protein 1163 1181	PdxB dehydrogenase
+T95	Metabolic_reaction 1186 1199	transaminated
+T21	Protein 1207 1225	SerC (PdxF) enzyme
+T94	Metabolic_production 1229 1233	form
+T92	Metabolite 1234 1238	4PHT
+T23	Protein 1302 1306	tktA
+T77	Protein 1307 1311	tktB
+T24	Protein 1339 1352	transketolase
+T25	Metabolite 1384 1387	E4P
+T96	Metabolite 1424 1432	vitamins
+T26	Metabolite 1447 1457	pyridoxine
+T27	Metabolite 1459 1461	PN
+T28	Protein 1497 1508	PdxB enzyme
+T97	Metabolic_consumption 1509 1517	oxidizes
+T81	Metabolite 1518 1521	4PE
+T29	Protein 1565 1583	SerC (PdxF) enzyme
+T99	Metabolic_reaction 1584 1588	uses
+T98	Metabolite 1589 1593	4PHT
+T31	Protein 1684 1688	pdxB
+T32	Protein 1693 1697	serC
+T33	Protein 1699 1703	pdxF
+T35	Metabolite 1717 1719	PN
+T34	Protein 1778 1795	E4P dehydrogenase
+T36	Protein 1873 1876	epd
+T37	Protein 1878 1882	gapB
+T38	Protein 1920 1929	gapB gene
+T39	Protein 1948 1951	epd
+T40	Protein 1982 1999	E4P dehydrogenase
+T41	Protein 2010 2027	E4P dehydrogenase
+T42	Protein 2044 2054	Epd enzyme
+T100	Protein 2135 2138	Epd
+T43	Protein 2152 2169	E4P dehydrogenase
+T44	Protein 2195 2198	Epd
+T45	Protein 2252 2298	glyceraldehyde 3-phosphate (G3P) dehydrogenase
+T47	Metabolite 2341 2360	inorganic phosphate
+T48	Protein 2390 2407	G3P dehydrogenase
+T49	Protein 2458 2462	gapA
+T50	Protein 2493 2510	G3P dehydrogenase
+T51	Protein 2580 2598	GapA dehydrogenase
+T46	Protein 2665 2682	E4P dehydrogenase
+T52	Protein 2733 2752	E. coli GapA enzyme
+T54	Protein 2803 2815	E. coli gapB
+T55	Protein 2827 2831	gapA
+T22	Protein 2832 2836	gapB
+T53	Metabolite 2889 2900	B6 vitamers
+T58	Metabolite 2910 2912	PN
+T59	Metabolite 2917 2926	pyridoxal
+T101	Metabolite 2928 2930	PL
+T69	Metabolic_reaction 2946 2955	converted
+T60	Metabolite 2959 2962	PLP
+T61	Metabolite 2967 2970	PMP
+T56	Positive_regulation 3062 3073	requirement
+T62	Protein 3081 3098	E4P dehydrogenase
+T63	Metabolite 3102 3105	PLP
+T70	Metabolic_production 3106 3118	biosynthesis
+T64	Protein 3324 3328	gapA
+T30	Protein 3329 3333	gapB
+T102	Metabolite 3369 3380	B6 vitamers
+T65	Protein 3390 3394	gapB
+T66	Metabolite 3435 3437	PN

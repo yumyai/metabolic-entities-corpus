@@ -1,6 +1,6 @@
 T1	Metabolite 4 14	isoleucine
 T2	Metabolite 19 25	valine
-T3	Protein 290 299	iluC gene
+T3	Protein 290 299	ilvC gene
 T4	Protein 318 354	a-acetohydroxy acid isomeroreductase
 T5	Metabolite 411 421	isoleucine
 T6	Metabolite 423 429	valine
@@ -18,9 +18,9 @@ T19	Protein 1331 1342	ilv cluster
 T20	Protein 1400 1404	ilvB
 T21	Protein 1409 1413	ilvC
 T22	Protein 1583 1599	isomeroreductase
-T24	Protein 477 499	valine-forming enzymes
-T12	Protein 690 712	valine-forming enzymes
+T24	Protein 461 499	isoleucine- and valine-forming enzymes
 T25	Protein 674 712	isolecuine- and valine-forming enzymes
 T23	Metabolic_production 26 38	biosynthetic
 E1	Metabolic_production:T23 Theme:T1
 E2	Metabolic_production:T23 Theme:T2
+T8	Metabolite 756 782	branched-chain amino acids

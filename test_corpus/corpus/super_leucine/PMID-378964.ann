@@ -6,8 +6,6 @@ T7	Metabolite 1080 1099	alpha-ketoglutarate
 T8	Metabolite 1104 1116	l-isoleucine
 T9	Metabolite 1118 1127	l-leucine
 T10	Metabolite 1129 1137	l-valine
-T11	Metabolite 1164 1179	l-phenylalanine
-T12	Metabolite 1184 1194	l-tyrosine
 T13	Protein 1256 1278	aspartate transaminase
 T14	Protein 1286 1300	transaminase C
 T15	Metabolite 1458 1494	dl-alpha-keto-beta-methyl-n-valerate
@@ -18,10 +16,14 @@ T21	Protein 1886 1908	E. coli transaminase B
 T22	Protein 0 14	Transaminase B
 T4	Protein 171 185	Transaminase B
 T5	Protein 187 229	branched-chain amino acid aminotransferase
-T23	Metabolic_reaction 1057 1071	transamination
-E1	Metabolic_reaction:T23 Theme:T7 Theme2:T8 Theme3:T9 Theme4:T10 Theme5:T11 Theme6:T12
+E1	Metabolic_reaction:T23 Theme:T7 Theme2:T8
 T24	Positive_regulation 1047 1056	catalyzed
 E7	Positive_regulation:T24 Cause:T6 Theme:E1
 T25	Metabolite 1335 1365	branched-chain alpha-ketoacids
 T17	Metabolite 1556 1598	valine- and isoleucine-alpha-ketoglutarate
 T19	Metabolite 134 160	valine-alpha-ketoglutarate
+E2	Metabolic_reaction:T23 Theme:T9 Theme2:T10
+E4	Positive_regulation:T24 Theme:E2 Cause:T6
+T23	Metabolic_reaction 1057 1071	transamination
+T11	Metabolite 1164 1179	l-phenylalanine
+T12	Metabolite 1184 1194	l-tyrosine

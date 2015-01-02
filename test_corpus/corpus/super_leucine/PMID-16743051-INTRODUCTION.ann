@@ -26,14 +26,14 @@ T22	Metabolic_reaction 443 450	cleaved
 T23	Metabolic_consumption 755 765	catabolism
 T24	Metabolic_consumption 1453 1463	catabolism
 E1	Metabolic_consumption:T21 Theme:T1
-E3	Metabolic_reaction:T22 Product:T7 Cause:T5 Theme:T6
-E4	Metabolic_reaction:T22 Product:T8 Cause:T5 Theme:T6
+E3	Metabolic_reaction:T22 Product:T7 Cause:T5 Theme:T6 Product2:T8
 E5	Metabolic_consumption:T23 Theme:T13
 E6	Metabolic_consumption:T24 Theme:T18
-T26	Metabolic_reaction 305 316	metabolized
-E8	Metabolic_reaction:T26 Theme:T4 Cause:T2
+T26	Metabolic_consumption 305 316	metabolized
+E8	Metabolic_consumption:T26 Theme:T4 Cause:T2
 *	Equiv T2 T3
 *	Equiv T9 T10
 *	Equiv T11 T12 T27
 T28	Metabolic_consumption 1684 1694	catabolism
 E2	Metabolic_consumption:T28 Theme:T29
+T30	Protein 1417 1426	isoenzyme

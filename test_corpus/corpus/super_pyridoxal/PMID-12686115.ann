@@ -4,7 +4,7 @@ T3	Protein 272 276	SOR1
 T7	Metabolite 409 412	PNP
 T8	Metabolite 417 436	inorganic phosphate
 T9	Metabolite 511 514	PNP
-T10	Metabolite 567 589	pyridoxal 5'-phosphate
+T10	Metabolite 567 598	pyridoxal 5'-phosphate cofactor
 T11	Protein 608 620	PNP synthase
 T12	Protein 810 822	PNP synthase
 T15	Protein 0 32	Pyridoxine 5'-phosphate synthase

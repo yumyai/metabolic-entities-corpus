@@ -3,8 +3,7 @@ T2	Metabolite 82 92	vitamin B6
 T3	Metabolite 533 547	glycolaldehyde
 T4	Protein 820 829	pdx genes
 T5	Protein 1179 1196	E. coli pdx genes
-T6	Protein 1293 1297	pdxA
-T7	Protein 1298 1302	pdxJ
+T6	Protein 1293 1308	pdxA/pdxJ genes
 T8	Protein 1343 1347	pdxA
 T9	Protein 1348 1352	pdxJ
 T12	Metabolite 94 96	B6
@@ -14,10 +13,8 @@ T18	Metabolite 364 366	B6
 T19	Metabolite 878 880	B6
 T21	Metabolite 978 980	B6
 T23	Metabolite 1104 1106	B6
-T25	Protein 1250 1253	snz
-T26	Protein 1254 1257	sno
-T27	Protein 1358 1361	snz
-T28	Protein 1362 1365	sno
+T25	Protein 1250 1273	snz/sno gene homologues
+T27	Protein 1358 1381	snz/sno gene homologues
 T29	Metabolite 1449 1451	B6
 T30	Metabolite 1535 1537	B6
 T32	Metabolite 1582 1584	B6
@@ -40,3 +37,7 @@ T24	Metabolic_production 1107 1119	biosynthesis
 E8	Metabolic_production:T24 Theme:T23
 T31	Metabolic_production 1538 1550	biosynthesis
 E9	Metabolic_production:T31 Theme:T30
+T7	Metabolic_production 1452 1464	biosynthetic
+E10	Metabolic_production:T7 Theme:T29
+T26	Metabolic_production 1585 1597	biosynthetic
+E11	Metabolic_production:T26 Theme:T32

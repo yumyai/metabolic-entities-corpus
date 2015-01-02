@@ -14,5 +14,8 @@ T13	Metabolite 77 87	glucose-6P
 E2	Metabolic_reaction:T11 Theme:T12 Product:T13 Cause:T10
 T14	Metabolite 445 455	Glucose-6P
 T15	Metabolite 788 803	sugar phosphate
-T16	Metabolic_consumption 804 817	isomerization
-E3	Metabolic_consumption:T16 Theme:T15
+T16	Metabolic_reaction 804 817	isomerization
+E3	Metabolic_reaction:T16 Theme:T15
+T9	Positive_regulation 847 856	catalyzed
+E4	Positive_regulation:T9 Theme:E3
+T17	Metabolite 972 979	enediol

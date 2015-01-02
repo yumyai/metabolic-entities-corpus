@@ -13,9 +13,9 @@ T19	Metabolite 1403 1418	3H-pyridoxamine
 T20	Metabolite 1562 1571	pyridoxal
 T21	Metabolite 1612 1624	pyridoxamine
 T23	Metabolite 1850 1860	vitamin B6
-T2	Metabolite 45 61	phosphate esters
-T9	Metabolite 662 672	vitamin B6
+T9	Metabolite 651 672	3H-labeled vitamin B6
 T6	Metabolite 1085 1098	3H-vitamin B6
 T8	Metabolite 1626 1639	3H-Pyridoxine
 T24	Metabolic_consumption 11 22	utilization
 E1	Metabolic_consumption:T24 Theme:T1
+T2	Metabolite 789 798	phosphate

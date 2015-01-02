@@ -5,19 +5,19 @@ T20	Metabolite 108 134	branched-chain amino acids
 T2	Metabolite 139 149	coenzyme A
 T21	Metabolite 182 207	branched-chain amino acid
 T3	Protein 328 354	dihydroxy-acid dehydratase
-T4	Protein 496 522	dihydroxy-acid dehydratase
-T7	Metabolite 797 814	keto acid product
-T10	Metabolite 835 855	isoleucine precursor
-T5	Protein 1009 1035	dihydroxy-acid dehydratase
-T8	Protein 1219 1245	dihydroxy-acid dehydratase
-T9	Protein 1259 1289	6-phosphogluconate dehydratase
-T6	Protein 1299 1323	vicinal diol dehydratase
-T11	Protein 1423 1449	Dihydroxy-acid dehydratase
-T12	Protein 2467 2477	hydrolyase
-T24	Protein 2499 2508	aconitase
-T25	Protein 2535 2544	aconitase
-T13	Protein 2552 2578	Dihydroxy-acid dehydratase
-T26	Metabolite 2784 2810	branched-chain amino acids
+T4	Protein 495 521	dihydroxy-acid dehydratase
+T7	Metabolite 796 813	keto acid product
+T10	Metabolite 834 854	isoleucine precursor
+T5	Protein 1000 1034	E. coli dihydroxy-acid dehydratase
+T8	Protein 1218 1244	dihydroxy-acid dehydratase
+T9	Protein 1258 1288	6-phosphogluconate dehydratase
+T6	Protein 1298 1322	vicinal diol dehydratase
+T11	Protein 1422 1448	Dihydroxy-acid dehydratase
+T12	Protein 2466 2476	hydrolyase
+T24	Protein 2484 2507	mitochondrial aconitase
+T25	Protein 2534 2543	aconitase
+T13	Protein 2551 2577	Dihydroxy-acid dehydratase
+T26	Metabolite 2783 2809	branched-chain amino acids
 T14	Protein 2871 2897	dihydroxy-acid dehydratase
 T15	Protein 2912 2938	Dihydroxy-acid dehydratase
 T27	Protein 3119 3145	dihydroxy-acid dehydratase

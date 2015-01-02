@@ -6,7 +6,7 @@ T7	Protein 1192 1202	leu operon
 T8	Protein 1418 1428	leu operon
 T9	Metabolite 1382 1389	leucine
 T10	Protein 1648 1660	leu promoter
-T11	Protein 1830 1834	leuA
+T11	Protein 1797 1834	promoter-proximal end of cistron leuA
 T4	Protein 1747 1773	a-isopropylmalate synthase
 T12	Metabolic_production 8 20	biosynthesis
 E1	Metabolic_production:T12 Theme:T1

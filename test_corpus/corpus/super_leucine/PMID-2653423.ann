@@ -11,3 +11,6 @@ T11	Metabolite 1205 1217	acetolactate
 T12	Metabolite 1249 1281	3-hydroxy-3-methyl-2-oxobutyrate
 T13	Metabolic_consumption 930 939	reduction
 E1	Metabolic_consumption:T13 Theme:T8
+T9	Metabolite 139 164	branched-chain amino acid
+T14	Metabolite 850 854	Mg2+
+T15	Metabolite 977 981	Mn2+

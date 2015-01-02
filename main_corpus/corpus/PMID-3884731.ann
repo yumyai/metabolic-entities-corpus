@@ -8,8 +8,11 @@ T10	Protein 926 946	glucosamine synthase
 T11	Protein 77 88	EC 5.3.1.19
 T3	Metabolite 192 215	glucosamine 6-phosphate
 T12	Positive_regulation 154 163	catalysed
-E1	Positive_regulation:T12 Theme:E2 Cause:T1
+E1	Positive_regulation:T12 Theme:E2
 T13	Metabolic_production 168 177	formation
 E2	Metabolic_production:T13 Theme:T3
 T2	Protein 54 74	glucosamine synthase
-T14	Metabolite 844 853	glutamine
+T14	Metabolite 844 862	glutamine analogue
+T4	Metabolite 416 446	dipeptide antibiotic bacilysin
+T15	Metabolite 471 480	bacilysin
+T16	Metabolite 371 381	Anticapsin

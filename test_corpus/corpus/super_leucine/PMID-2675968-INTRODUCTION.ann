@@ -16,22 +16,21 @@ T15	Protein 865 878	AHAS isozymes
 T16	Protein 1030 1035	ilvBN
 T17	Protein 1037 1042	ilvGM
 T18	Protein 1048 1053	ilvIH
-T19	Protein 1417 1424	AHAS I1
-T20	Protein 1453 1461	AHAS I11
+T19	Protein 1417 1424	AHAS II
+T20	Protein 1453 1461	AHAS III
 T21	Protein 1749 1762	AHAS isozymes
 T22	Protein 1958 1970	AHAS isozyme
 T23	Metabolite 1995 2003	pyruvate
 T24	Metabolite 2008 2022	2-ketobutyrate
 T25	Metabolite 2032 2040	pyruvate
 T26	Metabolite 2122 2136	2-ketobutyrate
-T27	Protein 2423 2429	AHAS I
-T28	Protein 2434 2436	I1
+T27	Protein 2423 2436	AHAS I and II
 T33	Metabolite 292 295	AHB
 T30	Protein 473 477	AHAS
 T34	Metabolite 327 345	acetohydroxy acids
-T36	Protein 1092 1111	AHAS I, 11, and 111
+T36	Protein 1092 1111	AHAS I, II, and III
 T37	Protein 1382 1386	AHAS
-T38	Protein 2360 2368	AHAS 111
+T38	Protein 2343 2368	Escherichia coli AHAS III
 T29	Metabolic_production 577 586	synthesis
 E10	Metabolic_production:T29 Theme:T12 Theme2:T13
 T31	Positive_regulation 84 93	catalyzes
@@ -44,3 +43,7 @@ E13	Metabolic_reaction:T32 Theme:T6 Theme2:T9 Product:T10
 E1	Metabolic_production:T29 Theme:T14
 T35	Metabolic_production 308 317	synthesis
 E2	Metabolic_production:T35 Theme:T34
+E3	Positive_regulation:T31 Theme:E13 Cause:T1
+T39	Metabolite 414 440	branched-chain amino acids
+T40	Metabolite 1654 1656	AL
+T41	Metabolite 1661 1664	AHB

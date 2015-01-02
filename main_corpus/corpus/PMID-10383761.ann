@@ -6,14 +6,14 @@ T5	Protein 447 451	GadB
 T6	Protein 457 466	gadC gene
 T7	Protein 490 494	gadB
 T9	Metabolite 574 593	gamma-aminobutyrate
-T10	Metabolite 599 612	glutamic acid
+T10	Metabolite 599 636	glutamic acid decarboxylation product
 T11	Protein 692 696	gadC
 T12	Protein 720 724	gadB
 T13	Protein 812 818	GadA/B
 T14	Protein 823 827	GadC
 T15	Protein 862 871	gad genes
 T16	Protein 967 970	hns
-T17	Protein 989 1009	histone-like protein
+T17	Protein 989 1014	histone-like protein H-NS
 T18	Protein 1052 1061	gad genes
 T19	Protein 1075 1079	rpoS
 T20	Protein 1099 1102	gad
@@ -24,9 +24,6 @@ T24	Protein 1269 1272	gad
 T25	Protein 1368 1385	sigma factor RpoS
 T26	Protein 1495 1504	gad genes
 T8	Metabolite 749 762	glutamic acid
-T27	Protein 1010 1014	H-NS
 T28	Protein 1285 1289	H-NS
 T29	Protein 1395 1399	H-NS
 T30	Protein 1299 1302	gad
-T31	Metabolic_consumption 613 628	decarboxylation
-E1	Metabolic_consumption:T31 Theme:T10

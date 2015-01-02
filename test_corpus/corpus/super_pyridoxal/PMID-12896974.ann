@@ -32,3 +32,8 @@ T8	Metabolite 824 827	HTP
 T27	Metabolite 832 836	Zn2+
 T28	Metabolite 1097 1105	Zn2+ ion
 T29	Metabolite 1466 1474	Zn2+ ion
+T30	Metabolic_consumption 707 714	utilize
+E6	Metabolic_consumption:T30 Theme:T10
+E7	Metabolic_consumption:T30 Theme:T9
+T31	Positive_regulation 54 62	involved
+E8	Positive_regulation:T31 Theme:E1 Cause:T1
