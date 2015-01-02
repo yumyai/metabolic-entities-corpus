@@ -48,8 +48,8 @@ T53	Metabolite 226 228	PN
 T61	Metabolite 353 356	PMP
 T62	Protein 446 453	kinases
 T63	Protein 418 431	transaminases
-T18	Protein 1221 1224	pdx
-T27	Protein 1720 1733	dehydrogenase
+T18	Protein 1217 1230	six pdx genes
+T27	Protein 1706 1733	NAD-dependent dehydrogenase
 T32	Metabolite 1784 1811	1-amino-acetone-3-phosphate
 T44	Metabolite 1813 1816	AAP
 T64	Metabolite 1823 1853	4-(phosphohydroxy)-l-threonine
@@ -82,3 +82,8 @@ T68	Metabolic_reaction 1931 1939	reaction
 E3	Metabolic_reaction:T68 Theme:T35 Theme2:T34 Product:T67 Product2:T69
 T71	Metabolic_reaction 2239 2247	oxidised
 E7	Metabolic_reaction:T71 Theme:T39 Product:T40 Cause:T41
+T72	Metabolite 209 224	six B6 vitamers
+T73	Metabolite 740 748	vitamers
+T74	Metabolite 2159 2169	B6 vitamer
+T75	Metabolic_production 2144 2158	biosynthesised
+E11	Metabolic_production:T75 Theme:T74

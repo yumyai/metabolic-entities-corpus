@@ -6,7 +6,7 @@ T5	Metabolite 124 127	PLP
 T6	Metabolite 133 158	pyridoxamine 5'-phosphate
 T7	Metabolite 160 163	PMP
 T8	Protein 429 433	pdxB
-T9	Protein 438 442	serC
+T9	Protein 438 448	serC genes
 T10	Metabolite 569 577	thiamine
 T11	Metabolite 579 589	vitamin B1
 T12	Metabolite 595 605	riboflavin
@@ -43,7 +43,7 @@ T52	Metabolite 2361 2373	pyridoxamine
 T53	Metabolite 2375 2377	PM
 T54	Metabolite 2455 2458	PMP
 T55	Protein 2571 2593	PNP/PMP (PdxH) oxidase
-T58	Protein 2653 2665	pdxH mutants
+T58	Protein 2653 2657	pdxH
 T60	Protein 2711 2728	pyridoxine kinase
 T61	Metabolite 2733 2736	PMP
 T62	Metabolite 2757 2760	PLP
@@ -53,28 +53,28 @@ T67	Protein 3083 3092	pdx genes
 T68	Protein 3115 3119	pdxA
 T74	Protein 3172 3176	pdxB
 T76	Protein 3224 3228	serC
-T77	Protein 3239 3254	serCaroA operon
-T78	Metabolite 3353 3356	PLP
-T79	Protein 3504 3520	serC-aroA operon
-T80	Metabolite 3530 3552	pyridoxal 5'-phosphate
-T81	Metabolite 3554 3560	serine
-T82	Protein 3702 3706	pdxA
-T83	Protein 3708 3712	pdxB
-T84	Protein 3718 3730	pdxH mutants
-T85	Protein 3852 3856	pdxJ
-T86	Protein 3934 3938	pdxJ
-T87	Protein 3974 4001	mnc-era-recO complex operon
-T88	Protein 4011 4015	pdxJ
-T89	Protein 4135 4138	dpj
-T90	Protein 4174 4178	pdxJ
-T91	Protein 4199 4202	dpj
-T92	Protein 4302 4316	dpj suppressor
+T77	Protein 3239 3255	serC-aroA operon
+T78	Metabolite 3354 3357	PLP
+T79	Protein 3505 3521	serC-aroA operon
+T80	Metabolite 3531 3553	pyridoxal 5'-phosphate
+T81	Metabolite 3555 3561	serine
+T82	Protein 3703 3707	pdxA
+T83	Protein 3709 3713	pdxB
+T84	Protein 3719 3723	pdxH
+T85	Protein 3853 3857	pdxJ
+T86	Protein 3935 3939	pdxJ
+T87	Protein 3975 4002	mnc-era-recO complex operon
+T88	Protein 4012 4016	pdxJ
+T89	Protein 4136 4139	dpj
+T90	Protein 4175 4179	pdxJ
+T91	Protein 4200 4203	dpj
+T92	Protein 4303 4306	dpj
 T105	Metabolite 300 321	erythrose-4-phosphate
 T106	Metabolite 352 370	4-hydroxythreonine
 T108	Metabolite 502 519	D-1-deoxyxylulose
 T109	Metabolite 642 659	D-1-deoxyxylulose
 T112	Metabolite 1328 1330	PN
-T36	Protein 1674 1702	pyridoxine phosphate oxidase
+T36	Protein 1649 1702	mononucleotidecontaining pyridoxine phosphate oxidase
 T37	Protein 1752 1762	EC 1.4.3.5
 T41	Metabolite 1624 1630	oxygen
 T38	Protein 1704 1719	PNP/PMP oxidase
@@ -90,9 +90,9 @@ T116	Metabolite 2934 2936	PM
 T117	Metabolite 2942 2944	PL
 T65	Protein 2987 3015	PLP (pdx) biosynthetic genes
 T66	Protein 3187 3213	pdxB-asd'-hisT-dedA operon
-T75	Protein 3315 3334	pdx complex operons
-T103	Protein 4154 4158	pdxi
-T118	Protein 4355 4376	ATPdependent protease
+T75	Protein 3316 3335	pdx complex operons
+T103	Protein 4155 4159	pdxi
+T118	Protein 4356 4378	ATP-dependent protease
 T14	Protein 852 856	pdxA
 T15	Protein 2487 2502	PN/PL/PM kinase
 T119	Metabolite 2448 2450	PM
@@ -111,7 +111,7 @@ T99	Metabolic_reaction 1598 1606	oxidized
 T100	Metabolic_consumption 2386 2394	utilized
 T101	Metabolic_reaction 2691 2700	converted
 T102	Metabolic_reaction 2914 2924	production
-T104	Metabolic_production 3357 3369	biosynthesis
+T104	Metabolic_production 3358 3370	biosynthesis
 E1	Metabolic_production:T93 Theme:T1
 E3	Metabolic_production:T93 Theme:T4
 E5	Metabolic_production:T93 Theme:T6
@@ -121,7 +121,7 @@ E10	Metabolic_production:T95 Theme:T19
 E11	Metabolic_production:T96 Theme:T22
 E12	Metabolic_production:T97 Theme:T24
 E13	Metabolic_reaction:T98 Product:T25 Theme:T112
-E15	Metabolic_reaction:T99 Product:T43 Theme:T35 Theme2:T41 Cause:T36
+E15	Metabolic_reaction:T99 Product:T43 Theme:T35 Cause:T36 Theme2:T41
 E16	Metabolic_consumption:T100 Theme:T52
 E17	Metabolic_consumption:T100 Theme:T53
 E19	Metabolic_reaction:T101 Cause:T60 Product:T63 Theme:T69
@@ -149,3 +149,8 @@ E14	Metabolic_reaction:T115 Theme:T39 Product:T47 Cause:T45
 T70	Metabolic_reaction 2744 2751	changed
 E18	Metabolic_reaction:T70 Theme:T61 Product:T62 Cause:T71
 E20	Regulation:T110 Theme:E7 Cause:T124
+T29	Metabolite 2143 2145	PL
+T30	Metabolite 2210 2213	PMP
+T56	Metabolic_production 2228 2239	synthesized
+E22	Metabolic_production:T56 Theme:T30 Cause:T49
+T57	Enzyme 2886 2892	kinase

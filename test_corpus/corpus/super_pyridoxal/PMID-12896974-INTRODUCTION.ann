@@ -3,7 +3,7 @@ T2	Metabolite 57 67	vitamin B6
 T3	Metabolite 169 179	Vitamin B6
 T4	Metabolite 181 191	pyridoxine
 T5	Metabolite 341 351	pyridoxine
-T6	Protein 477 502	(SOR1(Pdx1)) gene product
+T6	Protein 451 502	singlet oxygen resistance (SOR1(Pdx1)) gene product
 T8	Metabolite 618 637	pyridoxal phosphate
 T9	Protein 804 808	SOR1
 T11	Metabolite 878 900	pyridoxal 5'-phosphate
@@ -59,7 +59,6 @@ T67	Protein 5295 5307	PdxA enzymes
 T68	Protein 5367 5398	isocitrate dehydrogenase family
 T69	Protein 5420 5424	PdxA
 T70	Metabolite 5229 5232	HTP
-T29	Metabolite 459 465	oxygen
 T71	Metabolic_production 328 337	synthesis
 E1	Metabolic_production:T71 Theme:T5
 T72	Metabolic_production 638 647	synthesis
@@ -72,7 +71,7 @@ T76	Protein 1397 1411	E.C. 1.1.1.262
 T77	Metabolite 1472 1508	3-amino-1-hydroxyacetone 1-phosphate
 T78	Metabolic_reaction 1420 1428	converts
 E4	Metabolic_reaction:T78 Theme:T18 Product:T77
-T80	Metabolite 1696 1730	free alcohol 4-hydroxy-L-threonine
+T80	Metabolite 1701 1730	alcohol 4-hydroxy-L-threonine
 T81	Metabolic_reaction 1896 1904	generate
 E6	Metabolic_reaction:T81 Cause:T25 Theme:T83 Product:T26 Product2:T82
 T82	Metabolite 1940 1959	inorganic phosphate

@@ -5,9 +5,9 @@ T4	Metabolite 174 177	PNP
 T6	Metabolite 220 223	PLP
 T8	Metabolite 249 274	pyridoxamine 5'-phosphate
 T9	Metabolite 276 279	PMP
-T10	Protein 390 393	PLP
+T10	Metabolite 390 393	PLP
 T11	Metabolite 516 519	PLP
-T12	Metabolite 704 707	PLP
+T12	Metabolite 703 706	PLP
 T13	Metabolite 0 10	Vitamin B6
 T14	Metabolite 12 14	B6
 T15	Metabolite 128 130	B6
@@ -18,19 +18,18 @@ T7	Metabolite 240 242	PM
 T18	Metabolite 226 238	pyridoxamine
 T19	Metabolite 344 346	B6
 T20	Metabolite 386 388	B6
-T21	Metabolite 639 641	B6
-T23	Metabolite 833 836	PLP
-T22	Metabolite 682 700	other B6 compounds
-T25	Protein 786 788	B6
-T26	Metabolite 994 996	B6
-T27	Protein 1074 1083	pdx genes
-T28	Metabolite 1135 1137	B6
-T30	Metabolite 1198 1200	B6
-T31	Protein 1316 1319	snz
-T32	Protein 1320 1323	sno
-T33	Metabolite 1371 1373	B6
-T35	Metabolite 1432 1434	B6
-T37	Metabolite 1537 1539	B6
+T21	Metabolite 638 640	B6
+T23	Metabolite 832 835	PLP
+T22	Metabolite 681 699	other B6 compounds
+T25	Metabolite 785 787	B6
+T26	Metabolite 993 995	B6
+T27	Protein 1073 1082	pdx genes
+T28	Metabolite 1134 1136	B6
+T30	Metabolite 1197 1199	B6
+T31	Protein 1315 1338	snz/sno gene homologues
+T33	Metabolite 1370 1372	B6
+T35	Metabolite 1431 1433	B6
+T37	Metabolite 1536 1538	B6
 *	Equiv T13 T14
 *	Equiv T8 T9
 *	Equiv T16 T17
@@ -38,11 +37,13 @@ T37	Metabolite 1537 1539	B6
 *	Equiv T6 T5
 *	Equiv T1 T2
 *	Equiv T3 T4
-T24	Metabolic_reaction 669 676	convert
+T24	Metabolic_reaction 668 675	convert
 E1	Metabolic_reaction:T24 Theme:T22 Product:T12
-T29	Metabolic_production 1138 1150	biosynthesis
+T29	Metabolic_production 1137 1149	biosynthesis
 E2	Metabolic_production:T29 Theme:T28
-T34	Metabolic_production 1374 1386	biosynthesis
+T34	Metabolic_production 1373 1385	biosynthesis
 E3	Metabolic_production:T34 Theme:T33
-T36	Metabolic_production 1540 1552	biosynthesis
+T36	Metabolic_production 1539 1551	biosynthesis
 E4	Metabolic_production:T36 Theme:T37
+T38	Metabolite 875 877	B6
+T39	Metabolite 895 901	oxygen

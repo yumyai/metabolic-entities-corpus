@@ -1,7 +1,6 @@
 T1	Protein 35 44	pdxY gene
 T2	Metabolite 120 142	pyridoxal 5'-phosphate
-T5	Metabolite 299 321	pyridoxal 5'-phosphate
-T6	Metabolite 323 326	PLP
+T5	Metabolite 299 336	pyridoxal 5'-phosphate (PLP) coenzyme
 T7	Protein 372 376	pdxK
 T8	Protein 404 413	PL kinase
 T10	Protein 653 662	PL kinase
@@ -11,19 +10,19 @@ T14	Protein 796 805	PL kinase
 T15	Protein 874 878	pdxY
 T16	Protein 905 909	pdxY
 T17	Protein 967 978	pdrB mutant
-T18	Protein 1083 1092	PN kinase
+T18	Protein 1076 1092	PL and PN kinase
 T19	Protein 1128 1132	pdxK
 T20	Protein 1137 1141	pdxY
 T21	Protein 1207 1211	pdxB
 T22	Protein 1212 1216	pdxK
 T23	Protein 1217 1221	pdxY
-T24	Protein 1240 1243	PLP
-T25	Protein 1320 1329	PN kinase
+T24	Metabolite 1240 1243	PLP
+T25	Protein 1313 1329	PL and PN kinase
 T26	Metabolite 1265 1267	PL
 T27	Metabolite 1272 1274	PN
 T29	Protein 1412 1427	PN/PL/PM kinase
 T30	Protein 1428 1432	PdxK
-T31	Protein 1545 1548	PLP
+T31	Metabolite 1545 1548	PLP
 T32	Protein 1585 1589	pdxY
 T33	Protein 1617 1621	pdxH
 T34	Protein 1632 1647	PNP/PMP oxidase
@@ -38,15 +37,17 @@ T4	Protein 500 517	B6-vitamer kinase
 T9	Protein 570 579	pdxY gene
 T13	Protein 776 780	pdxY
 T45	Metabolite 997 1000	PLP
-T47	Protein 1076 1078	PL
 T28	Protein 1389 1398	PL kinase
 T48	Protein 1399 1403	PdxY
-T49	Protein 1313 1315	PL
-T50	Metabolite 1472 1482	B6 vitamer
 T42	Metabolic_production 143 155	biosynthesis
 T43	Metabolic_production 337 349	biosynthesis
 E1	Metabolic_production:T42 Theme:T2
 E2	Metabolic_production:T43 Theme:T5
-*	Equiv T6 T5
 T46	Metabolic_production 1001 1013	biosynthesis
 E3	Metabolic_production:T46 Theme:T45
+T40	Protein 68 84	pyridoxal kinase
+T6	Protein 1472 1490	B6 vitamer kinases
+T41	Metabolic_consumption 1549 1556	salvage
+E4	Metabolic_consumption:T41 Theme:T31
+T47	Protein 1888 1892	tyrS
+T49	Protein 1893 1897	pdxY
